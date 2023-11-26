@@ -1,5 +1,3 @@
-# VIRUSxDISCVRY
-
 ```
 ..==                                                                        ==..
 ..==                                                                        ==..
@@ -24,7 +22,6 @@
 ..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
 ..==                                                                        ==..
 ..==                                                                        ==..
-..== MGY441 Bioinformatics: Virus Discovery Project                         ==..
 ```
 
 ## Tutorial Index
