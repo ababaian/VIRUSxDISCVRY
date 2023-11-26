@@ -1,0 +1,315 @@
+---
+title: "Assignment3 - The Platinum Age of Virus Discovery"
+output:
+  html_document:
+    fig_caption: true
+---
+
+## Preamble
+Please mark the following boxes with an X as appropriate:
+```
+- [ ] Completed the Request for Evaluation by Artem
+- [ ] Answers assisted with generative AI (please indicate where)
+```
+
+# Assignment 3 =================================================================
+# ==============================================================================
+```
+..==                                                                        ==..
+..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
+..==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           ==..
+..==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           ==..
+..==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            ==..
+..==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           ==..
+..==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           ==..
+..==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            ==..
+..==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              ==..
+..==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            ==..
+..==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            ==..
+..==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            ==..
+..==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            ==..
+..==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            ==..
+..==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             ==,.
+..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
+..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
+..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
+..==           ░               ░           ░            ░ ░                 ==..
+..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
+
+At the dawn of the Molecular Genetics, Max Delbruck lead a loose collection of
+geneticists known as the "Phage Group". They were amongst the first to pick up
+the reciever when the Molecular Revolution was calling. They had two unifying
+philosophies:
+
+(1) Hard Physics-style Scientific Inquiry
+(2) They studied viruses, because that's the simplest model organism to do
+    cool science in.
+    
+I think Computational Biology is having that kind of moment today. And the way
+to realize it is by choosing a strong model genome; Viruses!
+
+Guidance from the Elders: https://www2.clarku.edu/faculty/pbergmann/SCEP/Platt%201964.pdf
+
+..==                                                                        ==..
+..==                                                                        ==..
+..==                                                                        ==..
+```
+
+## Learner Objectives
+```
+By the end of this assignment, you will have taken the plunge into a real
+research problem, there is risk and no certainty of "success", but as the old
+saying goes, "If you can't fatally kill your hypothesis, then it was never alive
+to begin with." Risk begets Reward.
+
+It is up to you to find and guide the direction of the project, these questions
+only give you a generic scaffold. As such, (and with the bonus marks) it will
+be possible to do a technically good job and you'll do fine on the assignment.
+A subset of you will rise to the occasion and knock it out of the park, that 
+will reflect the 99% grades.
+```
+
+## Assignment Objectives
+```
+For this assignment you're going to compile all the components for a short
+"Genome Announcement" style scientific paper, describing and naming a new virus
+species which you have been randomized. You do not need to re-write the answers
+into a seperate paper, this assignment  serves as the paper template. You will
+know by the end if it's worth formalizing.
+
+The goal here is *Data Exploration*, you are not expected to have every analysis
+work and be super insightful. Most analyses will be difficult or impossible to 
+interpret we often don't know the difference between these two. If you are able to
+justify (hypothesis) the reason you performed a given analysis, and it's
+inconclusive, you will recieve full marks for trying. You will be deducted marks
+if and only if you include an analysis and it's not justified, or if you
+misinterpret the analysis results. That is the feedback/learning mechanism of
+peer review, meant to guide you in the future.
+
+Please include the work when you judge you can make a *moderate* or *high* 
+confidence conclusion, even if the conclusion is that it is inconclusive.
+```
+
+## Logistics
+```
+Inclusive in this document should be all supporting code, scripts, and/or 
+software settings used to answer any questions in the assignment. If you use or
+generate a data-object, such as .fasta, .pdb, .sto, .csv, etc..., include this
+in your submission repository.
+
+For Written portions please use block text like this and you can include 
+references simply as square brackets [Babaian. 2023].
+```
+
+## Virus Assignment
+```
+You are randomly assigned a Virus. 
+
+## `a3/data/virusAssignments.csv` 
+  Gives the assignment of your virus. Each virus has a unique identifier (sOTU)
+  as well as some summary statistics about where this virus was "found" in the
+  SRA. You're also given a link to the assembly file from the "index run" which
+  should contain your virus sequence.
+
+## `virusRunObservations.csv`
+  This file  contains a list of all SRA "runs" in which these  viruses were 
+  reliably detected. You can use the sOTU identifier to get an  estimate overview
+  for your virus. The final column in this file contains the  barcode sequence
+  detected in that particular run.
+
+## `virusRdRp_detected.fa`
+  This file contains _ALL_ RdRp and RdRp-like sequences which were detected in
+  the "index runs". From within this file, you should recover your assigned
+  RdRp sequence (using sequence from virusRunObservations.csv).
+
+```
+
+## Example "Virus Announcement" references
+(emulate these)
+
+- [Bornaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8321990/)
+- [Pepino Mosiac Virus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952647/)
+- [Lancehead filovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8498845/)
+- [Perch filovirus](https://journals.asm.org/doi/10.1128/mra.00028-23)
+- [Locarnaviruses](https://link.springer.com/article/10.1007/s00705-023-05908-1)
+- [Odysseus Narnavirus](https://www.biorxiv.org/content/10.1101/2023.09.17.558162v1)
+
+# ==============================================================================
+
+## Question 1 : Framing the story `(10 points)` --------------------------------
+(do second last)
+**Q.** `(1 point)` Write a title for your paper which describes your one key finding.
+
+**A.** TODO
+
+**Q.** `(bonus point)` Include a pun in your title which relates to a theme or motif
+used throughout your paper.
+
+**A.** TODO
+
+**Q.** `(1 point)` Give your virus a latin binomial name, and explain the etiology
+of the name and how it relates to the story of your virus.
+
+**A.** TODO
+
+**Q.** `(8 points)` For any given paper, 90% of the readership will only read your
+abstract. How many people go on to read the rest of your paper will depend
+on your ability to capture peoples interest in the abstract. (hint: write the
+abstract last)
+
+Read *How to Construct a Nature summary paragraph* and write a short abstract
+closely following this structure.
+
+Link: https://www.nature.com/documents/nature-summary-paragraph.pdf
+
+**A.** TODO
+
+## Question 2 : Digital Virus Ecology  `(15 points)` ---------------------------
+
+In brief, ecology is the relationship of an organism to biotic and abiotic
+factors. Consider the the sample source for this virus and describe the
+specifics (e.g. run accessions, study authors, associated species, ...) and
+generics (e.g. type of ecosystem, country/continent, common associated host
+class like Mammals). 
+
+All viruses should occur in more than one dataset (SRA run), compare and contrast
+the ecology of your index case, and the broader ecology of all virus-containing
+datasets. What commonalities, if any, emerge in the data?
+
+Guiding questions:
+- Is there an associated publication with your index case?
+- Which dataset(s) is the virus found in?
+- What is the origin(s) of these dataset(s)
+- Can you observe a common factor which links these datasets together and
+  may explain the presence of the virus?
+
+Write your answer in themed paragraphs (subsections), as it were to go into the
+first *results* section of your paper.
+
+**A.** TODO
+
+## Question 3 : Interrogate the Virus `(20 points)` ----------------------------
+
+**Q.** `(10 points)` Research and identify what are at least 20 *features* of
+the viruses related to the one you have found.
+
+List or write short sentences describing those features here. Examples are:
+```
+# Example Answer
+- Narnaviruses have an RNA genome
+- Narnaviruses have a single-stranded genome
+- The typical genome length is between 2,200 - 3,200 nucleotides long
+- Narnaviruses typically encode for a single protein, RdRp
+- Narnavirus RdRp are typically 800-1000 amino acids long
+- ...
+```
+**A.** TODO
+
+**Q.** `(10 points)`  Create a figure(s) visualizing your virus genome (see 
+papers for examples/inspiration). The figure should capture the *key genomic*
+*features* of the virus which includes (but is not limited to):
+- Open reading frames, and note if they are not CDS complete
+- Annotation of every ORF
+- A scale legend in nucleotides and amino acids for ORFs
+
+In addition consider virus-family specific features, such as
+- RNA secondary structures
+- Conserved sequence motifs
+- Frameshifting sites
+- Evidence of poly-A or splicing
+- Additional known (or unknown) protein domains
+
+In addition consider additional measurements, such as
+- TPM / RPKM for the virus within your dataset
+- Additional viral segments/viral contigs
+- Coverage profile of reads mapped to your contig
+- Single Nucleotide Variants present in the mapping data
+
+- `(6 points)` Figure (technical)
+- `(2 points)` Figure (aesthetic)
+- `(2 points)` Figure legend
+
+**A.** TODO
+
+**Q.** - `(bonus 2 points)`
+  - Run the RdRp and/or open reading frame through AlphaFold2 ( https://github.com/sokrypton/ColabFold )
+  - Add a figure of the RdRp with motifs A (blue), B (green), and C (red) visualized.
+    See: `Odysseyus Narnavirus` example paper. Try PyMol.
+
+**A.** TODO
+
+## Question 4 : `(5 bonus points max)` -----------------------------------------
+
+**Q.** `(bonus 5 points)` 
+  Do something creative or cool with the viral genome.
+
+**A.** TODO
+
+-- OR --
+
+**Q.** `(bonus 5 points)`
+  Generate a multiple sequence alignment of the RdRp sequence, and either 
+  (i) all RdRp of viruses in the same family or
+  (ii) all BLAST hits with >80% query coverage and >40% amino acid identity
+  Visualize it in (e.g. Jalview) and include a figure.
+  
+  Generate a phylogenetic tree (e.g. IQTree) of the multiple sequence alignment
+  above, visualize it (e.g. Dendroscope) and include a figure.
+
+**A.** TODO
+
+## Question 5 : Discussion `(5 points)` ----------------------------------------
+
+Discuss for your reader what you have learned from this virus, or what novel
+biological insights does characterizing this genome offers to the reader. What
+facts did you find the most fascinating about your kind of virus, and did your 
+virus share these traits? Even more interesting is if it _doesn't_ have a trait
+known to that virus. It's always fun to push against the textbook definitions.
+
+**A.** TODO
+
+## Question 6 : References `(10 points)` ---------------------------------------
+
+Add at least **10 relevant references** throughout your report. Be sure to 
+reference both software papers, biology papers, and the paper from which the
+data was generated (if available).
+
+## Question 7 : `(5 points)` ---------------------------------------------------
+
+**Q.** Respond to this email (Do this last):
+
+```
+Subject: Inquiry Regarding Your Fascinating Research Paper
+
+  Dear Dr. XXXXXXXX,
+  
+  I hope this message finds you well. My name is April O-Neil, and I am a reporter
+  with the CBC. Recently, I came across your research paper on EurekAlert!,
+  and I must express my sincere appreciation for the compelling work you've done.
+  
+  Your paper provided a deep and insightful exploration into virus discovery,
+  and to be honest I'm not an expert in it but  I found the methodology and 
+  results particularly intriguing. I believe that our readers would benefit
+  greatly from a more in-depth understanding of your research.
+  
+  To that end, I am writing to request a brief 100-word summary of the main
+  findings of your paper. This summary will be used to pitch the story to my 
+  editor with the intention of conducting a more comprehensive interview with
+  you. I am confident that such an article would not only shed light on the
+  importance of your work but also inspire a broader audience.
+  
+  If you could provide the summary at your earliest convenience, along with a 
+  suitable time for a follow-up interview, I would be immensely grateful. 
+  Your expertise and insights would undoubtedly contribute to a compelling 
+  feature that highlights the significance of your research.
+  
+  Thank you for your time and consideration. I look forward to the possibility
+  of discussing your work in greater detail.
+  
+  Best regards,
+  
+  April O-Neil
+  Senior reporter. CBC
+```
+
+**A.** TODO
