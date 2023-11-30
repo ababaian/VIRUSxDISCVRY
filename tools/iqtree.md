@@ -60,9 +60,9 @@ Here, I've provided basic tutorial on how to use IQ-TREE to select a maximum lik
 
 ### See Also:
 
-- [IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era]https://academic.oup.com/mbe/article/37/5/1530/5721363?login=true
-- [Why use phylogenetic analysis]https://bmcecolevol.biomedcentral.com/articles/10.1186/1471-2148-13-161
-- [Principles of phylogenetics]https://www.nature.com/articles/nrg3186
-- [Multi-gene alignments, partitioned analysis]http://www.iqtree.org/doc/Advanced-Tutorial#partitioned-analysis-for-multi-gene-alignments
-- [AIC vs BIC in phylogenetics]https://academic.oup.com/mbe/article/37/2/549/5613171
-- [Bootstrapping in phylogenetics]https://www.jstor.org/stable/3182855?seq=1
+- [IQ-TREE 2: New Models and Efficient Methods for Phylogenetic Inference in the Genomic Era](https://academic.oup.com/mbe/article/37/5/1530/5721363?login=true)
+- [Why use phylogenetic analysis](https://bmcecolevol.biomedcentral.com/articles/10.1186/1471-2148-13-161)
+- [Principles of phylogenetics](https://www.nature.com/articles/nrg3186)
+- [Multi-gene alignments, partitioned analysis](http://www.iqtree.org/doc/Advanced-Tutorial#partitioned-analysis-for-multi-gene-alignments)
+- [AIC vs BIC in phylogenetics](https://academic.oup.com/mbe/article/37/2/549/5613171)
+- [Bootstrapping in phylogenetics](https://www.jstor.org/stable/3182855?seq=1)
