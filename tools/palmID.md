@@ -1,9 +1,9 @@
 # Serratus.io palmID
 written by: [Janette Lau](https://github.com/janettelau)
 
-[15 minutes] `Serratus` is a RNA virus discovery platform which re-analyzed the Sequence Read Archive for the viral RdRP hallmark gene. The `Serratus.io palmID` is a web tool which does a viral-RdRP analysis based on the palmprint RNA virus barcodes that are cross-referenced to palmprints in palmDB.
+[15 minutes] `Serratus` is a RNA virus discovery platform which re-analyzed the Sequence Read Archive for the viral RdRP hallmark gene. The `Serratus.io palmID` is a web tool which does a viral-RdRP analysis based on the palmprint RNA virus barcodes that are cross-referenced to palmprints in `palmDB`.
 
-**Tutorial Objective**: We will use `Serratus.io palmID` to classify and analyze the novel RNA virus, finding relatedness and classifying at different levels by cross-referencing to palmDB.
+**Tutorial Objective**: We will use `Serratus.io palmID` to classify and analyze the novel RNA virus, finding relatedness and classifying at different levels by cross-referencing to `palmDB`.
 
 ## Input / Prerequisites
 - Access to [serratus.io palmID](https://serratus.io/palmid)
@@ -48,7 +48,7 @@ The Multiple Sequence Alignment shows the 10 closest palmprint sequences in `pal
 
 ![MSA](img/palmID/msa_1.png)
 
-Followed below is a UPGMA tree that shows the evolutionary relatedness of your input palmprint with the other matches in palmDB.
+Followed below is a UPGMA tree that shows the evolutionary relatedness of your input palmprint with the other matches in `palmDB`.
 
 ![UPGMA Tree](img/palmID/tree_1.png)
 
@@ -74,7 +74,7 @@ Virus-Organism Associations shows a figure that plots annotation against input i
 
 ![Wordcloud](img/palmID/sra_2.png)
 
-As for the "Input Alignment to SRA-RdRp Table", it provides important information about how confident the input virus sequence is found in the sequencing libraries. Usually, an E-value below e^-05 indicates it is a significant match. Therefore, in this example, with an E-value of 1.7e-70, we can infer from the table that this palmprint virus is likely found in Macaca mulatta.
+As for the "Input Alignment to SRA-RdRp Table", it provides important information about how confident the input virus sequence is found in the sequencing libraries. Usually, an E-value below e-05 indicates it is a significant match. Therefore, in this example, with an E-value of 1.7e-70, we can infer from the table that this palmprint virus is likely found in Macaca mulatta.
 
 ![SRA-RdRP Table](img/palmID/sra_3.png)
 
