@@ -20,6 +20,7 @@ The identification of potential non-coding RNA families or motifs in your sequen
 Paste in your sequence. Below I have pasted in the sequence of a novel dicistrovirus. 
 
 ![](img/Infernal/Infernal_Screenshot_1.png)
+**Figure 1**: Textbox for entering your sequence. 
 
 You can copy the sequence from your fasta file into the textbox (fasta format). You can also use a sequence of a [different format](https://www.ebi.ac.uk/jdispatcher/docs/formats/) as mentioned above. 
 
@@ -28,6 +29,8 @@ You can copy the sequence from your fasta file into the textbox (fasta format). 
 There is a dropdown menu that gives you the option of choosing either GA - gathering cutoffs, NC - noise cutoffs, or TC - trusted cutoffs as your parameter.
 
 ![](img/Infernal/Infernal_Screenshot_2.png)
+
+**Figure 2**: The dropdown menu to choose your parameter. 
 
 GA gives hits that are above the GA threshold which is the bit score of the lowest-scoring sequence considered part of the family. The hits that are above the threshold are considered to be more significant and reliable matches. 
 
@@ -43,6 +46,8 @@ Add a title to your submission then click the submit button.
 
 ![](img/Infernal/Infernal_Screenshot_3.png)
 
+**Figure 3**: The title and submission options on the tool.
+
 You will then get an output in the browser that tells you that your job has been submitted and to wait. This will take a few seconds or longer.  
 
 ### 5. Analyze the results (example with no hits)
@@ -51,22 +56,30 @@ My novel virus got no hits as seen from the results below. This tells me that th
 
 ![](img/Infernal/Infernal_Screenshot_5.png)
 
+**Figure 4**: The output results for the novel dicistrovirus. 
+
 ### 6. Analyze the results (example with hits)
 
 To show an example of an output where the sequence does have hits, I submitted the sequence of the Hepatitis C virus core protein (2157 bp) into the tool. I got this sequence from the NCBI database: https://www.ncbi.nlm.nih.gov/nuccore/AH014196.2.  
 
 ![](img/Infernal/Infernal_Screenshot_6.png)
 
+**Figure 5**: Entry of the Hepatitis C virus core protein nucleic acid sequence and selection of the TC parameter.
+
 
 I got the output results below: 
 
 ![](img/Infernal/Infernal_Screenshot_7.png)
+
+**Figure 6**: The output results for the Hepatitis C virus core protein RNA sequence. 
 
 
 As seen from the results, we got four hits ranked based on the most confident (lower E-value and higher score) to the least confident hits. The region in the sequence from base pair 1 to 279 is likely to encode for IRES_HCV which is a Hepatitis C virus internal ribosome entry site. I learned this by searching "IRES_HCV" in the [Rfam database](https://rfam.org/) which is the database for non-coding RNA families and motifs. The links it provides directs you to wikipedia pages that explain the function of the non-coding RNA structure. You can repeat this for all other hits: HCV_ARF_SL, HCV_SL669, and HCV_SL588. You can also see the alignments of the non-coding RNA family or motif sequence to the region in your RNA sequence (you can see the matches and mismatches between the sequences). The middle sequence is the consensus sequence. 
 
 
 ![](img/Infernal/Infernal_Screenshot_8.png)
+
+**Figure 7**: One of the wikipedia pages for IRES_HCV in the Rfam database.  
 
 
 ### Conclusion
