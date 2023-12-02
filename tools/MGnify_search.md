@@ -55,11 +55,11 @@ In this example, we will search only for full length sequences.
 
 ### 4. Result page
 
-A list of matching sequences is presented that is ordered by E-value significance (lower E-value indicating a more significant match). The user can customize this table to dispaly different headings. Clicking on the `Target` link shows the amino acid FASTQ file that the query sequence matched to. the `Run & Sample IDs` link brings up the associated MGnify Sample Overview.
+A list of matching sequences is presented that is ordered by E-value significance (lower E-value indicating a more significant match). The user can customize this table to display different headings. Clicking on the `Target` link shows the amino acid FASTQ file that the query sequence matched to. the `Run & Sample IDs` link brings up the associated MGnify Sample Overview.
 
 In our [example](https://www.ebi.ac.uk/metagenomics/sequence-search/results/7CFA9DC8-900B-11EE-B07A-5352765DAC3F/score), 2368 significant query matches were found. The top match has a bit score of 890.8 and an E-value of 3.5e-265.
 
-![](img/mgnify_search/results.png)
+![results of sequences from query alignment](img/mgnify_search/results.png)
 
 ### 5. Run & Sample ID in the MGnify Sample Overview
 
