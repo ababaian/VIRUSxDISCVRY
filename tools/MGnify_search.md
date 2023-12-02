@@ -8,7 +8,7 @@ written by: [Elli Hung](https://github.com/ellihung)
 
 ## Input / Prerequisites
 * Access to [MGnify Search](https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer)
-* Amino acid sequence in FASTA format [Link to example data](img/MGnify_search/example_data.fa)
+* Amino acid sequence in FASTA format [Link to example data](img/mgnify_search/example_data.fa)
 
 
 ## Output
@@ -21,7 +21,7 @@ Information about the host, environment, biome, and associated studies that matc
 
 We will input a **FASTA-formatted amino acid sequence** into the query box based on the example data.
 
-![](img/MGnify_search/images/example_query.png)
+![example query sequence in query bar](img/mgnify_search/example_query.png)
 
 ### 3. Choosing which database to search against
 
@@ -51,7 +51,7 @@ There different databases a user can choose to search their query against:
   
 In this example, we will search only for full length sequences.
 
-![](img/MGnify_search/images/sequence_subset.png)
+![database options under sequence subset](img/mgnify_search/sequence_subset.png)
 
 ### 4. Result page
 
@@ -59,7 +59,7 @@ A list of matching sequences is presented that is ordered by E-value significanc
 
 In our [example](https://www.ebi.ac.uk/metagenomics/sequence-search/results/7CFA9DC8-900B-11EE-B07A-5352765DAC3F/score), 2368 significant query matches were found. The top match has a bit score of 890.8 and an E-value of 3.5e-265.
 
-![](img/MGnify_search/images/results.png)
+![](img/mgnify_search/results.png)
 
 ### 5. Run & Sample ID in the MGnify Sample Overview
 
@@ -67,7 +67,7 @@ Clicking on the MGnify Sample Overview link to the associated query match displa
 
 In our [example](https://www.ebi.ac.uk/metagenomics/samples/SRS018573) the description shows that this is a human metagenome sample from G_DNA_Supragingival plaque of a male participant in the dbGaP study "HMP Core Microbiome Sampling Protocol A (HMP-A)." The report shows that this sample is classified as human host-associated and there is a Google maps option available if the sample information includes coordinates. Additional information about the metadata and associated studies is also available.
 
-![](img/MGnify_search/images/sample_overview.png)
+![sample overview window](img/mgnify_search/sample_overview.png)
 
 ### Conclusion
 
