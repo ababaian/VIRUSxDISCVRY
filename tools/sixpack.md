@@ -39,7 +39,7 @@ For this tutorial, we will provide the DNA sequence in a FASTA file, uploaded at
 
 ```bash 
 $ head tools/img/sixpack/contig.fasta
->NODE_133
+>SRR17250291_NODE_133
 CACAGGACAGAACAACACAAATTTGGCAGGAATCACATGATAACGGTTCACGCTCTTTAG
 TTAGAGTTTCACCTTTTCATTGTCTCTTTTGGATTCTGTCTGTTTGGTGCTTAGGCCCTG
 GCGGACATTTCTTGAGAATTTCTGTTTTCTTTGACCTTTAACGGTGCGTTTAGCTCGTTT
@@ -143,7 +143,7 @@ of the three or six reading frames in the `Result Summary`. Indeed, we find that
 is contained in an entry (although split across two lines): 
 
 ```
->NODE_133_3_ORF6  Translation of NODE_133 in frame 3, ORF 6, threshold 1, 3009aa
+>SRR17250291_NODE_133_3_ORF6  Translation of SRR17250291_NODE_133 in frame 3, ORF 6, threshold 1, 3009aa
 VQYLPFVFCVHIYFILYIFIFSFVYIYFVLLFCAIFCVFLVPNITMSVSRLRSGFCYVKW
                             ...
 SLDKLEIDISKYDKSQGALVLEFEIKMMRLFGVDEELCFYWRKAHECTTLWDRLNGVKCK  <-
