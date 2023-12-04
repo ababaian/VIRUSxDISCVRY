@@ -1,4 +1,4 @@
-[Cobalt Phylogenetic Tree.pdf](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552490/Cobalt.Phylogenetic.Tree.pdf)[MGY441 A3 Virus Seq Runs.csv](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552458/MGY441.A3.Virus.Seq.Runs.csv)[MGY441 A3 Virus Seq Runs.csv](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552448/MGY441.A3.Virus.Seq.Runs.csv)# {Q1A Paper Title}
+### {Q1A Paper Title}
 written by: [Derek Tea](https://github.com/DerekTea)
 A Proposed Microbiota Stool Bus as a Mode of Infection for a Novel Posa-like Virus
 
@@ -32,6 +32,7 @@ The proposal for a bacterial-mediated entry into the host organism is reflected 
 
 All figures and related information pertaining to dataset runs and Posa can be found in the "MGY441 A3 Virus Seq Runs" csv file.
 [Uploading MGY441 A3 Virus Seq Runs.csv…]()
+[MGY441 A3 Virus Seq Runs.csv](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552458/MGY441.A3.Virus.Seq.Runs.csv)
 
 ### Ecology subsection A...
 
@@ -68,6 +69,9 @@ Posa-like viruses have an RNA genome (Riboviria) [Munnink, 2017]
 
 **Predicted 3D Structure**
 ![Phyre2 3D Structure Motifs](https://github.com/DerekTea/VIRUSxDISCVRY/assets/86479477/5ffb69be-11b9-469f-aade-7a391094007b)
+
+**Predicted Phylogenetic Lineage**
+[Cobalt Phylogenetic Tree.pdf](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552490/Cobalt.Phylogenetic.Tree.pdf)
 
 ## Discussion
 
