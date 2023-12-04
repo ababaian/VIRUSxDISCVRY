@@ -1,8 +1,7 @@
-### {Q1A Paper Title}
+### {A Proposed Microbiota Stool Bus as a Mode of Infection for a Novel Posa-like Virus}
 written by: [Derek Tea](https://github.com/DerekTea)
-A Proposed Microbiota Stool Bus as a Mode of Infection for a Novel Posa-like Virus
 
-### {Q1B Virus Name}
+### {Posasimilis Intestiviridae}
 Virus name: Posasimilis Intestiviridae. I gave my virus this latin binomial name because it is 1) related to the unclassified family of posa-like viruses and 2) it, along with its relatives, are found in stool samples of its associated host. This relates to the story of my virus because I propose a mechanism whereby this virus, and presumably other posa-like viruses, infects the host through the gut microbiota (located in the intestinal tracts). 
 
 Cover art:
