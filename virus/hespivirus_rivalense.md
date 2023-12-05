@@ -66,7 +66,7 @@ from the Bofa virus [7] with 62% identity (E value 2e-34). The subsequent hits i
 Beult virus [8], Buckhurst virus [7], Castlerea virus [9], and Mekrijärvi negevirus [10]. Negeviruses are a taxon of
 insect-specific viruses that have a broad host and geographic range, but have been primarily reported in hematophagous
 insects [6]. They are positive-sense single-stranded RNA viruses with an enveloped, spherical structure resembling a
-“hot air balloon” [6], [9]. Considering the moderate similarity of *H. rivalense* to Negeviruses and the presence of *H.
+"hot air balloon" [6], [9]. Considering the moderate similarity of *H. rivalense* to Negeviruses and the presence of *H.
 rivalense* across multiple *L. hesperus* tissue samples, we hypothesize that *H. rivalense* is a novel virus infecting *
 L. hesperus*, an endogenous viral element (EVE), or an artifact from sample contamination.
 
@@ -137,7 +137,7 @@ Py3DMol [22].
 We use the putative RdRp sequence from above. For BLASTP [23], we search against the nr database restricted to RNA
 viruses (taxid:2559587), and we set the maximum number target sequences to 1000. Filtering the candidates with >80%
 query coverage and >40% identity leaves 191 sequences (including the *H. rivalense* RdRp). We further remove entries
-with duplicate scientific names or named “ssRNA positive-strand virus sp.” and “Virgaviridae sp.”, tie-breaking by E
+with duplicate scientific names or named "ssRNA positive-strand virus sp." and "Virgaviridae sp.", tie-breaking by E
 score. On the remaining 81 sequences, we perform a multiple sequence alignment (MSA) using MUSCLE [24] and visualize the
 result below using Jalview [25]. For visual clarity, we have trimmed the MSA to the *H. rivalense* RdRp palmprint and
 included only the top 19 BLASTP hits. The A, B, and C motifs of the *H. rivalense* palmprint are annotated in the last
@@ -174,77 +174,77 @@ herein can be considered a refinement and extension upon GBCS01005187.
 
 ## References
 
-1. T. S. Postler et al., “Guidance for creating individual and batch latinized binomial virus species names,” J. Gen.
+1. T. S. Postler et al., "Guidance for creating individual and batch latinized binomial virus species names," J. Gen.
    Virol., vol. 103, no. 12, 2022, doi: https://doi.org/10.1099/jgv.0.001800.
-2. T. H. Clarke, J. E. Garb, R. A. Haney, R. C. Chaw, C. Y. Hayashi, and N. A. Ayoub, “Evolutionary shifts in gene
-   expression decoupled from gene duplication across functionally distinct spider silk glands,” Scientific Reports, vol.
+2. T. H. Clarke, J. E. Garb, R. A. Haney, R. C. Chaw, C. Y. Hayashi, and N. A. Ayoub, "Evolutionary shifts in gene
+   expression decoupled from gene duplication across functionally distinct spider silk glands," Scientific Reports, vol.
    7, no. 1, 2017, doi: https://doi.org/10.1038/s41598-017-07388-1.
-3. S. M. Correa-Garhwal, R. C. Chaw, T. H. Clarke, N. A. Ayoub, and C. Y. Hayashi, “Silk gene expression of theridiid
-   spiders: Implications for male-specific silk use,” Zoology, vol. 122, pp. 107–114, 2017,
+3. S. M. Correa-Garhwal, R. C. Chaw, T. H. Clarke, N. A. Ayoub, and C. Y. Hayashi, "Silk gene expression of theridiid
+   spiders: Implications for male-specific silk use," Zoology, vol. 122, pp. 107–114, 2017,
    doi: https://doi.org/10.1016/j.zool.2017.04.003.
-4. L. E. Brettell, D. C. Schroeder, and S. J. Martin, “RNAseq analysis reveals virus diversity within hawaiian apiary
-   insect communities,” Viruses, vol. 11, no. 5, p. 397, 2019, doi: https://doi.org/10.3390/v11050397.
-5. P. Trubl, T. Gburek, L. Miles, and J. C. Johnson, “Black widow spiders in an urban desert: Population variation in an
-   arthropod pest across metropolitan phoenix, AZ,” Urban Ecosystems, vol. 15, no. 3, pp. 599–609, 2011,
+4. L. E. Brettell, D. C. Schroeder, and S. J. Martin, "RNAseq analysis reveals virus diversity within hawaiian apiary
+   insect communities," Viruses, vol. 11, no. 5, p. 397, 2019, doi: https://doi.org/10.3390/v11050397.
+5. P. Trubl, T. Gburek, L. Miles, and J. C. Johnson, "Black widow spiders in an urban desert: Population variation in an
+   arthropod pest across metropolitan phoenix, AZ," Urban Ecosystems, vol. 15, no. 3, pp. 599–609, 2011,
    doi: https://doi.org/10.1007/s11252-011-0223-2.
-6. N. Vasilakis et al., “Negevirus: A proposed new taxon of insect-specific viruses with wide geographic distribution,”
+6. N. Vasilakis et al., "Negevirus: A proposed new taxon of insect-specific viruses with wide geographic distribution,"
    J. Virol., vol. 87, no. 5, pp. 2475–2488, 2013, doi: https://doi.org/10.1128/jvi.00776-12.
-7. C. L. Webster, B. Longdon, S. H. Lewis, and D. J. Obbard, “Twenty-five new viruses associated with the
-   Drosophilidae (Diptera),” Evol. Bioinform. Online, vol. 12s2, pp. 13–25, 2016,
+7. C. L. Webster, B. Longdon, S. H. Lewis, and D. J. Obbard, "Twenty-five new viruses associated with the
+   Drosophilidae (Diptera)," Evol. Bioinform. Online, vol. 12s2, pp. 13–25, 2016,
    doi: https://doi.org/10.4137/EBO.S39454.
-8. N. C. Medd et al., “The virome of Drosophila suzukii, an invasive pest of soft fruit,” Virus Evol., vol. 4, no. 1,
+8. N. C. Medd et al., "The virome of Drosophila suzukii, an invasive pest of soft fruit," Virus Evol., vol. 4, no. 1,
    2018, doi: https://doi.org/10.1093/ve/vey009.
-9. C. A. O’Brien et al., “Discovery and characterisation of castlerea virus, a new species of negevirus isolated in
-   australia,” Evolutionary Bioinformatics, vol. 13, p. 1176934317691269, 2017,
+9. C. A. O’Brien et al., "Discovery and characterisation of castlerea virus, a new species of negevirus isolated in
+   australia," Evolutionary Bioinformatics, vol. 13, p. 1176934317691269, 2017,
    doi: https://doi.org/10.1177/1176934317691269.
-10. M. T. Suvanto et al., “A novel negevirus isolated from Aedes vexans mosquitoes in Finland,” Arch. Virol., vol. 165,
+10. M. T. Suvanto et al., "A novel negevirus isolated from Aedes vexans mosquitoes in Finland," Arch. Virol., vol. 165,
     no. 12, pp. 2989–2992, 2020, doi: https://doi.org/10.1007/s00705-020-04810-4.
-11. Z. Zhang, S. Schwartz, L. Wagner, and W. Miller, “A greedy algorithm for aligning DNA sequences,” J. Comput. Biol.,
+11. Z. Zhang, S. Schwartz, L. Wagner, and W. Miller, "A greedy algorithm for aligning DNA sequences," J. Comput. Biol.,
     vol. 7, no. 1–2, pp. 203–214, 2000, doi: https://doi.org/10.1089/10665270050081478.
-12. E. C. Holmes, “The evolution of endogenous viral elements,” Cell Host & Microbe, vol. 10, no. 4, pp. 368–377, 2011,
+12. E. C. Holmes, "The evolution of endogenous viral elements," Cell Host & Microbe, vol. 10, no. 4, pp. 368–377, 2011,
     doi: 10.1016/j.chom.2011.09.002.
-13. K. Rosario, K. A. Mettel, A. M. Greco, and M. Breitbart, “Prevalence of a vertically transmitted single-stranded DNA
-    virus in spinybacked orbweavers (gasteracantha cancriformis) from florida, USA,” Journal of General Virology, vol.
+13. K. Rosario, K. A. Mettel, A. M. Greco, and M. Breitbart, "Prevalence of a vertically transmitted single-stranded DNA
+    virus in spinybacked orbweavers (gasteracantha cancriformis) from florida, USA," Journal of General Virology, vol.
     100, no. 8, pp. 1253–1265, 2019, doi: https://doi.org/10.1099/jgv.0.001293.
-14. J. T. Ladner et al., “Standards for sequencing viral genomes in the era of high-throughput sequencing,” mBio, vol.
+14. J. T. Ladner et al., "Standards for sequencing viral genomes in the era of high-throughput sequencing," mBio, vol.
     5, no. 3, 2014, doi: https://doi.org/10.1128/mbio.01360-14.
-15. G. Lu et al., “Discovery of two novel negeviruses in a dungfly collected from the arctic,” Viruses, vol. 12, no. 7,
+15. G. Lu et al., "Discovery of two novel negeviruses in a dungfly collected from the arctic," Viruses, vol. 12, no. 7,
     p. 692, 2020, doi: https://doi.org/10.3390/v12070692.
-16. M. R. T. Nunes et al., “Genetic characterization, molecular epidemiology, and phylogenetic relationships of
-    insect-specific viruses in the taxon negevirus,” Virology, vol. 504, pp. 152–167, 2017,
+16. M. R. T. Nunes et al., "Genetic characterization, molecular epidemiology, and phylogenetic relationships of
+    insect-specific viruses in the taxon negevirus," Virology, vol. 504, pp. 152–167, 2017,
     doi: https://doi.org/10.1016/j.virol.2017.01.022.
-17. R. Kallies et al., “Genetic characterization of goutanap virus, a novel virus related to negeviruses, cileviruses
-    and higreviruses,” Viruses, vol. 6, no. 11, pp. 4346–4357, 2014, doi: https://doi.org/10.3390/v6114346.
-18. M. J. Adams et al., “ICTV virus taxonomy profile: virgaviridae,” J. Gen. Virol., vol. 98, no. 8, pp. 1999–2000,
+17. R. Kallies et al., "Genetic characterization of goutanap virus, a novel virus related to negeviruses, cileviruses
+    and higreviruses," Viruses, vol. 6, no. 11, pp. 4346–4357, 2014, doi: https://doi.org/10.3390/v6114346.
+18. M. J. Adams et al., "ICTV virus taxonomy profile: virgaviridae," J. Gen. Virol., vol. 98, no. 8, pp. 1999–2000,
     2017, doi: https://doi.org/10.1099/jgv.0.000884.
-19. B. Langmead and S. L. Salzberg, “Fast gapped-read alignment with bowtie 2,” Nature Methods, vol. 9, no. 4, pp.
+19. B. Langmead and S. L. Salzberg, "Fast gapped-read alignment with bowtie 2," Nature Methods, vol. 9, no. 4, pp.
     357–359, 2012, doi: https://doi.org/10.1038/nmeth.1923.
-20. T. Paysan-Lafosse et al., “InterPro in 2022,” Nucleic Acids Research, vol. 51, no. D1, pp. D418–D427, 2022,
+20. T. Paysan-Lafosse et al., "InterPro in 2022," Nucleic Acids Research, vol. 51, no. D1, pp. D418–D427, 2022,
     doi: https://doi.org/10.1093/nar/gkac993.
-21. M. Mirdita, K. Schütze, Y. Moriwaki, L. Heo, S. Ovchinnikov, and M. Steinegger, “ColabFold: Making protein folding
-    accessible to all,” Nature Methods, vol. 19, no. 6, pp. 679–682, 2022, doi: 10.1038/s41592-022-01488-1.
-22. N. Rego and D. Koes, “3Dmol.js: molecular visualization with WebGL,” Bioinformatics, vol. 31, no. 8, pp. 1322–1324,
+21. M. Mirdita, K. Schütze, Y. Moriwaki, L. Heo, S. Ovchinnikov, and M. Steinegger, "ColabFold: Making protein folding
+    accessible to all," Nature Methods, vol. 19, no. 6, pp. 679–682, 2022, doi: 10.1038/s41592-022-01488-1.
+22. N. Rego and D. Koes, "3Dmol.js: molecular visualization with WebGL," Bioinformatics, vol. 31, no. 8, pp. 1322–1324,
     2014, doi: https://doi.org/10.1093/bioinformatics/btu829.
-23. S. F. Altschul et al., “Gapped BLAST and PSI-BLAST: A new generation of protein database search programs,” Nucleic
+23. S. F. Altschul et al., "Gapped BLAST and PSI-BLAST: A new generation of protein database search programs," Nucleic
     Acids Res., vol. 25, no. 17, pp. 3389–3402, 1997, doi: https://doi.org/10.1093/nar/25.17.3389.
-24. R. C. Edgar, “MUSCLE: multiple sequence alignment with high accuracy and high throughput,” Nucleic Acids Research,
+24. R. C. Edgar, "MUSCLE: multiple sequence alignment with high accuracy and high throughput," Nucleic Acids Research,
     vol. 32, no. 5, pp. 1792–1797, 2004, doi: https://doi.org/10.1093/nar/gkh340.
-25. A. M. Waterhouse, J. B. Procter, D. M. A. Martin, M. Clamp, and G. J. Barton, “Jalview Version 2—a multiple sequence
-    alignment editor and analysis workbench,” Bioinformatics, vol. 25, no. 9, pp. 1189–1191, 2009,
+25. A. M. Waterhouse, J. B. Procter, D. M. A. Martin, M. Clamp, and G. J. Barton, "Jalview Version 2—a multiple sequence
+    alignment editor and analysis workbench," Bioinformatics, vol. 25, no. 9, pp. 1189–1191, 2009,
     doi: https://doi.org/10.1093/bioinformatics/btp033.
-26. L.-T. Nguyen, H. A. Schmidt, A. von Haeseler, and B. Q. Minh, “IQ-TREE: A fast and effective stochastic algorithm
-    for estimating maximum-likelihood phylogenies,” Mol. Biol. Evol., vol. 32, no. 1, pp. 268–274, 2015,
+26. L.-T. Nguyen, H. A. Schmidt, A. von Haeseler, and B. Q. Minh, "IQ-TREE: A fast and effective stochastic algorithm
+    for estimating maximum-likelihood phylogenies," Mol. Biol. Evol., vol. 32, no. 1, pp. 268–274, 2015,
     doi: https://doi.org/10.1093/molbev/msu300.
-27. S. Kalyaanamoorthy, B. Q. Minh, T. K. F. Wong, A. von Haeseler, and L. S. Jermiin, “ModelFinder: Fast model
-    selection for accurate phylogenetic estimates,” Nature Methods, vol. 14, no. 6, pp. 587–589, 2017,
+27. S. Kalyaanamoorthy, B. Q. Minh, T. K. F. Wong, A. von Haeseler, and L. S. Jermiin, "ModelFinder: Fast model
+    selection for accurate phylogenetic estimates," Nature Methods, vol. 14, no. 6, pp. 587–589, 2017,
     doi: https://doi.org/10.1038/nmeth.4285.
-28. D. T. Hoang, O. Chernomor, A. von Haeseler, B. Q. Minh, and L. S. Vinh, “UFBoot2: Improving the ultrafast bootstrap
-    approximation,” Molecular Biology and Evolution, vol. 35, no. 2, pp. 518–522, 2017,
+28. D. T. Hoang, O. Chernomor, A. von Haeseler, B. Q. Minh, and L. S. Vinh, "UFBoot2: Improving the ultrafast bootstrap
+    approximation," Molecular Biology and Evolution, vol. 35, no. 2, pp. 518–522, 2017,
     doi: https://doi.org/10.1093/molbev/msx281.
-29. I. Letunic and P. Bork, “Interactive Tree Of Life (iTOL) v5: an online tool for phylogenetic tree display and
-    annotation,” Nucleic Acids Research, vol. 49, no. W1, pp. W293–W296, 2021, doi: https://doi.org/10.1093/nar/gkab301.
-30. D. Bigot, C. M. Atyame, M. Weill, F. Justy, E. A. Herniou, and P. Gayral, “Discovery of culex pipiens associated
-    tunisia virus: A new ssRNA(+) virus representing a new insect associated virus family,” Virus Evolution, vol. 4, no.
+29. I. Letunic and P. Bork, "Interactive Tree Of Life (iTOL) v5: an online tool for phylogenetic tree display and
+    annotation," Nucleic Acids Research, vol. 49, no. W1, pp. W293–W296, 2021, doi: https://doi.org/10.1093/nar/gkab301.
+30. D. Bigot, C. M. Atyame, M. Weill, F. Justy, E. A. Herniou, and P. Gayral, "Discovery of culex pipiens associated
+    tunisia virus: A new ssRNA(+) virus representing a new insect associated virus family," Virus Evolution, vol. 4, no.
     1, 2018, doi: https://doi.org/10.1093/ve/vex040.
 
 # Viral Short Story
