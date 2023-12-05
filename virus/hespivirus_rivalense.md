@@ -58,7 +58,7 @@ to study the genomics or transcriptomics of *L. hesperus* venom and silk, which 
 interest due to their potency and strength. The only geographically annotated samples SRR1725029(1,2,3,5) were collected
 in Riverside, California, USA. Indeed, *L. hesperus* can be found throughout western North America and especially thrive
 in urban areas [5]. Beyond these seven runs, there are 31 RNA-seq runs in the SRA annotated to *L. hesperus*. These are
-further organized into four BioProjects in which *H. rivalense* palmprints are detected in all of them. Only 1 of 31 *L.
+further organized into four BioProjects in all of which *H. rivalense* palmprints are detected. Only 1 of 31 *L.
 hesperus* samples comes from an adult male spider but is palmprint-negative.
 
 The top hits are primarily Negeviruses [6] or related to Negeviruses, with the first being a putative polyprotein gene
