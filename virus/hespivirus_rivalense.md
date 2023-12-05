@@ -37,11 +37,11 @@ California, USA. Hence, *rivalense* is a combination of **Riv**erside, C**al**if
 Insects are among the most diverse groups of organisms, yet the study of their viromes is considerably biased, such as
 towards hematophagous insects for their medical significance. Fortunately, modern bioinformatics tools and databases
 have enabled the cheap discovery and analysis of novel viruses. Herein, we mine the SRA database and discover a novel
-RNA virus infecting the Western black widow (Latrodectus hesperus) spider, which we name Hespivirus rivalense. Our
+RNA virus infecting the Western black widow (*Latrodectus hesperus*) spider, which we name *Hespivirus rivalense*. Our
 putative virus is distantly related to Nege- and virga-like viruses and has a Negevirus-like genome organization. The
-detection of H. rivalense in spider egg tissue further suggests that it could be vertically transmitted, something
+detection of *H. rivalense* in spider egg tissue further suggests that it could be vertically transmitted, something
 observed only once so far in spider-infecting viruses. Our computational results serve as a foundation for future
-experimental work to validate and refine our model of H. rivalense. More broadly, black widows are also urban pests and
+experimental work to validate and refine our model of *H. rivalense*. More broadly, black widows are also urban pests and
 of academic interest for their strong venom and silk. Studying their virome can not only contribute to deeper insights
 into their ecology and biology but also shed light on more neglected areas of the insect virome.
 
