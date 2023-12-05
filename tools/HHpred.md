@@ -47,7 +47,7 @@ Identified homologues (along with scores and alignments with the protein of inte
 
 If you would like more information about the HHpred tool, click on the question mark next to `HHpred`. This action will open the dedicated **help pages**.
 
-![Input](tools/img/HHpred/HHpred_input.png)
+![Input](img/HHpred/HHpred_input.png)
 
 ### 2. Results
 
@@ -57,15 +57,15 @@ The page is then divided into three sections:
 
 - **Visualization**: This section provides a representation of the discovered homologous domains and their positions in the protein of interest. The hits are arranged in descending order based on their scores, with the significance indicated by color (red for highly significant and blue for less significant).
 
-![Visualization](tools/img/HHpred/HHpred_Visualization.png)
+![Visualization](img/HHpred/HHpred_Visualization.png)
 
 - **Hitlist**: This table compiles the name (`Name`) and identifier (`Hit`) of each hit, their probability of being a true positive (`Probability`), the associated E-value (`E-value`) and score (`Score`), the secondary structure score (`SS`), the total length of the hit (`Target Length`), and the aligned region (`Aligned Cols`).
 
-![Hitlist](tools/img/HHpred/HHpred_Hitlist.png)
+![Hitlist](img/HHpred/HHpred_Hitlist.png)
 
 - **Alignments**: This section displays the alignments between each hit and your sequence. All the information presented in the `Hitlist` is also available here.
 
-![Alignments](tools/img/HHpred/HHpred_Alignments.png)
+![Alignments](img/HHpred/HHpred_Alignments.png)
 
 If you are particularly interested in a specific region of your protein, you can guide HHpred by selecting the region with the slider below `Visualization` and clicking `Resubmit Section` (as indicated by the blue box in the image below).
 
@@ -73,7 +73,7 @@ To download the hitlist and alignments, click on `Download HHR` in the toolbar (
 
 Additionally, a cumulative histogram of probability values can be accessed by clicking on `Probability Plot` (highlighted in the yellow box in the image below).
 
-![Additional results](tools/img/HHpred/HHpred_Download_Resubmit_ProbPlot.png)
+![Additional results](img/HHpred/HHpred_Download_Resubmit_ProbPlot.png)
 
 ### 3. Predicting the Structure
 
@@ -83,13 +83,13 @@ Afterward, simply click on `Model using selection` (highlighted by the orange bo
 
 *Please note that when using HHpred for the first time, a license key for `MODELLER` will be required.*
 
-![Selection](tools/img/HHpred/HHpred_Selection.png)
+![Selection](img/HHpred/HHpred_Selection.png)
 
 The color gradient indicates the relative position of each amino acid compared to the N terminal (blue) and the C terminal (red).
 
 You can download the PDB file by clicking on `Download PDB file` (as denoted by the red box).
 
-![Structure](tools/img/HHpred/HHpred_Modeller.png)
+![Structure](img/HHpred/HHpred_Modeller.png)
 
 ### Additional Remark
 
