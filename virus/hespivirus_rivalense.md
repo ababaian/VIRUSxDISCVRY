@@ -107,7 +107,7 @@ inconclusive.
 We find 10 ORFs in our viral contig with ORFfinder and restricting to 75 nt non-nested ORFs. InterproScan [20] predicts
 domains in 3 of 10 ORFs, ignoring disorder predictions, coils, and SignalP-noTM, which is not annotated further but
 seems to indicate a signal peptide. The three ORFs lie on the positive strand, so we will name them in downstream order:
-ORF1 (522-9416 nt), ORF2 (9417-9509 nt), and OF3 (9906-10388 nt). These ORFs are predicted to have the following
+ORF1 (522-9416 nt), ORF2 (9417-9509 nt), and ORF3 (9906-10388 nt). These ORFs are predicted to have the following
 domains:
 
 - An *Alphavirus*-like methyltransferase (MTase) domain (IPR002588) in ORF1.
@@ -161,8 +161,8 @@ nonstructural proteins: viral MTase, rRNA MTase, helicase, RdRp in the same orde
 transmembrane domain and both ORF3s encode for a structural membrane protein. Although ORF1&2 are not separated by an
 intergenic region in *H. rivalense* as in the prototypical Negevirus, we note that this or an ORF1&2 overlap have been
 observed in some species [10], [16]. However, ORF2 in *H. rivalense* appears much smaller than expected; ColabFold
-predicts its structure to be a single helix. We attempted to BLAST search the ORF2 protein, the OF2 genomic interval,
-and the OF2 genomic interval expanded by 50 nt on both ends, but all results were inconclusive.
+predicts its structure to be a single helix. We attempted to BLAST search the ORF2 protein, the ORF2 genomic interval,
+and the ORF2 genomic interval expanded by 50 nt on both ends, but all results were inconclusive.
 
 Interestingly, we found one paper [30] that found a viral-like sequence in *L. hesperus*. Specifically, they obtained a
 contig (GBCS01005187) from the TSA dataset, which is in the same bioproject (PRJNA242358) as SRR1539570. GBCS01005187
