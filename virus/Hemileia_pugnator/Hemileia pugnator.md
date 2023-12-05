@@ -4,7 +4,7 @@ written by: Flora HILT
 ### Hemileia pugnator
 As with all newly characterized mitoviruses, the initial segment of this mitovirus name corresponds to the infected host, Hemileia vastatrix. Given its potential role in inducing a hypovirulent state in its host and recognizing that Hemileia vastatrix poses a significant threat to our beloved coffee, the concluding portion of its Latin name symbolizes its potential involvement in this battle, signifying "fighter." Now, let's meet Hemileia pugnator!
 
-[Hemileia pugnator - a Coffee Lover](H_pugnator_cover.jpg)
+[Hemileia pugnator - a Coffee Lover](H_pugnator_cover.jpg.jpg)
 
 ## Abstract
 
@@ -23,7 +23,7 @@ To combat this plant pathogen effectively, two essential components are required
 Hemileia pugnator has been detected in the context of five projects aligned with this objective: (i) in the Hemileia vastatrix genome sequencing and assembly conducted by Cristancho et al. in 2018; (ii) in an experiment investigating the Hemileia vastatrix race XXXIII uredinospore transcriptome upon germination; (iii) in the transcriptome analysis of coffee plant leaves from Brazilian regions where Hemileia vastatrix race XXXIII has been identified; (iv and v) in two time-course experiments where leaves of "resistant" coffee plants were infected by germinated uredinospores of Hemileia vastatrix race XXXIII, followed by transcriptome analysis. For the latter four projects, no affiliated publications exist, and three of them originate from the same laboratory at the Universidade Federal de Vicosa (Brazil). All relevant information regarding these projects, including samples and the runs in which Hemileia pugnator was detected, can be found in `Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx`.
 
 
-[Ecology](Hemileia_pugnator/Table1_Bioprojects_Samples_Runs_Hemileia_pugnator)
+[Ecology](Table1_Bioprojects_Samples_Runs_Hemileia_pugnator)
 
 The common denominator is the presence of Hemileia vastatrix race XXXIII. Therefore, in accordance with the observation that mitoviruses are preferentially located in the mitochondria of plant pathogenic fungi, and considering the report of mitoviruses in a basidiomycota causing a rust-like disease [Liu et al. 2016], Hemileia pugnator is postulated as a new mitovirus infecting the mitochondria of Hemileia vastatrix race XXXIII. In the case of transcriptomic analysis of non-infected coffee plants, it is conceivable that the genome of Hemileia pugnator was integrated into the mitochondrial genome of these plants during an ancestral infection by Hemileia vastatrix race XXXIII or an unknown mitovirus sharing a high identity degree. Due to the intracellular nature of the infection, the fusion between Hemileia vastatrix cells and the coffee plant cells might have resulted in the integration of the mitovirus into the plant mitochondria as a cryptic virus, which could be present in the descendants of these coffee plants. However, the mechanisms underlying this phenomenon, observed between various mitoviruses and plants [Nibert et al. 2018], remain undefined.
 
@@ -41,11 +41,11 @@ Its genome is composed of one single open reading frame,as assessed by the ORF F
 
 To verify the presence of the six characteristic motifs of mitoviruses RdRp [Shafik et al. 2021] in the *Hemileia pugnator* RdRp, a multiple alignment was performed using the MUSCLE tool on EMBL-EBI [Madeira et al. 2022], incorporating the sequences of the six mitoviruses exhibiting the highest percentage identity based on BLASTp results with the lowest E-value. The sequences used are detailed in the text document `Motifs_H_pugnator_seq_align`, and the resulting alignment can be found in `Motifs_H_pugnator_align.clw`. For clarity, the alignment has been annotated, and this annotated version is accessible in the .png file `Motifs_H_pugnator`. As anticipated, the six motifs distinctive of mitovirus RdRp exhibit a high level of conservation in *Hemileia pugnator*.
 
-[Motifs]("Hemileia_pugnator/H_pugnator_Motifs.png")
+[Motifs]("H_pugnator_Motifs.png")
 
 Next, using the _Mfold_ web server [Zuker, 2003], three-dimensional structures for the 5' end (first 58 ribonucleotides) and 3' end (last 166 ribonucleotides) of *Hemileia pugnator* RNA genome were determined. Visual representations are available in the PNG files `Structures_H_pugnator_genome`. The 5' end is predicted to fold into two stem-loop structures with a ΔG of -16.60 kcal/mol. The 3' end is anticipated to harbor five stem-loop structures with a ΔG of -59.60 kcal/mol. These ΔG values suggest potential stability for these structures. These predictions align with previously documented mitovirus RdRp RNA structures [Shafik et al. 2021, Liu et al. 2016].
 
-[Structures]("Hemileia_pugnator/H_pugnator_Structures.png")
+[Structures]("H_pugnator_Structures.png")
 
 ## Discussion
 
