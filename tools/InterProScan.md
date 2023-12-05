@@ -7,7 +7,7 @@ written by: [Katarina Vucic](https://github.com/katarinaavucic)
 
 ## Input / Prerequisites
 - [Tool Weblink](https://www.ebi.ac.uk/interpro/result/InterProScan/)
-- [Tutorial Data](img/template/ao.fa)
+- [Tutorial Data](img/InterProScan/potential_narnavirus_ORF.fa)
 - In order to use InterProScan to analyse your virus, you need a protein sequence of the region you would like to analyse. For this tutorial, we will be using the protein sequence containing the RdRp (RNA-dependent RNA polymerase). The protein sequence used in this tutorial is provided in the dropbox, but if you would like to try with your own virus the steps are as follows:
   1. Identify the candidate RdRp contigs for your virus. 
   2. Run the contig nucleotide sequence through [ORFfinder](https://www.ncbi.nlm.nih.gov/orffinder/), to find an ORF (Open Reading Frame) that matches this contig.
@@ -59,7 +59,7 @@ After submitting your job, you will be brought to a waiting page with all of you
 Figure 4: Job Results Page.\
 </br>
 
-Click on `lcl|ORF4:66:3164 unnamed protein product`.
+Click on `ORF_containing_RdRp`.
 
 ![Protein Results Page.](img/InterProScan/search_results.png)
 Figure 5: Protein Results Page.\
@@ -123,7 +123,7 @@ Figure 10: Protein Results Page.\
 
 Your results should look like this!
 
-![Resulting TSV File.](img/InterProScan/tsv_output.png)
+![Resulting TSV File.](img/InterProScan/tsv_output.png)\
 Figure 11: Resulting TSV File.\
 </br>
 
