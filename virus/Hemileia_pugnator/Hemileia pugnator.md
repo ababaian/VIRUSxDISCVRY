@@ -35,17 +35,17 @@ Its genome is composed of one single open reading frame,as assessed by the ORF F
 
 [Hemileia pugnator ORF](https://www.ncbi.nlm.nih.gov/projects/sviewer/?id=lcl|1&tracks=[key:sequence_track,name:Sequence,display_name:Sequence,id:STD649220238,annots:Sequence,ShowLabel:false,ColorGaps:false,shown:true,order:1][key:gene_model_track,name:UB9opAA2mDBA4,display_name:(U)ORFfinder_11.23.15168173,id:UB9opAA2mDBA4,data_key:iTYf5-k0PhUSGggSOQs2HGVhZ2BvYkNoS3BFWtBX5IKMtFqbcXZA7waQB-lS9QvtGcVOxA3aHcsH0RfOIeMY4TjRHg,dbname:NetCache,annots:ORFfinder_11.23.15168173_UUD1700770569DUU_gene_model,Options:MergeAll,CDSProductFeats:false,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,highlights_color:#0000ff,shown:true,order:9]&key=GKeOdnilr4SDi5mDqJqnjfTw9vH-89L52uHUy0HGdRMdJcRKrVecPVUCBHtRZwh_GldNVg5IHlkEQxRcInEbcztDHQ&mk=158:2269|ORF4|0000ff|9&noguess_assm=1&v=1:2435&c=null&select=null&slim=0&toolbar=-d)
 
-[Hemileia pugnator genome map]("Hemileia_pugnator/H_pugnator_Genome.PNG")
+[Hemileia pugnator genome map](H_pugnator_Genome.PNG)
 
 ### Other (bonus) sections
 
 To verify the presence of the six characteristic motifs of mitoviruses RdRp [Shafik et al. 2021] in the *Hemileia pugnator* RdRp, a multiple alignment was performed using the MUSCLE tool on EMBL-EBI [Madeira et al. 2022], incorporating the sequences of the six mitoviruses exhibiting the highest percentage identity based on BLASTp results with the lowest E-value. The sequences used are detailed in the text document `Motifs_H_pugnator_seq_align`, and the resulting alignment can be found in `Motifs_H_pugnator_align.clw`. For clarity, the alignment has been annotated, and this annotated version is accessible in the .png file `Motifs_H_pugnator`. As anticipated, the six motifs distinctive of mitovirus RdRp exhibit a high level of conservation in *Hemileia pugnator*.
 
-[Motifs]("H_pugnator_Motifs.png")
+[Motifs](H_pugnator_Motifs.PNG)
 
 Next, using the _Mfold_ web server [Zuker, 2003], three-dimensional structures for the 5' end (first 58 ribonucleotides) and 3' end (last 166 ribonucleotides) of *Hemileia pugnator* RNA genome were determined. Visual representations are available in the PNG files `Structures_H_pugnator_genome`. The 5' end is predicted to fold into two stem-loop structures with a ΔG of -16.60 kcal/mol. The 3' end is anticipated to harbor five stem-loop structures with a ΔG of -59.60 kcal/mol. These ΔG values suggest potential stability for these structures. These predictions align with previously documented mitovirus RdRp RNA structures [Shafik et al. 2021, Liu et al. 2016].
 
-[Structures]("H_pugnator_Structures.png")
+[Structures](H_pugnator_Structures.PNG)
 
 ## Discussion
 
