@@ -20,13 +20,13 @@ For the SRR13764151 (Ebo) and SRR13764152 (Em) dataset, the analysis tab of the 
 
 ### RNAfold Structure of Dicistrovirus Contig 
 
-![](img/Dicistrovirus/RNAfold_structures.png)
+![](img/Dicistrovirus/RNAfold_structures.PNG)
 
 **Figure 1**: Predicted RNAfold structures of the sequence of my dicistrovirus (Node_1134). The confidence scores are labelled by color (red is highest confidence). There is a predicted RNA element in the middle of the sequence which may be an IRES (dicistroviruses have an IRES between two ORFs). 
 
 ### Dicistrovirus Genome Fragment
 
-![](img/Dicistrovirus/Genome_map.png)
+![](img/Dicistrovirus/Genome_map.PNG)
 
 **Figure 2**: Genome annotation of the contig of my virus. This node_1143 is not the complete contig as we see that there is no full 5'UTR and 3'UTR. I got two large ORFs from ORFfinder (separated by a gap) and got the domains from InterproScan. The position of the A, B, and C motifs of RdRP are indicated on the map. 
 
