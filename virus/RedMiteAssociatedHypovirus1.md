@@ -1,10 +1,11 @@
-# {Adaptability of Red Mite Associated Hypovirus 1 across different hosts}
+# Adaptability of Red Mite Associated Hypovirus 1 across different hosts
 written by: [Krutika Joshi](https://github.com/ika-joshi)
 
-### {Versatilis Adaptabilis}
+### Versatilis Adaptabilis
 Versatilis stands for versatile and Adaptabilis means adaptable. Red Mite Associated Hypovirus 1 is known to be versatile based on the research as it is able to infect multiple host species. It needs to be adaptable in order to infect and survive in different hosts.
 
-[Optional: Tutorial 2 Generative AI Cover-art](Graphical.png)
+## Generative AI Cover-art
+[Optional: Tutorial 2 Generative AI Cover-art](img/RedMiteAssociatedHypovirus1/CoverArt.png)
 
 ## Abstract
 
@@ -27,36 +28,26 @@ An important finding across all datasets was the identification of RdRP enzymes,
 
 ### Virus Genome {Q3}
 
-```{r}
-library(ggplot2)
-library(gggenes)
-example_genes <- data.frame(
-  gene = c("polyprotein", "RNA_dep_RNAP" ),
-  start = c(39, 283 ), 
-  end = c(427, 676 ),
-  strand = c("+", "+"),
-  feature = c("ORF", "ORF")
-)
-ggplot(example_genes, aes(xmin = start, xmax = end, y = gene, fill = gene)) +
-  geom_gene_arrow() +
-  scale_fill_brewer(palette = "Set3") +
-  theme_minimal() +
-  xlab("Position") +
-  ylab("Gene")
-
+![Genome](img/RedMiteAssociatedHypovirus1/Genome.png)
+Figure 1: This figure depicts the ORF for RNA dependent RNAP and polyprotein. Both the ORF have have partial CNS. The start and stop locations for the ORF were collected from ORFfinder from blast. The polyprotein ORF had the amino acid code of:
 ```
-Figure: This figure depicts the ORF for RNA dependent RNAP and polyprotein. Both the ORF have have partial CNS. The start and stop locations for the ORF were collected from ORFfinder from blast. The polyprotein ORF had the amino acid code of MEDRQNDQNDDVFSFFSPSFSAATPSTLFNRSAYSSSSSSGDDESQPSVDDSNKRIDYMIQFLDRRLSEDGNHDGIGDGNGSDSLPEFVGKCGESGIFKVPIRSAVHPNRPPSLDVRPHPLRETQIGRFLRTMTSTERQLWTGGEDGALRVWEFSELYGS. There are several motifs in the catalytic center that contain a number of conserved amino acid residues[Tirosh et al., 2018]. Viruses that hold this strand of polyproteins usually are known to be a positive-strand RNA eukaryotic virus[Tirosh et al., 2018]. A polyprotein consists of chains of smaller proteins[Crépin  et al., 2015]. This mecanism was developed to organize virus proteomes[Crépin  et al., 2015]. 
+MEDRQNDQNDDVFSFFSPSFSAATPSTLFNRSAYSSSSSSGDDESQPSVDDSNKRIDYMIQFLDRRLSEDGNHDGIGDGNGSDSLPEFVGKCGESGIFKVPIRSAVHPNRPPSLDVRPHPLRETQIGRFLRTMTSTERQLWTGGEDGALRVWEFSELYGS.
+```
+There are several motifs in the catalytic center that contain a number of conserved amino acid residues[Tirosh et al., 2018]. Viruses that hold this strand of polyproteins usually are known to be a positive-strand RNA eukaryotic virus[Tirosh et al., 2018]. A polyprotein consists of chains of smaller proteins[Crépin  et al., 2015]. This mecanism was developed to organize virus proteomes[Crépin  et al., 2015]. 
 
-The RNA_dep_RNAP ORF had the amino acid code of MAVNEIFFDRYPDSILEHQIQVRPFNALKTKNMRNLNPEDIDQLITISGMVIRTSQLIPEMQEAFFQCQVCAHTTRVEMDRGRIAEPSVCGRCHTTHSMALIHNRSLFSDKQMIKLQESPEDMPAGQTPHTVILFAHNDLVDKVQPGDRXNVTGIYRAVPIRVNPRXSXVKSVYKTHIDVIHYRKTDAKRLHGLDEXAEQKLFSXKRVELA. This ORF sequence is primarily found in rotavirus. It is hypothesized that the RdRP in rotavirus undergoes confrontational rearrangements during the synthesis of RNA due to the canonical RdRP motifs and a priming loop[Patton, n.d]. RdRPs play a crucial role in the synthesis of RNA in RNA viruses[Modrow et al., 2013]. 
+The RNA_dep_RNAP ORF had the amino acid code of:
+```
+MAVNEIFFDRYPDSILEHQIQVRPFNALKTKNMRNLNPEDIDQLITISGMVIRTSQLIPEMQEAFFQCQVCAHTTRVEMDRGRIAEPSVCGRCHTTHSMALIHNRSLFSDKQMIKLQESPEDMPAGQTPHTVILFAHNDLVDKVQPGDRXNVTGIYRAVPIRVNPRXSXVKSVYKTHIDVIHYRKTDAKRLHGLDEXAEQKLFSXKRVELA
+```
+This ORF sequence is primarily found in rotavirus. It is hypothesized that the RdRP in rotavirus undergoes confrontational rearrangements during the synthesis of RNA due to the canonical RdRP motifs and a priming loop[Patton, n.d]. RdRPs play a crucial role in the synthesis of RNA in RNA viruses[Modrow et al., 2013]. 
 
-Used Chatgpt to help with syntax of coding gggenes. 
+### AI Image of Red Mite Associated Hypovirus 1
 
-### Other (bonus) sections
+![Red Mite Associated Hypovirus 1](img/RedMiteAssociatedHypovirus1/RedMiteVirus.png)
 
-## Something cool with the viral genome:
-<img src="Q4.jpeg" width="50%" alt="This is a figure of Q4" />. This image was created from Microsoft Bing - Image Creater. [Microsoft, n.d]
+This image was created from Microsoft Bing - Image Creater. [Microsoft, n.d]
 
-I have created an image of the components of the essental genes found in the virus. The image is labeled Q4.jpeg in the A3 folder. This image shows the original host organism called red mite. Surrounding the host are different aspects such as red blood cells and RdRp structures which was used as a replication mechanism by the virus. 
+I have created an image of the components of the essential genes found in the virus. The image is labeled Q4.jpeg in the A3 folder. This image shows the original host organism called red mite. Surrounding the host are different aspects such as red blood cells and RdRp structures which was used as a replication mechanism by the virus. 
 
 The red blood cells are a symbolism of the viral genome as the componets of the genome such as rdrp and polyprotins allow the virus to spread fast and quickly throughout the body. Since red blood cells circulate throught the body this symbolism ties to the idea of the adaptability and reproduction of the virus. There are also chemical structures present in the background which is meant to depict the functional groups present in the viral genome. 
 
