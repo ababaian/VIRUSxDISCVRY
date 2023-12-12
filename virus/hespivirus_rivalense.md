@@ -41,7 +41,8 @@ RNA virus infecting the Western black widow (*Latrodectus hesperus*) spider, whi
 putative virus is distantly related to Nege- and virga-like viruses and has a Negevirus-like genome organization. The
 detection of *H. rivalense* in spider egg tissue further suggests that it could be vertically transmitted, something
 observed only once so far in spider-infecting viruses. Our computational results serve as a foundation for future
-experimental work to validate and refine our model of *H. rivalense*. More broadly, black widows are also urban pests and
+experimental work to validate and refine our model of *H. rivalense*. More broadly, black widows are also urban pests
+and
 of academic interest for their strong venom and silk. Studying their virome can not only contribute to deeper insights
 into their ecology and biology but also shed light on more neglected areas of the insect virome.
 
@@ -123,6 +124,10 @@ following figure summarizes the contig-wide coverage, ORFs, predicted domains, a
 
 ![](imgs/hespivirus_rivalense/contig.png)
 
+<div align="center">
+**Figure 1.**
+</div>
+
 ### AlphaFold2: RdRp structure
 
 We use the putative RdRp sequence above and ColabFold [21] with its default settings. We depict one seed structure with
@@ -130,6 +135,7 @@ Py3DMol [22].
 
 <div align="center">
 <img src="imgs/hespivirus_rivalense/rdrp_alphafold.png" alt="drawing" width="350"/>
+**Figure 2.**
 </div>
 
 ### Phylogenetic analysis
@@ -138,19 +144,28 @@ We use the putative RdRp sequence from above. For BLASTP [23], we search against
 viruses (taxid:2559587), and we set the maximum number target sequences to 1000. Filtering the candidates with >80%
 query coverage and >40% identity leaves 191 sequences (including the *H. rivalense* RdRp). We further remove entries
 with duplicate scientific names or named "ssRNA positive-strand virus sp." and "Virgaviridae sp.", tie-breaking by E
-score. On the remaining 81 sequences, we perform a multiple sequence alignment (MSA) using MUSCLE [24] and visualize the
-result below using Jalview [25]. For visual clarity, we have trimmed the MSA to the *H. rivalense* RdRp palmprint and
-included only the top 19 BLASTP hits. The A, B, and C motifs of the *H. rivalense* palmprint are annotated in the last
-row, and by inspection, we can see that they are well-conserved.
+score. On the remaining 81 sequences, we perform a multiple sequence alignment (MSA) using MUSCLE [24]:
 
 ![](imgs/hespivirus_rivalense/msa.png)
 
+<div align="center"><p>
+**Figure 3.** The MSA of the *H. rivalense* RdRp and its top BLASTP hits visualized using Jalview [25]. For visual
+clarity, we have trimmed the MSA to the *H. rivalense* RdRp palmprint and included only the top 19 BLASTP hits. The A,
+B, and C motifs of the *H. rivalense* palmprint are annotated in the last row, and by inspection, we can see that they
+are well-conserved.
+</p></div>
+
 We pass the full MSA into IQTree [26], with the default parameters (i.e., VT+F+I+G4 substitution model via
-ModelFinder [27], 1000 ultrafast bootstrap replicates [28]), to construct a maximum-likelihood phylogenetic tree. We
-visualize the tree using the iTOL webtool [29]. *H. rivalense* is highlighted in green and the smallest clade
-containing *H. rivalense* and the top Negevirus or Nege-like virus BLAST hits from above are lightly shaded.
+ModelFinder [27], 1000 ultrafast bootstrap replicates [28]), to construct a maximum-likelihood phylogenetic tree.
 
 ![](imgs/hespivirus_rivalense/iqtree.png)
+
+<div align="center"><p>
+**Figure 4.** The maximum-likelihood phylogenetic tree of the *H. rivalense* RdRp and its top BLASTP hits visualized the
+iTOL webtool [29]. *H. rivalense* is highlighted in green and the smallest clade containing *H. rivalense* and the top
+Negevirus or Nege-like virus BLAST hits from above are lightly shaded. The raw IQTree output file can be
+found [here](imgs/hespivirus_rivalense/iqtree.iqtree).
+</p></div>
 
 ## Discussion
 
