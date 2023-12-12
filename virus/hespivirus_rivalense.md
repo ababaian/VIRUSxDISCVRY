@@ -148,24 +148,21 @@ score. On the remaining 81 sequences, we perform a multiple sequence alignment (
 
 ![](imgs/hespivirus_rivalense/msa.png)
 
-<div align="center"><p>
 **Figure 3.** The MSA of the *H. rivalense* RdRp and its top BLASTP hits visualized using Jalview [25]. For visual
 clarity, we have trimmed the MSA to the *H. rivalense* RdRp palmprint and included only the top 19 BLASTP hits. The A,
 B, and C motifs of the *H. rivalense* palmprint are annotated in the last row, and by inspection, we can see that they
-are well-conserved.
-</p></div>
+are well-conserved. The raw MSA file is [uploaded](imgs/hespivirus_rivalense/msa.fasta).
+
 
 We pass the full MSA into IQTree [26], with the default parameters (i.e., VT+F+I+G4 substitution model via
 ModelFinder [27], 1000 ultrafast bootstrap replicates [28]), to construct a maximum-likelihood phylogenetic tree.
 
 ![](imgs/hespivirus_rivalense/iqtree.png)
 
-<div align="center"><p>
 **Figure 4.** The maximum-likelihood phylogenetic tree of the *H. rivalense* RdRp and its top BLASTP hits visualized the
 iTOL webtool [29]. *H. rivalense* is highlighted in green and the smallest clade containing *H. rivalense* and the top
-Negevirus or Nege-like virus BLAST hits from above are lightly shaded. The raw IQTree output file can be
-found [here](imgs/hespivirus_rivalense/iqtree.iqtree).
-</p></div>
+Negevirus or Nege-like virus BLAST hits from above are lightly shaded. The raw IQTree output file is [uploaded](imgs/hespivirus_rivalense/iqtree.iqtree).
+
 
 ## Discussion
 
