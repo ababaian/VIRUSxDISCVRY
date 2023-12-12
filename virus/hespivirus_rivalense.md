@@ -127,7 +127,7 @@ following figure summarizes the contig-wide coverage, ORFs, predicted domains, a
 **Figure 1.** The genomic contig `Hriv_contig` of *H. rivalense*. The read coverage from realigning the reads from
 SRR17250291 to the contig, using bowtie2 [19], is depicted in the topmost graph (blue). The contig ORFs (grey),
 predicted domains (orange) from InterproScan [20], and RdRp A, B, C motifs (rgb) are indicated below. Plots were created
-in Pythong using the `matplotlib` and `seaborn` libraries. 
+in Python using the `matplotlib` and `seaborn` libraries.
 
 ### AlphaFold2: RdRp structure
 
@@ -153,7 +153,8 @@ score. On the remaining 81 sequences, we perform a multiple sequence alignment (
 **Figure 3.** The MSA of *H. rivalense*'s RdRp and its top BLASTP hits visualized using Jalview [25]. For visual
 clarity, we have trimmed the MSA to *H. rivalense*'s RdRp palmprint and included only the top 19 BLASTP hits. The A,
 B, and C motifs of *H. rivalense*'s palmprint are annotated in the last row, and by inspection, we can see that they
-are well-conserved. The raw MSA file is [uploaded](imgs/hespivirus_rivalense/msa.fasta).
+are well-conserved. The [trimmed](imgs/hespivirus_rivalense/msa_trim.fasta)
+and [full](imgs/hespivirus_rivalense/msa_full.fasta) MSAs are uploaded.
 
 We pass the full MSA into IQTree [26], with the default parameters (i.e., VT+F+I+G4 substitution model via
 ModelFinder [27], 1000 ultrafast bootstrap replicates [28]), to construct a maximum-likelihood phylogenetic tree.
@@ -162,9 +163,8 @@ ModelFinder [27], 1000 ultrafast bootstrap replicates [28]), to construct a maxi
 
 **Figure 4.** The maximum-likelihood phylogenetic tree of *H. rivalense*'s RdRp and its top BLASTP hits visualized using
 the iTOL webtool [29]. *H. rivalense* is highlighted in green and the smallest clade containing *H. rivalense* and the
-top Negevirus or Nege-like virus BLAST hits from above are lightly shaded. The raw IQTree output file
-is [uploaded](imgs/hespivirus_rivalense/iqtree.iqtree).
-
+top Negevirus or Nege-like virus BLAST hits from above are lightly shaded. The raw
+IQTree [output](imgs/hespivirus_rivalense/iqtree.iqtree) is uploaded.
 
 ## Discussion
 
