@@ -38,4 +38,3 @@ related to your virus}
 ```
 In code-text; include your short story from Tutorial 2 here :)
 ```
-```
