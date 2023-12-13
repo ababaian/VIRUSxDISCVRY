@@ -2,7 +2,7 @@
 written by: [James Shi](https://github.com/jamesshi567)
 
 ### Apiovirus anomala
-*We believe based on current data that this virus has the closest relation to the Apis rhabdovirus. However, it remains unclassified beyond the family leve, as many rhabdoviruses are due to their high diversity. Thus, there is inherently some uncertainty in the assignment of a binomial name for this virus. I assigned a genus mimicking how "Apis" refers to bees, a highly suspected host for this virus. The second term anomala refers to the unexpected genomic organization of this virus.*
+*We believe based on current data that this virus has the closest relation to the Apis rhabdovirus. An initial blastx comparison of an assembly of the viral genome reveals hits from Apirs rhabdovirus 1 with 13% query coverage and 27.76% identity. However, it remains unclassified beyond the family level, as many rhabdoviruses are due to their high diversity. Thus, there is inherently some uncertainty in the assignment of a binomial name for this virus. I assigned a genus mimicking how "Apis" refers to bees, a highly suspected host for this virus. The second term anomala refers to the unexpected genomic organization of this virus.*
 
 [Optional: Tutorial 2 Generative AI Cover-art](img/<virusname>/cover.png)
 
