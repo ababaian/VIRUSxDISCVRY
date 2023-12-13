@@ -27,12 +27,12 @@ One notable human virus from this family is the Rabies virus, or formally the Ly
 
 ### Virus Genome {Q3}
 
-![Visual representation of ORFs present along the candidate viral genome contig based on NCBI Orf Finder and BDGP Promoter Predictor. 3 ORFs were identified and labelled with their identities based on BLASTp hits (or as unknown in case of lack of hits). An online tool by BDGP was used to find the highest scoring predicted 3' leader promoter sequence before the predicted ORFs was labelled.](img/viral_genome.jpg)
+![Visual representation of ORFs present along the candidate viral genome contig based on NCBI Orf Finder and BDGP Promoter Predictor. 3 ORFs were identified and labelled with their identities based on BLASTp hits (or as unknown in case of lack of hits). An online tool by BDGP was used to find the highest scoring predicted 3' leader promoter sequence before the predicted ORFs was labelled.](apiovirus_anomala/viral_genome.jpg)
 
 ### Other (bonus) sections
 
 ### AlphaFold2 Prediction
-![AlphaFold2 Predicted Structure with Highest Ranked Confidence of Candidate Viral RdRp. The A motif is blue, B motif is green, and C motif is red.](img/rdrp.jpg)
+![AlphaFold2 Predicted Structure with Highest Ranked Confidence of Candidate Viral RdRp. The A motif is blue, B motif is green, and C motif is red.](apiovirus_anomala/rdrp.jpg)
 
 ## Discussion
 
