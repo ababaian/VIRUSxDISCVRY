@@ -36,11 +36,11 @@ A positive hydropathy index indicates that the segment is hydrophobic, while a n
 In the "Input sequence" text area, paste or type the amino acid sequence of your protein of interest. Alternatively, you can choose a supported file from your computer or `use the example`, which will give you an amino acid sequence for human insulin-like growth factor protein complex. Here, we'll use the example data above (unknown virus related to the Locarnavirus sp.). 
 ![input](img/pepinfo/Input_sequence.png)
 
-### 3. Select a Paremeter
+### 3. Select Paremeters
 Select a desired 'Hydropathy Window Size', an integer between 1 and 200. Here, we'll use the default value of '9'.
 ![parameter](img/pepinfo/Parameter.png)
 
-### 4. Choose a title (Optional) and Submit Analysis
+### 4. Choose Title (Optional) and Submit Analysis
 Choose a title for the analysis by typing it in the box provided at the `submit` section, under `Title`. Then, click `submit`.
 ![submit](img/pepinfo/Submit_analysis.png)
 

@@ -1,5 +1,5 @@
 # Discovering a New Locarnavirus Species: Exploring Genomic, Structural, and Functional Insights Redefines Current Definitions and Broadens Ecological Versatility and Host Range within Marine Metagenomes 
-written by: [Mikael Gouwtama](https://github.com/MikaelLeonard/VIRUSxDISCVRY.git)
+written by: [Mikael Gouwtama](https://github.com/MikaelLeonard)
 
 ### Locarnavirus Nudiformis
 The genus "Locarnavirus" is chosen as it shares a 57% perecent identity (the highest obtained from BLASTx) and a relatively similar structure to the Locarnavirus genus. 
