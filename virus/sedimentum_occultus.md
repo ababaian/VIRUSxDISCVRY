@@ -14,13 +14,13 @@ Viruses are found in many natural environments. In particular, the nucleic acids
 
 *Sedimentum occultus* was originally found in an experiment to determine cultivation procedures for microorganisms that may fail to grow in culture due to their natural growth states, such as remaining dormant [Mu et al. 2018]. The researchers collected three samples of sediment from the intertidal zone of Weihai, China and and extracted DNA and RNA during and after culturing the microbes present in the samples. After removal of rRNA, the remaining RNA was used to synthesize cDNA.
 
-The index run of *S. occultus* was SRR6808584, and its corresponding assembly file contained 1,346,747 nodes in FASTA format. Node 389 was an DNA sequence of length 8.9 kilobases. The RdRp nucleotide sequence of *S. occultus* was present within Node 389. We first used BLAST on the RdRp amino acid sequence to narrow down the virus's potential identity [Altschul et al. 1990]. Many of the BLAST hits with the greatest percent identities showed that the RdRp amino acid sequence was similar to the RdRp amino acid sequences of other unknown viruses in the family *Picornaviridae*. We can moderately conclude from this finding that *S. occultus* belongs to the family *Picornaviridae*. However, since the specific genus and species of the viruses were unknown, it is inconclusive as to whether *S. occultus* has already been discovered and named.
+The index run of *S. occultus* was `SRR6808584`, and its corresponding assembly file contained 1,346,747 nodes in FASTA format. Node 389 was an DNA sequence of length 8.9 kilobases. The RdRp nucleotide sequence of *S. occultus* was present within Node 389. We first used BLAST on the RdRp amino acid sequence to narrow down the virus's potential identity [Altschul et al. 1990]. Many of the BLAST hits with the greatest percent identities showed that the RdRp amino acid sequence was similar to the RdRp amino acid sequences of other unknown viruses in the family *Picornaviridae*. We can moderately conclude from this finding that *S. occultus* belongs to the family *Picornaviridae*. However, since the specific genus and species of the viruses were unknown, it is inconclusive as to whether *S. occultus* has already been discovered and named.
 
 ### Finding ORFs
 
 There are multiple online software tools that can be used to find ORFs in a nucleotide sequence. We first used the DNA sequence of Node 389 as the input to Translate and EMBOSS Sixpack, both of which can be used to identify ORFs [Gasteiger et al. 2003, Madeira et al. 2022]. Both tools identified two major ORFs on the reverse DNA strand. Their lengths were 810 and 1,790 amino acids long, but they were not located in the same reading frame. To visually examine the ORFs, we used ORFfinder with Node 389 as input. ORFfinder identifed the longer ORF (with 1,790 amino acids) as ORF 1 and the shorter ORF (with 810 amino acids) as ORF2 [Wheeler et al. 2003].
 
-On each ORF, we then performed a BLAST query. The hits with the greatest percent identity for ORF1 were the same as the ones from our previous BLAST results on the RdRp amino acid sequence, indicating that ORF1 contains the RdRp nucleotide sequence. The runs for the top three hits with the greatest percent identities were SRR14039754, SRR14039658, and SRR14039631. All three hits belonged to the BioProject PRJNA716119. We then examined each hit for ORF1 which was an RdRp for an unknown *Picornaviridae* species and found that every single hit was in fact part of PRJNA716119. For ORF2, the BLAST hits with the greatest percent identity were a putative structural protein for an unknown virus in the order *Picornavirales* and a caspid protein for an unclassified *Picornaviridae* virus in scallops. Hence, we are moderately confident that ORF1 contains the sequence for RdRp while ORF2 contains a sequence or sequences that code for structural proteins forming the viral caspid. In addition, the BLAST results indicate that it is highly likely that *S. occultus* is a member of the family *Picornaviridae*.
+On each ORF, we then performed a BLAST query. The hits with the greatest percent identity for ORF1 were the same as the ones from our previous BLAST results on the RdRp amino acid sequence, indicating that ORF1 contains the RdRp nucleotide sequence. The runs for the top three hits with the greatest percent identities were `SRR14039754`, `SRR14039658`, and `SRR14039631`. All three hits belonged to the BioProject `PRJNA716119`. We then examined each hit for ORF1 which was an RdRp for an unknown *Picornaviridae* species and found that every single hit was in fact part of `PRJNA716119`. For ORF2, the BLAST hits with the greatest percent identity were a putative structural protein for an unknown virus in the order *Picornavirales* and a caspid protein for an unclassified *Picornaviridae* virus in scallops. Hence, we are moderately confident that ORF1 contains the sequence for RdRp while ORF2 contains a sequence or sequences that code for structural proteins forming the viral caspid. In addition, the BLAST results indicate that it is highly likely that *S. occultus* is a member of the family *Picornaviridae*.
 
 ### Other Publications
 
@@ -32,15 +32,13 @@ The two BLAST hits for ORF2 with the highest percent identity were structural pr
 
 Still Image:
 
-![](img/sedimentum_occultus/figure_1.png)
-
-[Interactive Version](https://www.ncbi.nlm.nih.gov/projects/sviewer/?id=lcl|1&tracks=[key:sequence_track,name:Sequence,display_name:Sequence,id:STD649220238,category:Sequence,annots:Sequence,ShowLabel:false,ColorGaps:false,shown:true,order:0][key:gene_model_track,name:U2EZpwA2z898C,display_name:(U)%20ORFfinder_12.4.72257490,id:U2EZpwA2z898C,data_key:dcrjGxXIwunu5vTuxffK4Jmdm5yTnr-Ut4y5piyrKgnqPwqyJwYWXVoPZHYxamhyelotW25FflRkTnRRQnx7fltOfQ,dbname:NetCache,category:ORFfinder,annots:ORFfinder_12.4.72257490_UUD1701692577DUU_gene_model,Options:MergeAll,CDSProductFeats:false,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,highlights_color:#0000ff,shown:true,order:1]&key=_kFokJ5DSWJlbX9lTnxBaxIWEBcYFTQfPAcyLacgoYJitBa9sNaB6w-kRN0RwUjZWvEN8E7uXv9E5VT6Ytdb1XvlXQ&mk=3479:3502|C|red,3797:3832|A|0000FF,3584:3625|B|00FF00,2969:8341|ORF1|black|9,247:2679|ORF2|333333|1,3050:4282|RdRp|FF00FF&noguess_assm=1&spacing=1&v=1:8971&c=null&gflip=1&select=null&slim=0&toolbar=-d) (may not work)
+![Figure 1](img/sedimentum_occultus/figure_1.png)
 
 **Figure 1:** Genome of *Sedimentum occultus*. The ORF1 region (in black) shows the location of ORF1, which contains the nucleotide sequence for RdRp. The RdRp region (in pink) shows the location of the RdRp nucleotide sequence that is directly translated into RdRp. Within this region are the motifs A, B, and C (in blue, green, and red, respectively). The ORF2 region (in black) shows the location of ORF2, which contains nucleotide sequences for capsid proteins.
 
 ### RdRp Structure
 
-![](img/sedimentum_occultus/figure_2.png)
+![Figure 2](img/sedimentum_occultus/figure_2.png)
 
 **Figure 2**: Structure of the RdRp as determined by AlphaFold2. The A, B, and C motifs are shown in blue, green, and red, respectively.
 
@@ -48,17 +46,15 @@ Still Image:
 
 Still Image:
 
-![](img/sedimentum_occultus/figure_3.png)
-
-[Interactive Version](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?anchor=0&coloring=rasmol&key=E6yFfXOupI-IgJKIo5Gshv_7_fr1-Nny0erfwErNTGRdUi6QH18umCqwvcno1bHNo-X05Lf6p-u98a3um8OiwYLxpA,HaKLc32gqoGGjpyGrZ-iiPH18_T79tf83-TRzkTDQmpTXFnzBsA3zriYm-HO_Zflhc3SzJHSgcOb2YvGveuE6aTZgg&track_config=protein_default&hidden=4,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100&columns=d:120,b:55,x:17,aln,e:55,o:150) (may not work)
+![Figure 3](img/sedimentum_occultus/figure_3.png)
 
 **Figure 3:** Multiple sequence alignment of the *Sedimentum occultus* RdRp protein sequence to all BLAST hits with >80% query coverage and >40% amino acid identity.
 
 ### Phylogenetic Tree
 
-![](img/sedimentum_occultus/figure_4.png)
+![Figure 4](img/sedimentum_occultus/figure_4.png)
 
-**Figure 4:** Phylogenetic tree of organisms present in multiple sequence alignment.
+**Figure 4:** Phylogenetic tree of organisms present in multiple sequence alignment. This tree was gnerated using phyloT.
 
 ## Discussion
 
