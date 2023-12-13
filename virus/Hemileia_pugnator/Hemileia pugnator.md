@@ -4,7 +4,7 @@ written by: Flora HILT
 ### Hemileia pugnator
 As with all newly characterized mitoviruses, the initial segment of this mitovirus name corresponds to the infected host, Hemileia vastatrix. Given its potential role in inducing a hypovirulent state in its host and recognizing that Hemileia vastatrix poses a significant threat to our beloved coffee, the concluding portion of its Latin name symbolizes its potential involvement in this battle, signifying "fighter." Now, let's meet Hemileia pugnator!
 
-![Hemileia pugnator - a Coffee Lover](H_pugnator_cover.jpg.jpg)
+![Hemileia pugnator - a Coffee Lover](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_cover.jpg))
 
 ## Abstract
 
@@ -12,36 +12,35 @@ Viruses are ubiquitous in the living realm, spanning from bacteria to humans. As
 
 ## Results
 
-### Ecology subsection A...
+### Ecology of Hemileia pugnator: in the middle of the battlefield
 
+#### Global context
 The coffee industry is one of the most significant contributors to global trade and holds economic importance for numerous countries. Various coffee plant species exist, with the primary cultivated ones being Coffea arabica and Coffea canephora [Sera et al. 2022]. However, the presence of Hemileia vastatrix, a plant pathogen responsible for Coffee Leaf Rust disease, poses a global threat to coffee plantations. In response to this menace, resistant coffee plant hybrids like Híbrido de Timor have been developed, and cultivating these derivatives remains the primary method to combat the disease [Talhinhas et al. 2017]. Unfortunately, the swift emergence of new Hemileia vastatrix races, capable of overcoming these resistance measures, undermines this defensive strategy [Capucho et al. 2012]. Consequently, farmers are compelled to resort to massive fungicide use, resulting in severe environmental damage. It is imperative to find effective ways to manage and control coffee leaf rust.
 
 Hemileia vastatrix is a basidiomycota fungus belonging to the Pucciniales order. Its life cycle involves both sexual and asexual reproduction, with a notable preference for the latter. Asexual reproduction is facilitated by the formation of uredinospores, highly resistant forms capable of germination under favorable conditions and subsequent infection of coffee plant leaves, potentially spreading to other plants. The fungus enters through stomata on the leaf surface and forms haustoria, intracellular invasive structures responsible for extracting nutrients directly from the plant cells [Silva et al. 2022]. Despite its inclination towards asexual reproduction, the surprising ability of Hemileia vastatrix to rapidly overcome resistance is evident. New races, such as race XXXIII discovered in Brazil in 2012, mark the first instances of infection in Híbrido de Timor derivative coffee plants [Capucho et al. 2012].
 
 To combat this plant pathogen effectively, two essential components are required. Firstly, comprehensive genomic and transcriptomic data of Hemileia vastatrix at various stages of its life cycle are necessary. Secondly, understanding the genome and transcriptome of coffee plants at different time points during infection by Hemileia vastatrix is crucial [Porto et al. 2019; Talhinhas et al. 2014]. The ultimate goal is to gain deeper insights into the "enemy" and its pathogenic mechanisms, uncovering its vulnerabilities for more effective strategies.
 
-Hemileia pugnator has been detected in the context of five projects aligned with this objective: (i) in the Hemileia vastatrix genome sequencing and assembly conducted by Cristancho et al. in 2018; (ii) in an experiment investigating the Hemileia vastatrix race XXXIII uredinospore transcriptome upon germination; (iii) in the transcriptome analysis of coffee plant leaves from Brazilian regions where Hemileia vastatrix race XXXIII has been identified; (iv and v) in two time-course experiments where leaves of "resistant" coffee plants were infected by germinated uredinospores of Hemileia vastatrix race XXXIII, followed by transcriptome analysis. For the latter four projects, no affiliated publications exist, and three of them originate from the same laboratory at the Universidade Federal de Vicosa (Brazil). All relevant information regarding these projects, including samples and the runs in which Hemileia pugnator was detected, can be found in `Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx`.
-
-
-![Ecology](Table1_Bioprojects_Samples_Runs_Hemileia_pugnator)
+#### Detection of Hemileia pugnator
+Hemileia pugnator has been detected in the context of five projects aligned with this objective: (i) in the Hemileia vastatrix genome sequencing and assembly conducted by Cristancho et al. in 2018; (ii) in an experiment investigating the Hemileia vastatrix race XXXIII uredinospore transcriptome upon germination; (iii) in the transcriptome analysis of coffee plant leaves from Brazilian regions where Hemileia vastatrix race XXXIII has been identified; (iv and v) in two time-course experiments where leaves of "resistant" coffee plants were infected by germinated uredinospores of Hemileia vastatrix race XXXIII, followed by transcriptome analysis. For the latter four projects, no affiliated publications exist, and three of them originate from the same laboratory at the Universidade Federal de Vicosa (Brazil). All relevant information regarding these projects, including samples and the runs in which Hemileia pugnator was detected, can be found in [Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx).
 
 The common denominator is the presence of Hemileia vastatrix race XXXIII. Therefore, in accordance with the observation that mitoviruses are preferentially located in the mitochondria of plant pathogenic fungi, and considering the report of mitoviruses in a basidiomycota causing a rust-like disease [Liu et al. 2016], Hemileia pugnator is postulated as a new mitovirus infecting the mitochondria of Hemileia vastatrix race XXXIII. In the case of transcriptomic analysis of non-infected coffee plants, it is conceivable that the genome of Hemileia pugnator was integrated into the mitochondrial genome of these plants during an ancestral infection by Hemileia vastatrix race XXXIII or an unknown mitovirus sharing a high identity degree. Due to the intracellular nature of the infection, the fusion between Hemileia vastatrix cells and the coffee plant cells might have resulted in the integration of the mitovirus into the plant mitochondria as a cryptic virus, which could be present in the descendants of these coffee plants. However, the mechanisms underlying this phenomenon, observed between various mitoviruses and plants [Nibert et al. 2018], remain undefined.
 
-### Virus Genome {Q3}
+
+### Hemileia pugnator genome
 
 *Hemileia pugnator* genome with key features can be visualized in the `H_pugnator_genome.png` file. All the sequences related to *Hemileia pugnator* (genome, RdRp) can be found in the text file `H_pugnator_seq`. 
 
 Its genome is composed of one single open reading frame,as assessed by the ORF Finder tool available on NCBI, in the positive sens of the RNA which corresponds to the characteristics of mitoviruses. Moreover, this single open reading frame is predicted to encode for a protein with a mitovirus-like RdRp functional domain using InterProScan (cf `H_pugnator_fct_domains.xlm`).
 
-[Hemileia pugnator ORF](https://www.ncbi.nlm.nih.gov/projects/sviewer/?id=lcl|1&tracks=[key:sequence_track,name:Sequence,display_name:Sequence,id:STD649220238,annots:Sequence,ShowLabel:false,ColorGaps:false,shown:true,order:1][key:gene_model_track,name:UB9opAA2mDBA4,display_name:(U)ORFfinder_11.23.15168173,id:UB9opAA2mDBA4,data_key:iTYf5-k0PhUSGggSOQs2HGVhZ2BvYkNoS3BFWtBX5IKMtFqbcXZA7waQB-lS9QvtGcVOxA3aHcsH0RfOIeMY4TjRHg,dbname:NetCache,annots:ORFfinder_11.23.15168173_UUD1700770569DUU_gene_model,Options:MergeAll,CDSProductFeats:false,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,highlights_color:#0000ff,shown:true,order:9]&key=GKeOdnilr4SDi5mDqJqnjfTw9vH-89L52uHUy0HGdRMdJcRKrVecPVUCBHtRZwh_GldNVg5IHlkEQxRcInEbcztDHQ&mk=158:2269|ORF4|0000ff|9&noguess_assm=1&v=1:2435&c=null&select=null&slim=0&toolbar=-d)
-
-![Hemileia pugnator genome map](H_pugnator_Genome.PNG)
+![Hemileia pugnator genome map](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Genome.PNG)
+Figure 1 : Simplified representation of Hemileia pugnator genome with key features.
 
 ### Other (bonus) sections
 
 To verify the presence of the six characteristic motifs of mitoviruses RdRp [Shafik et al. 2021] in the *Hemileia pugnator* RdRp, a multiple alignment was performed using the MUSCLE tool on EMBL-EBI [Madeira et al. 2022], incorporating the sequences of the six mitoviruses exhibiting the highest percentage identity based on BLASTp results with the lowest E-value. The sequences used are detailed in the text document `Motifs_H_pugnator_seq_align`, and the resulting alignment can be found in `Motifs_H_pugnator_align.clw`. For clarity, the alignment has been annotated, and this annotated version is accessible in the .png file `Motifs_H_pugnator`. As anticipated, the six motifs distinctive of mitovirus RdRp exhibit a high level of conservation in *Hemileia pugnator*.
 
-![Motifs](H_pugnator_Motifs.PNG)
+![Motifs](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Motifs.PNG)
 
 Next, using the _Mfold_ web server [Zuker, 2003], three-dimensional structures for the 5' end (first 58 ribonucleotides) and 3' end (last 166 ribonucleotides) of *Hemileia pugnator* RNA genome were determined. Visual representations are available in the PNG files `Structures_H_pugnator_genome`. The 5' end is predicted to fold into two stem-loop structures with a ΔG of -16.60 kcal/mol. The 3' end is anticipated to harbor five stem-loop structures with a ΔG of -59.60 kcal/mol. These ΔG values suggest potential stability for these structures. These predictions align with previously documented mitovirus RdRp RNA structures [Shafik et al. 2021, Liu et al. 2016].
 
