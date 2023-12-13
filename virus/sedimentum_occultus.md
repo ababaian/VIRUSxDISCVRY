@@ -30,8 +30,6 @@ The two BLAST hits for ORF2 with the highest percent identity were structural pr
 
 ### Virus Genome
 
-Still Image:
-
 ![Figure 1](img/sedimentum_occultus/figure_1.png)
 
 **Figure 1:** Genome of *Sedimentum occultus*. The ORF1 region (in black) shows the location of ORF1, which contains the nucleotide sequence for RdRp. The RdRp region (in pink) shows the location of the RdRp nucleotide sequence that is directly translated into RdRp. Within this region are the motifs A, B, and C (in blue, green, and red, respectively). The ORF2 region (in black) shows the location of ORF2, which contains nucleotide sequences for capsid proteins.
@@ -43,8 +41,6 @@ Still Image:
 **Figure 2**: Structure of the RdRp as determined by AlphaFold2. The A, B, and C motifs are shown in blue, green, and red, respectively.
 
 ### RdRp Multiple Sequence Alignment
-
-Still Image:
 
 ![Figure 3](img/sedimentum_occultus/figure_3.png)
 
