@@ -4,16 +4,16 @@ written by: [Krutika Joshi](https://github.com/ika-joshi)
 ### Versatilis Adaptabilis
 Versatilis stands for versatile and Adaptabilis means adaptable. Red Mite Associated Hypovirus 1 is known to be versatile based on the research as it is able to infect multiple host species. It needs to be adaptable in order to infect and survive in different hosts.
 
-## Generative AI Cover-art
+## Shadows of Hypovirus
 [Optional: Tutorial 2 Generative AI Cover-art](img/RedMiteAssociatedHypovirus1/CoverArt.png)
 
-## Abstract
+## Abstract: Cross-Species Adaptability and Genomic Insights of Red Mite Associated Hypovirus 1
 
 Red mite associated hypovirus 1 is a member of the Hypoviridae family[ICTV, n.d]. The Hypoviridae family is known for its positive-sense RNA genome and adaptability across different species [ICTV, n.d]. Typically having genome lengths between 7.3 and 18.3 kb, hypoviridae are unique because they have large open reading frames (ORFs) translated by noncanonical mechanisms [ICTV, n.d]. This study aims to analyze biotic and abiotic factors related to Red mite associated hypovirus 1. Specifically, this study focuses on the presence of Red mite associated hypovirus 1 in fungal, human, and plant tissues hosts suggesting its high adaptability to different environments. Although Red mite associated hypovirus 1 can infect a broad spectrum of hosts, little research has been conducted on the mechanisms through which this virus replicates and adapts. This research found three publications with Red mite associated hypovirus 1 viral genomic information in the publication's data set. The commonality found between the data sets was the identification of RNA-dependent RNA polymerase (RdRP) enzymes and RNA dependent RNA polymerase (RNAP) [Tirosh et al., 2018 & Liu et al., 2019 & Gu et al., 2020]. As a result of both of these factors, the virus was able to produce polyproteins and siRNAs, which enables its survivial and proliferation across a wide variety of host organisms [Tirosh et al., 2018 & Liu et al., 2019 & Gu et al., 2020]. Identifying the mechanisms allowing cross-species transmission and the evolutionary dynamics of host-virus interactions in Red mite associated hypovirus 1 is a vital part of virology [ Dianzani   et al., 1996]. Based on the study, Red mite associated hypovirus 1 is capable of adapting to a variety of biological systems and environmental conditions, suggesting a history of multiple host switches [Elena et al., 2009].
 
 ## Results
 
-### Ecology subsection A...
+### Ecology: Deciphering the Versatility of Red Mite Associated Hypovirus 1 Across Fungi, Human, and Plant Hosts
 
 There were 3 publications where characteristics of Red mite associated hypovirus 1 were observed. This section of the assignment aims to analyze biotic and abiotic aspects of the publications to study and delve deeper into the understanding of the Red mite associated hypovirus 1. 
 
@@ -26,7 +26,7 @@ And lastly, a study conducted by Gu et al. from Northwest A&F University. This s
 An important finding across all datasets was the identification of RdRP enzymes, which play a crucial role in viral replication. As a result of their widespread presence across different host species, Red mite associated hypovirus 1 must be able to adapt to diverse ecological conditions. The three data sets consisting of fungi, human skin cells, and plant tissues contain this viral genetic information indicating that this virus is highly adaptable thus allowing its spread through species. A wide variety of ecosystems are also covered by the datasets. Liu et al. focused their study on fungi which are grown in decayed wood ecosystems. Torish et al. focused on human skin microbiomes and Gu et al. focused on plant pathology. This virus has shown potential of thriving under a wide range of environmental conditions [Elena et al., 2009]. It is possible that multiple host switching events have occurred during the evolution of this virus, as evidenced by the diversity of hosts, ranging from fungi to humans and plants [Elena et al., 2009]. Most likely, this virus's ability to adapt to diverse biological systems is a result of its genetic makeup [Elena et al., 2009]. 
 
 
-### Virus Genome {Q3}
+### Virus Genome: Visualizing the Open Reading Frames of Red Mite Associated Hypovirus 1
 
 ![Genome](img/RedMiteAssociatedHypovirus1/Genome.png)
 Figure 1: This figure depicts the ORF for RNA dependent RNAP and polyprotein. Both the ORF have have partial CNS. The start and stop locations for the ORF were collected from ORFfinder from blast. The polyprotein ORF had the amino acid code of:
@@ -41,7 +41,7 @@ MAVNEIFFDRYPDSILEHQIQVRPFNALKTKNMRNLNPEDIDQLITISGMVIRTSQLIPEMQEAFFQCQVCAHTTRVEMD
 ```
 This ORF sequence is primarily found in rotavirus. It is hypothesized that the RdRP in rotavirus undergoes confrontational rearrangements during the synthesis of RNA due to the canonical RdRP motifs and a priming loop[Patton, n.d]. RdRPs play a crucial role in the synthesis of RNA in RNA viruses[Modrow et al., 2013]. 
 
-### AI Image of Red Mite Associated Hypovirus 1
+### AI Image of Red Mite Associated Hypovirus 1: Host Interactions
 
 ![Red Mite Associated Hypovirus 1](img/RedMiteAssociatedHypovirus1/RedMiteVirus.png)
 
@@ -51,7 +51,7 @@ I have created an image of the components of the essential genes found in the vi
 
 The red blood cells are a symbolism of the viral genome as the componets of the genome such as rdrp and polyprotins allow the virus to spread fast and quickly throughout the body. Since red blood cells circulate throught the body this symbolism ties to the idea of the adaptability and reproduction of the virus. There are also chemical structures present in the background which is meant to depict the functional groups present in the viral genome. 
 
-## Discussion
+## Discussion: Unraveling the Unique Genome and Adaptive Strategies of Red Mite Associated Hypovirus 1
 
 Red mite associated hypovirus 1 belongs to the family of hypoviridae [ICTV, n.d]. This virus’s genome structure is encoded by positive-sense RNA. This means that its RNA(i.e genetic information) can directly function as messenger RNA in host cells [ICTV, n.d]. As a result of this, the replication cycle is expedited and can start right after the virus has been introduced to the host [Modrow et al., 2013]. Based on graphical analysis, we know that the genome length for this virus family is between 7 kb and 11 kb. 
 
@@ -95,7 +95,7 @@ To conclude, the red mite associated hypovirus 1 is an interesting subject for v
 13.) Tirosh, O., Conlan, S., Deming, C., Lee-Lin, S.-Q., Huang, X., Su, H. C., Freeman, A. F., Segre, J. A., &amp; Kong, H. H. (2018, November 5). Expanded skin virome in dock8-deficient patients. Nature News. https://www.nature.com/articles/s41591-018-0211-7 
 
 
-# Viral Short Story
+# Midnight Mutation: The Hypoviridae Menace Emerges
 
 ```
 The clock struct 11:58 pm when Dr. Blue, a virologist, examined a sample of Tremella fuciformis and Annulohypoxylon stygium under her microscope. What she saw was unbelievable. There was a **third agent** present in the vial along with the Tremella fuciformis.
