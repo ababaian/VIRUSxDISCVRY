@@ -29,7 +29,7 @@ The common denominator is the presence of Hemileia vastatrix race XXXIII. Theref
 
 ### Hemileia pugnator genome
 
-*Hemileia pugnator* genome with key features can be visualized in the [H_pugnator_Genome.png](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Genome.png) file. All the sequences related to *Hemileia pugnator* (genome, RdRp) can be found in the fasta file [H_pugnator_seq](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_seq.fa). 
+*Hemileia pugnator* genome with key features can be visualized in the [H_pugnator_Genome.png](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Genome.png) file. All the sequences related to *Hemileia pugnator* (genome, RdRp) can be found in the fasta files [H_pugnator_Genome_seq](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Genome_seq.fa) and [H_pugnator_RdRp_seq](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Genome_seq.fa). 
 
 Its genome is composed of one single open reading frame,as assessed by the ORF Finder tool available on NCBI, in the positive sens of the RNA which corresponds to the characteristics of mitoviruses. Moreover, this single open reading frame is predicted to encode for a protein with a mitovirus-like RdRp functional domain using InterProScan (cf [H_pugnator_fct_domains.xlm](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/Supplementary_data/Motifs/H_pugnator_fct_domains.xml)).
 
@@ -55,7 +55,7 @@ Figure 3: Secondary structure of Hemileia pugnator single-stranded positif RNA g
 
 ### Hemileia pugnator in the Mitovirus family
 
-A multiple sequence alignment using MUSCLE [Madeira et al. 2022] has been realised with Hemileia pugnator RdRp and all the complete RdRp sequences of mitoviruses available on NCBI Virus (214 in total). The sequences are contained in the file `` and the alignment in ``. This alignment has been submitted to IQ-TREE web server [Nguyen et al. 2015] for construction of a phylogenetic tree base on the maximum likelihood with 1000 bootstraps, and visualized with iTOL [Ivica et al. 2021].
+A multiple sequence alignment using MUSCLE [Madeira et al. 2022] has been realised with Hemileia pugnator RdRp and all the complete RdRp sequences of mitoviruses available on NCBI Virus (214 in total). The sequences are contained in the file [Sequences_All_RdRp_mitoviruses.fa](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/Supplementary_data/Phylogenetic_analysis/Sequences_All_RdRp_mitoviruses.fa) and the alignment in [Align_All_RdRp_mitoviruses.aln](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/Supplementary_data/Phylogenetic_analysis/Align_All_RdRp_mitoviruses.fa). This alignment has been submitted to IQ-TREE web server [Nguyen et al. 2015] for construction of a phylogenetic tree base on the maximum likelihood with 1000 bootstraps, and visualized with iTOL [Ivica et al. 2021].
 
 ![Phylogenetic tree](https://github.com/ababaian/VIRUSxDISCVRY/tree/main/virus/Hemileia_pugnator/H_pugnator_Phylo_unrooted.PNG)
 Figure 4: Unrooted phylogenetic tree of all the mitovirus RdRp currently reported with Hemileia pugnator RdRp. MUSCLE alignment used to build the tree using IQ-TREE (1000 bootstraps) and visualized with iTOL. Some reported genus of mitoviruses are annotated.
