@@ -1,4 +1,3 @@
-
 ---
 bibliography: img/pupavirus_apiscarab/a3_references.bib
 nocite: '@*'
