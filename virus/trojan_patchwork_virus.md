@@ -14,7 +14,7 @@ Research has suggested that some RNA-viruses have jumped from plant to insect ge
 
 ## Results
 
-### Ecology subsection A...
+### The Trojan patchwok virus in *Costesia vestalis* 
 
 The Trojan patchwork virus belongs to a virga-like family under *Virgaviridae* which is a family of positive-strand RNA viruses. These viruses are generally associated with plants but recent studies have found traces of this virus in insects suggesting that insects can act as a host and vector of viruses that infect plants (Kondo et al., 2019). 
 
@@ -23,30 +23,6 @@ The sample (SRR3948414) containing this virus was part of a study conducted by Z
 Larval *C. vestalis* live inside or on the bodies of arthropods, including diamondback moths. They exist in the body cavity of the insect ultimately killing the host once the wasp emerges from its larval state. Diamondback moths are pests to brassicaceous crops and are not very receptive to insecticides. Therefore, *C. vestalis* have been used as biological control of these moths in many agricultural contexts in Japan (Hiroyoshi et al., 2017). 
 
 Phylogenetic analyses have shown that plant and insect virga-related viruses may share common viral origins (Kondo et al., 2019). It could be suggested that the Trojan patchwork virus could be closely related to a virga-like virus that originated in plants. It could also be possible for *C. vestalis* to pass this virus onto its host species such as diamondback moths. 
-
-### Virus Genome
-
-* Viruses in the Virgaviridae family are rod-shaped and 20-25 nm in diameter (Adams et al., 2012)
-* Viruses in the Virgaviridae family have alpha-like replication proteins that form a distinct phylogenetic "family" (Adams et al., 2009)
-* Viruses in the Virgaviridae family have a single-stranded RNA+ sense genome with a 3'-t-RNA-like structure witout a poly-A tail
-* Viruses in the Virgaviridae family have a central "canal"
-* Viruses in the Virgaviridae family have coat proteins of 19-23 kDa
-* Viruses in the Virgaviridae family are known to be very diverse and can infect a large host range of plant species (Adams et al., 2012)
-* Viruses in the Virgaviridae family are stable at higher temperatures (60-90 degrees C) (Adams et al., 2012)
-* The largest ORF in the Virgaviridae family is an alpha-like replication protien with methyltransferase and helicase domains (Adams et al., 2012)
-* the RdRp is expressed at the terminal part of this protien by readthrough of a leaky stop codon (Adams et al, 2012)
-* Replication in Viraviridae viruses is done in the cytoplasm (Adams et al., 2012)
-* Genuses within the Virgaviridae family include: furovirus, hordeivirus, pecluvirus, pomovirus, tabamovirus, and tobravirus (Adams et al., 2012)
-* Dozens of insect alpha-like viruses related to the virgaviridae-like viruses have been sequenced which suggest an evolutionary relationship between plant and insect viruses (Kondo et al., 2019; Shi et al., 2016)
-* Endogenous viral elements (EVEs) from RNA viruses have shown sequence similarity to ssRNA+viruses (such as virga-like virus) of plants that are integrated into many insect genomes suggesting that plant viruses may have integrated into insect genomes and vice versa (Cui & Holmes, 2012)
-* The viagravirus-related lineage consists of plant alpha-like viruses which includes the Virgaviridae family (Kondo et al., 2019)
-* Plant alpha-like viruses encode replication-associated proteins containing the same order of 5'cap methyltranferase, superfamily 1 helicase, and RdRp domains (Koonin et al., 1993)
-* Virgaviruses are mainly transmitted by soil-inhabiting organisms such as plasmodiophorid protists or nematodes (Andika et al., 2016)
-* There is evidence for virgavirus-like HEL domain sequence is located within long interspaced elements in lepidopteran species (moths) (Kondo et al., 2019)
-* It has been demonstrated that retrotransposons may be associated with RNA silencing activity in HEL domains as a reason for the high copy number of EVEs in lepidopteran (Kondo et al., 2019; Lazareva et al., 2015)
-* The vertical transmission efficiency of plant +ssRNA viruses (including virga-like viruses) is generally low except when transmitted through seeds or pollen (Andika et al., 2016)
-* Most transmission of plant +ssRNA viruses (including virga-like viruses) are transmitted horizontally (Witfield et al., 2015)
-* It is suggested that small RNAs derived from EVEs that have been integrated into the genome of insects may play a role in viral immunity in insects (Kondo et al., 2019)
 
 ## Discussion
 
@@ -58,6 +34,7 @@ Implications for these results could greatly impact agricultural methods for bio
 
 ## References
 
+```
 Adams, M. J., Antoniw, J. F., & Kreuze, J. (2009). Virgaviridae: A new family of rod-shaped plant viruses. Archives of Virology, 154(12), 1967–1972. https://doi.org/10.1007/s00705-009-0506-6
 
 Adams, M. J., Heinze, C., Jackson, A. O., Kreuze, J. F., Macfarlane, S. A., & Torrance, L. (2012). Virgaviridae. In Virus Taxonomy (pp. 1139–1162). Elsevier. https://doi.org/10.1016/B978-0-12-384684-6.00097-5
@@ -82,7 +59,7 @@ J., Wang, W., Xu, J., Holmes, E. C., & Zhang, Y.-Z. (2016). Redefining the inver
 Whitfield, A. E., Falk, B. W., & Rotenberg, D. (2015). Insect vector-mediated transmission of plant viruses. Virology, 479–480, 278–289. https://doi.org/10.1016/j.virol.2015.03.026
 
 Zhao, W., Shi, M., Ye, X., Li, F., Wang, X., & Chen, X. (2017). Comparative transcriptome analysis of venom glands from Cotesia vestalis and Diadromus collaris, two endoparasitoids of the host Plutella xylostella. Scientific Reports, 7(1), Article 1. https://doi.org/10.1038/s41598-017-01383-2
-
+```
 # Viral Short Story
 
 ```
