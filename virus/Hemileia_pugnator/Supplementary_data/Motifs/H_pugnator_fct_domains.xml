@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="https://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/schemas" interproscan-version="5.65-97.0">
+  <protein>
+    <sequence md5="8326bc0cd3bd3e145e8625ae8adc0966">MTKTIYTVVLSFISKTTKELGKYSALKSMFPKKHLSLLSILVTWSYVMDCSYRCKHILKLLSLLCSWYNNNGMPFTIKFVKDSRLLITRWMCDVPLISSPEIRVKTDKSGWPSQFVFMKPEKGNLKQYREVLSLMNILSPVEGIFKPEISDIIDAPSVDISHIYSMKEDIFKVLSNFSSESPKFEKWHFTTHRGPNGHGMASILMDINSTMSYIDDISVVAGDDIKNRIENFVKMIQSKVGPGIVMSCRLLMGKNPIGAKLVAIPAPEGKSSIIAQMGYWLQAALIPLHKDIFDILKKIGMDLTFDQSKAPAFLKSKGDNHYHSLDLKSATDSFPIEFQKMVLSCVYDETFSKSWGNIMKQEFHTWDNQKVTYGAGQPMGAYSSWAVFSLSHHVLISWCCLQLDIPWENNYVVLGDDVVICNDQLAESYKEEMSKLGVQISMNKTHCSKHSYEIAKSWYSEGEGEFTPFQFSAVLSFGPSTSQVCEYLLDYKSKGFTFLVSVPQATAMFVSAMSNSLHWSHMKKSIDLAEIFWNVHTYLSGYRPGIEMLSSIQSCMNLPVLPSSLGTAHYINDGVANNVVVEMFTDSAEAPGAGADDVAMNSMLLLTDPELTPPESLDDYMSALPHLGVTGQFEEQYLAIKASAWEFDAIYSGCWDLAMRSLTVPDVTTVFSMSTSDMSQIFVSKICKKMMESMKIIASMNSI</sequence>
+    <xref id="Hemileia_pugnator" name="Hemileia_pugnator"/>
+    <matches>
+      <hmmer3-match evalue="1.1E-81" score="287.0">
+        <signature ac="PF05919" desc="Mitovirus RNA-dependent RNA polymerase" name="Mitovir_RNA_pol">
+          <entry ac="IPR008686" desc="RNA-dependent RNA polymerase, mitoviral" name="RNA_pol_mitovir" type="FAMILY"/>
+          <signature-library-release library="PFAM" version="36.0"/>
+        </signature>
+        <model-ac>PF05919</model-ac>
+        <locations>
+          <hmmer3-location env-end="583" env-start="181" post-processed="true" score="286.2" evalue="1.9E-81" hmm-start="6" hmm-end="338" hmm-length="497" hmm-bounds="INCOMPLETE" start="187" end="513">
+            <location-fragments>
+              <hmmer3-location-fragment start="187" end="513" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match ac="PTHR34456:SF9" evalue="8.7E-30" graft-point="PTN005050361" name="MITOVIRUS RNA-DEPENDENT RNA POLYMERASE" score="115.7">
+        <signature ac="PTHR34456" name="MITOVIRUS RNA-DEPENDENT RNA POLYMERASE">
+          <entry ac="IPR008686" desc="RNA-dependent RNA polymerase, mitoviral" name="RNA_pol_mitovir" type="FAMILY"/>
+          <signature-library-release library="PANTHER" version="18.0"/>
+        </signature>
+        <model-ac>PTHR34456:SF9</model-ac>
+        <locations>
+          <panther-location env-start="260" env-end="445" hmm-start="88" hmm-end="274" hmm-length="0" hmm-bounds="INCOMPLETE" start="268" end="444">
+            <location-fragments>
+              <panther-location-fragment start="268" end="444" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <superfamilyhmmer3-match evalue="3.84E-16">
+        <signature ac="SSF56672" name="DNA/RNA polymerases">
+          <entry ac="IPR043502" desc="DNA/RNA polymerase superfamily" name="DNA/RNA_pol_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="MetaCyc" id="PWY-8434" name="cucurbitacin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8238" name="24-epi-campesterol, fucosterol, and clionasterol biosynthesis (diatoms)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7735" name="echinomycin and triostin A biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-CEL-5656169" name="Termination of translesion DNA synthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9610379" name="HCMV Late Events"/>
+            <pathway-xref db="MetaCyc" id="PWY-6085" name="2,4-dichlorophenoxyacetate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7643" name="coniferyl alcohol 9-methyl ether biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7325" name="salvigenin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7382" name="lipoate biosynthesis and incorporation IV (yeast)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8035" name="streptovaricin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7629" name="yatein biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7621" name="autoinducer CAI-1 biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7583" name="arachidonate biosynthesis II (bacteria)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6973" name="dTDP-alpha-D-olivose, dTDP-alpha-D-oliose and dTDP-alpha-D-mycarose biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-163282" name="Mitochondrial transcription initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7049" name="icosapentaenoate biosynthesis II (6-desaturase, mammals)"/>
+            <pathway-xref db="Reactome" id="R-HSA-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-5994" name="palmitate biosynthesis I (type I fatty acid synthase)"/>
+            <pathway-xref db="Reactome" id="R-SCE-110312" name="Translesion synthesis by REV1"/>
+            <pathway-xref db="MetaCyc" id="PWY-6998" name="CDP-D-arabitol biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="Reactome" id="R-RNO-174414" name="Processive synthesis on the C-strand of the telomere"/>
+            <pathway-xref db="MetaCyc" id="PWY-6978" name="plastoquinol-9 biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7460" name="2-O-acetyl-3-O-trans-coutarate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8100" name="crotonosine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DDI-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="Reactome" id="R-HSA-180689" name="APOBEC3G mediated resistance to HIV-1 infection"/>
+            <pathway-xref db="MetaCyc" id="PWY-7888" name="tRNA-uridine 2-thiolation (cytoplasmic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8047" name="bryostatin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8464" name="sphingofungin B-D biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-171319" name="Telomere Extension By Telomerase"/>
+            <pathway-xref db="MetaCyc" id="PWY-7711" name="calonectrin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-2151201" name="Transcriptional activation of mitochondrial biogenesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7631" name="arctigenin and isoarctigenin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8368" name="clorobiocin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6948" name="sitosterol degradation to androstenedione"/>
+            <pathway-xref db="Reactome" id="R-DDI-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-8051" name="anandamide biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-9694786" name="Transcription of SARS-CoV-2 sgRNAs"/>
+            <pathway-xref db="Reactome" id="R-MMU-110314" name="Recognition of DNA damage by PCNA-containing replication complex"/>
+            <pathway-xref db="Reactome" id="R-HSA-9684325" name="Maturation of replicase proteins"/>
+            <pathway-xref db="MetaCyc" id="PWY-8380" name="dTDP-sibirosamine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7352" name="daunorubicin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7163" name="polymethylated kaempferol biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-68952" name="DNA replication initiation"/>
+            <pathway-xref db="Reactome" id="R-SCE-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-8095" name="5-methoxy-6-methylbenzimidazole biosynthesis (anaerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7465" name="3,3'-thiodipropanoate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-6045" name="methylthiopropanonate degradation II (demethylation)"/>
+            <pathway-xref db="Reactome" id="R-HSA-5685939" name="HDR through MMEJ (alt-NHEJ)"/>
+            <pathway-xref db="Reactome" id="R-SPO-5656121" name="Translesion synthesis by POLI"/>
+            <pathway-xref db="MetaCyc" id="PWY-8077" name="ginkgotoxin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8179" name="platensimycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-162594" name="Early Phase of HIV Life Cycle"/>
+            <pathway-xref db="Reactome" id="R-HSA-110312" name="Translesion synthesis by REV1"/>
+            <pathway-xref db="Reactome" id="R-HSA-162585" name="Uncoating of the HIV Virion"/>
+            <pathway-xref db="MetaCyc" id="PWY-7884" name="lipoprotein posttranslational modification (Gram-negative bacteria)"/>
+            <pathway-xref db="Reactome" id="R-HSA-9705671" name="SARS-CoV-2 activates/modulates innate and adaptive immune responses"/>
+            <pathway-xref db="Reactome" id="R-RNO-68952" name="DNA replication initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7648" name="3-hydroxy-4-methyl-proline biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SCE-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="Reactome" id="R-SCE-163282" name="Mitochondrial transcription initiation"/>
+            <pathway-xref db="Reactome" id="R-MMU-110312" name="Translesion synthesis by REV1"/>
+            <pathway-xref db="Reactome" id="R-RNO-5358606" name="Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8231" name="Escherichia coli serotype O:127 O antigen biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7301" name="dTDP-4-O-demethyl-beta-L-noviose biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8103" name="kavain biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5883" name="ephedrine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7714" name="harzianum A and trichodermin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8364" name="7,8-dimethylmenaquinone biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-171319" name="Telomere Extension By Telomerase"/>
+            <pathway-xref db="MetaCyc" id="PWY-8116" name="ochratoxin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7483" name="elloramycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5987" name="sorgoleone biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7606" name="docosahexaenoate biosynthesis III (6-desaturase, mammals)"/>
+            <pathway-xref db="Reactome" id="R-RNO-5651801" name="PCNA-Dependent Long Patch Base Excision Repair"/>
+            <pathway-xref db="MetaCyc" id="PWY-8133" name="succinoglycan biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7471" name="D-carnitine degradation I"/>
+            <pathway-xref db="Reactome" id="R-MMU-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-8424" name="ascomycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7532" name="acetylaszonalenin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7564" name="bacimethrin and bacimethrin pyrophosphate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8096" name="5-methoxybenzimidazole biosynthesis (anaerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8040" name="ansatrienin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8272" name="Escherichia coli serotype O:49 O antigen biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8053" name="anandamide biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6581" name="spirilloxanthin and 2,2'-diketo-spirilloxanthin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7591" name="okenone biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8049" name="pederin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5317" name="tropane alkaloids biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-6036" name="cardenolide glucosides biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="Reactome" id="R-HSA-9754678" name="SARS-CoV-2 modulates host translation machinery"/>
+            <pathway-xref db="Reactome" id="R-HSA-173107" name="Binding and entry of HIV virion"/>
+            <pathway-xref db="Reactome" id="R-DDI-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7100" name="spinosyn biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5349" name="esculetin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-5656169" name="Termination of translesion DNA synthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-7232" name="gibberellin biosynthesis V"/>
+            <pathway-xref db="MetaCyc" id="PWY-7025" name="gentamicin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-5696397" name="Gap-filling DNA repair synthesis and ligation in GG-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-6795" name="diacylglyceryl-N,N,N-trimethylhomoserine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7612" name="chaetoglobosin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6373" name="acrylate degradation I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7671" name="saframycin A biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-174437" name="Removal of the Flap Intermediate from the C-strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-5305" name="bixin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-163282" name="Mitochondrial transcription initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8379" name="sibiromycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6153" name="autoinducer AI-2 biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7693" name="guadinomine B biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7461" name="hydroxycinnamate sugar acid ester biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7727" name="docosahexaenoate biosynthesis IV (4-desaturase, mammals)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6749" name="CMP-legionaminate biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7184" name="pyrimidine deoxyribonucleotides de novo biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-8166" name="emodin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7745" name="p-HBAD biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7653" name="griseofulvin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7614" name="methiin metabolism"/>
+            <pathway-xref db="MetaCyc" id="PWY-8437" name="furaquinocin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8012" name="mupirocin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-4801" name="aloesone and aloesin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-761" name="rhizobactin 1021 biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-7989" name="acinetoferrin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7673" name="fusarin C biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-918233" name="TRAF3-dependent IRF activation pathway"/>
+            <pathway-xref db="Reactome" id="R-MMU-5685939" name="HDR through MMEJ (alt-NHEJ)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8408" name="erinacine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6545" name="pyrimidine deoxyribonucleotides de novo biosynthesis III"/>
+            <pathway-xref db="MetaCyc" id="PWY-7677" name="rosamicin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7171" name="flavonol acylglucoside biosynthesis II - isorhamnetin derivatives"/>
+            <pathway-xref db="MetaCyc" id="PWY-7261" name="anthocyanidin 3-malylglucoside biosynthesis (acyl-glucose dependent)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6286" name="spheroidene and spheroidenone biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-174414" name="Processive synthesis on the C-strand of the telomere"/>
+            <pathway-xref db="MetaCyc" id="PWY-7585" name="docosahexaenoate biosynthesis II (bacteria)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7563" name="bassianin and desmethylbassianin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-5696400" name="Dual Incision in GG-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-3542" name="choline biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6672" name="cis-geranyl-CoA degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7695" name="aurofusarin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6086" name="4-chloro-2-methylphenoxyacetate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7826" name="Amaryllidacea alkaloids biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7161" name="polymethylated quercetin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6722" name="candicidin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-5651801" name="PCNA-Dependent Long Patch Base Excision Repair"/>
+            <pathway-xref db="Reactome" id="R-DDI-6782210" name="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-6739" name="pinitol biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-5353" name="arachidonate biosynthesis I (6-desaturase, lower eukaryotes)"/>
+            <pathway-xref db="Reactome" id="R-HSA-191859" name="snRNP Assembly"/>
+            <pathway-xref db="MetaCyc" id="PWY-5070" name="gibberellin biosynthesis I (non C-3, non C-13 hydroxylation)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7679" name="anthocyanidin acylglucoside and acylsambubioside biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6689" name="tRNA splicing I"/>
+            <pathway-xref db="Reactome" id="R-SPO-163282" name="Mitochondrial transcription initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-5773" name="gossypol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7702" name="sch210971 and sch210972 biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5479" name="6-methoxypodophyllotoxin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9682708" name="Transcription of SARS-CoV-1 sgRNAs"/>
+            <pathway-xref db="MetaCyc" id="PWY-7668" name="apicidin F biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="Reactome" id="R-RNO-5696400" name="Dual Incision in GG-NER"/>
+            <pathway-xref db="Reactome" id="R-RNO-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-6154" name="autoinducer AI-2 biosynthesis II (Vibrio)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6958" name="icosapentaenoate biosynthesis I (lower eukaryotes)"/>
+            <pathway-xref db="Reactome" id="R-HSA-5655862" name="Translesion synthesis by POLK"/>
+            <pathway-xref db="MetaCyc" id="PWY-6148" name="tetrahydromethanopterin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8257" name="Escherichia coli serotype O:52 O antigen biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-5651801" name="PCNA-Dependent Long Patch Base Excision Repair"/>
+            <pathway-xref db="MetaCyc" id="PWY-5105" name="hesperitin glycoside biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9694686" name="Replication of the SARS-CoV-2 genome"/>
+            <pathway-xref db="MetaCyc" id="PWY-5875" name="staphyloxanthin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-4922" name="6-methoxymellein biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5475" name="pentagalloylglucose biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-6782210" name="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-5318" name="calystegine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-5656169" name="Termination of translesion DNA synthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-5696397" name="Gap-filling DNA repair synthesis and ligation in GG-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-5047" name="gibberellin biosynthesis IV (Gibberella fujikuroi)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6056" name="dimethylsulfoniopropanoate degradation II (cleavage)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7729" name="5,6-dimethylbenzimidazole biosynthesis II (anaerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-5035" name="gibberellin biosynthesis III (early C-13 hydroxylation)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8157" name="avenanthramide biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6316" name="aromatic polyketides biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7452" name="cyanidin dimalonylglucoside biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7157" name="eupatolitin 3-O-glucoside biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6955" name="lincomycin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5284" name="shisonin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DDI-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="MetaCyc" id="PWY-8032" name="chloramphenicol biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-110320" name="Translesion Synthesis by POLH"/>
+            <pathway-xref db="MetaCyc" id="PWY-7050" name="icosapentaenoate biosynthesis IV (bacteria)"/>
+            <pathway-xref db="Reactome" id="R-DME-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-7688" name="dTDP-alpha-D-ravidosamine and dTDP-4-acetyl-alpha-D-ravidosamine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWYG-321" name="mycolate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-2083" name="isoflavonoid biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-8038" name="naphthomycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="Reactome" id="R-HSA-177539" name="Autointegration results in viral DNA circles"/>
+            <pathway-xref db="MetaCyc" id="PWY-8337" name="gamma-butyrobetaine degradation I"/>
+            <pathway-xref db="Reactome" id="R-SPO-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7055" name="daphnetin modification"/>
+            <pathway-xref db="MetaCyc" id="PWY-7737" name="thiocoraline biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7485" name="tetracenomycin C biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-5656121" name="Translesion synthesis by POLI"/>
+            <pathway-xref db="MetaCyc" id="PWY-7458" name="violdelphin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8084" name="daurichromenate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7713" name="nivalenol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7412" name="mycinamicin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7672" name="fusaric acid biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7448" name="galloylated catechin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5748" name="gamma-coniciene and coniine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-361" name="monolignol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7669" name="equisetin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7529" name="CMP-N-acetyl-7-O-acetylneuraminate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7667" name="apicidin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-5655862" name="Translesion synthesis by POLK"/>
+            <pathway-xref db="Reactome" id="R-MMU-5696400" name="Dual Incision in GG-NER"/>
+            <pathway-xref db="Reactome" id="R-HSA-9694271" name="Assembly of the SARS-CoV-2 Replication-Transcription Complex (RTC)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7691" name="10,13-epoxy-11-methyl-octadecadienoate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DDI-68952" name="DNA replication initiation"/>
+            <pathway-xref db="Reactome" id="R-DME-5685939" name="HDR through MMEJ (alt-NHEJ)"/>
+            <pathway-xref db="Reactome" id="R-RNO-174411" name="Polymerase switching on the C-strand of the telomere"/>
+            <pathway-xref db="MetaCyc" id="PWY-8327" name="atranorin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8343" name="leinamycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-6782210" name="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-8371" name="mannosylerythritol lipids biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7543" name="5-N-acetylardeemin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-7398" name="coumarins biosynthesis (engineered)"/>
+            <pathway-xref db="Reactome" id="R-MMU-6782210" name="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-6922" name="L-Ndelta-acetylornithine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5846" name="colchicine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5313" name="superpathway of anthocyanin biosynthesis (from cyanidin and cyanidin 3-O-glucoside)"/>
+            <pathway-xref db="Reactome" id="R-SPO-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-7285" name="methylwyosine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-CEL-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="Reactome" id="R-CEL-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-7470" name="phosphatidylcholine biosynthesis VII"/>
+            <pathway-xref db="MetaCyc" id="PWY-7104" name="dTDP-beta-L-megosamine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7708" name="lyngbyatoxin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="Reactome" id="R-HSA-5656121" name="Translesion synthesis by POLI"/>
+            <pathway-xref db="MetaCyc" id="PWY-5679" name="clavulanate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-175567" name="Integration of viral DNA into host genomic DNA"/>
+            <pathway-xref db="MetaCyc" id="PWY-6944" name="androstenedione degradation I (aerobic)"/>
+            <pathway-xref db="Reactome" id="R-MMU-174430" name="Telomere C-strand synthesis initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7561" name="tenellin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7904" name="tRNA-uridine 2-thiolation (thermophilic bacteria)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7661" name="protein N-glycosylation (Haloferax volcanii)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7741" name="phthiocerol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7987" name="vanchrobactin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8075" name="(Kdo)2-lipid A biosynthesis (P. putida)"/>
+            <pathway-xref db="Reactome" id="R-CEL-5651801" name="PCNA-Dependent Long Patch Base Excision Repair"/>
+            <pathway-xref db="MetaCyc" id="PWY-7659" name="viridicatumtoxin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7821" name="tunicamycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-69091" name="Polymerase switching"/>
+            <pathway-xref db="MetaCyc" id="PWY-7950" name="diadinoxanthin and fucoxanthin biosynthesis (diatoms)"/>
+            <pathway-xref db="MetaCyc" id="PWY-84" name="resveratrol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7250" name="[2Fe-2S] iron-sulfur cluster biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9682706" name="Replication of the SARS-CoV-1 genome"/>
+            <pathway-xref db="MetaCyc" id="PWY-6427" name="rot-2'-enonate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6682" name="dehydrophos biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-174414" name="Processive synthesis on the C-strand of the telomere"/>
+            <pathway-xref db="MetaCyc" id="PWY-8117" name="colibactin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-110314" name="Recognition of DNA damage by PCNA-containing replication complex"/>
+            <pathway-xref db="Reactome" id="R-MMU-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="Reactome" id="R-SCE-69091" name="Polymerase switching"/>
+            <pathway-xref db="Reactome" id="R-HSA-5656169" name="Termination of translesion DNA synthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7728" name="(4Z,7Z,10Z,13Z,16Z)-docosa-4,7,10,13,16-pentaenoate biosynthesis II (4-desaturase)"/>
+            <pathway-xref db="Reactome" id="R-HSA-9692916" name="SARS-CoV-1 activates/modulates innate immune responses"/>
+            <pathway-xref db="MetaCyc" id="PWY-8426" name="(2R)-methoxymalonyl-[acp] biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7210" name="pyrimidine deoxyribonucleotides biosynthesis from CTP"/>
+            <pathway-xref db="MetaCyc" id="PWY-7029" name="terminal olefins biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-1187" name="glucosinolate biosynthesis from homomethionine"/>
+            <pathway-xref db="MetaCyc" id="PWY-7670" name="fusaridione A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6626" name="cytidine-5'-diphosphate-glycerol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7547" name="prodigiosin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-68952" name="DNA replication initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-1061" name="homogalacturonan biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-4202" name="arsenic detoxification (mammals)"/>
+            <pathway-xref db="Reactome" id="R-MMU-174437" name="Removal of the Flap Intermediate from the C-strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-7660" name="tryptoquialanine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6736" name="sulfur volatiles biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-164525" name="Plus-strand DNA synthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-5656169" name="Termination of translesion DNA synthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7746" name="mycobacterial sulfolipid biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9694301" name="Maturation of replicase proteins"/>
+            <pathway-xref db="Reactome" id="R-SCE-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-8151" name="cholesterol degradation to androstenedione III (anaerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7694" name="zwittermicin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7265" name="lampranthin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9683439" name="Assembly of the SARS-CoV-1 Replication-Transcription Complex (RTC)"/>
+            <pathway-xref db="Reactome" id="R-HSA-162592" name="Integration of provirus"/>
+            <pathway-xref db="MetaCyc" id="PWY-7053" name="docosahexaenoate biosynthesis I (lower eukaryotes)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7150" name="polymethylated quercetin glucoside biosynthesis I - quercetin series (Chrysosplenium)"/>
+            <pathway-xref db="Reactome" id="R-SPO-5655862" name="Translesion synthesis by POLK"/>
+            <pathway-xref db="MetaCyc" id="PWY-7751" name="shinorine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8366" name="septacidin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-8104" name="yangonin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-201722" name="Formation of the beta-catenin:TCF transactivating complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-7419" name="FR-900098 and FR-33289 antibiotics biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-5358606" name="Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7818" name="type IV lipoteichoic acid biosynthesis (S. pneumoniae)"/>
+            <pathway-xref db="MetaCyc" id="PWY-5139" name="pelargonidin conjugates biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-174417" name="Telomere C-strand (Lagging Strand) Synthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7151" name="polymethylated quercetin glucoside biosynthesis II - quercetagetin series (Chrysosplenium)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7624" name="nystatin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-162588" name="Budding and maturation of HIV virion"/>
+            <pathway-xref db="MetaCyc" id="PWY-6397" name="mycolyl-arabinogalactan-peptidoglycan complex biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5477" name="gallotannin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DDI-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-7601" name="arachidonate biosynthesis IV (8-detaturase, lower eukaryotes)"/>
+            <pathway-xref db="Reactome" id="R-HSA-8854214" name="TBC/RABGAPs"/>
+            <pathway-xref db="MetaCyc" id="PWY-3602" name="L-carnitine degradation III"/>
+            <pathway-xref db="Reactome" id="R-HSA-9679504" name="Translation of Replicase and Assembly of the Replication Transcription Complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-7930" name="pyoluteorin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-6495" name="ergotamine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6842" name="glutathione-mediated detoxification II"/>
+            <pathway-xref db="Reactome" id="R-RNO-174430" name="Telomere C-strand synthesis initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8212" name="Escherichia coli serotype O:8 O antigen biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8243" name="colanic acid (Escherichia coli K12) biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7599" name="anditomin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7135" name="emetine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7569" name="arginomycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-69205" name="G1/S-Specific Transcription"/>
+            <pathway-xref db="MetaCyc" id="PWY-7498" name="phenylpropanoids methylation (ice plant)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7401" name="crotonate fermentation (to acetate and cyclohexane carboxylate)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7816" name="poly(ribitol phosphate) wall teichoic acid biosynthesis II (S. aureus)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8045" name="cylindrospermopsin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6679" name="jadomycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7983" name="pseudomonine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8083" name="domoic acid biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5400" name="amaranthin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7298" name="nevadensin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-6783310" name="Fanconi Anemia Pathway"/>
+            <pathway-xref db="MetaCyc" id="PWY-6915" name="pentalenolactone biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-5358606" name="Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)"/>
+            <pathway-xref db="Reactome" id="R-CEL-6782210" name="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+            <pathway-xref db="Reactome" id="R-MMU-5696397" name="Gap-filling DNA repair synthesis and ligation in GG-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7168" name="flavonol acylglucoside biosynthesis I - kaempferol derivatives"/>
+            <pathway-xref db="MetaCyc" id="PWY-5729" name="vestitol and sativan biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-7719" name="CMP-diacetamido-8-epilegionaminic acid biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7690" name="holomycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7817" name="type I lipoteichoic acid biosynthesis (S. aureus)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6322" name="phosphinothricin tripeptide biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7127" name="CDP-D-mannitol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8438" name="corallopyronin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5307" name="gentiodelphin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5710" name="capsaicin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5660" name="taxol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8036" name="chaxamycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7717" name="3-hydroxy-4-methyl-anthranilate biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7743" name="dimycocerosyl triglycosyl phenolphthiocerol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7474" name="avenacin A-2 biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8367" name="hygromycin B biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6976" name="dTDP-beta-L-mycarose biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-7696" name="citreoisocoumarin and bikisocoumarin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SCE-68952" name="DNA replication initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7160" name="polymethylated myricetin biosynthesis (tomato)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7655" name="dechlorogriseofulvin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7607" name="meleagrin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-102" name="gibberellin inactivation I (2beta-hydroxylation)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7533" name="gliotoxin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7185" name="UTP and CTP dephosphorylation I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6971" name="oleandomycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-6782210" name="Gap-filling DNA repair synthesis and ligation in TC-NER"/>
+            <pathway-xref db="Reactome" id="R-HSA-5696397" name="Gap-filling DNA repair synthesis and ligation in GG-NER"/>
+            <pathway-xref db="Reactome" id="R-HSA-201722" name="Formation of the beta-catenin:TCF transactivating complex"/>
+            <pathway-xref db="Reactome" id="R-SPO-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-5036" name="gibberellin biosynthesis II (early C-3 hydroxylation)"/>
+            <pathway-xref db="Reactome" id="R-HSA-5696400" name="Dual Incision in GG-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-5665" name="vanillin biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-174437" name="Removal of the Flap Intermediate from the C-strand"/>
+            <pathway-xref db="MetaCyc" id="PWY-7172" name="flavonol acylglucoside biosynthesis III - quercetin derivatives"/>
+            <pathway-xref db="MetaCyc" id="PWY-6314" name="plumbagin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-174411" name="Polymerase switching on the C-strand of the telomere"/>
+            <pathway-xref db="Reactome" id="R-MMU-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="Reactome" id="R-CEL-110314" name="Recognition of DNA damage by PCNA-containing replication complex"/>
+            <pathway-xref db="Reactome" id="R-RNO-201722" name="Formation of the beta-catenin:TCF transactivating complex"/>
+            <pathway-xref db="Reactome" id="R-HSA-9735869" name="SARS-CoV-1 modulates host translation machinery"/>
+            <pathway-xref db="MetaCyc" id="PWY-7765" name="3-hydroxy-4-methyl-anthranilate biosynthesis II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7155" name="7-dehydroporiferasterol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6032" name="digitoxigenin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7592" name="arachidonate biosynthesis III (6-desaturase, mammals)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8463" name="5,6-dehydrokavain biosynthesis (engineered)"/>
+            <pathway-xref db="Reactome" id="R-DME-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7473" name="avenacin A-1 biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7739" name="aucuparin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7716" name="penicillin G and penicillin V biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5059" name="pinobanksin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-CEL-5655862" name="Translesion synthesis by POLK"/>
+            <pathway-xref db="MetaCyc" id="PWY-8407" name="fumagillin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-174417" name="Telomere C-strand (Lagging Strand) Synthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8361" name="apratoxin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8152" name="androstenedione degradation II (anaerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-5765" name="1,3,5-trimethoxybenzene biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5048" name="rosmarinic acid biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-8374" name="antimycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7977" name="L-methionine biosynthesis IV"/>
+            <pathway-xref db="MetaCyc" id="PWY-7475" name="des-methyl avenacin A-1 biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6320" name="phaselate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-GGA-353503" name="Translesion synthesis by Pol kappa"/>
+            <pathway-xref db="MetaCyc" id="PWY-6835" name="6-gingerol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6407" name="yersiniabactin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-174430" name="Telomere C-strand synthesis initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8055" name="palmitoyl ethanolamide biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-5651801" name="PCNA-Dependent Long Patch Base Excision Repair"/>
+            <pathway-xref db="MetaCyc" id="PWY-8031" name="epiberberine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9710421" name="Defective pyroptosis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7570" name="blasticidin S biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-69183" name="Processive synthesis on the lagging strand"/>
+            <pathway-xref db="Reactome" id="R-SCE-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-5984" name="rifamycin B biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6442" name="spermidine hydroxycinnamic acid conjugates biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-68952" name="DNA replication initiation"/>
+            <pathway-xref db="Reactome" id="R-RNO-5685942" name="HDR through Homologous Recombination (HRR)"/>
+            <pathway-xref db="MetaCyc" id="PWY-5975" name="furaneol and mesifurane biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-110320" name="Translesion Synthesis by POLH"/>
+            <pathway-xref db="MetaCyc" id="PWY-7450" name="anthocyanidin modification (Arabidopsis)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7045" name="mithramycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-113501" name="Inhibition of replication initiation of damaged DNA by RB1/E2F1"/>
+            <pathway-xref db="MetaCyc" id="PWY-8122" name="mycofactocin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7354" name="aclacinomycin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-2564830" name="Cytosolic iron-sulfur cluster assembly"/>
+            <pathway-xref db="MetaCyc" id="PWY-7415" name="tylosin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7517" name="brassicicene C biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7363" name="papaverine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6946" name="cholesterol degradation to androstenedione II (cholesterol dehydrogenase)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7530" name="Escherichia coli serotype O:104 O antigen biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-5268" name="salvianin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-CEL-6782135" name="Dual incision in TC-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-8076" name="8-O-methylated benzoxazinoid glucoside biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8326" name="grayanate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DDI-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-6312" name="aloin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7534" name="gliotoxin inactivation"/>
+            <pathway-xref db="MetaCyc" id="PWY-6673" name="caffeoylglucarate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-601" name="glucosinolate biosynthesis from tryptophan"/>
+            <pathway-xref db="MetaCyc" id="PWY-6799" name="fatty acid biosynthesis initiation (plant mitochondria)"/>
+            <pathway-xref db="MetaCyc" id="PWY-5473" name="hydroxycinnamic acid serotonin amides biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6919" name="neopentalenoketolactone and pentalenate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7656" name="Spodoptera littoralis pheromone biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7079" name="geodin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6453" name="stigma estolide biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8381" name="sulfazecin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7692" name="bikaverin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7811" name="6-methylpretetramide biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-174417" name="Telomere C-strand (Lagging Strand) Synthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-5685942" name="HDR through Homologous Recombination (HRR)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7439" name="dTDP-beta-L-evernitrose biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7186" name="superpathway of scopolin and esculin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8082" name="glycine lipid biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7565" name="aspyridone A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6920" name="6-gingerol analog biosynthesis (engineered)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7769" name="phosalacine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7632" name="hinokiresinol biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7742" name="phenolphthiocerol biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-9609690" name="HCMV Early Events"/>
+            <pathway-xref db="MetaCyc" id="PWY-6378" name="putrebactin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8447" name="carminate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7058" name="esculetin modification"/>
+            <pathway-xref db="MetaCyc" id="PWY-7602" name="icosapentaenoate biosynthesis V (8-desaturase, lower eukaryotes)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7706" name="dapdiamides biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8172" name="10-methylstearate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7988" name="baumannoferrin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-68962" name="Activation of the pre-replicative complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-7318" name="dTDP-3-acetamido-3,6-dideoxy-alpha-D-glucose biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-RNO-110314" name="Recognition of DNA damage by PCNA-containing replication complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-7986" name="anguibactin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5903" name="bacillibactin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7738" name="polyacyltrehalose biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7687" name="stipitatate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7375" name="mRNA capping I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7379" name="mRNA capping II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6379" name="alcaligin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7689" name="8-O-methylfusarubin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-164516" name="Minus-strand DNA synthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-110312" name="Translesion synthesis by REV1"/>
+            <pathway-xref db="MetaCyc" id="PWY-4021" name="beta-alanine betaine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7198" name="pyrimidine deoxyribonucleotides de novo biosynthesis IV"/>
+            <pathway-xref db="MetaCyc" id="PWY-8058" name="2-deoxy-D-ribose degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7730" name="T-2 toxin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-4161" name="superpathway of benzoxazinoid glucosides biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-MMU-6783310" name="Fanconi Anemia Pathway"/>
+            <pathway-xref db="Reactome" id="R-DME-110320" name="Translesion Synthesis by POLH"/>
+            <pathway-xref db="MetaCyc" id="PWY-7649" name="3-hydroxy-L-homotyrosine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-174411" name="Polymerase switching on the C-strand of the telomere"/>
+            <pathway-xref db="MetaCyc" id="PWY-7577" name="ferrichrome biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-5696400" name="Dual Incision in GG-NER"/>
+            <pathway-xref db="MetaCyc" id="PWY-7407" name="aurachin A, B, C and D biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-175474" name="Assembly Of The HIV Virion"/>
+            <pathway-xref db="Reactome" id="R-DME-5656169" name="Termination of translesion DNA synthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6930" name="phenolic malonylglucosides biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6627" name="salinosporamide A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8360" name="hectochlorin biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-68952" name="DNA replication initiation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7940" name="lauryl-hydroxychlorobactene glucoside biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-5358565" name="Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8080" name="kainate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7405" name="aurachin RE biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-110314" name="Recognition of DNA damage by PCNA-containing replication complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-8358" name="curacin A biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6039" name="chlorogenic acid biosynthesis I"/>
+            <pathway-xref db="MetaCyc" id="PWY-6477" name="gibberellin inactivation II (methylation)"/>
+            <pathway-xref db="Reactome" id="R-HSA-9694676" name="Translation of Replicase and Assembly of the Replication Transcription Complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-6945" name="cholesterol degradation to androstenedione I (cholesterol oxidase)"/>
+            <pathway-xref db="Reactome" id="R-RNO-5358565" name="Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7464" name="cyanidin 3,7-diglucoside polyacylation biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7072" name="hopanoid biosynthesis (bacteria)"/>
+            <pathway-xref db="Reactome" id="R-HSA-180910" name="Vpr-mediated nuclear import of PICs"/>
+            <pathway-xref db="Reactome" id="R-CEL-69166" name="Removal of the Flap Intermediate"/>
+            <pathway-xref db="MetaCyc" id="PWY-7815" name="poly(ribitol phosphate) wall teichoic acid biosynthesis I (B. subtilis)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7726" name="(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate biosynthesis (6-desaturase)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6763" name="salicortin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7274" name="D-cycloserine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5794" name="malonate degradation I (biotin-independent)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6339" name="syringate degradation"/>
+            <pathway-xref db="Reactome" id="R-RNO-171319" name="Telomere Extension By Telomerase"/>
+            <pathway-xref db="Reactome" id="R-MMU-5358565" name="Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)"/>
+            <pathway-xref db="Reactome" id="R-MMU-5685942" name="HDR through Homologous Recombination (HRR)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7076" name="3,5-dimethoxytoluene biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-5651801" name="PCNA-Dependent Long Patch Base Excision Repair"/>
+            <pathway-xref db="Reactome" id="R-SPO-110320" name="Translesion Synthesis by POLH"/>
+            <pathway-xref db="MetaCyc" id="PWY-6310" name="aloenin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7705" name="quinolinone B biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-8210" name="pyrrolomycin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6346" name="staurosporine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-SPO-110312" name="Translesion synthesis by REV1"/>
+            <pathway-xref db="Reactome" id="R-SPO-110314" name="Recognition of DNA damage by PCNA-containing replication complex"/>
+            <pathway-xref db="MetaCyc" id="PWY-5292" name="vindoline, vindorosine and vinblastine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7440" name="dTDP-beta-L-4-epi-vancosamine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7280" name="ternatin C3 biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-5301" name="ajmaline and sarpagine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-164843" name="2-LTR circle formation"/>
+            <pathway-xref db="Reactome" id="R-DME-5655862" name="Translesion synthesis by POLK"/>
+            <pathway-xref db="Reactome" id="R-CEL-5696397" name="Gap-filling DNA repair synthesis and ligation in GG-NER"/>
+            <pathway-xref db="Reactome" id="R-DME-5656121" name="Translesion synthesis by POLI"/>
+            <pathway-xref db="MetaCyc" id="PWY-7984" name="acinetobactin biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6027" name="capsiconiate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7907" name="(2S,3E)-2-amino-4-methoxy-but-3-enoate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-HSA-5621480" name="Dectin-2 family"/>
+            <pathway-xref db="MetaCyc" id="PWY-7555" name="alpha-cyclopiazonate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7954" name="tabtoxinine-beta-lactam biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7608" name="neoxaline biosynthesis"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0049395</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="502" start="261" end="458">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="261" end="458" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>
