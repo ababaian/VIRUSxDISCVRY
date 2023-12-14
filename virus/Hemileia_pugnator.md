@@ -4,7 +4,7 @@ written by: Flora HILT
 ### Hemileia pugnator
 As with all newly characterized mitoviruses, the initial segment of this mitovirus name corresponds to the infected host, Hemileia vastatrix. Given its potential role in inducing a hypovirulent state in its host and recognizing that Hemileia vastatrix poses a significant threat to our beloved coffee, the concluding portion of its Latin name symbolizes its potential involvement in this battle, signifying "fighter." Now, let's meet Hemileia pugnator!
 
-![Hemileia pugnator - a Coffee Lover](virus/Hemileia_pugnator/H_pugnator_cover.jpg)
+![Hemileia pugnator - a Coffee Lover](img/Hemileia_pugnator/H_pugnator_cover.jpg)
 
 ## Abstract
 
@@ -22,26 +22,26 @@ Hemileia vastatrix is a basidiomycota fungus belonging to the Pucciniales order.
 To combat this plant pathogen effectively, two essential components are required. Firstly, comprehensive genomic and transcriptomic data of Hemileia vastatrix at various stages of its life cycle are necessary. Secondly, understanding the genome and transcriptome of coffee plants at different time points during infection by Hemileia vastatrix is crucial [Porto et al. 2019; Talhinhas et al. 2014]. The ultimate goal is to gain deeper insights into the "enemy" and its pathogenic mechanisms, uncovering its vulnerabilities for more effective strategies.
 
 #### Detection of Hemileia pugnator
-Hemileia pugnator has been detected in the context of five projects aligned with this objective: (i) in the Hemileia vastatrix genome sequencing and assembly conducted by Cristancho et al. in 2018; (ii) in an experiment investigating the Hemileia vastatrix race XXXIII uredinospore transcriptome upon germination; (iii) in the transcriptome analysis of coffee plant leaves from Brazilian regions where Hemileia vastatrix race XXXIII has been identified; (iv and v) in two time-course experiments where leaves of "resistant" coffee plants were infected by germinated uredinospores of Hemileia vastatrix race XXXIII, followed by transcriptome analysis. For the latter four projects, no affiliated publications exist, and three of them originate from the same laboratory at the Universidade Federal de Vicosa (Brazil). All relevant information regarding these projects, including samples and the runs in which Hemileia pugnator was detected, can be found in [Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx](virus/Hemileia_pugnator/Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx).
+Hemileia pugnator has been detected in the context of five projects aligned with this objective: (i) in the Hemileia vastatrix genome sequencing and assembly conducted by Cristancho et al. in 2018; (ii) in an experiment investigating the Hemileia vastatrix race XXXIII uredinospore transcriptome upon germination; (iii) in the transcriptome analysis of coffee plant leaves from Brazilian regions where Hemileia vastatrix race XXXIII has been identified; (iv and v) in two time-course experiments where leaves of "resistant" coffee plants were infected by germinated uredinospores of Hemileia vastatrix race XXXIII, followed by transcriptome analysis. For the latter four projects, no affiliated publications exist, and three of them originate from the same laboratory at the Universidade Federal de Vicosa (Brazil). All relevant information regarding these projects, including samples and the runs in which Hemileia pugnator was detected, can be found in [Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx](img/Hemileia_pugnator/Table1_Bioprojects_Samples_Runs_Hemileia_pugnator.xlsx).
 
 The common denominator is the presence of Hemileia vastatrix race XXXIII. Therefore, in accordance with the observation that mitoviruses are preferentially located in the mitochondria of plant pathogenic fungi, and considering the report of mitoviruses in a basidiomycota causing a rust-like disease [Liu et al. 2016], Hemileia pugnator is postulated as a new mitovirus infecting the mitochondria of Hemileia vastatrix race XXXIII. In the case of transcriptomic analysis of non-infected coffee plants, it is conceivable that the genome of Hemileia pugnator was integrated into the mitochondrial genome of these plants during an ancestral infection by Hemileia vastatrix race XXXIII or an unknown mitovirus sharing a high identity degree. Due to the intracellular nature of the infection, the fusion between Hemileia vastatrix cells and the coffee plant cells might have resulted in the integration of the mitovirus into the plant mitochondria as a cryptic virus, which could be present in the descendants of these coffee plants. However, the mechanisms underlying this phenomenon, observed between various mitoviruses and plants [Nibert et al. 2018], remain undefined.
 
 
 ### Hemileia pugnator genome
 
-*Hemileia pugnator* genome with key features can be visualized in the [H_pugnator_Genome.png](virus/Hemileia_pugnator/H_pugnator_Genome.png) file. All the sequences related to *Hemileia pugnator* (genome, RdRp) can be found in the fasta files [H_pugnator_Genome_seq](virus/Hemileia_pugnator/H_pugnator_Genome_seq.fa) and [H_pugnator_RdRp_seq](virus/Hemileia_pugnator/H_pugnator_Genome_seq.fa). 
+*Hemileia pugnator* genome with key features can be visualized in the [H_pugnator_Genome.png](img/Hemileia_pugnator/H_pugnator_Genome.png) file. All the sequences related to *Hemileia pugnator* (genome, RdRp) can be found in the fasta files [H_pugnator_Genome_seq](img/Hemileia_pugnator/H_pugnator_Genome_seq.fa) and [H_pugnator_RdRp_seq](img/Hemileia_pugnator/H_pugnator_Genome_seq.fa). 
 
-Its genome is composed of one single open reading frame,as assessed by the ORF Finder tool available on NCBI, in the positive sens of the RNA which corresponds to the characteristics of mitoviruses. Moreover, this single open reading frame is predicted to encode for a protein with a mitovirus-like RdRp functional domain using InterProScan (cf [H_pugnator_fct_domains.xlm](virus/Hemileia_pugnator/Supplementary_data/Motifs/H_pugnator_fct_domains.xml)).
+Its genome is composed of one single open reading frame,as assessed by the ORF Finder tool available on NCBI, in the positive sens of the RNA which corresponds to the characteristics of mitoviruses. Moreover, this single open reading frame is predicted to encode for a protein with a mitovirus-like RdRp functional domain using InterProScan (cf [H_pugnator_fct_domains.xlm](img/Hemileia_pugnator/Supplementary_data/Motifs/H_pugnator_fct_domains.xml)).
 
-![Hemileia pugnator genome map](virus/Hemileia_pugnator/H_pugnator_Genome.PNG)
+![Hemileia pugnator genome map](img/Hemileia_pugnator/H_pugnator_Genome.PNG)
 Figure 1 : Simplified representation of Hemileia pugnator genome with key features.
 
 
 ### Mitoviruses RdRp motifs in Hemileia pugnator RdRp
 
-To verify the presence of the six characteristic motifs of mitoviruses RdRp [Shafik et al. 2021] in the *Hemileia pugnator* RdRp, a multiple alignment was performed using the MUSCLE tool on EMBL-EBI [Madeira et al. 2022], incorporating the sequences of the six mitoviruses exhibiting the highest percentage identity based on BLASTp results with the lowest E-value. The sequences used are detailed in the fasta document [Motifs_H_pugnator_seq_align](virus/Hemileia_pugnator/Supplementary_data/Motifs_H_pugnator_seq_align.fa), and the resulting alignment can be found in [Motifs_H_pugnator_align.clw](virus/Hemileia_pugnator/Supplementary_data/Motifs_H_pugnator_align/aln). For clarity, the alignment has been annotated. As anticipated, the six motifs distinctive of mitovirus RdRp exhibit a high level of conservation in *Hemileia pugnator*.
+To verify the presence of the six characteristic motifs of mitoviruses RdRp [Shafik et al. 2021] in the *Hemileia pugnator* RdRp, a multiple alignment was performed using the MUSCLE tool on EMBL-EBI [Madeira et al. 2022], incorporating the sequences of the six mitoviruses exhibiting the highest percentage identity based on BLASTp results with the lowest E-value. The sequences used are detailed in the fasta document [Motifs_H_pugnator_seq_align](img/Hemileia_pugnator/Supplementary_data/Motifs_H_pugnator_seq_align.fa), and the resulting alignment can be found in [Motifs_H_pugnator_align.clw](img/Hemileia_pugnator/Supplementary_data/Motifs_H_pugnator_align/aln). For clarity, the alignment has been annotated. As anticipated, the six motifs distinctive of mitovirus RdRp exhibit a high level of conservation in *Hemileia pugnator*.
 
-![Motifs](virus/Hemileia_pugnator/H_pugnator_Motifs.PNG)
+![Motifs](img/Hemileia_pugnator/H_pugnator_Motifs.PNG)
 Figure 2: Conserved motifs of mitovirus genome in Hemileia pugnator. MUSCLE alignment with the six top hits of BLASTp (non redundant protein database) belonging to the mitoviridae taxon (identity < 40% and E-value > 1 e-60). Visualization using Jalview and Clustal colors. Each mitovirus RdRp is designated by the infected host. Motifs are numerotated from I to VI. Conservation of each amino acids in the considered position is indicated under the alignment.
 
 
@@ -49,15 +49,15 @@ Figure 2: Conserved motifs of mitovirus genome in Hemileia pugnator. MUSCLE alig
 
 Next, using the _Mfold_ web server [Zuker, 2003], three-dimensional structures for the 5' end (first 58 ribonucleotides) and 3' end (last 166 ribonucleotides) of *Hemileia pugnator* RNA genome were determined. The 5' end is predicted to fold into two stem-loop structures with a ΔG of -16.60 kcal/mol. The 3' end is anticipated to harbor five stem-loop structures with a ΔG of -59.60 kcal/mol. These ΔG values suggest potential stability for these structures. These predictions align with previously documented mitovirus RdRp RNA structures [Shafik et al. 2021, Liu et al. 2016].
 
-![Structures](virus/Hemileia_pugnator/H_pugnator_Structures.PNG)
+![Structures](img/Hemileia_pugnator/H_pugnator_Structures.PNG)
 Figure 3: Secondary structure of Hemileia pugnator single-stranded positif RNA genome 5’end (left) and 3’end (right). Structure predicted using Mfold web server. Gibbs free energy for each structure is indicated below. For 5’ end : 58 first ribonucleotides. For 3’ end : 166 last nucleotides.
 
 
 ### Hemileia pugnator in the Mitovirus family
 
-A multiple sequence alignment using MUSCLE [Madeira et al. 2022] has been realised with Hemileia pugnator RdRp and all the complete RdRp sequences of mitoviruses available on NCBI Virus (214 in total). The sequences are contained in the file [Sequences_All_RdRp_mitoviruses.fa](virus/Hemileia_pugnator/Supplementary_data/Phylogenetic_analysis/Sequences_All_RdRp_mitoviruses.fa) and the alignment in [Align_All_RdRp_mitoviruses.aln](virus/Hemileia_pugnator/Supplementary_data/Phylogenetic_analysis/Align_All_RdRp_mitoviruses.fa). This alignment has been submitted to IQ-TREE web server [Nguyen et al. 2015] for construction of a phylogenetic tree base on the maximum likelihood with 1000 bootstraps, and visualized with iTOL [Ivica et al. 2021].
+A multiple sequence alignment using MUSCLE [Madeira et al. 2022] has been realised with Hemileia pugnator RdRp and all the complete RdRp sequences of mitoviruses available on NCBI Virus (214 in total). The sequences are contained in the file [Sequences_All_RdRp_mitoviruses.fa](img/Hemileia_pugnator/Supplementary_data/Phylogenetic_analysis/Sequences_All_RdRp_mitoviruses.fa) and the alignment in [Align_All_RdRp_mitoviruses.aln](img/Hemileia_pugnator/Supplementary_data/Phylogenetic_analysis/Align_All_RdRp_mitoviruses.fa). This alignment has been submitted to IQ-TREE web server [Nguyen et al. 2015] for construction of a phylogenetic tree base on the maximum likelihood with 1000 bootstraps, and visualized with iTOL [Ivica et al. 2021].
 
-![Phylogenetic tree](virus/Hemileia_pugnator/H_pugnator_Phylo_unrooted.PNG)
+![Phylogenetic tree](img/Hemileia_pugnator/H_pugnator_Phylo_unrooted.PNG)
 Figure 4: Unrooted phylogenetic tree of all the mitovirus RdRp currently reported with Hemileia pugnator RdRp. MUSCLE alignment used to build the tree using IQ-TREE (1000 bootstraps) and visualized with iTOL. Some reported genus of mitoviruses are annotated.
 
 
