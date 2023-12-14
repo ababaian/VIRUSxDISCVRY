@@ -47,9 +47,9 @@ An index of the Virus Discovery Reports.
 
 - [Black Queen Cell Virus - Picornavirus](virus/BQCV.md)
 - [Cripavirus inexspectatus - Dicistrovirus](virus/Cripavirus_inexspectatus.md)
-- [Hemileia pugnator - Mitovirus. _99%_](virus/Hemileia_pugnator.md)
+- [Hemileia pugnator - Mitovirus. _~= 99% =~_](virus/Hemileia_pugnator.md)
 - [Hemiptinidovirus metis - Nidovirus](virus/H_metis.md)
-- [Hespivirus rivalense - Negevirus _99%_](virus/hespivirus_rivalense.md)
+- [Hespivirus rivalense - Negevirus _~= 99% =~_](virus/hespivirus_rivalense.md)
 - [Locarnavirus Nudiformis - Marnavirus](virus/Locarnavirus_nudiformis.md)
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
 - [Sedimentum occultus - Picornavirus](virus/sedimentum_occultus.md)
