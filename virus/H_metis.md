@@ -31,7 +31,6 @@ The majority of sequencing results were found in species of treehoppers and leaf
 
 I generated two alignments and resulting phylogenetic trees.
 
-H_metis_img
 ![image](img/H_metis_img/Hmetisalignment.png)
 **Figure 2: Sequence alignments** A: Alignment of Rdrp protein sequences of top hits from BLASTp. B: Alignment of Rdrp protein sequences from the Nidovirales order. Alignments created using Clustal W and visualized in Jalview.
 
@@ -39,7 +38,7 @@ The first tree and alignment is of BLASTp sequences [@Altschul1990]. BLAST resul
 
 The second tree and alignment aimed to identify how the unknown virus was related to other viruses in the Nidovirus order. I used the NCBI Virus search to find Rdrp sequences of Nidoviruses from each family within [@Wheeler2003]. I was unable to find sequences for Abnidovirineae, Monidovirineae, Nanidovirinae, or Tornidovirineae. For the other four families, I used Rdrp sequences that best matched the length of my virus' Rdrp (420 amino acids), as highly disparate lengths can disrupt proper alignment [@Lassmann2002]. I also included two picornavirus sequences from insects to see if the unknown virus may in fact not be a nidovirus. Alignment of Rdrp sequences was done using EBI's protein alignment tool Clustal W [@Sievers2011]. Alignments were visualized using Jalview [@Waterhouse2009]. Tree generation was done in IQ-TREE using the BLOSUM62+G4 [@Nguyen2015] substutition model (which had the lowest BIC value when testing different models). The tree was visualized using FigTree [@Rambaut2010].
 
-![image](/img/H_metis_img/Hmetisphylogenetictrees.png)
+![image](img/H_metis_img/Hmetisphylogenetictrees.png)
 **Figure 3: Phylogenetic trees**. A: Phylogenetic tree of Rdrp protein sequences of top hits from BLASTp. BLAST result name and NCBI taxid are listed. H. metis is more related to predicted nidoviruses and unknown viruses than predicted picornaviruses. B: Phylogenetic tree of of Rdrp protein sequences from the Nidovirales order. H. metis is cloest related to other Nidovirales and not Picornaviruses, specifically the Nidovirus family of small viruses (Arnidovirineae). Family, virus name, and host animal are listed.
 
 
