@@ -50,7 +50,7 @@ An index of the Virus Discovery Reports.
 - [Hemileia pugnator - Mitovirus](virus/Hemileia_pugnator.md)
 - [Hemiptinidovirus metis - Nidovirus](virus/H_metis.md)
 - [Hespivirus rivalense - Negevirus](virus/hespivirus_rivalense.md)
-- [Locarnavirus Nudiformis - Marnavirus](virus/Locarnavirus Nudiformis.md)
+- [Locarnavirus Nudiformis - Marnavirus](virus/Locarnavirus_nudiformis.md)
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
 - [Sedimentum occultus - Picornavirus](virus/sedimentum_occultus.md)
 - [Vermisvirus culicis - Negevirus](virus/vermisvirus_culicis.md)
