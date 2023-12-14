@@ -24,7 +24,7 @@ The majority of sequencing results were found in species of treehoppers and leaf
 
 ### Predicted genomic structure of H. metis
 
-![image](/img/H_metis_img/Hmetisgenome.png)
+![image](virus/img/H_metis_img/Hmetisgenome.png)
 **Figure 1: Genome structure of H. metis.** The virus contains 2 ORFs connected by a ribosomal frameshift site, characteristic of Nidovirales. The ORFs contain some expected proteins such as Protease, RNA polymerase, and Helicase, but some conserved domains of Nidovirales were not detected. Additional ORFs encoding for structural proteins were not detected.
 
 ### Multiple sequence alignment and phylogenetic tree construction
