@@ -25,7 +25,7 @@ In the intricate world of parasitic protozoa and their viruses, the study of Tri
 
 Visualization of all BLAST hits with \>80% query coverage and \>40% amino acid identity with Jalview [Troshin. 2011].
 
-![BLASTHitsVisualPart](virus/img/VirususIntricatusTrichomonadis/BLASTHitsVisualPart.png)
+![BLASTHitsVisualPart](img/VirususIntricatusTrichomonadis/BLASTHitsVisualPart.png)
 
 ## Discussion
 
