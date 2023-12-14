@@ -20,19 +20,19 @@ For the SRR13764151 (Ebo) and SRR13764152 (Em) dataset, the analysis tab of the 
 
 ### RNAfold Structure of Dicistrovirus Contig 
 
-![](img/Dicistrovirus/RNAfold_structures.PNG)
+![](img/Cripavirus_inexspectatus/RNAfold_structures.PNG)
 
 **Figure 1**: Predicted RNAfold structures of the sequence of my dicistrovirus (Node_1134). The confidence scores are labelled by color (red is highest confidence). There is a predicted RNA element in the middle of the sequence which may be an IRES (dicistroviruses have an IRES between two ORFs). 
 
 ### Dicistrovirus Genome Fragment
 
-![](img/Dicistrovirus/Genome_map.PNG)
+![](img/Cripavirus_inexspectatus/Genome_map.PNG)
 
 **Figure 2**: Genome annotation of the contig of my virus. This node_1143 is not the complete contig as we see that there is no full 5'UTR and 3'UTR. I got two large ORFs from ORFfinder (separated by a gap) and got the domains from InterproScan. The position of the A, B, and C motifs of RdRP are indicated on the map. 
 
 ### AlphaFold Predicted 3D Structure of this Dicistrovirus Strain RNA-dependent RNA Polymerase (RdRp)
 
-![](img/Dicistrovirus/RdRp_structure.png)
+![](img/Cripavirus_inexspectatus/RdRp_structure.png)
 
 **Figure 3**: AlphaFold structure of RdRp with motifs A (blue), B (green), and C (red) visualized. Most of the residues of this AlphaFold structure had a pLDDT > 90. 
 
@@ -42,11 +42,11 @@ The novel dicistrovirus has an Rdrp sOTU number of u257616 and SRA number SRR137
 
 I ran virusRdRpCandidates.fa, then I took Node_1143 which had all three palmprint motifs A, B, and C and the longest sequence. I used the amino acid sequence of Node_1143 for this problem. I determined all the other RdRP sequences in the dicistroviridae family using NCBI (blastp and then the taxonomy tab which specified dicistrovirus). I put these sequences with the sequence of the Node_1143 Rdrp into MUSCLE. Then I visualized the alignment in Jalview.
 
-[Figure 4](img/Dicistrovirus/Sequence_alignment_final.png)
+[Figure 4](img/Cripavirus_inexspectatus/Sequence_alignment_final.png)
 
 **Figure 4**: The top sequence is the Rdrp sequence and the lower sequences are the other Rdrp sequences in the dicistrovirus family. This alignment was made in MUSCLE and viewed in Jalview. 
 
-![](img/Dicistrovirus/Tree.png)
+![](img/Cripavirus_inexspectatus/Tree.png)
 
 **Figure 5**: Phylogenetic tree generated in IQTree of the multiple sequence alignment in Figure 4 and visualized in Dendroscope.
 
