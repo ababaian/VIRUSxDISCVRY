@@ -31,14 +31,14 @@ Based on results generated using the blastx tool in NCBI, our novel virus is mos
 
 ### Virus Genome
 
-![Genome Map](img/genomemap.png)
+![Genome Map](img/Blumevirus_macaceinfi/genomemap.png)
 
 Figure 1. The read coverage visualization graph was generated using the Intergrative Genomics Viewer (IGV) [Robinson JT et al. 2011]. The read coverage map show how similar the aligments were to the reference genome, the nucleotide sequence of our node. Higher peaks indicate regions with more sequencing reads, or read depth. We can see that the coverage varies quite a bit throughout, with only four positions where nucleotides are conserved across multiple reads. The coverage being not really uniform suggests there might be sequencing biases.
 The genome arrow map was generated with the R code below [Wilkins D. 2023]. The "positions_df" data frame includes the positions calculated relative to the entire contig of length 4360 amino acids, hence we derived that the contig is 13080 nts long. Based on ORF3 start and end positions obtained from ORFfinder search, we calculated the positions of the motifs ABC, and multiplied all these positions by 3 to account for amino acid to nucleotide change. The relative positions were then calculated and inputted into the data frame for plotting.
 
 ### Virus RdRP Structure
 
-![Pymol](img/pymol.png)
+![Pymol](img/Blumevirus_macaceinfi/pymol.png)
 
 Figure 2. Cartoon protein structure generated using Pymol. [Schrödinger L. 2020].
 
