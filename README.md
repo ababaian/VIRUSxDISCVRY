@@ -28,14 +28,34 @@
 
 An index of the software tutorial.
 
+- [HHpred](tools/HHpred.md)
+- [Infernal](tools/Infernal.md)
+- [iqtree](tools/iqtree.md)
+- [MGnify_search](tools/MGnify_search.md)
+- [muscle](tools/muscle.md)
+- [NCBI Taxonomy](tools/ncbi_tax.md)
+- [palmID](tools/palmID.md)
+- [PepInfo](tools/PepInfo.md)
+- [RNAfold](tools/RNAfold.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
-- [Insert Tool Tutorial Here](tools/toolTemplate.md)
+- [sixpack](tools/sixpack.md)
+- [Insert Tool Tutorial Here ...](tools/toolTemplate.md)
 
 ## Virus Index
 
 An index of the Virus Discovery Reports.
 
-- [Insert Virus Name Here](virus/virTemplate.md)
+- [Black Queen Cell Virus - Picornavirus](virus/BQCV.md)
+- [Cripavirus inexspectatus - Dicistrovirus](virus/Cripavirus_inexspectatus.md)
+- [Hemileia pugnator - Mitovirus](virus/Hemileia_pugnator.md)
+- [Hemiptinidovirus metis - Nidovirus](virus/H_metis.md)
+- [Hespivirus rivalense - Negevirus](virus/hespivirus_rivalense.md)
+- [Locarnavirus Nudiformis - Marnavirus](virus/Locarnavirus Nudiformis.md)
+- [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
+- [Sedimentum occultus - Picornavirus](virus/sedimentum_occultus.md)
+- [Vermisvirus culicis - Negevirus](virus/vermisvirus_culicis.md)
+- [Insert Virus Name Here ...](virus/virTemplate.md)
+
 
 ## Project Organization
 
