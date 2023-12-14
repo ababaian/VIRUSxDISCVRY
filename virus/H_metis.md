@@ -24,21 +24,21 @@ The majority of sequencing results were found in species of treehoppers and leaf
 
 ### Predicted genomic structure of H. metis
 
-![image](/virus/img/H_metis_img/Hmetisgenome.png)
+![image](img/H_metis/Hmetisgenome.png)
 **Figure 1: Genome structure of H. metis.** The virus contains 2 ORFs connected by a ribosomal frameshift site, characteristic of Nidovirales. The ORFs contain some expected proteins such as Protease, RNA polymerase, and Helicase, but some conserved domains of Nidovirales were not detected. Additional ORFs encoding for structural proteins were not detected.
 
 ### Multiple sequence alignment and phylogenetic tree construction
 
 I generated two alignments and resulting phylogenetic trees.
 
-![image](img/H_metis_img/Hmetisalignment.png)
+![image](img/H_metis/Hmetisalignment.png)
 **Figure 2: Sequence alignments** A: Alignment of Rdrp protein sequences of top hits from BLASTp. B: Alignment of Rdrp protein sequences from the Nidovirales order. Alignments created using Clustal W and visualized in Jalview.
 
 The first tree and alignment is of BLASTp sequences [@Altschul1990]. BLAST results on the Rdrp sequence of H. metis returned nine sequences with query coverage greater than 80%. Percent identity of these sequences ranged from 16% to 60%. Alignment of Rdrp sequences of BLASTp hits with >80% query coverage was done using EBI's protein alignment tool Clustal W [@Sievers2011]. Alignments were visualized using Jalview [@Waterhouse2009]. Tree generation was done in IQ-TREE using the BLOSUM62+G4+I substutition model (which had the lowest BIC value when testing different models) [@Nguyen2015]. The tree was visualized using FigTree [@Rambaut2010].
 
 The second tree and alignment aimed to identify how the unknown virus was related to other viruses in the Nidovirus order. I used the NCBI Virus search to find Rdrp sequences of Nidoviruses from each family within [@Wheeler2003]. I was unable to find sequences for Abnidovirineae, Monidovirineae, Nanidovirinae, or Tornidovirineae. For the other four families, I used Rdrp sequences that best matched the length of my virus' Rdrp (420 amino acids), as highly disparate lengths can disrupt proper alignment [@Lassmann2002]. I also included two picornavirus sequences from insects to see if the unknown virus may in fact not be a nidovirus. Alignment of Rdrp sequences was done using EBI's protein alignment tool Clustal W [@Sievers2011]. Alignments were visualized using Jalview [@Waterhouse2009]. Tree generation was done in IQ-TREE using the BLOSUM62+G4 [@Nguyen2015] substutition model (which had the lowest BIC value when testing different models). The tree was visualized using FigTree [@Rambaut2010].
 
-![image](img/H_metis_img/Hmetisphylogenetictrees.png)
+![image](img/H_metis/Hmetisphylogenetictrees.png)
 **Figure 3: Phylogenetic trees**. A: Phylogenetic tree of Rdrp protein sequences of top hits from BLASTp. BLAST result name and NCBI taxid are listed. H. metis is more related to predicted nidoviruses and unknown viruses than predicted picornaviruses. B: Phylogenetic tree of of Rdrp protein sequences from the Nidovirales order. H. metis is cloest related to other Nidovirales and not Picornaviruses, specifically the Nidovirus family of small viruses (Arnidovirineae). Family, virus name, and host animal are listed.
 
 
@@ -100,8 +100,8 @@ Zirkel, Florian, Andreas Kurth, Phenix L. Quan, Thomas Briese, Heinz Ellerbrok, 
 
 Renaissance fairytale/fable
 
-```
-Once upon a time, in a faraway land called "Virome", the royal court was throwing
+
+>Once upon a time, in a faraway land called "Virome", the royal court was throwing
 a ball. All the fairest viruses would be in attendance, hoping to win favour of 
 the prince and enter the royal realm. All the families sent their young maidens 
 and gentlemen: Adenoviridae, Coronaviridae, Herpesviridae, and countless others.
@@ -109,8 +109,8 @@ Yet among all the shimmering gowns and dazzling jewels, one maiden stood out to
 the prince as the most infectious. She was an unkown enigma, and the prince was 
 enchanted -- he knew he must identify her. He rushed over to her, paying no mind
 to the stares and gasps from his other guests at his breach of royal etiquette.
-
-Over her ball gown, she was wearing an intricate cape depicting her sequence, 
+>
+>Over her ball gown, she was wearing an intricate cape depicting her sequence, 
 unlike any other sequence the prince had seen before. There were similarities, 
 the **two open reading frames** flowing down from either shoulder, **one longer** 
 **than the other, likely containing multiple proteins when decoded**. Yet these 
@@ -118,15 +118,14 @@ the **two open reading frames** flowing down from either shoulder, **one longer*
 detect her lineage. "What family are you from?" he asked her breathlessly. 
 "**The Nidoviridae**" she replied coyly. The prince was puzzled -- this was a 
 large family with many descendents, some of them present at the ball.
-
-He questioned her more. "Where do you live?" "**I live amongst the treehoppers**".
+>
+>He questioned her more. "Where do you live?" "**I live amongst the treehoppers**".
 The prince wracked his brain, he had seen his whole kingdom including the treehoppers,
 and did not know how he could have never met her before. "Are there others like you?"
 he demanded. "Yes" she began, "**there are others like me amongst tree and leafhoppers**.
 **Some relatives of mine also reside among citrus plants, and crustaceans**". 
-
-The prince blinked, and the next moment, she was gone. All he had left washer cape
+>
+>The prince blinked, and the next moment, she was gone. All he had left washer cape
 with her sequence. He would have to scour the whole kingdom to find any matches 
 and locate the infectious virus before she became a pandemic. "Ready my BLAST horse"
 he declared, "And tell the Phylogenetic guard to stay ready. This search must commence now".
-```
