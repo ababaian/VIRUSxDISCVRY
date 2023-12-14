@@ -7,7 +7,7 @@ written by: [Yunyi Cheng](https://github.com/yunyicheng)
 - Genus: Virusus intricatus:Virusus: Derived from the Latin word "virus," meaning poison or toxin, reflecting the pathogenic nature of the organism.Intricatus: Latin for intricate or complex, highlighting the sophisticated genomic and replication strategies of Trichomonas vaginalis viruses (TVVs), such as their monosegmented dsRNA structure and the unique mechanism of programmed ribosomal frameshifting.
 - Species: trichomonadis:Derived from "Trichomonas," the genus name of the protozoan host, Trichomonas vaginalis.The genus name acknowledges the complex and intriguing nature of the virus, particularly its genetic ingenuity and adaptability, while the species name cements its exclusive relationship with the Trichomonas vaginalis host, an aspect that's central to the virus's ecological and pathogenic significance.
 
-![Tutorial 2 Generative AI Cover-art](virus/img/VirususIntricatusTrichomonadis/CoverArt.png)
+![Tutorial 2 Generative AI Cover-art](img/VirususIntricatusTrichomonadis/CoverArt.png)
 
 ## Abstract
 
