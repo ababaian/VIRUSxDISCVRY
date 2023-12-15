@@ -6,12 +6,12 @@ output:
   
 ---
 # Hide-and-seek, can you find a ghost?: Identification of novel dsRNA virus from the mushroom meta-data
-written by: [Matin Muradli](https://github.com/yourname *optional link*)
+written by: [Matin Muradli]
 
 ### Orthocurvulavirus phantasma
 *Orthocurvulavirus is the genus of the top three closest hits in blastx. Phantasma means phantom, ghost or apparation in latin. I chose this name, because the suspected RdRp CDS was hidden inside of another ORF, which makes it harder to find. Thus, as a ghost, even if one looks into right direction, it is almost impossible to see it.*
 
-![Generative AI Cover-art](img/Orthocurvulavirus phantasma/cover.jpg)
+![Generative AI Cover-art](virus/img/Orthocurvulavirus phantasma/cover.jpg)
 
 ## Abstract
 
@@ -20,7 +20,7 @@ Advances in sequencing techniques caused an explosion in transcriptomics databas
 
 ## Results
 
-### Ecology subsection A...
+### Ecology of Host Species
 
 The ghost virus was found in the bio-sample "SAMN06314174", introduced in the study of ectomycorrhizal fungi's dynamic genome evolution by Lotus A. Lofgren (1). The reference sample was obtained from the *Suillus weaverae* mushroom. Another bio-sample, SAMN03465334, with similar motifs was submitted by Hui-Ling Liao (2), in which the sample is obtained from the *Suillus granulatus*, while studying gene expression between Pines and their symbiotic Ectomycorrhizal Fungi in the Genus Suillus. Moreover, the same palm print was found in several, root and soil meta-genomes. 
 
@@ -28,31 +28,35 @@ This observation strongly suggests that the ghost is hidden in the mushrooms, es
 
 The shared features of the *Suillus spp.* are their host selectivity and ECM behaviors. There is a need of further research to determine if this particular type of behavior is caused by the virus of interest. On the other hand, coverage of the "ghost" and the sample origins may be interpreted as viral infection, which may cause an inclination to symbiotic relations.
 
-### Virus Genome {Q3}
+### *O.phantasma* genome
 
-![Figure 1](img/Orthocurvulavirus phantasma/Fig_1_RdRp.png)
+![Figure 1](virus/img/Orthocurvulavirus phantasma/Fig_1_RdRp.png)
 
->The longest, ORF that includes the putative RdRp sequence is ORF 14, which starts from the first reading frame in reverse direction.
+> Figure 1. The longest, ORF that includes the putative RdRp sequence is ORF 14, which starts from the first reading frame in reverse direction.
 Moreover, expected A, B, and C motifs are labeled with blue, green, and red ribbons respectively. 
 (The image is generated via Geneious Prime (GP) software)](A3/Fig 1. RdRp.png)
+
+
+The discovered virus has dsRNA genome. Similar to the other *Orthocurvulavirus spp.*, the RdRp sequence length of *O.phantasma* is in the range of 600-680 amino acids. In the figure 1, the blue, green and red ribbons depicts the A, B and C motifs respectively. 
 
 
 ### Other (bonus) sections
 
 
-![Figure 2A](img/Orthocurvulavirus phantasma/Fig2a_Putative_RdRp_3D.png)
-![Figure 2B](img/Orthocurvulavirus phantasma/Fig2b_RDRP_4a623_coverage.png)
+![Figure 2A](virus/img/Orthocurvulavirus phantasma/Fig2a_Putative_RdRp_3D.png)
 
->The predicted 3D configuration of putative RdRp sequence. a) Conserved A, B, and C motifs of the RdRp sequence are labeled blue, green, and red ribbons respectively.
+>Figure 2A. The predicted 3D configuration of putative RdRp sequence. Conserved A, B, and C motifs of the RdRp sequence are labeled blue, green, and red ribbons respectively.
 The 3D configuration is predicted by the AlphaFold 2 and read in PyMol. 
-b) The sequence coverage in the genomic database. Highly conserved active center of the enzyme, shows the highest coverage.
 
+
+![Figure 2B](virus/img/Orthocurvulavirus phantasma/Fig2b_RDRP_4a623_coverage.png)
+
+> Figure 2B. The sequence coverage in the genomic database. Highly conserved active center of the enzyme, shows the highest coverage.
 
 
 ![Figure 3](img/Orthocurvulavirus phantasma/Fig_3_Blastx_Tree.png)
 
->
-Figure 3. Phylogenetic tree of RdRp motifs from various viruses. The putative RdRp sequence was used in BLASTx, and sequence data of the top 10 hits from different species were obtained. 
+> Figure 3. Phylogenetic tree of RdRp motifs from various viruses. The putative RdRp sequence was used in BLASTx, and sequence data of the top 10 hits from different species were obtained. 
 All samples were then subjected to multiple alignment in Geneious Prime (GP) software by using the MUSCLE alignment function. 
 The finished alignment result was used to create the phylogenetic tree, via built-in function of GP.
 The red labeled node is contig of interest, while green labeled nodes are members of Orthocurvulavirus genus.  
@@ -85,8 +89,4 @@ We are planning to specifically check the ECM-forming and non-forming mushrooms'
 
 10) Zhao, Y., Shirouzu, T., Chiba, Y., Hosaka, K., Moriyama, H., Urayama, S., & Hagiwara, D. (2023). Identification of novel RNA mycoviruses from wild mushroom isolates in Japan. Virus Research, 325, 199045. https://doi.org/10.1016/j.virusres.2023.199045
 
-# Viral Short Story
 
-```
-In code-text; include your short story from Tutorial 2 here :)
-```
