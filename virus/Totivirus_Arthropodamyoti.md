@@ -1,17 +1,17 @@
 # {Unveiling a winged sensation: 'Totally Viral' – the bat's blockbuster, Totivirus arthropodamyoti!}
-written by: [Isabel Li](https://github.com/yourname *optional link*)
+written by: [Isabel Li]
 
 ### {Totivirus arthropodamyoti}
 *{Totivirus is for the species that the virus belongs to and the term 'arthropodamyoti' relates to the phylum arthropods and myoti refers to the Myotis species. This relates to the story of my virus because the virus belongs to the Totivirus family and the virus is transferred from the arthropod species to species from Myotis myotis species.}*
 
-![Tutorial 2 Generative AI Cover-art](img/Totivirus Arthropodamyoti/cover.png)
+![Tutorial 2 Generative AI Cover-art](img/Totivirus_Arthropodamyoti/cover.png)
 
 ## Abstract
 This study focuses on a novel virus with the sOTU 'u508736', which we term Totivirus arthropodamyoti(Ta) which was found in 15 SRR runs. BLASTP analysis of an index run SRR1911554 revealed 40 hits, with the top hit being a Totivirus sp. (accession: 'UCD53724.1') exhibiting 56.98% identity, 8e-65 e-value, and 100% query cover. Delving into the taxonomic distribution of the hits shows that most hits derived from the Totiviridae family which belongs to the Riboviria clade. Multiple SRR runs derived from studies studying the virome of bats and arthropods that are found on the surface of bats. Another study was from investigating the genome of soil. From this study there is evidence suggesting the virus is transfered from the organisms in the soil to arthropods and then transferred to bats such as Myotis myotis. Thus, it could be that arthrops are a vector and bats are reservoir hosts for the virus.
 
 ## Results
 
-### Ecology subsection A...
+### Ecology - sOTU ‘u508736’
 
 The virus assigned has the sOTU ‘u508736’, which was associated with 15 SRRs runs in the 'virusobservationsfile'. The assigned index run SRR19115554 was analyzed using BLASTP and produced 40 hits shown in Figure 1. The top hit is a Totivirus sp. with the accession number 'UCD53724.1', a 56.98% identity, 8e-65 e-value, and 100% query cover. The taxonomy of the hits are shown in Figure 2 where it detected several species from the Totiviridae family in the Riboviria clade. The hit with the highest percent identity,UCD53721,was from a paper investigating the virome of bat-infesting arthropods which strongly supports that bats are reservoirs for certain viruses which may have been derived from the blood-sucking arthropods (bat flies, ticks, mites and fleas) that feed on the blood of bats [Xu. 2022]. These bats were from the southwestern Yunnan Province. The second highest percent identity hit UPT53691.1, Zeugodacus tau toti-like virus1, came from a paper investigate the fruit flies, Bactrocera and Zeugodacus, from several provinces in China [Zhang 2022]. Then, I also did tblastn which searched the translated nucleotide sequence database for the protein sequence from SRR1911554. This resulted in the same species as top hits which were from the Totiviridae class.
 
@@ -21,22 +21,22 @@ Overall, most of the publications associated with my findings from BLAST and the
 
 Upon filtering the 'virusRdRPCandidates' file for the barcode 'u508736', it resulted in 2087 matches with an A, B and C motif detected. The highest coverage (144497.99) was 'NODE_21893'. Then, I looked into the transcript using BLAST using the 'Somewhat similar sequences' parameter as there were no significant hits with 'megablast'. There were four hits in this search for similar sequences in which three were from the Totiviridae sp. (MZ218615.1,KY024325.1, MZ218620.1) and one was from Biomphalaria virus 5 (KY024325.1). The associated publications from these Totiviridae hits used environmental samples (animal faecal samles on terrestrial sites) across China. The Biomphalaria virus 5 was found in freshwater snails from the genus Biomphalaria which is a host of the parasite Schistosoma mansoni.
 
-### Virus Genome {Q3}
+### Totivirus arthropodamyoti Genome 
 
 ![Genome map](img/Totivirus_Arthropodamyoti/genome_map.png)
->Figure 1. Genome map of Totivirus Arthropodamyoti. 
+>Figure 1. Genome map of Totivirus Arthropodamyoti. The first open reading frame (3048 nt) encodes a coat protein and the second open reading frame (1821 nt) encodes a RNA-dependent RNA polymerase (RdRp). The RdRp contains conserved motifs A, B, and C shown in red, green and blue respectively.
 
-### Alphafold structure of RdRp
+### Alphafold structure of Totivirus arthropodamyoti RdRp
 
 ![Alphafold](img/Totivirus_Arthropodamyoti/alphafold.png)
->Figure 2. Alphafold structure of contig (NODE 21893 from SRR1911554) with RdRp motifs A (Red) and B(green) and C(blue).
+>Figure 2. Alphafold structure of the Totivirus Arthropodamyoti RdRp. This is a predicted tertiary structure of the RdRp visualized in PyMol. The RdRp contains three conserved motifs A(red), B(green) and C(blue).
 
 ###  Multiple sequence alignment of the RdRp sequence
 ![MSA](img/Totivirus_Arthropodamyoti/jalview1.png)
->Figure 3. Multiple sequence alignment of RdRP sequence of all BLAST hits to the RdRp of our virus (sOTU: u508736) created using Jalview1.
+>Figure 3. Multiple sequence alignment (MSA) of Totivirus arthropodamyoti RdRp and top hits in BLASTP analysis. The Totivirus arthropodamyoti RdRP was analysed on BLASTP and the sequence of top hits were aligned with the Totivirus arthropodamyoti RdRp using Clustal W. The alignments were visualized on Jalview.
 
 ![Phylogenetic tree](img/Totivirus_Arthropodamyoti/tree_NCBI_COBALT.png)
->Figure 4. Phylogenetic tree of all BLAST hits to the RdRp of our virus (sOTU: u508736) created using COBALT (NCBI).
+>Figure 4. Phylogenetic tree of Totivirus arthropodamyoti and BLASTP hits. A phylogenetic tree was generated (Dendroscope) using the BLASTp hits from the Totivirus arthropodamyoti RdRp.
 
 ## Discussion
 Here we have characterized the virus, 'Totivirus athropodamyotis' as identified by its barcode 'u508736' which was associated with 15 SRR runs. Through multiple forms of analyses, this virus was identified as a Totivirus. The index run SRR1911554 revealed features that are found in Totiviruses including the two ORFs producing the coat protein (CP) and the RdRp. However, it was surprising to see that there was no slippage site in the Totivirus athropodamyotis. This suggests that there is no overlap between the two ORFs and thus no fusion CP-RdRp that is made unlike in other Totivirus species.
