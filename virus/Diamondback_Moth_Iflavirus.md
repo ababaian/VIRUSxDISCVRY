@@ -1,26 +1,25 @@
 ### The Butterfly Effect: Exploring Iflavirus cardui in V. cardui and other species
 written by: [Gerd Bizi](https://github.com/gerd-bizi)
 
-### {Q1B Virus Name}
 ```
-Using a latin binomial name, we will call this virus the:
+Using a latin binomial name, I will call this virus the:
 Iflavirus cardui.
-We call it this since the virus is likely of the Iflavirus family, and the
+I call it this since the virus is likely of the Iflavirus family, and the
 species name of the organism it was discovered in for this report was the 
 V. cardui, better known as the Diamondback moth.
-We used Siddell et. al's consultation to choose this name [Siddell, 2020].
+I used Siddell et. al's consultation to choose this name [Siddell, 2020].
 ```
 
-[Optional: Tutorial 2 Generative AI Cover-art](images/00_cover_art.png)
+![Figure 1: Image of Zombie V. cardui speciments based on short story at the end.](img/Diamondback_Moth_Iflavirus/00_cover_art.png)
 
 ## Abstract
 
 ```
 In virology, understanding virus-host interactions and viral evolution is essential for comprehending infectious disease dynamics. This study focuses on the novel iflavirus, Iflavirus cardui, identified in Vanessa cardui, a migratory butterfly species with a diverse diet.
 
-We demonstrate the discovery of Iflavirus cardui through transcriptomic analysis, suggesting a link between host diet and viral susceptibility. Uniquely, this virus exhibits two long open reading frames, deviating from the typical single ORF structure of iflaviruses, indicating potential evolutionary divergence. Phylogenetic analysis reveals a close relationship with other iflaviruses, implying possible cross-species transmission.
+I demonstrate the discovery of Iflavirus cardui through transcriptomic analysis, suggesting a link between host diet and viral susceptibility. Uniquely, this virus exhibits two long open reading frames, deviating from the typical single ORF structure of iflaviruses, indicating potential evolutionary divergence. Phylogenetic analysis reveals a close relationship with other iflaviruses, implying possible cross-species transmission.
 
-Our findings challenge established notions of iflavirus genetics and underscore the role of ecological factors in viral evolution. The study enhances understanding of virus-host interactions, particularly the impact of host traits on viral evolution. It lays a groundwork for further research into viral transmission dynamics and ecosystem health, highlighting the significance of viral biodiversity.
+My findings challenge established notions of iflavirus genetics and underscore the role of ecological factors in viral evolution. The study enhances understanding of virus-host interactions, particularly the impact of host traits on viral evolution. It lays a groundwork for further research into viral transmission dynamics and ecosystem health, highlighting the significance of viral biodiversity.
 
 Answered w/ assistance from ChatGPT
 ```
@@ -40,27 +39,44 @@ The presence of this iflavirus, depending on its distribution among the samples,
 Answered w/ assistance from ChatGPT
 ```
 
-### Virus Genome {Q3}
+```
+First, I will find the virus' ORFs. To do this, I will use the NCBI's
+ORFfinder tool [NCBI, 2019]. I will be looking for the longest ORFs as they are typically
+the correct ORFs for the virus.
+```
+![Figure 2: Resultant image from using NCBI's ORFfinder tool. Notice that there are two very long ORFs, 44 and 45 that are of roughly equal and significant length.](img/Diamondback_Moth_Iflavirus/myvir_orfs.png)
+```
+Given that I have both of these very long ORFs, 44 and 45, that when summed in
+length are around the size of the genome, it is likely that, they are both
+coding regions.
 
-![Figure 1: Viral Genome Map of Iflavirus cardui](images/nightingale.snapshot.png)
+This is also unusual, however, since we also know that iflaviruses tend to only
+have on ORF. We hypothesize that this may be the result of some sort of mutation
+in the sample, or the genome might've been assembled incorrectly leading to the
+introduction of a stop codon in the middle of ORF. Regardless, this may be a
+unqiue feature of this virus, but I'm not confident in this.
 
-### Other (bonus) sections
+Now, I'll show the viral genome map of the ORFs. To do this, we used
+InterPro [Hunter, 2009] to automate the genome annotation process.
+```
+
+![Figure 3: Viral Genome Map of Iflavirus cardui. This genome map was generated using InterProScan. Additionally, the components of the genome are labelled directly on it instead of on a separate legend.](img/Diamondback_Moth_Iflavirus/nightingale.snapshot.png)
 
 ```
 First, I used the RdRp sequence that I was assigned, and Blasted it.
 The pertinent hits were the polyproteins of other iflaviruses. They are listed 
 below, along with their accession IDs.
 ```
-![Figure 4: Results of the blastp search for our virus' RdRp sequence](images/rdrp_blast_result.png)
+![Figure 4: Results of the blastp search for our virus' RdRp sequence](img/Diamondback_Moth_Iflavirus/rdrp_blast_result.png)
 ```
 From this, these sequences were downloaded in the FASTA format, and they were
 then imported into Jalview.
 In this program, an MSA was performed using the tCoffee algorithm, set with its
 default values. [Notredame, 2000]
 ```
-![Figure 5: Multiple Sequence Alignment of our RdRp sequence aligned against significant hits from a blastp search, selecting for sequences that had >40% AA identity and 80% sequence coverage. The MSA was performed in Jalview using the default tCoffee algorithm. Since all hits were the polyprotein, as in, they included the rest of the polyprotein, the rest of unaligned sequence was removed.](images/rdrp_msa.png)
+![Figure 5: Multiple Sequence Alignment of our RdRp sequence aligned against significant hits from a blastp search, selecting for sequences that had >40% AA identity and 80% sequence coverage. The MSA was performed in Jalview using the default tCoffee algorithm. Since all hits were the polyprotein, as in, they included the rest of the polyprotein, the rest of unaligned sequence was removed.](img/Diamondback_Moth_Iflavirus/rdrp_msa.png)
 ```
-Based on this, we relatively strong consensus in the sequence between all of
+Based on this, I have relatively strong consensus in the sequence between all of
 these RdRp seqeuences, specifically seeing that there's perfect conservation at
 many points in the sequence.
 The next natural thing to do is to create a phylogeny of these sequences. It
@@ -70,7 +86,7 @@ about speciation events for the virus. Nonetheless, a phylogeny was create using
 neighbour joining and PID in Jalview [Waterhouse, 2009].
 ```
 
-![Figure 6: Phylogeny of our RdRp sequence aligned against significant hits from the aforementioned blastp search.](images/rdrp_phylogeny.png)
+![Figure 6: Phylogeny of our RdRp sequence aligned against significant hits from the aforementioned blastp search.](img/Diamondback_Moth_Iflavirus/rdrp_phylogeny.png)
 
 ```
 Based on these results, it seems that our RdRp clusters most closely to the
