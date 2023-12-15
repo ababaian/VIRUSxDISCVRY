@@ -47,7 +47,7 @@ Table 1: A 'Top Hits' Analysis for Each P.Intestivirus Accession Code Hit.
 >Figure 3. A Graphical Representation of the Posasimilaris Intestivirus RdRp Multiple Sequence Alignment. A multiple sequence alignment test was performed on the candidate Posasimilaris Intestivirus RdRp sequence using BLAST. The top hits, as defined by >80% query coverage and >40% amino acid identity, was visualized using the Jalview tool. 
 
 # Predicted Phylogenetic Lineage
-[Cobalt Phylogenetic Tree](virus/img/p_intestivirus/Cobalt Phylogenetic Tree.png)
+[Cobalt Phylogenetic Tree](img/p_intestivirus/Cobalt_Phylogenetic_Tree.png)
 >Figure 4. The Predicted Posasimilaris Intestivirus Phylogenetic Lineage. This phylogenetic tree was generated on BLAST, following multiple sequence alignment of the Posasimilaris Intestivirus candidate RdRp sequence. 
 
 ## Discussion
