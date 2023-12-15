@@ -43,7 +43,7 @@ Table 1: A 'Top Hits' Analysis for Each P.Intestivirus Accession Code Hit.
 >Figure 2. A Predicted 3D Model of Posasimilaris Intestivirus. This model prediction was generated with the Phyre2 algorithm. 
 
 # Posasimilaris Intestivirus RdRp Multiple Sequence Alignment 
-[Multiple Sequence Alignment Jalview] (virus/img/p_intestivirus/Multiple Sequence Alignment Jalview.png)
+[Multiple Sequence Alignment Jalview] (img/p_intestivirus/Multiple_Sequence_Alignment_Jalview.png)
 >Figure 3. A Graphical Representation of the Posasimilaris Intestivirus RdRp Multiple Sequence Alignment. A multiple sequence alignment test was performed on the candidate Posasimilaris Intestivirus RdRp sequence using BLAST. The top hits, as defined by >80% query coverage and >40% amino acid identity, was visualized using the Jalview tool. 
 
 # Predicted Phylogenetic Lineage
