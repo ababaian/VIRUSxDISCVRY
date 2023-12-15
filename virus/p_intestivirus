@@ -1,7 +1,7 @@
 ### {A Proposed Microbiota Stool Bus as a Mode of Infection for a Novel Posa-like Virus}
 written by: [Derek Tea](https://github.com/DerekTea)
 
-(virus/img/p_intestivirus/cover_art_intestivirus.jfif)
+[Cover art Intestivirus](virus/img/p_intestivirus/cover_art_intestivirus.jfif)
 
 ### {Posasimilis Intestivirus}
 Virus name: Posasimilis Intestivirus. I gave my virus this latin binomial name because it is 1) related to the unclassified family of posa-like viruses and 2) it, along with its relatives, are found in stool samples of its associated host. This relates to the story of my virus because I propose a mechanism whereby this virus, and presumably other posa-like viruses, infects the host through the gut microbiota (located in the intestinal tracts). 
@@ -30,7 +30,7 @@ The proposal for a bacterial-mediated entry into the host organism is reflected 
 
 All figures and related information pertaining to dataset runs and Posa can be found in the "MGY441 A3 Virus Seq Runs" csv file.
 
-[MGY441 A3 Virus Seq Runs.csv](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552458/MGY441.A3.Virus.Seq.Runs.csv)
+[MGY441 A3 Virus Seq Runs.csv](virus/img/p_intestivirus/MGY441 A3 Virus Seq Runs.csv)
 
 # Viral Genome 
 
