@@ -4,7 +4,7 @@ written by: Nuan Wen
 ### Arbovirus chinensis
 *The genus name "Arbovirus" indicates an arthropod-borne virus since I propose it is a virus transmitted between arthropods. The species name "chinensis," suggesting an association with China since it is mostly found in species endemic to China.*
 
-[Optional: Tutorial 2 Generative AI Cover-art](img/Arbovirus/cover.png)
+![Generative AI Cover-art](img/Arbovirus_chinensis/cover.png)
 
 ## Abstract
 ```
@@ -26,18 +26,12 @@ Meganola albula, or Kent Black Arches, spans the Palearctic region, extending in
 The overlapping habitat near the Yangtze River suggests a potential avenue for virus transmission among these species, reflected in the shared presence of the RdRp sequence. The virus discovered may be an insect virus capable of infecting L. chinensis, Luehdorfia taibai, C. kiangsu, and M. albula, all of which are within the ecological range of M. musculus. This ecological connection could explain the presence of the virus in samples from these diverse species. However, the varying activity times—some species being diurnal and others nocturnal—may limit the extent of potential virus transmission due to differences in their active periods.
 ```
 
-### Virus Genome {Q3}
+### Virus Genome Figures
 
-![ORF](img/Arbovirus/ORF.png)
-![protein domain](img/Arbovirus/protein_domain.png)
-![phylogenetic tree](img/Arbovirus/phylogenetic_tree_ClustalOmega.png)
-
-
-
-
-### Other (bonus) sections
-
-![IQTree](img/Arbovirus/IQTree.png)
+![Figure 1. ORF of Arbovirus chinensis](img/Arbovirus_chinensis/ORF.png)
+![Figure 2. protein domain of Arbovirus chinensis](img/Arbovirus_chinensis/protein_domain.png)
+![Figure 3. phylogenetic tree of the Orthomyxoviridae family](img/Arbovirus_chinensis/phylogenetic_tree_ClustalOmega.png)
+![Figure 4. IQTree of the Orthomyxoviridae family](img/Arbovirus_chinensis/IQTree.png)
 
 ## Discussion
 ```

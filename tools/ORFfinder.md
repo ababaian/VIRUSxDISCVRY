@@ -6,7 +6,7 @@ output:
 # ORFfinder
 written by: Nuan Wen
 
-[8 minutes] Welcome to the tutorial for ORFfinder. This tool helps researchers to find the open reading frame (ORF) quickly. An ORF is a sequence of DNA or RNA that potentially codes for a protein. This tool will find the ORF based on the start codon you specify until a stop codon appears. Additionally, it provides you with the corresponding amino acid sequences and shortcuts to BLAST, which makes the preparation work for virus discovery easier to carry out.
+[8 minutes] Welcome to the tutorial for ORFfinder. This tool helps researchers to find the open reading frame (ORF) quickly. An ORF is a sequence of DNA or RNA that potentially codes for a protein. This tool will find the ORF based on the start codon (ATG as default) you specify until a stop codon (TGA, TAA, TAG) appears. Additionally, it provides you with the corresponding amino acid sequences and shortcuts to BLAST, which makes the preparation work for virus discovery easier to carry out.
 
 
 **Tutorial Objective**: By finishing this tutorial, you will be able to use ORFfinder to find the open reading frame efficiently and meaningfully.
@@ -18,7 +18,7 @@ written by: Nuan Wen
 - The web version of the ORF finder is limited up to 50 kb long. The stand-alone version, which doesn't have query sequence length limitation, is available for Linux x64.
 
 ## Output
-1. Data of ORFs in different file formats.
+1. Data of ORFs in file formats of Protein FASTA, CDS FASTA, ASN.1, or feature table.
 
 2. Amino acid sequence for each ORF found.
 
