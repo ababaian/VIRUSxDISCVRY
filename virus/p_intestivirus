@@ -35,14 +35,16 @@ Table 1: A 'Top Hits' Analysis for Each P.Intestivirus Accession Code Hit.
 
 # Viral Genome 
 
-[MGY441 A3 Viral Genome.png](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552439/MGY441.A3.Viral.Genome.pdf)
+[MGY441 A3 Viral Genome.png](virus/img/p_intestivirus/MGY441 A3 Viral Genome.png)
 Figure 1. A) Proposed Genomic Architecture of the Posasimilis Intestiviridae. Conserved sequences were identified with Blastp and aligned with the coding amino acid sequence of the virus. Distance representation between conserved regions are not to scale. The presence of the 5’NTR and 3’NTR is based on the conserved 5’NTR and 3’NTR domains found in Picornavirales [Jiang, 2014]. Size and length is not to scale.  B) Predicted RNA Secondary Structure of Posasimilis Intestiviridae. The prediction was performed with the RNAfold tool, utilizing minimal free energy predictions only. 
 
 # Predicted 3D Structure
 ![Phyre2 3D Structure Motifs](https://github.com/DerekTea/VIRUSxDISCVRY/assets/86479477/5ffb69be-11b9-469f-aade-7a391094007b)
+Figure 2. 
 
 # Predicted Phylogenetic Lineage
 [Cobalt Phylogenetic Tree.pdf](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552490/Cobalt.Phylogenetic.Tree.pdf)
+Figure 3. 
 
 ## Discussion
 
