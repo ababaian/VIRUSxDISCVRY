@@ -1,5 +1,5 @@
 ---
-bibliography: data/references.bib
+bibliography: img/vermisvirus_culicis/references.bib
 ---
 # Worming into the unknown: An Exploration into the Unknown World of Negeviruses with Vermisvirus culicis
 written by: [Declan Lim](https://github.com/declanlim)

@@ -1,6 +1,6 @@
 <div align="center">
 
-![](imgs/hespivirus_rivalense/cover.png)
+![](img/hespivirus_rivalense/cover.png)
 
 # Decrypting old transcriptomics data from *Latrodectus hesperus* spyders uncovers a novel Nege-like virus.
 
@@ -122,7 +122,7 @@ domains:
 We are unable to find any elements encoding for non-coding RNAs in `Hriv_contig`, using Infernal cmscan 1.1.2. The
 following figure summarizes the contig-wide coverage, ORFs, predicted domains, and RdRp A, B, C motifs.
 
-![](imgs/hespivirus_rivalense/contig.png)
+![](img/hespivirus_rivalense/contig.png)
 
 **Figure 1.** The genomic contig `Hriv_contig` of *H. rivalense*. The read coverage from realigning the reads from
 SRR17250291 to the contig, using bowtie2 [19], is depicted in the topmost graph (blue). The contig ORFs (grey),
@@ -148,23 +148,23 @@ query coverage and >40% identity leaves 191 sequences (including the *H. rivalen
 with duplicate scientific names or named "ssRNA positive-strand virus sp." and "Virgaviridae sp.", tie-breaking by E
 score. On the remaining 81 sequences, we perform a multiple sequence alignment (MSA) using MUSCLE [24]:
 
-![](imgs/hespivirus_rivalense/msa.png)
+![](img/hespivirus_rivalense/msa.png)
 
 **Figure 3.** The MSA of *H. rivalense*'s RdRp and its top BLASTP hits visualized using Jalview [25]. For visual
 clarity, we have trimmed the MSA to *H. rivalense*'s RdRp palmprint and included only the top 19 BLASTP hits. The A,
 B, and C motifs of *H. rivalense*'s palmprint are annotated in the last row, and by inspection, we can see that they
-are well-conserved. The [trimmed](imgs/hespivirus_rivalense/msa_trim.fasta)
-and [full](imgs/hespivirus_rivalense/msa_full.fasta) MSAs are uploaded.
+are well-conserved. The [trimmed](img/hespivirus_rivalense/msa_trim.fasta)
+and [full](img/hespivirus_rivalense/msa_full.fasta) MSAs are uploaded.
 
 We pass the full MSA into IQTree [26], with the default parameters (i.e., VT+F+I+G4 substitution model via
 ModelFinder [27], 1000 ultrafast bootstrap replicates [28]), to construct a maximum-likelihood phylogenetic tree.
 
-![](imgs/hespivirus_rivalense/iqtree.png)
+![](img/hespivirus_rivalense/iqtree.png)
 
 **Figure 4.** The maximum-likelihood phylogenetic tree of *H. rivalense*'s RdRp and its top BLASTP hits visualized using
 the iTOL webtool [29]. *H. rivalense* is highlighted in green and the smallest clade containing *H. rivalense* and the
 top Negevirus or Nege-like virus BLAST hits from above are lightly shaded. The raw
-IQTree [output](imgs/hespivirus_rivalense/iqtree.iqtree) is uploaded.
+IQTree [output](img/hespivirus_rivalense/iqtree.iqtree) is uploaded.
 
 ## Discussion
 
