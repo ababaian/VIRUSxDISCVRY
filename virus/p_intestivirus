@@ -28,7 +28,7 @@ In addition to dataset ERR3143221, the Posasimilis Intestivirus was also found i
 
 The proposal for a bacterial-mediated entry into the host organism is reflected by the results from another dataset, SRR5830110 (accessible via the SRA database). The sample containing the Posasimilis Intestivirus hit derives from the fecal community of Tule Elk. Blastx analysis matches the virus with Caudovirales sp. and Candidatus Scalindua sp. as the top hits. The presence of Caudovirales may strengthen the notion that our virus of interest operates in a bacteriophage-like manner. Moreover, Candidatus Scalindua is a genus of marine-associated bacteria first discovered in a waster water treatment plant [Schmid, 2003]. This highlights the capacity for Posasimilis intestinum to infect bacteria, specifically bacteria that may be found in the water supply of wild-life. 
 
-All figures and related information pertaining to dataset runs and Posa can be found in the "MGY441 A3 Virus Seq Runs" csv file.
+Related information pertaining to dataset runs can be found in the "MGY441 A3 Virus Seq Runs" csv file.
 
 [MGY441 A3 Virus Seq Runs.csv](virus/img/p_intestivirus/MGY441 A3 Virus Seq Runs.csv)
 Table 1: A 'Top Hits' Analysis for Each P.Intestivirus Accession Code Hit. 
@@ -42,9 +42,13 @@ Figure 1. A) Proposed Genomic Architecture of the Posasimilaris Intestivirus. Co
 [Phyre2 3D Structure Motifs](virus/img/p_intestivirus/Phyre2 3D Structure Motifs.png)
 Figure 2. A Predicted 3D Model of Posasimilaris Intestivirus. This model prediction was generated with the Phyre2 algorithm. 
 
+# Posasimilaris Intestivirus RdRp Multiple Sequence Alignment 
+
+Figure 3. A Graphical Representation of the Posasimilaris Intestivirus RdRp Multiple Sequence Alignment. A multiple sequence alignment test was performed on the candidate Posasimilaris Intestivirus RdRp sequence using BLAST. The top hits, as defined by >80% query coverage and >40% amino acid identity, was visualized using the Jalview tool. 
+
 # Predicted Phylogenetic Lineage
 [Cobalt Phylogenetic Tree.pdf](https://github.com/DerekTea/VIRUSxDISCVRY/files/13552490/Cobalt.Phylogenetic.Tree.pdf)
-Figure 3. 
+Figure 4. 
 
 ## Discussion
 
