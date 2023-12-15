@@ -1,0 +1,472 @@
+---
+title: "Assignment3 - The Platinum Age of Virus Discovery"
+output: html_document
+fig_caption: true
+bibliography: citations.bib
+---
+
+## Preamble
+Please mark the following boxes with an X as appropriate:
+```
+- [X ] Completed the Request for Evaluation by Artem
+- [ ] Answers assisted with generative AI (please indicate where)
+```
+
+# Assignment 3 =================================================================
+# ==============================================================================
+```
+..==                                                                        ==..
+..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
+..==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           ==..
+..==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           ==..
+..==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            ==..
+..==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           ==..
+..==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           ==..
+..==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            ==..
+..==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              ==..
+..==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            ==..
+..==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            ==..
+..==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            ==..
+..==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            ==..
+..==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            ==..
+..==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             ==,.
+..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
+..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
+..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
+..==           ░               ░           ░            ░ ░                 ==..
+..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
+
+At the dawn of the Molecular Genetics, Max Delbruck lead a loose collection of
+geneticists known as the "Phage Group". They were amongst the first to pick up
+the reciever when the Molecular Revolution was calling. They had two unifying
+philosophies:
+
+(1) Hard Physics-style Scientific Inquiry
+(2) They studied viruses, because that's the simplest model organism to do
+    cool science in.
+    
+I think Computational Biology is having that kind of moment today. And the way
+to realize it is by choosing a strong model genome; Viruses!
+
+Guidance from the Elders: https://www2.clarku.edu/faculty/pbergmann/SCEP/Platt%201964.pdf
+
+..==                                                                        ==..
+..==                                                                        ==..
+..==                                                                        ==..
+```
+
+## Learner Objectives
+```
+By the end of this assignment, you will have taken the plunge into a real
+research problem, there is risk and no certainty of "success", but as the old
+saying goes, "If you can't fatally kill your hypothesis, then it was never alive
+to begin with." Risk begets Reward.
+
+It is up to you to find and guide the direction of the project, these questions
+only give you a generic scaffold. As such, (and with the bonus marks) it will
+be possible to do a technically good job and you'll do fine on the assignment.
+A subset of you will rise to the occasion and knock it out of the park, that 
+will reflect the 99% grades.
+```
+
+## Assignment Objectives
+```
+For this assignment you're going to compile all the components for a short
+"Genome Announcement" style scientific paper, describing and naming a new virus
+species which you have been randomized. You do not need to re-write the answers
+into a seperate paper, this assignment  serves as the paper template. You will
+know by the end if it's worth formalizing.
+
+The goal here is *Data Exploration*, you are not expected to have every analysis
+work and be super insightful. Most analyses will be difficult or impossible to 
+interpret we often don't know the difference between these two. If you are able to
+justify (hypothesis) the reason you performed a given analysis, and it's
+inconclusive, you will recieve full marks for trying. You will be deducted marks
+if and only if you include an analysis and it's not justified, or if you
+misinterpret the analysis results. That is the feedback/learning mechanism of
+peer review, meant to guide you in the future.
+
+Please include the work when you judge you can make a *moderate* or *high* 
+confidence conclusion, even if the conclusion is that it is inconclusive.
+```
+
+## Logistics
+```
+Inclusive in this document should be all supporting code, scripts, and/or 
+software settings used to answer any questions in the assignment. If you use or
+generate a data-object, such as .fasta, .pdb, .sto, .csv, etc..., include this
+in your submission repository.
+
+For Written portions please use block text like this and you can include 
+references simply as square brackets [Babaian. 2023].
+```
+
+## Virus Assignment
+```
+You are randomly assigned a Virus. 
+
+## `a3/data/virusAssignments.csv` 
+  Gives the assignment of your virus. Each virus has a unique identifier (sOTU)
+  as well as some summary statistics about where this virus was "found" in the
+  SRA. You're also given a link to the assembly file from the "index run" which
+  should contain your virus sequence.
+
+## `virusRunObservations.csv`
+  This file  contains a list of all SRA "runs" in which these  viruses were 
+  reliably detected. You can use the sOTU identifier to get an  estimate overview
+  for your virus. The final column in this file contains the  barcode sequence
+  detected in that particular run.
+
+
+## `virusRdRp_detected.fa`
+  This file contains _ALL_ RdRp and RdRp-like sequences which were detected in
+  the "index runs". From within this file, you should recover your assigned
+  RdRp sequence (using sequence from virusRunObservations.csv).
+
+```
+
+## Example "Virus Announcement" references
+(emulate these)
+
+- [Bornaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8321990/)
+- [Pepino Mosiac Virus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952647/)
+- [Lancehead filovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8498845/)
+- [Perch filovirus](https://journals.asm.org/doi/10.1128/mra.00028-23)
+- [Locarnaviruses](https://link.springer.com/article/10.1007/s00705-023-05908-1)
+- [Odysseus Narnavirus](https://www.biorxiv.org/content/10.1101/2023.09.17.558162v1)
+
+# ==============================================================================
+
+## Question 1 : Framing the story `(10 points)` --------------------------------
+(do second last)
+**Q.** `(1 point)` Write a title for your paper which describes your one key finding.
+
+**A.** Extensive RNA folding in a novel Narnavirus contribute to its stability and may fight against exonucleases
+
+**Q.** `(bonus point)` Include a pun in your title which relates to a theme or motif
+used throughout your paper.
+
+**A.** Alternative pun title - "Masking" my ends from the host : A narnavirus strategy of survival 
+
+**Q.** `(1 point)` Give your virus a latin binomial name, and explain the etiology
+of the name and how it relates to the story of your virus.
+
+**A.** Narnavirus foldus, as it relates to how RNA folding helps the virus maintain stability and replication in multiple hosts.
+
+**Q.** `(8 points)` For any given paper, 90% of the readership will only read your
+abstract. How many people go on to read the rest of your paper will depend
+on your ability to capture peoples interest in the abstract. (hint: write the
+abstract last)
+
+Read *How to Construct a Nature summary paragraph* and write a short abstract
+closely following this structure. (hint: do last)
+
+Link: https://www.nature.com/documents/nature-summary-paragraph.pdf
+
+**A.** While narnaviruses are known to be some of the smallest and inert RNA viruses, recent studies show that they are hiding more complex insights as they have been found in multiple host types. These hosts include Saccharomyces cerevisiae (yeast), Fusarium poae (fungus), Leptomonas seymouri(protozoan), Caenorhabditis nematodes (worm) and even marine invertebrates[6,7,8,9,11,12,13]. The question arises, how does a naked, defenseless RNA virus survive the complex RNA silencing and degradation mechanisms present in these hosts? The current study sheds some light, as it characterized a novel narnavirus (Narnavirus foldus) that has a 2786-long RNA genome with a 62.7% GC content and no poly-A tail. With Serratus.io's palm motif scan and NCBI's ORF Finder, the virus likely produces a single RNA-dependent RNA poylmerase (RdRp) with 3 conserved motifs (A,B,C) [16,17]. Based on Blastp results, it most closely resembles the Saccharomyces 20S RNA narnavirus RdRp with 95% sequence coverage and 39.59% identity[16]. In order to probe its RNA stability, we used ushuffle [https://github.com/guma44/ushuffle/tree/master] to create 5 RNA sequences that have the same length and dinucleotide frequencies as the virus. Using RNAfold web viewer, we found that the virus has a lower minimum free energy (-1528.38 kcal/mol) for its optimal secondary structue compared to these sequences (around -1200 kcal/mol)[19]. We also found its 3' and 5' termini buried under stem-loop structures. This is similar to how the Saccharomyces 20S RNA narnavirus protects itself against the 5' XRN1 exonuclease. We posit that the N.foldus sequence is highly optimized for stability and its extensive secondary structures (especially in its termini) help protect it against degradation[15]. 
+
+## Question 2 : Digital Virus Ecology  `(15 points)` ---------------------------
+
+In brief, ecology is the relationship of an organism to biotic and abiotic
+factors. Consider the the sample source for this virus and describe the
+specifics (e.g. run accessions, study authors, associated species, ...) and
+generics (e.g. type of ecosystem, country/continent, common associated host
+class like Mammals). 
+
+All viruses should occur in more than one dataset (SRA run), compare and contrast
+the ecology of your index case, and the broader ecology of all virus-containing
+datasets. What commonalities, if any, emerge in the data?
+
+Guiding questions:
+- Is there an associated publication with your index case?
+- Which dataset(s) is the virus found in?
+- What is the origin(s) of these dataset(s)
+- Can you observe a common factor which links these datasets together and
+  may explain the presence of the virus?
+
+Write your answer in themed paragraphs (subsections), as it were to go into the
+first *results* section of your paper.
+
+**A.** A total of 28 SRAs associated with the specific palmprint ID (u130682) were found from the "virusRunObservations" file and then validated with NCBI SRA Database searches[16]. All of these experiments were RNA-seq experiments from China and they had various goals, such as cellular invasion of viruses affecting poultry, ecotype influence on virome, transcriptomic changes during psoriasis in humans. 
+
+
+The index case that isolated the narnavirus under study came from a RNA-seq experiment at Northwest A&F University, China[1]. The experiment was studying the expression profiles of mRNAs, lncRNAs and circRNAs in mid-segments of chicken small intestines at post-infection with E. necatrix[1]. 
+
+![FIGURE 1: The different types of host species found with the target Narnavirus sequence across 28 SRAs](images/fig1.png)
+FIGURE 1: The different types of host species found with N.foldus sequence across 28 SRAs
+
+![FIGURE 2: A dis](images/fig2.png)
+Figure 2: The different types of host tissues in the 28 SRAs that the N.foldus sequence was found in
+
+Looking at figure 1, a large portion of these experiments (39%) were derived from chickens.The second popular viral host was the Eimeria necatrix, followed by Eimeria tenella, Rattus norvegicus and finally, Homo sapiens (4%). Eimeria necatrix and Eimeria tenella are both species of protozoan parasites belonging to the genus Eimeria, causing avian coccidiosis, a disease that affects the intestinal tract of chickens[10]. 
+Unsurprisingly, Figure 2 shows that most of the studies (20 out of 28 SRAs) used chicken intestine (7 SRAs) or chicken feces (13 SRAs) as the tissue samples for RNA extraction. Spinal cord tissue from Rattus norvegicus (brown rat) was also used for 4 SRAs. Lastly, human skin tissue and psoriasis lesion were used for 1 SRA. 
+
+Given the heterogeneity of the host and tissue samples, it is difficult to draw many common themes. Although narnaviruses have not been shown to infect the specific parasites (e.g.E. necatrix & E. tenella) and humans directly, past studies give a few clues here[2]. Firstly, other protozoan parasites such as Leptomonas seymouri do seem to have narnavirus-like RdRp, indicating past infections[13]. The original authors behind such discoveries explained that such infections may elevate pathogenicity as seen with related protozoan Leishmania guyanensis[10]. On a similar note, the Narnaviruses have been also been associated with Apicomplexa and Euglenozoa, which are parasitic protists that infect animals and humans e.g. Leishmania[5]. So, it is  plausible that the novel narnavirus here also infects protozoans, which then is spread into other hosts such as rats and chickens. Interestingly, a recently-found narnavirus, Achaeavirus odysseus (Ao), has been found to infect the protozoan parasite, Toxoplasma gondii [21]. Since this parasite has a high tropism for the central nervous system. it makes sense why a similar narnavirus can be found in rat spinal cord tissues[21]. The case for how exactly this narnavirus exists in human skin tissue and psoriasis lesions is perplexing. Although there's research gaps, one study has shown how psoriasis patients show more pathogenic cytokines/chemokines (e.g. IL‐36‐γ and CXCL8) after stimulation with a Toll‐like receptor 3 (TLR3) agonist (which mimicks the RNA of respiratory viruses). This shows that the RNA-based narnavirus could potentially play a role in the pathogenensis of psoriasis in humans[22]. 
+
+Outside of the SRA runs in our digital ecology, we also identified many other hosts by searching through the literature. We found pioneering studies in Saccharomyces cerevisiae where they stay in low copy numbers, unless triggered by stress or unfavorable conditions like heat shock[2,3]. These narnaviruses have also been found in Phytophthora infestans(oomycetes), Fusarium poae (fungus), Leptomonas seymouri(protozoan), Caenorhabditis nematodes (worm) and Culex mosquitoes [6,7,8,9,11,12,13]. We will tackle the mystery about how a naked RNA strand can remain stable and infect so many different hosts. 
+
+
+
+## Question 3 : Interrogate the Virus `(20 points)` ----------------------------
+
+**Q.** `(10 points)` Research and identify what are at least 20 *features* of
+the viruses related to the one you have found.
+
+List or write short sentences describing those features here. Examples are:
+```
+
+
+```
+**A.** 
+
+1) Narnaviruses have a non-segmented and linear RNA genome[2].
+
+2) They have a single positive-strand RNA-based genome[2].
+
+3) The typical genome length is between 2.2-3.6 kb nucleotides long[2]. 
+
+4) They lack a capsid or viral envelope[2,11,12]. 
+
+5) They typically have one ORF, encoding a single RNA-dependent RNA polymerase (RdRp) [2,11,12]. 
+
+6) The RNA genome and RdRp forms a naked ribonucleoprotein complex in the host's cytoplasm. They associate in a 1:1 fashion[4]. 
+
+7) Narnavirus RdRp are typically 800-1000 amino acids long, weighing around 80-104 kDa[11,12]. 
+
+8) The positive-sense RNA can be directly translated by the host's ribosomes. The polymerasse can then create complementary negative strands[9,12].
+
+9) The 5' and 3' end of the narnaviruses seem to have cis-acting signals for replication as without these terminal sequences, the virus does not replicate effectively[3]. 
+
+10) Typically existing in low copy numbers, these viruses reach a high copy number (~100,000 copies per cell) in yeast under stressed conditions[2].
+
+11) Their RdRp protein usually has the conserved motifs A,B,C. Motif A is contained on the palm subdomain and has the conserved pattern D [GS] D D [11,12]
+
+12) Motif C is also located on the palm subdomain and contains the catalytic residues, [S/G]DD [11,12]
+
+13) Narnaviruses can infect multiple types of hosts (fungi, protists, inverterbrates) and they have been identified in various geographical locations, such as North America, Europe, and Asia, indicating a global distribution[2].
+
+14) Narnaviruses show extensive folding and stem-loop structures within their genomes[15]
+
+15) Narnaviruses can decrease asexual reproduction of its fungal host (e.g. Rhizopus microsporus) by reducing the number of sporangiospores produced, but it is required for sexual reproductive success of the fungus. For certain yeast strains, it can also cause defects in carbon utilization sources[9,13]. 
+
+16) The family, Narnaviridae, contains two genera : 1) Narnavirus (reside in the cytosol of hosts) & 2) Mitovirus (found in the mitochondria)
+
+17)The closest relatives of members of the family Narnaviridae are members of the genus Ourmiavirus, the plant-infecting viruses. Some studies show that the ourmiaviruses are more closely related to the narnaviruses than are the mitoviruses, questioning the established taxonomy of the Narnaviridae family[2].
+
+18) UGA codons in mitoviruses are constitutively read as Trp, instead of stop codons[14].
+
+19) So far, only 2 mitoviruses, S. sclerotiorum mitovirus 1/KL-1 (SsMV1/KL1) and 2a (CcMV-2a), have poly (A) tails[2]. 
+
+20) The GC content of mitovirus genomes is substantially lower than that of narnavirus genomes [2].
+
+
+**Q.** `(10 points)`  Create a figure(s) visualizing your virus genome (see 
+papers for examples/inspiration). The figure should capture the *key genomic*
+*features* of the virus which includes (but is not limited to):
+- Open reading frames, and note if they are not CDS complete
+- Annotation of every ORF
+- A scale legend in nucleotides and amino acids for ORFs
+
+In addition consider virus-family specific features, such as
+- RNA secondary structures
+- Conserved sequence motifs
+- Frameshifting sites
+- Evidence of poly-A or splicing
+- Additional known (or unknown) protein domains
+
+In addition consider additional measurements, such as
+- TPM / RPKM for the virus within your dataset
+- Additional viral segments/viral contigs
+- Coverage profile of reads mapped to your contig
+- Single Nucleotide Variants present in the mapping data
+
+- `(6 points)` Figure (technical)
+- `(2 points)` Figure (aesthetic)
+- `(2 points)` Figure legend
+
+**A.** In order to extract the nucleotide genome sequence (i.e.NODE_42801 that corresponds to my given virus), the following R code was run. 
+```{r}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("Biostrings")
+
+library(Biostrings)
+```
+```{r}
+#Note to TA: please set the working directory to A3 with "transcripts.fasta" file in the same A3 folder
+fasta_file <- "transcripts.fasta"
+
+
+sequences <- readDNAStringSet(fasta_file)
+substring <- "NODE_42801_"
+
+matches <- startsWith(names(sequences), substring)
+
+matching_sequences <- sequences[matches]
+
+required_output <- as.character(matching_sequences[[1]])
+
+#uncomment for the file 
+#required_output
+
+```
+**SECTION A: Finding what the Narnaviral sequence encodes** 
+The required_output (viral contig at Node_42801) was then inputted into ORF Finder with the following parameters: Minimum ORF length was 150 nucleotides, ATG and alternative codons selected. This is because viruses (especially RNA viruses) can use alternate codons based on host tRNA availability[14]. 15 ORFs were found. ORF11 that spans the entire input was run using BLASTP with nr protein database[16]. The query length was 898 AAs, with start at 2756 and stop at 60 nucleotides. The best hit was the putative RNA-dependent RNA polymerase, partial [Narnaviridae sp.] with Accession no is UJQ92945.1. The bit score was 486 with an E value of 1e-154. The query coverage was 93% and the percent identity was moderately low with 42.17%. We then used Serratus.io's palmscan motif analysis tool (sensitivity of 87%, a positive predictive value of 99.89%), which gave me the same results[17]. My palmprint QC-report gave me a score of 48.0, which makes it a high-confidence RdRp.The different motif (A,B,C) positions were given by Serratus.io and the reads from SRR9331386 (Gallus gallus) mapped to our target viral contig (Node_42801). All these insights are presented in the following genome map in Figure 3, designed using Geneious Prime® 2023.2.1(https://www.geneious.com). 18,594 reads out of 145,134,868 reads from the SRA were mapped. In terms of coverage, the mean coverage of 985.6 and the maximum coverage was 2101. For confidence scores, the confidence mean was 39.7, with 96.9% bases being at least and above Q30 (i.e. 99.9% probability of a correct base)
+
+![Genome Map of Narnavirus Foldus](images/genome_map4.png)
+Figure 3: The Genome Map of Narnavirus foldus after mapping reads from SRR9331386 (Gallus gallus) mapped to the viral contig (Node_42801) on Geneious Prime® 2023.2.1. For the identity plot, green indicates 100% identity, greenish-brown indiciates at least 30% but under 100%, red indicates below 30% identity. As found by NCBI's ORF Finder and Serratus.io's palmscan motif tool,the following features have been annotated: 5' extention (pink), 3'end extension (yellow), conserved motifs -A (blue), B(green) and C(red) within RdRp (grey)[16.17]
+
+**Section B: Similarities to other Narnavirus RdRp**
+![The percent identity and query coverage values between N.foluds and different Narnaviruses](images/protein_id.png)\
+Table 1 caption: The percent identity and query coverage values between N.foluds and different Narnaviruses after Blastp searches
+
+Looking at Table 1, the isolated virus seems to resemble the  Saccharomyces 20S RNA narnavirus most closely as it has the highest percent coverage and moderate identity after Blastp alignments. 
+
+**Section C: Folding structure of the RNA virus**
+
+![The secondary structure within N.foldus RNA (as predicted by RNAfold web server (no folding constraints, fold algorithms set to "Minimum free energy and partition functions" and "avoid isolated base pairs" clicked))](images/rna_fold.png)\
+Figure 4: The secondary structure within N.foldus RNA genome, as predicted by RNAfold web server (no folding constraints, fold algorithms set to "Minimum free energy and partition functions" and "avoid isolated base pairs" clicked)
+
+![A zoomed-in figure at the 3' and 5' termini of the RNA](images/rna_foldzoom.png)\
+Figure 5: A zoomed-in figure at the 3' and 5' termini of the N.foldus RNA genome
+
+In Figure 4 and 5, the viral DNA sequence was visualized to have multiple stem-loop structures, particularly the 3' and 5' termini[19]. The free energy of this ensemble structure is -1528.38 kcal/mol[19]. In order to probe the stability of this structure against random RNA sequences, we need to be aware of two confounding biases and deal with them. Firstly, longer RNA structures tend to be more stable, so our random sequences and N.foldus sequence need to be the same length. Another consideration is the di-nulceotide frequency distribution in RNA needs to be constant, as G-C dinucleotide pairings are more stable than A-T ones.Towards this end, we adopted the ushuffle Cython code [https://github.com/guma44/ushuffle/tree/master] and generated 5 random sequences that maintained the dinucleotide distribution and total length (2786 nt). These sequences are in our "Supplementary_text" file. The RNAfold-calculated optimal values are shown below:
+
+![](images/rna_graphs.png)\
+Figure 6: A comparison of minmum free energy values for optimal secondary structures (RNAfold-generated) for N.foldus versus 5 shuffled sequences (ushufle-generated with same length and dinucleotide frequencies)
+
+**Q.** - `(bonus 2 points)`
+  - Run the RdRp and/or open reading frame through AlphaFold2 ( https://github.com/sokrypton/ColabFold )
+  - Add a figure of the RdRp with motifs A (blue), B (green), and C (red) visualized.
+    See: `Odysseyus Narnavirus` example paper. Try PyMol.
+
+**A.**  
+![Visualization of the N.foldus RdRp protein. Note : motifs A (blue), B (green), and C (red) ](images/pymol_1.png)\
+
+![N.foldus RdRp protein motifs A (blue), B (green), and C (red) zoomed in](images/pymol_2.png)\
+Figures 7,8: Visualizations of the N.foldus RdRp protein. Note : motifs A (blue), B (green), and C (red)
+
+## Question 4 : `(5 bonus points max)` -----------------------------------------
+
+**Q.** `(bonus 5 points)`
+  Generate a multiple sequence alignment of the RdRp sequence, and either 
+  (i) all RdRp of viruses in the same family or
+  (ii) all BLAST hits with >80% query coverage and >40% amino acid identity
+  Visualize it in (e.g. Jalview) and include a figure.
+  
+  Generate a phylogenetic tree (e.g. IQTree) of the multiple sequence alignment
+  above, visualize it (e.g. Dendroscope) and include a figure.
+
+**A.** ![Jalview](images/jalview.png)\
+Figure 9: Multiple sequence alignment of the N.foldus RdRp sequence against all RdRp of viruses in the same Narnaviridae family.
+ 
+![Jalview](images/jalview_2.png)\
+Figure 10: Phylogenetic tree of N.foldus against all other viruses in the 	Narnaviridae family 
+
+## Question 5 : Discussion `(5 points)` ----------------------------------------
+
+Discuss for your reader what you have learned from this virus, or what novel
+biological insights does characterizing this genome offers to the reader. What
+facts did you find the most fascinating about your kind of virus, and did your 
+virus share these traits? Even more interesting is if it _doesn't_ have a trait
+known to that virus. It's always fun to push against the textbook definitions.
+
+**A.** NOTE TO TA : Many of my results have been expanded above^
+
+Characterizing the given sequence of Narnavirus gave us 2 interesting insights : 1) Even though viruses like narnavirus do not contain capsid and are "unprotected", it is an open question how these viruses evade degradation by exonucleases. This study sheds some light here : the minimum free energy calculations here show how the narnavirus has a lower optimal MEF, compared to shuffled sequences that maintain the same length and dinucleotide frequencies. This means that the Narnavirus likely adopts a very stable conformation, and its sequence has likely been optimized for extensive folding and stability.The virus is also visualized to have its 5' and 3' termini near the bottom of a stem-loop structure. This is promising as past studies show how the terminal nucleotides of Saccharomyces 20S RNA narnavirus (ScNV-20S) are also at the bottom of a long stem-loop structure and blocks itself from exonucleases such as 5' XRN1 exonuclease[15]. It is plausible that a similar mechanism exists in N.foldus.
+2) The second insight is how N.foldus virus has a 79% coverage with an almost 50% percent identity with the newly-characterized S.cerevisiae N1199 virus(Table 1). Best to our knowledge,this virus is uniquely-present as a double-stranded RNA in a S.cerevisiae strain. This begs the question, can N.foldus also exist as a double-stranded RNA, which pushes against the traditional definitions for Narnaviruses? Phenotypically, the N1199 virus is associated with poorer sporulation and growth on multiple carbon sources. More work needs to be done in order to confirm if N.foldus exhibits the same phenotypic effects on yeasts and other hosts. 
+Our future experiments will further characterize N.foldus under 3 guiding questions : 1) How does mutating the 3' and 5' termini of N.foldus affect its RNA level? 2) Are there 3'cis acting signals in N.foldus that promote its replication(as found in the 20S S.cerevisiae Narnavirus)? 3) What are the phenotype effects of N.foldus on yeast and protozoan parasites?  
+
+## Question 6 : References `(10 points)` ---------------------------------------
+
+Add at least **10 relevant references** throughout your report. Be sure to 
+reference both software papers, biology papers, and the paper from which the
+data was generated (if available).
+
+These references were created using the CSE citation style (numeric, brackets) on Zotero Bibtex website. 
+
+[1] Fan X-C, Liu T-L, Wang Y, Wu X-M, Wang Y-X, Lai P, Song J-K, Zhao G-H. Genome-wide analysis of differentially expressed profiles of mRNAs, lncRNAs and circRNAs in chickens during Eimeria necatrix infection. Parasites & Vectors. 2020 [accessed 2023 Dec 10];13:167. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7118956/. doi:10.1186/s13071-020-04047-9
+
+[2] Hillman BI, Cai G. The Family Narnaviridae. In: Advances in Virus Research. Vol. 86. Elsevier; 2013. p. 149–176. https://linkinghub.elsevier.com/retrieve/pii/B9780123943156000064. doi:10.1016/B978-0-12-394315-6.00006-4
+
+[3] Esteban R, Fujimura T. Launching the yeast 23S RNA Narnavirus shows 5′ and 3′ cis-acting signals for replication. Proceedings of the National Academy of Sciences. 2003 [accessed 2023 Dec 10];100(5):2568–2573. https://pnas.org/doi/full/10.1073/pnas.0530167100. doi:10.1073/pnas.0530167100
+
+[4] Solórzano A, Rodrı́guez-Cousiño N, Esteban R, Fujimura T. Persistent Yeast Single-stranded RNA Viruses Exist in Vivo as Genomic RNA·RNA Polymerase Complexes in 1:1 Stoichiometry. Journal of Biological Chemistry. 2000 [accessed 2023 Dec 10];275(34):26428–26435. https://linkinghub.elsevier.com/retrieve/pii/S0021925819616169. doi:10.1074/jbc.M002281200
+
+[5] Grybchuk D, Akopyants NS, Kostygov AY, Konovalovas A, Lye L-F, Dobson DE, Zangger H, Fasel N, Butenko A, Frolov AO, et al. Viral discovery and diversity in trypanosomatid protozoa with a focus on relatives of the human parasite Leishmania. Proceedings of the National Academy of Sciences. 2018 [accessed 2023 Dec 10];115(3). https://pnas.org/doi/full/10.1073/pnas.1717806115. doi:10.1073/pnas.1717806115
+
+[6] Osaki H, Sasaki A, Nomiyama K, Tomioka K. Multiple virus infection in a single strain of Fusarium poae shown by deep sequencing. Virus Genes. 2016 [accessed 2023 Dec 10];52(6):835–847. http://link.springer.com/10.1007/s11262-016-1379-x. doi:10.1007/s11262-016-1379-x
+
+[7] Göertz G, Miesen P, Overheul G, Van Rij R, Van Oers M, Pijlman G. Mosquito Small RNA Responses to West Nile and Insect-Specific Virus Infections in Aedes and Culex Mosquito Cells. Viruses. 2019 [accessed 2023 Dec 10];11(3):271. https://www.mdpi.com/1999-4915/11/3/271. doi:10.3390/v11030271
+
+[8] Richaud A, Frézal L, Tahan S, Jiang H, Blatter JA, Zhao G, Kaur T, Wang D, Félix M-A. Vertical transmission in Caenorhabditis nematodes of RNA molecules encoding a viral RNA-dependent RNA polymerase. Proceedings of the National Academy of Sciences. 2019 [accessed 2023 Dec 10];116(49):24738–24747. https://pnas.org/doi/full/10.1073/pnas.1903903116. doi:10.1073/pnas.1903903116
+
+[9] Vijayraghavan S, Kozmin SG, Xi W, McCusker JH. A novel narnavirus is widespread in Saccharomyces cerevisiae and impacts multiple host phenotypes Andrews B, Andrews B, editors. G3 Genes|Genomes|Genetics. 2023 [accessed 2023 Dec 10];13(2):jkac337. https://academic.oup.com/g3journal/article/doi/10.1093/g3journal/jkac337/6957440. doi:10.1093/g3journal/jkac337
+
+[10] Mesa-Pineda C, Navarro-Ruíz JL, López-Osorio S, Chaparro-Gutiérrez JJ, Gómez-Osorio LM. Chicken Coccidiosis: From the Parasite Lifecycle to Control of the Disease. Frontiers in Veterinary Science. 2021 [accessed 2023 Dec 10];8:787653. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8724208/. doi:10.3389/fvets.2021.787653
+
+[11] Narnaviridae | ICTV. [accessed 2023 Dec 10]. https://ictv.global/report_9th/RNApos/Narnaviridae
+
+[12] Narnavirus ~ ViralZone. [accessed 2023 Dec 10]. https://viralzone.expasy.org/303
+
+[13] Espino-Vázquez AN, Bermúdez-Barrientos JR, Cabrera-Rangel JF, Córdova-López G, Cardoso-Martínez F, Martínez-Vázquez A, Camarena-Pozos DA, Mondo SJ, Pawlowska TE, Abreu-Goodger C, et al. Narnaviruses: novel players in fungal–bacterial symbioses. The ISME Journal. 2020 [accessed 2023 Dec 10];14(7):1743–1754. https://www.nature.com/articles/s41396-020-0638-y. doi:10.1038/s41396-020-0638-y
+
+[14] Bahir I, Fromer M, Prat Y, Linial M. Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences. Molecular Systems Biology. 2009 [accessed 2023 Dec 10];5:311. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2779085/. doi:10.1038/msb.2009.71
+
+[15] Fukuda M, Cai J, Bader JS, Boeke JD. Pervasive RNA folding is crucial for narnavirus genome maintenance. Proceedings of the National Academy of Sciences. 2023 [accessed 2023 Dec 10];120(26):e2304082120. https://pnas.org/doi/10.1073/pnas.2304082120. doi:10.1073/pnas.2304082120
+
+[16] Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. Basic local alignment search tool. Journal of Molecular Biology. 1990;215(3):403–410. doi:10.1016/S0022-2836(05)80360-2
+
+[17] Edgar RC, Taylor B, Lin V, Altman T, Barbera P, Meleshko D, Lohr D, Novakovsky G, Buchfink B, Al-Shayeb B, et al. Petabase-scale sequence alignment catalyses viral discovery. Nature. 2022 [accessed 2023 Dec 10];602(7895):142–147. https://www.nature.com/articles/s41586-021-04332-2. doi:10.1038/s41586-021-04332-2
+
+[18] Kerpedjiev P, Hammer S, Hofacker IL. Forna (force-directed RNA): Simple and effective online RNA secondary structure diagrams. Bioinformatics. 2015 [accessed 2023 Dec 10];31(20):3377–3379. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4595900/. doi:10.1093/bioinformatics/btv372
+
+[19] Gruber AR, Lorenz R, Bernhart SH, Neuböck R, Hofacker IL. The Vienna RNA Websuite. Nucleic Acids Research. 2008 [accessed 2023 Dec 10];36(Web Server issue):W70–W74. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2447809/. doi:10.1093/nar/gkn188
+
+[20] Schrödinger, LLC. The PyMOL Molecular Graphics System, Version 1.8. 2015.
+
+[21]Gupta P, Hiller A, Chowdhury J, Lim D, Lim D, Babaian A, Pereira L, Morales A. A Parasite Odyssey: An RNA virus concealed in Toxoplasma gondii. 2023 [accessed 2023 Dec 10]. https://www.biorxiv.org/content/10.1101/2023.09.17.558162v1.doi:10.1101/2023.09.17.558162
+
+[22]Zdanowska N, Kasprowicz-Furmańczyk M, Placek W, Owczarczyk-Saczonek A. The Role of Chemokines in Psoriasis—An Overview. Medicina. 2021 [accessed 2023 Dec 10];57(8):754. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8400543/. doi:10.3390/medicina57080754
+
+## Question 7 : `(5 points)` ---------------------------------------------------
+
+**Q.** Respond to this email (Do this last):
+
+```
+Subject: Inquiry Regarding Your Fascinating Research Paper
+
+  Dear Dr. XXXXXXXX,
+  
+  I hope this message finds you well. My name is April O'Neil, and I am a reporter
+  with the CBC. Recently, I came across your research paper on EurekAlert!,
+  and I must express my sincere appreciation for the compelling work you've done.
+  
+  Your paper provided a deep and insightful exploration into virus discovery,
+  and to be honest I'm not an expert in it but  I found the methodology and 
+  results particularly intriguing. I believe that our readers would benefit
+  greatly from a more in-depth understanding of your research.
+  
+  To that end, I am writing to request a brief 100-word summary of the main
+  findings of your paper. This summary will be used to pitch the story to my 
+  editor with the intention of conducting a more comprehensive interview with
+  you. I am confident that such an article would not only shed light on the
+  importance of your work but also inspire a broader audience.
+  
+  If you could provide the summary at your earliest convenience, along with a 
+  suitable time for a follow-up interview, I would be immensely grateful. 
+  Your expertise and insights would undoubtedly contribute to a compelling 
+  feature that highlights the significance of your research.
+  
+  Thank you for your time and consideration. I look forward to the possibility
+  of discussing your work in greater detail.
+  
+  Best regards,
+  
+  April O'Neil
+  Senior reporter. CBC
+```
+
+**A.** The virus I isolated from analyzing sequence data from the chicken’s intestine is Narnavirus foldus, which has a positive-strand RNA-based genome. This genome is 2786 nucleotides long and only encodes a RNA single RNA-dependent RNA polymerase with 898 amino acids and 3 conserved motifs (A,B,C). When compared against shuffled RNA sequences with the same length and dinucleotide distribution, N.foldus is more stable with a optimal minimum free energy of -1528.38 kcal/mol. It also has its 3' and 5' termini buried at the bottom of stem-loop structures, protecting it from exonucleases and propagating it across hosts.
+
