@@ -35,7 +35,7 @@ Table 1: A 'Top Hits' Analysis for Each P.Intestivirus Accession Code Hit.
 
 # Viral Genome 
 
-[MGY441 A3 Viral Genome.png](virus/img/p_intestivirus/MGY441 A3 Viral Genome.png)
+[MGY441 A3 Viral Genome.png](img/p_intestivirus/MGY441_A3_Viral_Genome.png)
 >Figure 1. A) Proposed Genomic Architecture of the Posasimilaris Intestivirus. Conserved sequences were identified with Blastp and aligned with the coding amino acid sequence of the virus. Distance representation between conserved regions are not to scale. The presence of the 5’NTR and 3’NTR is based on the conserved 5’NTR and 3’NTR domains found in Picornavirales [Jiang, 2014]. Size and length is not to scale.  B) Predicted RNA Secondary Structure of Posasimilis Intestiviridae. The prediction was performed with the RNAfold tool, utilizing minimal free energy predictions only. 
 
 # Predicted 3D Structure
