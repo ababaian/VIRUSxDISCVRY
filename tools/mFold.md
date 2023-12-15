@@ -2,7 +2,7 @@
 
 written by: Kevin Yuan
 
-[{estimated time} minute] This tool is for tutorial 11. mFold is one of the earliest tools for computational molecular biology, operating since 1995. It is primarily used for prediction of nucleic acid folding, which can be valuable in evaluating and comparing the structure of viruses.
+[5 minutes] mFold is one of the earliest tools for computational molecular biology, operating since 1995. It is primarily used for prediction of nucleic acid folding, which can be valuable in evaluating and comparing the structure of viruses.
 
 **Tutorial Objective**: We will use mFold to generate several possible structures of a truncated narnavirus.
 
@@ -14,7 +14,7 @@ written by: Kevin Yuan
 
 -   A DNA or RNA sequence \< 2400 nucleic acids
 
--   Example Data: AGACGGATGTGATAGATAAACTATCACTAGCTGATTATGGCACTTTAAAGCGCCTAATCA
+-   Example Data: \`\`\`AGACGGATGTGATAGATAAACTATCACTAGCTGATTATGGCACTTTAAAGCGCCTAATCA
 
     ACATTGTTGAGGGGTTTAAGGATAACTTTATGTTTTCCCAACCCGAGAGATTCTTGACTT
 
@@ -40,7 +40,7 @@ written by: Kevin Yuan
 
     ATGAGTTAACGTGGTTTGGAATGAGATACTGGAAAGTCGAAGGCATTCCAGTATGGAGAA
 
-    CCATGTGCCGACCGCATATGGCCCCAGACGGAATACCAGGAGACTCAGGACTCCTGGAGA
+    CCATGTGCCGACCGCATATGGCCCCAGACGGAATACCAGGAGACTCAGGACTCCTGGAGA\`\`\`
 
 ## Output
 
@@ -50,7 +50,7 @@ The output of mFold is a set of generated models predicting nucleic acid folding
 
 -   There is a dropdown in the header of the webpage called 'mFold', where you can then select 'Applications' and subsequently, your desired program ('DNA Folding Form' or 'RNA Folding Form')
 
-    ![](images/mfold header.PNG)
+    ![Structure of mFold Header](img/mFold/mfold_header.PNG)
 
 ### 2. Inserting Nucleic Acid Sequence
 
@@ -58,17 +58,17 @@ The output of mFold is a set of generated models predicting nucleic acid folding
 
 -   The first few prompts will ask you for your 'sequence name' and 'sequence'.
 
-    ![](images/insert sequence-01.PNG)
+    ![Entering the sequence into mFold](img/mFold/insert_sequence-01.PNG)
 
 -   Here, you can give your sequence any name you would like as well as input the nucleic acid sequence.
 
 -   Directly below, there are options to format sequence, which will tell you the sequence length, and the number of individual bases there are. It will also format the sequence that you gave it into groups of 10.
 
-    ![](images/formatted sequence.PNG)
+    ![mFold formatting of inputted sequence](img/mFold/formatted_sequence.PNG)
 
 -   Directly below that there are directions for giving the algorithm different constraints. you can force a string of consecutive bases to pair with 'F i 0 k" where F denotes 'Force', 'i' denotes the first base that must pair, and 'k' denotes the last number denotes the number of consecutive bases that must pair. The third number is not used in this case.
 
-    ![](images/constraint information.PNG)
+    ![mFold constraint information](img/mFold/constraint_information.PNG)
 
 -   Other options are well documented and can be found by clicking on the 'constraint information' link.
 
@@ -106,17 +106,17 @@ The output of mFold is a set of generated models predicting nucleic acid folding
 
 -   Once the algorithm has reached its conclusion, you will be taken to a page similar to this
 
-    ![](images/results.PNG)
+    ![Example mFold results page](img/mFold/results.PNG)
 
 -   Here you will find that attributes and parameters that you inputted into the algorithm. Below that, you will find downloadable files that correspond to the energy dot plot (Free energy calculations), computed structures, and each structure's corresponding thermodynamic details.
 
-    ![](images/results 2.PNG)
+    ![Example mFold results page part II](img/mFold/results_2.PNG)
 
 -   Not only have you now generated several different structures of a truncated narnavirus, but you can also now compare them as well using the buttons as the bottom and look at individual thermodynamic details.
 
 -   The following image is the first structure which is generated:
 
-    ![](images/structure.PNG)
+    ![Example of generated structure by mFold](img/mFold/structure.PNG)
 
 ### Conclusion
 
