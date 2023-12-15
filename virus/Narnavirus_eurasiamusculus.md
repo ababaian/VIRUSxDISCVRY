@@ -12,6 +12,8 @@ The field of virus discovery is blooming at an unprecedented rate with the rate 
 
 ## Results
 
+![](img/Narnavirus_eurasiamusculus/figure.PNG)
+
 ### Discovery of Narnavirus musculusinnocens
 
 This virus was initially found in the sequencing read archive [Leionin et al., 2020], specifically in run SRR13008222. This was an RNA-seq study, published by researchers from Gansu Agricultural University in 2021 in a study published in Frontiers in Genetics, titled "Comparative Transcriptime Profile Analysis of Longissimus dorsi Muscle Tissues From Two Goat Breeds With Different Meat Production Performance Using RNA-Seq" [Shen et al., 2021]. More specifically, this study compared the genomic muscle profiles of five Lioning cashmere (LC) goats to five Ziwuling black (ZB) goats to determine if there were genetic factors associated with meat quality. All animals were healthy nine-month year old rams from the Goat Breeding Company in the Gansu province in China. The data itself was generated from Illumina HiSeq sequencing with 45.3 million reads [Shen et al., 2021].
@@ -23,10 +25,6 @@ The SRA run was put into the Serratus.io [Edgar et al., 2022] RNA Dependent RNA 
 ### N. eurasiamusculus only infects the skeletal and cardiac muscle tissues of goats and sheep
 
 Looking at all the SRA runs which had coverage for this virus, there were a few aspects that all or most runs had in common. The first was that all sequencing runs were done on samples that came from Capra hircus (goats) or Ovis aries (sheep). All BioProjects contained samples that originated from either Europe (Spain [1], Scotland [2]) or from Asia (India [1], Mongolia [1], Tibet [1], China [4]) (number in brackets denotes the number of bioprojects). After sorting the sequencing run metadata, there are a couple more patterns that stand out. Firstly, there is no bias in age or gender for which the virus is contained in the sample. Secondly, only with the exception of one sequencing run, all other samples for which the virus was found in was either in skeletal muscle or cardiac muscle. Important to note also that in all runs, there was no indication that the animals were sick or unhealthy prior to obtaining the sample. Additionally, many of the studies for which these SRA sequencing runs were associated with were for muscle development studies for meat quality. There is no significance in the virus being biased to one population over the other. For example, in the original study conducted in Gansu, the virus was found in all five Lioning cashmere goat samples. However, it was also found in 3 of the 5 Ziwuling black goat samples as well [Shen et al., 2021]. This is most likely due to contamination. In the study conducted in spain, this virus was only found in 2 out of 72 of the goat samples [Naldurtiker et al., 2022]. Thus, from the information we currenlty have, we can conclude that N. eurasiamusculus is a rare RNA virus that only infects the skeletal muscle and cardiac tissue of Eurasian goats and sheep.
-
-### Virus Genome
-
-![](images/figure.PNG)
 
 ## Discussion
 
