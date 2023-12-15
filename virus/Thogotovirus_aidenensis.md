@@ -1,7 +1,7 @@
-# {Q1A Paper Title}
+# Potato Pests' Peculiar Passenger: A Thogotovirus Tale in G. rostochiensis
 written by: Aiden Hiller
 
-### {Q1B Virus Name}
+### Thogotovirus aidenensis
 Thogotovirus aidenensis. I'm tentatively placing my virus in the genus
 thogotovirus as homology of the currently-identified segments are strongly within
 that genus. However, with the divergence of the RdRp, it's possible additional segments
@@ -10,7 +10,6 @@ is named after myself, because why not.
 
 ## Abstract
 
-{Q1C, Nature Summary Paragraph}
 Parasitic plant nematodes are a major threat to global food security, causing
 billions of dollars in crop damage annually. The potato cyst nematodes Globodera rostochiensis  
 and Globodera pallida are particularly devastating to potato crops in Europe, Asia, and
@@ -28,7 +27,7 @@ the use of viruses as biocontrol agents for plant parasitic nematodes.
 
 ## Results
 
-### Ecology subsection A...
+### SRA Distribution
 
 sOTU u507489, designated Thogotovirus aidenense, was identified in seven distinct sequencing runs encompassed
 within four unique bioprojects, as revealed by Serratus. The run I chose to assemble was
@@ -55,23 +54,19 @@ The other does not identify the strain, only the pathotype (PRJEB12075), and tha
 the James Hutton Institute in Scotland (Eves-van den Akker et al, 2016). Interestingly, the authors note their 
 transcript selection strategy used oligo-dT beads, which suggests the virus has polyadenylated transcripts.
 
-### Virus Genome {Q3}
+### Thogotovirus Aidenensis Genome
 
 ![Genome Map](./img/thogoAiden/genomemap.png)
 
 ![RNA Secondary Structure](./img/thogoAiden/rnass.png)
 
-### Other (bonus) sections
-
-{Q4: Create sub-sections for any bonus or other cool findings you've made
-related to your virus}
+**Figure 1**: Genome Map and RNA secondary structure. (Top) Genome map of the three putative identified subunits of Thogotovirus aidenensis, PB1, PB2, and PA. RdRp motifs A, B, and C are labelled on the PB1-encoding segment. (Bottom) RNA secondary structure of the PB1 segment.
 
 ### Structural Analysis
 
 ![PB1 Motifs](./img/thogoAiden/pb1_motifs.png)
 
-While the RdRp is found on a single segment, the polymerase holoenzyme in Thogotoviruses is composed of 
-three separate subunits: PB1 (RdRp-containing, picture above), PB2, and PA.
+**Figure 2**: Alphafold predicted structure of PB1. RdRp motifs A, B, and C are labelled on the structure in blue, green, and red, respectively. 
 
 ### Phylogenetic Analysis
 
@@ -80,6 +75,8 @@ three separate subunits: PB1 (RdRp-containing, picture above), PB2, and PA.
 ![PB1 Phylogeny](./img/thogoAiden/PB1Phylo.png)
 
 ![PB2 Phylogeny](./img/thogoAiden/PB2Phylo.png)
+
+**Figure 3**: Phylogenetic analysis of Thogotovirus aidenensis. (Top) Phylogenetic analysis of the PA subunit of the polymerase. (Middle) Phylogenetic analysis of the PB1 subunit of the polymerase. (Bottom) Phylogenetic analysis of the PB2 subunit of the polymerase. The tree was constructed using IQ-TREE v2 with 1000 bootstraps and sh-aLRT. The scale bar represents the number of substitutions per site. Multiple sequence alignment was constructed using MUSCLE. 
 
 ## Discussion
 
@@ -117,13 +114,13 @@ of infecting the sister species G. pallida.
 
 In the style of Dr Seuss:
 ```
-  In a lab in Toronto, with ideas so bright,
+In a lab in Toronto, with ideas so bright,
 A student uncovered a fascinating sight.
-**A nematode, Globodera rostochiensis**, was its name,
-Hiding a secret**, soon to claim fame.
+A nematode, Globodera rostochiensis, was its name,
+Hiding a secret, soon to claim fame.
 This tiny creature, so small and so sly,
 Harbored a virus, one couldn't deny.
-**Related to thogotovirus**, small and unseen,
+Related to thogotovirus, small and unseen,
 A discovery quite significant, not at all routine.
 Far away in Wageningen, under a microscope's gaze,
 Researchers were studying nematode's ways.
@@ -131,7 +128,7 @@ In their data, so vast and so deep,
 A peculiar pattern began to creep.
 In a lab so bright, with machines that beep,
 Scientists studied this worm in a leap.
-**On an Illumina machine**, **in the year 2021**,
+On an Illumina machine, in the year 2021,
 They sequenced its genome, oh what fun!
 This tiny virus, a curious thing,
 Might make the worm's life a bit troubling.
@@ -140,7 +137,7 @@ Making its life harder on the land.
 The researchers pondered, with a thoughtful frown,
 "How does this virus bring the nematode down?"
 They scribbled and sketched in their big science den,
-**In Wageningen**, where potatoes grew in the glen.
+In Wageningen, where potatoes grew in the glen.
 And thus the adventure, with new turns and twists,
 Unraveled a story, too intriguing to resist.
 About viruses, nematodes, and the science of life,
