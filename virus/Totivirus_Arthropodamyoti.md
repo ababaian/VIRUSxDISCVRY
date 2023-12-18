@@ -1,10 +1,8 @@
-# {Unveiling a winged sensation: 'Totally Viral' – the bat's blockbuster, Totivirus arthropodamyoti!}
-written by: [Isabel Li]
+# Unveiling a winged sensation: 'Totally Viral' – the bat's blockbuster, Totivirus arthropodamyoti!
+written by: Isabel Li
 
-### {Totivirus arthropodamyoti}
+### Totivirus arthropodamyoti
 *{Totivirus is for the species that the virus belongs to and the term 'arthropodamyoti' relates to the phylum arthropods and myoti refers to the Myotis species. This relates to the story of my virus because the virus belongs to the Totivirus family and the virus is transferred from the arthropod species to species from Myotis myotis species.}*
-
-![Tutorial 2 Generative AI Cover-art](img/Totivirus_Arthropodamyoti/cover.png)
 
 ## Abstract
 This study focuses on a novel virus with the sOTU 'u508736', which we term Totivirus arthropodamyoti(Ta) which was found in 15 SRR runs. BLASTP analysis of an index run SRR1911554 revealed 40 hits, with the top hit being a Totivirus sp. (accession: 'UCD53724.1') exhibiting 56.98% identity, 8e-65 e-value, and 100% query cover. Delving into the taxonomic distribution of the hits shows that most hits derived from the Totiviridae family which belongs to the Riboviria clade. Multiple SRR runs derived from studies studying the virome of bats and arthropods that are found on the surface of bats. Another study was from investigating the genome of soil. From this study there is evidence suggesting the virus is transfered from the organisms in the soil to arthropods and then transferred to bats such as Myotis myotis. Thus, it could be that arthrops are a vector and bats are reservoir hosts for the virus.

@@ -11,7 +11,7 @@ written by: [Matin Muradli]
 ### Orthocurvulavirus phantasma
 *Orthocurvulavirus is the genus of the top three closest hits in blastx. Phantasma means phantom, ghost or apparation in latin. I chose this name, because the suspected RdRp CDS was hidden inside of another ORF, which makes it harder to find. Thus, as a ghost, even if one looks into right direction, it is almost impossible to see it.*
 
-![Generative AI Cover-art](virus/img/Orthocurvulavirus phantasma/cover.jpg)
+![Generative AI Cover-art](img/Orthocurvulavirus phantasma/cover.jpg)
 
 ## Abstract
 
@@ -30,7 +30,7 @@ The shared features of the *Suillus spp.* are their host selectivity and ECM beh
 
 ### *O.phantasma* genome
 
-![Figure 1](virus/img/Orthocurvulavirus phantasma/Fig_1_RdRp.png)
+![Figure 1](img/Orthocurvulavirus phantasma/Fig_1_RdRp.png)
 
 > Figure 1. The longest, ORF that includes the putative RdRp sequence is ORF 14, which starts from the first reading frame in reverse direction.
 Moreover, expected A, B, and C motifs are labeled with blue, green, and red ribbons respectively. 
@@ -43,13 +43,13 @@ The discovered virus has dsRNA genome. Similar to the other *Orthocurvulavirus s
 ### Other (bonus) sections
 
 
-![Figure 2A](virus/img/Orthocurvulavirus phantasma/Fig2a_Putative_RdRp_3D.png)
+![Figure 2A](img/Orthocurvulavirus phantasma/Fig2a_Putative_RdRp_3D.png)
 
 >Figure 2A. The predicted 3D configuration of putative RdRp sequence. Conserved A, B, and C motifs of the RdRp sequence are labeled blue, green, and red ribbons respectively.
 The 3D configuration is predicted by the AlphaFold 2 and read in PyMol. 
 
 
-![Figure 2B](virus/img/Orthocurvulavirus phantasma/Fig2b_RDRP_4a623_coverage.png)
+![Figure 2B](img/Orthocurvulavirus phantasma/Fig2b_RDRP_4a623_coverage.png)
 
 > Figure 2B. The sequence coverage in the genomic database. Highly conserved active center of the enzyme, shows the highest coverage.
 

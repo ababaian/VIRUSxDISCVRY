@@ -1,9 +1,9 @@
-### {A Proposed Microbiota Stool Bus as a Mode of Infection for a Novel Posa-like Virus}
+### A Proposed Microbiota Stool Bus as a Mode of Infection for a Novel Posa-like Virus
 written by: [Derek Tea](https://github.com/DerekTea)
 
-[Cover art Intestivirus](virus/img/p_intestivirus/cover_art_intestivirus.jfif)
+![Cover art Intestivirus](img/p_intestivirus/cover_art_intestivirus.jpeg)
 
-### {Posasimilis Intestivirus}
+### Posasimilis Intestivirus
 Virus name: Posasimilis Intestivirus. I gave my virus this latin binomial name because it is 1) related to the unclassified family of posa-like viruses and 2) it, along with its relatives, are found in stool samples of its associated host. This relates to the story of my virus because I propose a mechanism whereby this virus, and presumably other posa-like viruses, infects the host through the gut microbiota (located in the intestinal tracts). 
 
 ## Abstract
@@ -30,24 +30,24 @@ The proposal for a bacterial-mediated entry into the host organism is reflected 
 
 Related information pertaining to dataset runs can be found in the "MGY441 A3 Virus Seq Runs" csv file.
 
-[MGY441 A3 Virus Seq Runs.csv](img/p_intestivirus/MGY441_A3_Virus_Seq_Runs.csv)
+![MGY441 A3 Virus Seq Runs.csv](img/p_intestivirus/MGY441_A3_Virus_Seq_Runs.csv)
 Table 1: A 'Top Hits' Analysis for Each P.Intestivirus Accession Code Hit. 
 
 # Viral Genome 
 
-[MGY441 A3 Viral Genome.png](img/p_intestivirus/MGY441_A3_Viral_Genome.png)
+![MGY441 A3 Viral Genome.png](img/p_intestivirus/MGY441_A3_Viral_Genome.png)
 >Figure 1. A) Proposed Genomic Architecture of the Posasimilaris Intestivirus. Conserved sequences were identified with Blastp and aligned with the coding amino acid sequence of the virus. Distance representation between conserved regions are not to scale. The presence of the 5’NTR and 3’NTR is based on the conserved 5’NTR and 3’NTR domains found in Picornavirales [Jiang, 2014]. Size and length is not to scale.  B) Predicted RNA Secondary Structure of Posasimilis Intestiviridae. The prediction was performed with the RNAfold tool, utilizing minimal free energy predictions only. 
 
 # Predicted 3D Structure
-[Phyre2 3D Structure Motifs](img/p_intestivirus/Phyre2_3D_Structure_Motifs.png)
+![Phyre2 3D Structure Motifs](img/p_intestivirus/Phyre2_3D_Structure_Motifs.png)
 >Figure 2. A Predicted 3D Model of Posasimilaris Intestivirus. This model prediction was generated with the Phyre2 algorithm. 
 
 # Posasimilaris Intestivirus RdRp Multiple Sequence Alignment 
-[Multiple Sequence Alignment Jalview] (img/p_intestivirus/Multiple_Sequence_Alignment_Jalview.png)
+![Multiple Sequence Alignment Jalview] (img/p_intestivirus/Multiple_Sequence_Alignment_Jalview.png)
 >Figure 3. A Graphical Representation of the Posasimilaris Intestivirus RdRp Multiple Sequence Alignment. A multiple sequence alignment test was performed on the candidate Posasimilaris Intestivirus RdRp sequence using BLAST. The top hits, as defined by >80% query coverage and >40% amino acid identity, was visualized using the Jalview tool. 
 
 # Predicted Phylogenetic Lineage
-[Cobalt Phylogenetic Tree](img/p_intestivirus/Cobalt_Phylogenetic_Tree.png)
+![Cobalt Phylogenetic Tree](img/p_intestivirus/Cobalt_Phylogenetic_Tree.png)
 >Figure 4. The Predicted Posasimilaris Intestivirus Phylogenetic Lineage. This phylogenetic tree was generated on BLAST, following multiple sequence alignment of the Posasimilaris Intestivirus candidate RdRp sequence. 
 
 ## Discussion

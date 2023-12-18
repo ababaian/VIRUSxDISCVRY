@@ -5,7 +5,6 @@ written by: [Krutika Joshi](https://github.com/ika-joshi)
 Versatilis stands for versatile and Adaptabilis means adaptable. Red Mite Associated Hypovirus 1 is known to be versatile based on the research as it is able to infect multiple host species. It needs to be adaptable in order to infect and survive in different hosts.
 
 ## Shadows of Hypovirus
-[Optional: Tutorial 2 Generative AI Cover-art](img/RedMiteAssociatedHypovirus1/CoverArt.png)
 
 ## Abstract: Cross-Species Adaptability and Genomic Insights of Red Mite Associated Hypovirus 1
 
@@ -45,7 +44,7 @@ This ORF sequence is primarily found in rotavirus. It is hypothesized that the R
 
 ![Red Mite Associated Hypovirus 1](img/RedMiteAssociatedHypovirus1/RedMiteVirus.png)
 
-This image was created from Microsoft Bing - Image Creater. [Microsoft, n.d]
+> This image was created from Microsoft Bing - Image Creater. [Microsoft, n.d]
 
 I have created an image of the components of the essential genes found in the virus. The image is labeled Q4.jpeg in the A3 folder. This image shows the original host organism called red mite. Surrounding the host are different aspects such as red blood cells and RdRp structures which was used as a replication mechanism by the virus. 
 
