@@ -32,6 +32,7 @@ An index of the software tutorial.
 - [Infernal](tools/Infernal.md)
 - [InterProScan](tools/InterProScan.md)
 - [iqtree](tools/iqtree.md)
+- [mFold](tools/mFold.md)
 - [MGnify_search](tools/MGnify_search.md)
 - [muscle](tools/muscle.md)
 - [NCBI Taxonomy](tools/ncbi_tax.md)
@@ -47,7 +48,8 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
-- [Arbovirus_chinensis](virus/Arbovirus_chinensis.md)
+- [Apiovirus anomala - Rhabdovirus](virus/apiovirus_anomala.md)
+- [Arbovirus_chinensis - Orthomyxovirus](virus/Arbovirus_chinensis.md)
 - [Blumevirus macaceinfi](virus/Blumevirus_macaceinfi.md)
 - [Black Queen Cell Virus - Picornavirus](virus/BQCV.md)
 - [Cripavirus inexspectatus - Dicistrovirus](virus/Cripavirus_inexspectatus.md)
@@ -55,13 +57,16 @@ An index of the Virus Discovery Reports.
 - [Hemiptinidovirus metis - Nidovirus](virus/H_metis.md)
 - [Hespivirus rivalense - Negevirus _-= 99% =-_](virus/hespivirus_rivalense.md)
 - [Locarnavirus Nudiformis - Marnavirus](virus/Locarnavirus_nudiformis.md)
+- [Orthocurvulavirus phantasma](virus/Orthocurvulavirus_phantasma.md)
+- [Posasimilis intestivirus - Posavirus](virus/p_intestivirus.md)
 - [Pupavirus apiscarab - Narnavirus](viurus/Pupavirus_apiscarab.md)
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
 - [Sedimentum occultus - Picornavirus](virus/sedimentum_occultus.md)
+- [Thogotovirus_aidenensis - Orthomyxovirus](virus/Thogotovirus_aidenensis.md)
 - [Totivirus Arthropodamyoti](virus/Totivirus_Arthropodamyoti.md)
 - [Trojan Patchwork Virus - Vira-like Virus](virus/trojan_patchwork_virus.md)
 - [Vermisvirus culicis - Negevirus](virus/vermisvirus_culicis.md)
-- [virusus intricatus trichomonadis - Totivirus](virus/virusus_intricatus_trichomonadis.md)
+- [Virusus intricatus trichomonadis - Totivirus](virus/virusus_intricatus_trichomonadis.md)
 - [Insert Virus Name Here ...](template/virTemplate.md)
 
 
