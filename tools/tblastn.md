@@ -58,11 +58,15 @@ The taxonomy Tab provides a biologically meaningful way to organize the hit resu
 ![](img/tblastn/8.png)
 ### Conclusion
 
-That's it! You've used TBLASTN to identify translated nucleotide sequences similar to the provided protein query. The results can be used to annotate protein-coding regions in viral sequences and genomes or study the evolutionary pathways and relationships of known viruses, which makes this tool is essential to advance research in function studies in evolution of virus.
+That's it! You've used TBLASTN to identify translated nucleotide sequences similar to the provided protein query. The results can be used to annotate protein coding regions in viral sequences and genomes or study the evolutionary pathways and relationships of known viruses, which makes this tool is essential to advance research in function studies in evolution of virus.
+It is the same way of approaching for virus input of tblastn. For example, blasting with Physalis mottle virus protein sequence, tells that EU779803.2(Tomato yellow blotch virus strain Minnesota) is most similar one with the highest confidence value to the sample besides other Physalis mottle virus. 
+- [Physalis mottle virus] https://www.ncbi.nlm.nih.gov/protein/1E57_B
+![](img/tblastn/9.png)
+![](img/tblastn/10.png)
 
 
 ### See Also:
-
+- [Camacho C., Coulouris G., Avagyan V., Ma N., Papadopoulos J., Bealer K., Madden T.L. (2008) “BLAST+: architecture and applications.” BMC Bioinformatics 10:421. PubMed] https://pubmed.ncbi.nlm.nih.gov/20003500/ 
 - [NCBI BLAST Documentation] https://blast.ncbi.nlm.nih.gov/doc/blast-help/
 - [More detailed explanation] https://ftp.ncbi.nlm.nih.gov/pub/factsheets/HowTo_BLASTGuide.pdf
 
