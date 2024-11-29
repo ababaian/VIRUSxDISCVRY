@@ -7,10 +7,9 @@ written by: [allanhu] (https://github.com/lorda6)
 
 ## Input / Prerequisites
 - Access to [BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)
-- Link to example data ([Monkeypox Bcl-2-like protein](https://www.ncbi.nlm.nih.gov/protein/WMY82717.1?report=fasta))
-- {What are the required inputs for the tutorial. Include example data here if applicable or link to the data as above.}
-- {Are there any specific system or other requirements needed?}
-- ...
+- A FASTA file for a protein
+- Web browser
+
 
 ## Output
 
