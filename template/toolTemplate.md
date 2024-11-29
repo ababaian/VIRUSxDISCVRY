@@ -1,13 +1,13 @@
 # {BLASTp (Basic Local Alignment Search Tool for proteins)}
 written by: [allanhu] (https://github.com/lorda6)
 
-[10 minute] BLASTp is a bioinformatics tool designed to compare a protein query sequence against a database of protein sequences. It works by finding regions of local similarity, scoring them, and identifying potential homologs. For virus discovery, BLASTp is critical in identifying viral proteins by matching unknown sequences to known viral protein databases, revealing evolutionary relationships or functional insights.
+[10 minute] BLASTp is a bioinformatics tool designed to compare a protein sequence against a database of protein sequences. It works by finding regions of local similarity, giving them a score, and identifying potential homologs. For virus discovery, BLASTp is critical in identifying viral proteins by matching unknown sequences to known viral protein databases, revealing evolutionary relationships or functional insights.
 
-**Tutorial Objective**: {1 sentence describing what the reader will accomplish in this tutorial}
+**Tutorial Objective**: We will learn how to use BLASTp to compare the potential viral protein sequences to the database, as well as doing the analysis.
 
 ## Input / Prerequisites
-- [Tool Weblink](https://serratus.io/)
-- [Link to example data](img/template/ao.fa)
+- Access to PLASTp (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)
+- Link to example data (img/template/ao.fa)
 - {What are the required inputs for the tutorial. Include example data here if applicable or link to the data as above.}
 - {Are there any specific system or other requirements needed?}
 - ...
