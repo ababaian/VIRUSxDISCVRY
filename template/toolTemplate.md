@@ -64,7 +64,4 @@ That's it! You've used the `BLASTp` to compare a protein sequence against a data
 
 ### See Also:
 
-- [Publication Name](https://www.nature.com/articles/s41586-021-04332-2)
 - [Additional useful link](https://web.archive.org/web/19991128125537/http://www.geocities.com/Heartland/Bluffs/4157/hampdance.html)
-- [10 best practices for writing documentation](https://www.grammarly.com/blog/developer/10-best-practices-writing-documentation/)
-- ...
