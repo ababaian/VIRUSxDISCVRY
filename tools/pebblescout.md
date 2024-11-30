@@ -1,10 +1,4 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
-# {PebbleScout}
+# PebbleScout
 
 written by: [Meijin Wu](https://github.com/yourname%20*optional%20link*)
 
