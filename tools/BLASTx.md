@@ -64,23 +64,23 @@ about the sequence in the database.
 
 3. Click on _blastx_ after navigating to the [BLAST home page](https://blast.ncbi.nlm.nih.gov/Blast.cgi).
 
-![](img/BLASTx/1-BLAST home.png)
+![](images/1-BLAST_home.png)
 
 4. Paste the nucleotide sequence into the query box.
 5. Leaving all settings to default, click _BLAST_.
 - This step is usually time consuming, since it depends on the queue and internet speed.
 
-![](img/BLASTx/2-blastx.png)
+![](images/2-blastx.png)
 
 6. Select a protein hit to view its alignment to our protein.
 - To understand how to biologically interpret each of the columns in the output
 table, refer to the _Output_ section at the start of the tutorial.
 
-![](img/BLASTx/3-hit table.png)
+![](images/3-hit_table.png)
 
 - Scroll down to view the complete alignment.
 
-![](img/BLASTx/4-hit alignment.png)
+![](images/4-hit_alignment.png)
 
 - We have determined that our sequence of interest encodes the SARS-CoV-2 surface
 glycoprotein!
@@ -93,6 +93,8 @@ drop down option present in the _Enter Query Sequence_ section.
 2. You may also choose to blast your query sequence against sequences in a different
 databse and can do so by selecting your database of interest in the _Database_ drop
 down in the _Standard_ section under _Choose Search Set_.
+
+![](images/5-notes_on_blast.png)
 
 ### Conclusion
 
