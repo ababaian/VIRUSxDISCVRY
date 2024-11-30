@@ -27,7 +27,7 @@ We need to submit our DNA sequence to the NCBI ORF Finder (https://www.ncbi.nlm.
 
 ### 3. Pick your Entity Type and enter the seuqence into the box provided (our example is still following the 'Protein' sequence we obtained in Step 1). 
 
-![Input Sequence](Users/amnaa/OneDrive/Desktop/TutStep3.png)
+![Input Sequence](tools/img/AlphaFold3/TutStep3.png)
 
 In this case we pick Protein as the Entity Type and enter our 'Protein' Sequence from Step 1. AlphaFold 3 automatically formats it into organized chunks which can be seen in the image above. 
 
@@ -35,7 +35,7 @@ Tip: Explore this page of AlphaFold 3 - it has many elements that can be used fo
 
 ### 4. Click on 'Continue and Preview Job' to generate your 3D protein structure. 
 
-![Submitted Job](Users/amnaa/OneDrive/Desktop/TutStep4.png)
+![Submitted Job](tools/img/AlphaFold3/TutStep4.png)
 
 You will see a table at the bottom showing all the jobs you have submitted - note that there is a 'Jobs Remaining' count on the top right of the screen that tells you how many jobs you have left to submit on this tool. The job name will have a check icon next to it once it's completed and ready to view. 
 
@@ -44,7 +44,7 @@ Note: This part usually takes a couple of minutes, but the job run time can vary
 ### 5. Explore your generated 3D protein structure!
 Once the job is complete, you can click on it and it will show the generated structure. 
 
-![Final Structure](Users/amnaa/OneDrive/Desktop/TutStep5.png)
+![Final Structure](tools/img/AlphaFold3/TutStep5.png)
 
 Now you can explore your protein structure in all its glory! The structure is color coded with a high confidence to low confidence color range (key shown above the structure). In this case we can see that the blue domains are determined with high confidence and are the most useful for inferring function or conducting further analyses! There is also a Predicted Aligned Error Plot next to the structure which is also color coded for you to interpret the structure's reliability. 
 
@@ -58,7 +58,7 @@ The next steps are up to you - AlphaFold 3 gave you a protein structure that has
 
 We can visually identify domains from our structure generated in this Tutorial.
 
-![Structure Analysis](Users/amnaa/OneDrive/Desktop/TutConclusion.png)
+![Structure Analysis](tools/img/AlphaFold3/TutConclusion.png)
 
 After identifying these areas of interest, you can compare your structure to other similar ones or other structures generated from different sequences of interest in your Obelisk cluster. AlphaFold 3 has give you a platform to infer any protein functions from the structure - your turn to use the structure to narrow down the characterization of your Obelisk! 
 
