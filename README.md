@@ -28,6 +28,7 @@
 
 An index of the software tutorial.
 
+- [BLASTx](tools/BLASTx.md)
 - [HHpred](tools/HHpred.md)
 - [Infernal](tools/Infernal.md)
 - [InterProScan](tools/InterProScan.md)
