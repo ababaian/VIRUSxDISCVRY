@@ -22,16 +22,16 @@ Using the SRA number as the main identifier of each obelisk sample sequence.
 eg."(OBELISK_SRA_NUMBER) >
 obelisk_sequence""
 Then I saved the file with a ".txt" suffix.
-![Alt text](/Users/caitlinoxley/Downloads/tutorial_q1.png)
+![Alt text](tutorial_q1.png)
 
 ### 0. Generate an alignment of sequences that you want to map on your tree
 
 Before using this IQ-tree, you will need an alignment of your sequences of any kind (DNA, protein, codon, etc.). Sequences may include Rdrp sequences of similar viruses (identified using BLAST) or known viruses in the same family/order. This alignment can be generated in several ways, including Clustal Omega, MEGA/Muscle, or MAFFT. See links at the bottom of this document.
 Here is an example of Clustal Omega
-![Alt text](/Users/caitlinoxley/Desktop/clustal_omega.png)
+![Alt text](clustal_omega.png)
 
 ### 1. Navigate to IQ-Tree, tree inference tab
-![Alt text](/Users/caitlinoxley/Desktop/IQ_TREE_1.png)
+![Alt text](IQ_TREE_1.png)
 
 ### 2. Input your alignment
 Next to "Alignment file" press "Browse..." to input the MSA file.
@@ -60,7 +60,7 @@ Calculating branch support can show you how likely the resulting branch in the t
 ###5. Submit the Job.
 Click the "Submit" to start the analysis.
 You will be directed to Job Progress page where you can see the time you submitted the file and the status of the analysis.
-![Alt text](/Users/caitlinoxley/Desktop/iq-TREE_2.png)
+![Alt text](iq-TREE_2.png)
 
 ### 6. Visualize results in webserver, download trees for further visualization
 Click the "Full Result" tab to see your tree.
@@ -72,7 +72,7 @@ The output will include:
 
 Download the necessary files of interest.
 Below is the phylogentic tree that was produced using the obelisk371 data.
-![Alt text](/Users/caitlinoxley/Desktop/-q_tree-3.png)
+![Alt text](-q_tree-3.png)
 
 In the "Analysis Results" tab, you will also see the model finder (if "auto" was used for model selection), the parameters of the model used, the maximum likelihood tree, and the consensus tree from "bootstrapped" data (see below for bootstrapping details). The Maximum likelihood tree can tell you how your sequences are related, but if it disagrees with your consensus tree, then those branches/clades/relationships are not well supported.
 
