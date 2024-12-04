@@ -1,5 +1,5 @@
-# {Hijacking our attention: characterization of a viroid-like agent that may act as a satellite of an E.coli virus}
-written by: [yourname](https://github.com/yourname *optional link*)
+# Hijacking our attention: characterization of a viroid-like agent that may act as a satellite of an E.coli virus
+written by: Clare Gillis (https://github.com/claregillis)
 
 ### {Q1B Virus Name}
 *{Gladius clandestinus}*
