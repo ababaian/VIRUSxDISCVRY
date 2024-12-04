@@ -1,8 +1,7 @@
 # Hijacking our attention: characterization of a viroid-like agent that may act as a satellite of an E.coli virus
 written by: Clare Gillis (https://github.com/claregillis)
 
-### {Q1B Virus Name}
-*{Gladius clandestinus}*
+### *Gladius clandestinus*
 
 [Optional: Tutorial 2 Generative AI Cover-art](img/<virusname>/cover.png)
 
