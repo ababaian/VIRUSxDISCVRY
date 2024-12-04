@@ -28,16 +28,19 @@
 
 An index of the software tutorial.
 
+- [BLASTx](tools/BLASTx.md)
 - [HHpred](tools/HHpred.md)
 - [Infernal](tools/Infernal.md)
 - [InterProScan](tools/InterProScan.md)
 - [iqtree](tools/iqtree.md)
+- [IUPred2A](tools/IUPred2A.md)
 - [mFold](tools/mFold.md)
 - [MGnify_search](tools/MGnify_search.md)
 - [muscle](tools/muscle.md)
 - [NCBI Taxonomy](tools/ncbi_tax.md)
 - [ORFfinder](tools/ORFfinder.md)
 - [palmID](tools/palmID.md)
+- [PebbleScout](tools/pebblescout.md)
 - [PepInfo](tools/PepInfo.md)
 - [RNAfold](tools/RNAfold.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
