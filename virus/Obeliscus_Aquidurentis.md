@@ -321,11 +321,16 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 
 -ORF 1, potentially oblin 2(16)
 
+
 ![](img/Obeliscus_Aquidurentis/6.png)
+
 
 -ORF 2, potentially oblin 1(16)
 
+
 ![](img/Obeliscus_Aquidurentis/7.png)
+
+
 
 - Conserved regions were circled and analysis on the prediction can be found above in observation and features, suggesting the potential functions of the them and how they are aligned with Oblin 1 and 2
 
