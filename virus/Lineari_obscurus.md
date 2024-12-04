@@ -44,7 +44,7 @@ Table 1. Summary of SRA runs, BioSample, and BioProject associated with cluster 
 
 ### Virus Genome {Q3}
 
-![](img/Lineari_obscurus/Figure%201.png)
+![Figure 1](img/Lineari_obscurus/Figure%201.png)
 
 Figure 1. Visualization of the *Lineari obscurus* genome. A) Visualization of the centroid sequence of obelisk cluster 1812, where *Lineari obscurus* was discovered. Predicted ORFs with a peptide length of \>25 amino acids are annotated in purple and labeled #1-#5. The BAR domain found in ORF #1 is annotated in grey. B)+C) Visualizations of obelisk numbers 05 and 10 were found in cluster 1812. Each run contained sequences starting at different locations in the genome, but core features were conserved. The missing positive strand ORF #5 is annotated in red in C). D) Secondary structure prediction of *Lineari obscurus* genome using the ViennaRNA package (Lorenz et al., 2011) with coloured legend of prediction confidence. All visualizations were made using SnapGene.
 
