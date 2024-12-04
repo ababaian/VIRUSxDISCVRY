@@ -1,10 +1,9 @@
-# {“Obelisk 17: A Microbial Ecosystem Regulator Facilitates Protein Metabolism of the Host in Wastewater Environments by Interactions With Pepteases”}
+# “Obelisk 17: A Microbial Ecosystem Regulator Facilitates Protein Metabolism of the Host in Wastewater Environments by Interactions With Pepteases”
 written by: [ZhenghhaoXiao](https://github.com/ZhenghaoXiao)
 
-### {Obelisk 17/*Obeliscus Aquidurentis*}
-*{Q1B, etiology of virus name}*
+### Obelisk 17/*Obeliscus Aquidurentis*
 
-[Optional: Tutorial 2 Generative AI Cover-art](img/Obeliscus_Aquidurentis/obelisk17.png)(33)
+[Tutorial 2 Generative AI Cover-art](img/Obeliscus_Aquidurentis/obelisk17.png)(33)
 
 ## Abstract
 
@@ -321,12 +320,9 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 
 -ORF 1, potentially oblin 2(16)
 
-
 ![](img/Obeliscus_Aquidurentis/6.png)
 
-
 -ORF 2, potentially oblin 1(16)
-
 
 ![](img/Obeliscus_Aquidurentis/7.png)
 
