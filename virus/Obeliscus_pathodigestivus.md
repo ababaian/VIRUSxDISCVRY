@@ -27,13 +27,15 @@ Along with the index case, the remaining obelisks in the cluster were present in
 The obelisk-containing datasets share some common factors. To begin with, obelisks flourish in ecosystems (human gut, pig gut) abundant in nutrients and with a dense microbial presence, promoting microbial interactions. Moreover, the index case comes from a clinical sample associated with a diseased state (diarrhea), and this pattern is reflected in other datasets where the viroid has been identified. For instance, in the BioProject PRJEB48889, the obelisk was found in several samples associated with pigs suffering from Arachidonic Acid Metabolism Disorder. This observation supports the idea that the viroid is more likely to be identified in gut microbiome samples from mammals with gastrointestinal diseases, possibly due to changes in microbial diversity or immune responses that facilitate its persistence in the gut environment. Technologically, the RNA viroid is most commonly detected through high-depth sequencing methods, such as Illumina-based metatranscriptomic sequencing (HiSeq 4000, HiSeq 2500 paired-end sequencing), which may be more sensitive to detecting low-abundance 'viral' genomes.
 
 **4. Observations and Possible Hypothesis**
+
 To quantify these observations, we can measure the frequency of Obeliscus pathodigestivus presence in different datasets and compare its occurrence in healthy vs. diseased individuals. Statistical analyses, such as chi-squared tests, can be used to determine whether there is a significant association between the virus's presence and specific health conditions (e.g., diarrhea or IBD). Future experiments may involve longitudinal studies to track the virus's presence over time and its potential role in disease progression or resolution.
 
 Hypothesis: Obeliscus pathodigestivus RNA sequences associate to gastrointestinal diseases in mammals.
 
 ### Virus Genome {Q3}
 
-{Insert your Virus Genome Map Figure and figure legend here}
+![genome](img/Obeliscus_pathodigestivus/genome.png)
+
 
 ### Other (bonus) sections
 
