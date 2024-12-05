@@ -342,7 +342,7 @@ there is a greater overlap in microbial composition between China and
 New Zealand, despite their geographical distance.
 
 <figure>
-<img src="images/upset_plot.png"
+<img src="img/obeliscus_replicandii/upset_plot.png"
 alt="Upset Plot showing the Colocation of Microbes within the affected Regions" />
 <figcaption aria-hidden="true">Upset Plot showing the Colocation of
 Microbes within the affected Regions</figcaption>
@@ -402,7 +402,7 @@ to assess whether my Obelisk is present in local samples of these
 bacteria to validate this computational hypothesis.
 
 <figure>
-<img src="images/overlap_matches_table.png"
+<img src="img/obeliscus_replicandii/overlap_matches_table.png"
 alt="Table: Comparison of High Identity Hits from the local Microbiomes around the Centroid" />
 <figcaption aria-hidden="true">Table: Comparison of High Identity Hits
 from the local Microbiomes around the Centroid</figcaption>
@@ -455,7 +455,7 @@ file ‘aligned\_sequences\_cluster’ contains the data from the multiple
 sequence alignment.
 
 <figure>
-<img src="images/phylogenetic_tree_plot.png"
+<img src="img/obeliscus_replicandii/phylogenetic_tree_plot.png"
 alt="Phylogenetic Tree with Geographic Annotations" />
 <figcaption aria-hidden="true">Phylogenetic Tree with Geographic
 Annotations</figcaption>
@@ -488,7 +488,7 @@ representation. Most of the PCA code was already known to me due to
 previous courses at ETH.
 
 <figure>
-<img src="images/pca_plot.png"
+<img src="img/obeliscus_replicandii/pca_plot.png"
 alt="PCA of the multiple sequence alignment from the clustered Obelisks" />
 <figcaption aria-hidden="true">PCA of the multiple sequence alignment
 from the clustered Obelisks</figcaption>
@@ -563,7 +563,7 @@ Thomas provided this link on PIAZZA. I also added the antisense strand
 of the genome. I used ChatGPT to adjust the plot:
 
 <figure>
-<img src="images/genome_annotation.png"
+<img src="img/obeliscus_replicandii/genome_annotation.png"
 alt="Genome annotation with ORF" />
 <figcaption aria-hidden="true">Genome annotation with ORF</figcaption>
 </figure>
@@ -605,7 +605,7 @@ The ORF4 is located on the antisense strand and was implemented in the
 figure as well.
 
 <figure>
-<img src="images/circular_genome.png"
+<img src="img/obeliscus_replicandii/circular_genome.png"
 alt="Circular Genome annotation with ORF" />
 <figcaption aria-hidden="true">Circular Genome annotation with
 ORF</figcaption>
@@ -654,25 +654,25 @@ produce self-replicatory compounds, thereby enhancing our understanding
 of their replication mechanisms.
 
 I continued to write up my findings in a new data frame: ![ORFs and
-their Proposed Proteins](images/proteins.png)
+their Proposed Proteins](img/obeliscus_replicandii/proteins.png)
 
 ### Virus Genome
 
 <figure>
-<img src="images/genome_annotation.png"
+<img src="img/obeliscus_replicandii/genome_annotation.png"
 alt="Genome annotation with ORF" />
 <figcaption aria-hidden="true">Genome annotation with ORF</figcaption>
 </figure>
 
 <figure>
-<img src="images/circular_genome.png"
+<img src="img/obeliscus_replicandii/circular_genome.png"
 alt="Circular Genome annotation with ORF" />
 <figcaption aria-hidden="true">Circular Genome annotation with
 ORF</figcaption>
 </figure>
 
 <figure>
-<img src="images/RNAfold_website.png"
+<img src="img/obeliscus_replicandii/RNAfold_website.png"
 alt="RNA-secondary structure based on RNAfold Webserever" />
 <figcaption aria-hidden="true">RNA-secondary structure based on RNAfold
 Webserever</figcaption>
@@ -680,12 +680,14 @@ Webserever</figcaption>
 
 ### Protein Visualisation
 
-Oblin1: ![Oblin1 fold prediction](images/oblin1_fold.png)
+Oblin1: ![Oblin1 fold
+prediction](img/obeliscus_replicandii/oblin1_fold.png)
 
-Oblin2: ![Oblin2 fold prediction](images/oblin2_fold.png)
+Oblin2: ![Oblin2 fold
+prediction](img/obeliscus_replicandii/oblin2_fold.png)
 
 Proposed replication protein: ![Antisense Protein fold
-prediction](images/replication_fold.png)
+prediction](img/obeliscus_replicandii/replication_fold.png)
 
 ### Possible Replication Protein on the Antisense Strand
 
@@ -701,7 +703,7 @@ understanding of its role.
 Firstly, I translated all the ORFs to get the amino acid sequence. I did
 this step in the section before and the data can be seen in the
 following dataframe ‘protein\_data’. ![Proteins from my Centroid and
-their Amino Acid Sequence](images/protein_data.png)
+their Amino Acid Sequence](img/obeliscus_replicandii/protein_data.png)
 
 Now that I have the amino acid sequence of the three proteins of
 interest, I can start to analyse them even further. I continued by
@@ -750,7 +752,7 @@ Mapper](https://nls-mapper.iab.keio.ac.jp/cgi-bin/NLS_Mapper_form.cgi)
 for this analysis.
 
 <figure>
-<img src="images/cNLS_mapper.png"
+<img src="img/obeliscus_replicandii/cNLS_mapper.png"
 alt="cNLS Mapper results of the proposed replication protein" />
 <figcaption aria-hidden="true">cNLS Mapper results of the proposed
 replication protein</figcaption>
@@ -814,7 +816,7 @@ The final alignment using the Bacillus polymerase as a template looked
 like that:
 
 <figure>
-<img src="images/RNA_poly_strepto.png"
+<img src="img/obeliscus_replicandii/RNA_poly_strepto.png"
 alt="RNA Polymerase of the Streptococcus sanguinis" />
 <figcaption aria-hidden="true">RNA Polymerase of the Streptococcus
 sanguinis</figcaption>
@@ -836,7 +838,8 @@ interact with the alpha helice from the replication protein. My input
 paramters (from subunit alpha) looked like this:
 
 <figure>
-<img src="images/alpha_haddock.png" alt="Alpha subunit residue" />
+<img src="img/obeliscus_replicandii/alpha_haddock.png"
+alt="Alpha subunit residue" />
 <figcaption aria-hidden="true">Alpha subunit residue</figcaption>
 </figure>
 
@@ -871,8 +874,8 @@ can be found in the PDB file ‘alpha\_replication\_cluster’:
 
 ![Alpha Subunit (blue) of the Streptococcus sanguinins and the proposed
 replication protein’s (orange) most favourable
-cluster](images/alpha_replication.png) \_\_\_ **Beta Subunit and
-Replication Protein interaction**
+cluster](img/obeliscus_replicandii/alpha_replication.png) \_\_\_ **Beta
+Subunit and Replication Protein interaction**
 
 The parameters for Cluster 10 suggest a more favourable docking
 interaction compared to the previous cluster. The HADDOCK score of -91.2
@@ -897,8 +900,8 @@ Detailed results can be found
 
 ![Beta Subunit (blue) of the Streptococcus sanguinins and the proposed
 replication protein’s (orange) most favourable
-cluster](images/beta_replication.png) \_\_\_ **Omega Subunit and
-Replication Protein interaction**
+cluster](img/obeliscus_replicandii/beta_replication.png) \_\_\_ **Omega
+Subunit and Replication Protein interaction**
 
 The HADDOCK score of -89.3 ± 2.0 indicates a favourable docking
 interaction which reflects good binding energy overall. The
@@ -916,7 +919,7 @@ Detailed results can be found
 [here](https://rascar.science.uu.nl/haddock2.4/result/6209086420/414904-omegasubunit)
 
 <figure>
-<img src="images/omega_replication.png"
+<img src="img/obeliscus_replicandii/omega_replication.png"
 alt="Omega Subunit (blue) of the Streptococcus sanguinins and the proposed replication protein’s (orange) most favourable cluster" />
 <figcaption aria-hidden="true">Omega Subunit (blue) of the Streptococcus
 sanguinins and the proposed replication protein’s (orange) most
@@ -957,7 +960,7 @@ to identify where the Oblin1 protein can be localised to further
 understand its possible physiological function.
 
 <figure>
-<img src="images/cNLS_mapper_oblin1.png"
+<img src="img/obeliscus_replicandii/cNLS_mapper_oblin1.png"
 alt="cNLS Mapper results of the Oblin1 protein" />
 <figcaption aria-hidden="true">cNLS Mapper results of the Oblin1
 protein</figcaption>
