@@ -3,7 +3,7 @@ written by: [Caitlin Oxley]
 
 ### Obelisk 371
 
-![Alt](virus/img/Obelisk371/coverartO371.png)
+![Alt](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/virus/img/Obelisk371/coverartO371.png)
 
 ## Abstract
 
