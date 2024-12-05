@@ -1,8 +1,8 @@
-Crossing the Line: The Obelisk Discovered at the Intersection of Human Gut Metatranscriptomics and Bacterial mRNA
+## Crossing the Line: The Obelisk Discovered at the Intersection of Human Gut Metatranscriptomics and Bacterial mRNA
 
 written by: [Feiyang Sun](https://github.com/Limelime1214)
 
-*Obeliscus pathodigestivus*
+## *Obeliscus pathodigestivus*
 
 The genus name "Obeliscus" is latin for "Obelisk", while the species name "pathodigestivus" combines "patho-" (indicating disease) and "digestivus" (relating to digestion), suggesting the organism is involved in the digestive system and could cause digestive-related illnesses. The nomenclature also interprets potential association between this obelisk and infectious intestinal disease (or acute gastroenteritis).
 
