@@ -86,14 +86,51 @@ Given that the samples (of the Centroid and other libraries) were obtained from 
 
 ## Discussion
 
-{Q5 answer}
+Through the study of Obeliscus pathodigestivus (Obelisk_001756_000001_000001), we have uncovered important ecological insights regarding the diversity of obelisks. One of the most fascinating property of O.pathodigestivus is its Oblin-1 sequence, which is further downstream than expected. The genome encodes a single open reading frame (Oblin-1), which has a sequence length of 849 nucleotides with a starting position at nucleotide 449. In comparison to typical obelisks characterized in the Obelisk study [Zheludev et al. 2024], whose Oblin-1 sequences begin near the start of the genome (generally around nucleotide position 100 to 200), the Oblin-1 sequence in this case starts further downstream. The shift in the position of the Oblin-1 sequence may suggest an evolutionary divergence or adaptation to different environmental or ecological conditions. This change in sequence location could be a response to selective pressures in the host or microbial ecosystem, influencing how the viroid-like element interacts with host machinery. On the other hand, the location of the Oblin-1 gene could also have implications for the replication process of the obelisk. Genes located closer to the start of the sequence may be transcribed and replicated more efficiently, whereas genes located downstream might require additional regulatory mechanisms to initiate transcription or replication.
+
+In the ecological context of O.pathodigestivus, the voriod plays a potentially significant role within the microbial communities it inhabits. This obelisk, identified in diverse environmental samples, appears to thrive in nutrient-rich environments where microbial interactions are abundant, such as gastrointestinal systems of mammals. These habitats are often characterized by high microbial density and dynamic nutrient cycles, offering an ideal setting for O.pathodigestivus to engage in processes like nutrient cycling, microbial community modulation, and possibly horizontal gene transfer. The interaction between O.pathodigestivus and its host species, particularly in relation to gastrointestinal health and disease, suggests that this obelisk may have implications for host-microbiome interactions and pathogenesis, potentially contributing to conditions like dysbiosis or gastrointestinal diseases.
+
+O.pathodigestivus shares certain similarities with other obelisks documented in the Obelisk study [Zheludev et al. 2024]. To begin with, O.pathodigestivus does have a typical genome length (1490 nt) and a single-stranded circular genome structure. Moreover, a typical (sequence: RRRGYKDHGSRRFPHEVH) domain-A (nt position 701 to 755) simiar to that of Obelisk-alpha was discovered in Oblin-1 sequence of O.pathodigestivus. Also, much like the obelisks characterized in [Zheludev et al. 2024], O.pathodigestivus is part of a distinct phylogenetic group, showing no significant similarity to any known RNA or protein sequences in existing databases. This highlights the uniqueness of obelisk sequences and their potential to represent previously unexplored RNA entities. Lastly, the viroid is more likely to be identified in gut microbiome samples from mammals with gastrointestinal diseases according to our observations, which is consistent with contents mentioned in [Zheludev et al. 2024].
+
+Drawing attention to differences, there are also some intriguing findings. Firstly, O.pathodigestivus has a Oblin-1 sequence which appears very downstream of the genome (as discussed above). Secondly, According to [Zheludev et al. 2024], obelisks are known to encode one or two proteins Oblin-1 and Oblin-2, with Oblin-1 featuring a conserved globular domain and Oblin-2 exhibiting a leucine zipper motif. However, O.pathodigestivus encodes only a single protein, lacking any identifiable conserved domains.
+
+In short, these differences in genomic structure and ecological context point to the possibility of varying roles or adaptive strategies among obelisks, and further investigation is required to understand the extent of their ecological diversity and functional capabilities.
 
 ## References
 
-{Q6 answer}
+Babaian A, Edgar R. 2022. Ribovirus classification by a polymerase barcode sequence. PeerJ. 10: e14055. doi: https://doi.org/10.7717/peerj.14055.
+
+Camarillo-Guerrero LF, Almeida A, Rangel-Pineros G, Finn RD, Lawley TD. 2021. Massive expansion of human gut bacteriophage diversity. Cell. 184: 1098–1109. e9. doi: https://doi.org/10.1016/j.cell.2021.01.029.
+
+Cunningham-Oakes E, Perez-Sepulveda BM, Li Y, Hinton JCD, Nelson CA, McIntyre KM, Wardeh M, Haldenby S, Gregory R, Iturriza-Gómara M, et al. 2023. Enhancing Infectious Intestinal Disease diagnosis through metagenomic and  3 metatranscriptomic sequencing of over 1000 human diarrhoeal samples. doi: https://doi.org/10.1101/2023.04.03.23288067.
+
+Edgar RC. 2004. MUSCLE: a multiple sequence alignment method with reduced time and space complexity. BMC bioinformatics. 5: 113. doi: https://doi.org/10.1186/1471-2105-5-113.
+
+Edgar RC, Taylor B, Lin V, Altman T, Barbera P, Meleshko D, Lohr D, Novakovsky G, Buchfink B, Al-Shayeb B, et al. 2022. Petabase-scale sequence alignment catalyses viral discovery. Nature. 602: 142–147. doi: https://doi.org/10.1038/s41586-021-04332-2.
+
+Evans R, O'Neill M, Pritzel A, Antropova N, Senior A, Green T, Žídek A, Bates R, Blackwell S, Yim J, et al. 2021. Protein complex prediction with AlphaFold-Multimer. doi: https://doi.org/10.1101/2021.10.04.463034.
+
+Gupta P, Hiller A, Chowdhury J, Lim D, Lim DY, Saeij JPJ, Babaian A, Rodriguez F, Pereira L, Morales-Tapia A. 2024. A parasite odyssey: An RNA virus concealed in  Toxoplasma gondii. Virus Evolution 2024. 10(1): veae040. doi: https://doi.org/10.1093/ve/veae040.
+
+Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: Improvements in performance and usability. Molecular Biology and Evolution. 30(4): 772–780. https://doi.org/10.1093/molbev/mst010.
+
+McIntyre KM, Bolton FJ, Christley RM, Cleary P, Deja E, Durie AE, Diggle PJ, Hughes DA, Lusignan Sd, Orton L, et al. 2019. A Fully Integrated Real-Time Detection, Diagnosis, and Control of Community Diarrheal Disease Clusters and Outbreaks (the INTEGRATE Project): Protocol for an Enhanced Surveillance System. JMIR Res Protoc 2019. 8(9): e13941. doi: https://doi.org/10.2196/13941.
+
+Xu SS, Zhang XL, Liu SS, Feng ST, Xiang GM, Xu CJ, Fan ZY, Xu K, Wang N, Wang Y, et al. 2022. Multi-Omic Analysis in a Metabolic Syndrome Porcine Model Implicates Arachidonic Acid Metabolism Disorder as a Risk Factor for Atherosclerosis. Front Nutr. 9: 807118. doi: https://doi.org/10.3389/fnut.2022.807118.
+
+Zheludev IN, Edgar RC, Lopez-Galiano MJ, Pena Mdl, Babaian A, Bhatt AS, Fire AZ. 2024. Viroid-like colonists of human microbiomes. Cell. 187: 6521-6536. doi: https://doi.org/10.1016/j.cell.2024.09.033.
 
 # Viral Short Story
 
 ```
-In code-text; include your short story from Tutorial 2 here :)
+In the year 2147, the Shattered Isles became the battleground of a quiet apocalypse. The virus, Obeliscus pathodigestivus, wasn't just a pathogen—it was a weapon. Engineered by a shadowy cabal, it targeted the digestive systems of its victims, leaving them debilitated and easily controlled. **With a circular single-stranded RNA genome**, the virus seemed deceptively simple. Its compact genome **encoded a single, mysterious open reading frame**, a hallmark of the infamous Obelisk viroids.
+
+Yet, its true power lay in its omission: **Obeliscus had no RNA-dependent RNA polymerase (RdRp)**. Instead, it exploited host cellular machinery with surgical precision, hijacking ribozymes and enzymes from the infected. The infected became hollowed-out shells **because of gastrointestinal diseases**, starving as their own bodies betrayed them, yet somehow still driven to spread the viroid.
+
+Sora, a rogue ninja trained in bioinformatics and guerrilla warfare, fought to uncover the truth. The viroid’s design bore markers of human engineering. She suspected it was a failed bioweapon that had spiraled out of control, created to incapacitate populations without damaging infrastructure. Its **genome was remarkably short—only 1490 nucleotides—a size characteristic of all Obelisk viroids**.
+
+Armed with this knowledge, Sora synthesized a countermeasure encoded in a viral mimic that tricked Obeliscus into self-destruction. She uploaded the formula into the last remaining quantum lab, initiating its synthesis. But time was running out. Across the city, infected agents hunted her, their strength fueled by desperation and their eyes void of humanity.
+
+The sun rose over the Isles as the antivirus pulsed through her makeshift air disperser. Whether it would work was uncertain, but for Sora, hope had to start somewhere.
+
 ```
