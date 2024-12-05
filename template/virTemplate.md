@@ -30,9 +30,13 @@ To investigate whether Clostridiae-associata centralis is present in the Clostri
 
 ![Fig. 2: Results from tBLASTn with Clostridiae-associata centralis ORF2 query and ERX2023530 chosen search set.](img/alignment.png)
 
+
+
 ### Virus Genome {Q3}
 
 ![Fig. 1A: ORFs of Clostridiae-associata centralis as determined by ORFfinder, with nucleotide scale bar. Created with R package gggenes based on GitHub PuravG/Computational-Virus-Discovery](img/genome.png)
+
+
 
 ### Other (bonus) sections
 
@@ -40,16 +44,28 @@ To investigate whether Clostridiae-associata centralis is present in the Clostri
 
 ![Fig. 1B: RNA secondary structure of Clostridiae-associata centralis (determined by RNAfold)](img/rna2.png)
 
+
+
 ![Fig. 1C: RNA secondary structure of Clostridiae-associata obelisk in cluster (SRA accession: ERR1960626) (determined by RNAfold)](img/rna1.png)
+
+
+
 
 ## Conserved regions between Oblin-1 protein structure and predicted protein structure of ORF2 of Clostridiae-associata centralis
 
+
+
 ![Fig. 3: Structural prediction of ORF2 of Clostridiae-associata centralis via AlpaFold 3. Oblin-1 conserved regions circled in red.](img/alpha.png)
+
+
 
 ![Fig. 4: Oblin-1 predicted protein structure (Zheludev 2024) for comparison with Fig. 3. Conserved region circled in red.](img/oblin.png)
 
+
+
 #Limericks incorporating facts discovered about Clostridiae-associata centralis
 
+```
 In the sludge where Clostridia thrive,
 An obelisk with secrets alive,
 It encodes Oblin-1,
@@ -61,6 +77,7 @@ Clostridiae obelisks near.
 With structures distinct,
 But genomes linked,
 Their roles remain unclear.
+```
 
 ## Discussion
 
