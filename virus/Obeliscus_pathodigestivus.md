@@ -54,8 +54,29 @@ Hypothesis: Obeliscus pathodigestivus RNA sequences associate to gastrointestina
 
 ### Other (bonus) sections
 
-{Q4: Create sub-sections for any bonus or other cool findings you've made
-related to your virus}
+**1. Exploring potential protein function of O.pathodigestivus Oblin-1**
+
+ProteInfer is a useful tool for predicting protein functional properties based on amino acid sequences using deep learning models. The model analyzes the sequence and generates predictions about the protein’s function, including specific molecular functions and cellular processes. Entering the amino acid sequence of O.pathodigestivus Oblin-1 into the `protein sequence` textbox, the web server generated predicted functions of our protein of interest.
+
+As shown in Figure 6, Oblin-1 is predicted to have nucleic acid binding (DNA binding) function with very high confidence scores, indicating it is highly likely that Oblin-1 of O.pathodigestivus possesses nucleic acid binding function. This is consistent with observations mentioned in the Obelisk article [Zheludev et al. 2024], which interpred that domain-A of Oblin-1 has an anion binding function and would somehow contributes to RNA binding or DNA binding in potential host. As the replication mechanism of Obelisks is still understudied, this property of Oblin-1 mentioned above could provide insight into potential pathways for understanding how these viroid-like elements replicate. 
+
+To further explore the functional role of Oblin-1 in O. pathodigestivus, future research should focus on several key areas. First, experimental validation of its nucleic acid binding activity is essential. Techniques such as electrophoretic mobility shift assays (EMSA) and RNA immunoprecipitation could be used to confirm its binding to DNA or RNA. Additionally, determining the specific nucleotide sequences that Oblin-1 recognizes will provide crucial insights into its molecular mechanism and possible interactions with host genetic material.
+
+In parallel, investigating the expression profile of Oblin-1 across different growth conditions and in various host systems could provide valuable information about its role in O. pathodigestivus's 'lifecycle' and its interactions with the host. For instance, RNA sequencing or proteomics approaches could be employed to assess how Oblin-1 expression changes in response to environmental stimuli, such as nutrient availability or host immune responses.
+
+Lastly, functional assays in animal models or cell cultures could be employed to assess the physiological effects of Oblin-1, particularly in relation to host health and disease states. These studies would provide the experimental evidence needed to support its potential as a therapeutic target or biomarker for gut-related diseases. By combining these approaches, a comprehensive understanding of Oblin-1's function and significance in microbial ecology can be achieved.
+
+![Oblin-1 function prediction](img/protein_function_prediction.png)
+**Figure 6: Potential protein function of O.pathodigestivus Oblin-1 predicted by ProteInfer.** Submitting the protein sequence of O.pathodigestivus Oblin-1, functional categories like molecular functions, biological processes, and subcellular locations are predicted with associated confidence scores. As shown in the figure, Oblin-1 is predicted to have nucleic acid binding function with a very high confidence score (0.98), and also, the protein is predicted to possess DNA binding function with a very high confidence score (0.88).
+
+**2. Investigating sequence similarity and phylogenetic relationship within cluster 1756.**
+
+Comparing the ecology of index case Obelisk and broader ecology as mentioned in the above module, we obtained an interesting observation that the Centroid (Obelisk_001756_000001_000001) was discovered in the human gut metagenome, while all other three libraries were detected from sequencing runs from bacterial mRNA found in the organism Rinodina peloleuca. This could seem quite confusing at first glance, but upon further investigation of the BioProject submitting these datasets, We found that the study also involved gut microbiome samples from mammals with gastrointestinal diseases, which is similar to the other BioProject involving the Centroid.
+
+Given that the samples (of the Centroid and other libraries) were obtained from two different species, it is worth investigating the sequence similarity and the phylogenetic relationships within obelisk cluster 1756. According to Figure 7 and Figure 8, We discovered that all the other libraries show sequence similarity as high as 99% to the Centroid. Also, Obelisk_001756_000001_000001 and Obelisk_001756_000001_000002 have the closest phylogenetic relationship within the cluster, while Obelisk_001756_000001_000003 is most distant from Centroid.
+
+![within cluster](img/relationship_within_cluster.png)
+**Figure 7: Sequence alignment using all libraries of cluster 1756.** The query sequence is Centroid of O.pathodigestivus (Obelisk_001756_000001_000001), and the subject sequences are all the 4 libraries in the cluster. According to the figure, Obelisk_001756_000001_000002 has the highest similarity to Centroid, while Obelisk_001756_000001_000003 possesses the lowest similarity, indication potential phylogenetic relationship within this cluster.
 
 ## Discussion
 
