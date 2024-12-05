@@ -6,12 +6,7 @@ The name Aenigmovirus labyrinthii captures the essence of the obelisk as a key p
 
 ![Aenigmovirus labrynthii](img/Aenigmovirus_labrynthii/Aenigmovirus_labrynthii_cover.jpeg)
 
-## Abstract
-
 The discovery of Aenigmovirus labyrinthii, a novel RNA-based viroid associated with mammalian and primate hosts, reveals unique genomic and structural features that challenge existing classifications. Named for its enigmatic genome and intricate RNA secondary structure, this viroid comprises a 796-nucleotide genome with two overlapping open reading frames (ORFs), bisected by a conserved rod-like RNA fold. Mutations within the conserved A region of Oblin-1 and lack of homology to annotated proteins further underscore its novelty, with ORF1 showing limited similarity to uncharacterized microbial proteins. Interestingly, A. labyrinthii correlates with Picobirnaviridae and Narnaviridae in wastewater samples, suggesting a potential human origin and its role in gut microbiome dynamics. These findings highlight the viroid's significance as a potential viral “pillar” of gut microbial balance, expanding our understanding of RNA viroid evolution and uncovering an underexplored ecological niche for pathogen discovery.
-
-## Results
-
 
 ### **Ecological Context of the Obelisk in the Index Case**
 
@@ -31,19 +26,11 @@ The obelisk is consistently detected in gut samples from Rhesus macaques, but it
 
 To quantify these observations, metrics such as viral load, transcriptional activity, and microbial diversity can be assessed. For instance, comparing viral RNA abundance between the healthy and ICD datasets could illuminate disease-associated shifts in viral activity. Translating these observations into hypotheses, we propose that the obelisk represents a gut microbiome-associated virus, whose expression correlates with host microbiota composition and disease state. Specifically, its increased detection in ICD samples may reflect altered host-microbiome dynamics or opportunistic viral activation during dysbiosis.
 
-### Virus Genome {Q3}
-
 ![Viral Genome](img/Aenigmovirus_labrynthii/Jupiter_Plot.png)
-
-
-
-### Other (bonus) sections
 
 ![Obelisk Structure](img/Aenigmovirus_labrynthii/Obelisk_Structure.png)
 
 ![ORF1 Structure](img/Aenigmovirus_labrynthii/Obelisk_ORF1_AlphaFold.png)
-
-## Discussion
 
 ### **Biological Insights from the Obelisk**
 
@@ -51,13 +38,13 @@ Characterizing this obelisk has revealed intriguing aspects of host-microbe-viru
 
 ### **Fascinating Traits and Novel Insights**
 
-One of the most striking features of this obelisk is its apparent duality in ecological roles. BLAST searches of its genome reveal associations with multiple bacterial strains, hinting at a phage-like behavior. This aligns with textbook definitions of bacteriophages as facilitators of genetic exchange in microbial communities. However, its consistent presence in mammalian gut environments, particularly in a host-specific context (Rhesus macaques), suggests a more refined ecological niche. This duality raises the possibility of it being more than a phage—perhaps an endogenous viral element or a highly adapted gut virus. 
+One of the most striking features of this obelisk is its apparent duality in ecological roles. BLAST searches of its genome reveal associations with multiple bacterial strains, hinting at a phage-like behaviour. This aligns with textbook definitions of bacteriophages as facilitators of genetic exchange in microbial communities. However, its consistent presence in mammalian gut environments, particularly in a host-specific context (Rhesus macaques), suggests a more refined ecological niche. This duality raises the possibility of it being more than a phage—perhaps an endogenous viral element or a highly adapted gut virus. 
 
 A fascinating insight lies in its altered detection patterns between healthy and ICD-affected macaques. This divergence highlights the obelisk's potential sensitivity to dysbiosis or disease states, suggesting a functional interaction with microbiome homeostasis or pathogenesis. Such a feature positions it as a potential biomarker or a modulator of gut health, offering exciting avenues for future research.
 
 ### **Pushing Against Textbook Definitions**
 
-What sets this obelisk apart is its deviation from certain classical viral traits. While bacteriophages are typically expected to infect and lyse bacterial hosts, the obelisk's behavior appears subtler. Its genome shows high alignment scores with bacterial sequences, yet its ecological role may not involve outright lysis. This trait suggests it could be involved in lysogenic cycles or may act as a mobile genetic element, facilitating the exchange of functional genes without the traditional hallmarks of viral infection.
+What sets this obelisk apart is its deviation from certain classical viral traits. While bacteriophages are typically expected to infect and lyse bacterial hosts, the obelisk's behaviour appears subtler. Its genome shows high alignment scores with bacterial sequences, yet its ecological role may not involve outright lysis. This trait suggests it could be involved in lysogenic cycles or may act as a mobile genetic element, facilitating the exchange of functional genes without the traditional hallmarks of viral infection.
 
 Furthermore, the obelisk lacks any obvious virulence factors typically associated with pathogenic viruses. Instead, its presence in both healthy and diseased gut environments suggests it may play a neutral or even symbiotic role. This challenges the traditional view of viruses as primarily harmful agents and instead underscores their potential as integral components of the microbiome.
 
@@ -88,7 +75,6 @@ Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
 protein database search programs", Nucleic Acids Res. 25:3389-3402.
 - OpenAI. Response generated by ChatGPT, an AI language model. 2024. Available from:https://chatgpt.com.
 
-# Viral Short Story
 ```
 Introducing the Future of Viral Research!** Have you ever wondered what makes the human body tick? Well, with our latest scientific breakthrough, you can be part of the next revolution in health and wellness! You’ve heard of viruses before, but have you encountered one like this? Let’s talk about the stunning discovery that's sure to change everything we know about infectious disease!
 
