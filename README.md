@@ -47,6 +47,7 @@ An index of the software tutorial.
 - [RNAfold](tools/RNAfold.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [sixpack](tools/sixpack.md)
+- [tBLASTn](tools/tblastn.md)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
 ## Virus Index
