@@ -12,7 +12,7 @@ This species name highlights the novel replication mechanism
 hypothesised for the virus, particularly its interaction with the
 Streptococcus sanguinis RNA polymerase.
 
-[Cover Image](img/obeliscus_replicandii/cover_image.png)
+[Cover Image](img/obeliscus_replicandii/cover_image.jpg)
 
 ## Abstract
 
