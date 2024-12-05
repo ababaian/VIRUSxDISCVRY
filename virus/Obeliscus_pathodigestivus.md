@@ -54,7 +54,7 @@ Hypothesis: Obeliscus pathodigestivus RNA sequences associate to gastrointestina
 
 ### Other (bonus) sections
 
-#### **1. Exploring potential protein function of O.pathodigestivus Oblin-1**
+**1. Exploring potential protein function of O.pathodigestivus Oblin-1**
 
 ProteInfer is a useful tool for predicting protein functional properties based on amino acid sequences using deep learning models. The model analyzes the sequence and generates predictions about the protein’s function, including specific molecular functions and cellular processes. Entering the amino acid sequence of O.pathodigestivus Oblin-1 into the `protein sequence` textbox, the web server generated predicted functions of our protein of interest.
 
@@ -69,7 +69,7 @@ Lastly, functional assays in animal models or cell cultures could be employed to
 ![Oblin-1 function prediction](img/Obeliscus_pathodigestivus/protein_function_prediction.png)
 **Figure 6: Potential protein function of O.pathodigestivus Oblin-1 predicted by ProteInfer.** Submitting the protein sequence of O.pathodigestivus Oblin-1, functional categories like molecular functions, biological processes, and subcellular locations are predicted with associated confidence scores. As shown in the figure, Oblin-1 is predicted to have nucleic acid binding function with a very high confidence score (0.98), and also, the protein is predicted to possess DNA binding function with a very high confidence score (0.88).
 
-#### **2. Investigating sequence similarity and phylogenetic relationship within cluster 1756.**
+**2. Investigating sequence similarity and phylogenetic relationship within cluster 1756.**
 
 Comparing the ecology of index case Obelisk and broader ecology as mentioned in the above module, we obtained an interesting observation that the Centroid (Obelisk_001756_000001_000001) was discovered in the human gut metagenome, while all other three libraries were detected from sequencing runs from bacterial mRNA found in the organism Rinodina peloleuca. This could seem quite confusing at first glance, but upon further investigation of the BioProject submitting these datasets, We found that the study also involved gut microbiome samples from mammals with gastrointestinal diseases, which is similar to the other BioProject involving the Centroid.
 
