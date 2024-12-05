@@ -22,16 +22,16 @@ Using the SRA number as the main identifier of each obelisk sample sequence.
 eg."(OBELISK_SRA_NUMBER) >
 obelisk_sequence""
 Then I saved the file with a ".txt" suffix.
-![Alt text](tutorial_q1.png)
+![Alt text](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/tools/img/iqtree/tutorial_q1.png)
 
 ### 0. Generate an alignment of sequences that you want to map on your tree
 
 Before using this IQ-tree, you will need an alignment of your sequences of any kind (DNA, protein, codon, etc.). Sequences may include Rdrp sequences of similar viruses (identified using BLAST) or known viruses in the same family/order. This alignment can be generated in several ways, including Clustal Omega, MEGA/Muscle, or MAFFT. See links at the bottom of this document.
 Here is an example of Clustal Omega
-![Alt text](clustal_omega.png)
+![Alt text](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/tools/img/iqtree/clustal_omega.png)
 
 ### 1. Navigate to IQ-Tree, tree inference tab
-![Alt text](IQ_TREE_1.png)
+![Alt text](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/tools/img/iqtree/IQ_TREE_1.png)
 
 ### 2. Input your alignment
 Next to "Alignment file" press "Browse..." to input the MSA file.
@@ -57,10 +57,10 @@ No other parameters (State frequency, ascertainment bias) need to be changed fro
 
 Calculating branch support can show you how likely the resulting branch in the tree is given the data, kind of like a confidence interval. Using ultrafast bootstrap will be the fastest option, and all other parameters can be left at the default.
 
-###5. Submit the Job.
+### 5. Submit the Job.
 Click the "Submit" to start the analysis.
 You will be directed to Job Progress page where you can see the time you submitted the file and the status of the analysis.
-![Alt text](iq-TREE_2.png)
+![Alt text](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/tools/img/iqtree/iq-TREE_2.png)
 
 ### 6. Visualize results in webserver, download trees for further visualization
 Click the "Full Result" tab to see your tree.
