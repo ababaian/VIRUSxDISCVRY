@@ -28,6 +28,7 @@
 
 An index of the software tutorial.
 
+- [AlphaFold3](tools/AlphaFold3.md]
 - [BLASTx](tools/BLASTx.md)
 - [HHpred](tools/HHpred.md)
 - [Infernal](tools/Infernal.md)
