@@ -11,11 +11,9 @@ In 2024, a groundbreaking study described a new class of heritable RNA elements 
 
 ## Results
 
-### Ecology subsection A...
+## Digital ecology
 
-Digital ecology
-
-Dataset Overview
+## Dataset Overview
 Obelisk 371 was found in eight samples distributed across three different datasets.
 The sequencing run accessions and associated BioProjects are as follows:
 
@@ -24,23 +22,23 @@ BioProject PRJEB6505: ERR1301135 and ERR1301197
 BioProject PRJEB62473: ERR11485294
 These data sets provide a diverse and ecological of analysis for Obelisk 371
 
-Bioproject Studies and Ecologies
+## Bioproject Studies and Ecologies
 
-PRJNA49566 (Australia)
+## PRJNA49566 (Australia)
 
 Samples from this BioProject were derived from the gut metagenome of Tasmanian devils (Sarcophilus harrisii). This study, conducted by the University of Australia, focused on characterizing the faecal virome of this endangered species using viral-like particle (VLP) metagenomics and meta-transcriptomics. Sequencing was performed with the Illumina NextSeq 500 platform, with the broader aim of understanding the eukaryotic viral communities that could impact the conservation of Tasmanian devils.(Chong et al. 2019)
 
-PRJEB6505 (Vietnam)
+## PRJEB6505 (Vietnam)
 
 This BioProject is part of the Vietnam Initiative on Zoonotic Infections (VIZIONS), which investigates zoonotic pathogens and viral populations. High-throughput sequencing with the Illumina HiSeq 2500 platform was employed to characterize viral diversity. While the host organisms are not explicitly detailed, the study focuses on populations in close contact with animals, suggesting a zoonotic or gut-associated viral origin.(Rabaa et al. 2015)
 
-PRJEB62473 (United Kingdom)
+## PRJEB62473 (United Kingdom)
 
 This BioProject consists of metagenomic and metatranscriptomic data from human stool samples. Sequencing was performed using the Illumina HiSeq 4000 platform, with the study aiming to identify pathogens in symptomatic patients. This dataset provides insights into the gut microbiota and pathogen diversity in humans, offering a clinical perspective on viral ecology.
 
-Comparative Ecology
+## Comparative Ecology
 
-Commonalties
+## Commonalties
 Despite differences in geographic origin and host species, There are some common features emerging from datasets:
 
 Host Class:
@@ -52,7 +50,7 @@ High-throughput sequencing with Illumina platforms was consistently utilized to 
 Health concern:
 All three data sets originated for from the concern of health in 3 different populations and wanted to see if it had pathogenic
 
-Differences
+## Differences
 The datasets also exhibit several notable differences:
 
 Geographic Diversity:
@@ -66,12 +64,12 @@ Australia and Vietnam are biodiversity hotspots, whereas the UK represents a mor
 
 Therefore, It can be hypothesized that Obelisk 371 is conserved between different hosts and environments and there should be seen in other data besides these 3 sources.
 
-### Virus Genome {Q3}
+### Virus Genome 
 
 ![Genome of Obelisk 371](img/Obelisk371/CircularO371.png)
 ![Open Reading Frame of Obelisk 371](img/Obelisk371/ORFO371.PNG)
 
-### Other (bonus) sections
+### Similar Proteins To Obelin 371
 A blast of other proteins similar to the protein created by ORF4 was done and a dendrogram of the proteins with >30% amino acid similarity was created.
 ![Blast of similar proteins of ORF4](img/Obelisk371/ObelinBlastp.png)
 ![Obelin Tree Dendrogram](img/Obelisk371/obelintreedendro.png)
@@ -80,13 +78,13 @@ A blast of other proteins similar to the protein created by ORF4 was done and a 
 
 In this project I have learnt many things about obelisks 371, and with the more that I have learnt the less I seem to know. Thus, relaying the message that obelisk have offer a huge gap of research. The main facts learnt about this obelisk is that it is very diverse and found in numerous populations but mainly gut. Using Pebble scout, which allows you to search large nucleotide bases of metagenomic runs released to the public before the end of 2021. In this project, I will discuss only discuss those with more than 80% identity as this offers a higher confidence that Obelisk 371 is in the data sets. This produced 3 additional run accessions from 3 different bioProjects and all from the human gut mentagenome.
 
-PRJNA398089:
+## PRJNA398089:
 studied the gut metagenome in those with inflammatory bowl disease of 100 subjects sampled twice a week using multiple analyses including fecal metagenomes, metatranscriptomes, metabolomes, and proteome. (Zhang et al. 2022 May 25)
 
-PRJEB25404:
+## PRJEB25404:
 used a metatranscriptomic approach to analyze the gut microbiota and gene expression patterns in a cohort of mothers and infants throughout the first year of life, including maternal microbiota samples collected before delivery and one year postpartum, to identify stage-specific patterns of microbiome function. (María José Gosalbes et al. 2019)
 
-PRJNA407499:
+## PRJNA407499:
 evaluated the impact of oral typhoid vaccines (Ty21a and M01ZH09) on the gut microbiota and immune responses by analyzing longitudinal fecal samples from healthy adults, who were vaccinated, challenged with S. Typhi, and monitored for clinical symptoms and microbiological changes, using 16S rRNA and metatranscriptomic analyses to explore the relationship between vaccine-induced immunity and gut microbiota dynamics. (Zheng et al. 2019)
 
 From these datasets, one can conclude with low confidence  that Obelisk 371 is found in the human gut metagenome, although further research is required to confirm this with higher certainty. More confidently, it is clear that Obelisk 371 is present in diverse populations, underscoring its widespread distribution. Like other obelisks, it is circular in structure and encodes for obelin, a characteristic trait that is shared across its family.
