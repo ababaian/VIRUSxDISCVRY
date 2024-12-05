@@ -72,7 +72,7 @@ The output will include:
 
 Download the necessary files of interest.
 Below is the phylogentic tree that was produced using the obelisk371 data.
-![Alt text](-q_tree-3.png)
+![Alt text](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/tools/img/iqtree/-q_tree-3.png))
 
 In the "Analysis Results" tab, you will also see the model finder (if "auto" was used for model selection), the parameters of the model used, the maximum likelihood tree, and the consensus tree from "bootstrapped" data (see below for bootstrapping details). The Maximum likelihood tree can tell you how your sequences are related, but if it disagrees with your consensus tree, then those branches/clades/relationships are not well supported.
 
