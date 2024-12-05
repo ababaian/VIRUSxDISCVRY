@@ -72,7 +72,7 @@ Therefore, It can be hypothesized that Obelisk 371 is conserved between differen
 ![Open Reading Frame of Obelisk 371](img/Obelisk371/ORFO371.PNG)
 
 ### Other (bonus) sections
-
+A blast of other proteins similar to the protein created by ORF4 was done and a dendrogram of the proteins with >30% amino acid similarity was created.
 ![Blast of similar proteins of ORF4](img/Obelisk371/ObelinBlastp.png)
 ![Obelin Tree Dendrogram](img/Obelisk371/obelintreedendro.png)
 
