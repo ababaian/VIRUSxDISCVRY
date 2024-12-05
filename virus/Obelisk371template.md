@@ -91,7 +91,7 @@ evaluated the impact of oral typhoid vaccines (Ty21a and M01ZH09) on the gut mic
 
 From these datasets, one can conclude with low confidence  that Obelisk 371 is found in the human gut metagenome, although further research is required to confirm this with higher certainty. More confidently, it is clear that Obelisk 371 is present in diverse populations, underscoring its widespread distribution. Like other obelisks, it is circular in structure and encodes for obelin, a characteristic trait that is shared across its family.
 
-![Alt](https://github.com/caitlinoxleyhmb301/VIRUSxDISCVRY/blob/main/virus/img/Obelisk371/pebblescout80.png)
+![Alt](https://github.com/ababaian/VIRUSxDISCVRY/blob/main/virus/img/Obelisk371/pebblescout80.png)
 
 
 ## References
