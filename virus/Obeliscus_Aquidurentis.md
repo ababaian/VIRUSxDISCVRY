@@ -168,23 +168,34 @@ culturing Obelisk 17 and *Flavobacterium aquidurense* under wastewater-like envi
 
 - ORF1 overlaps with ORF2, suggesting a regulatory or functional interaction(14)
 
+*Figure 1: Result of Open Reading Frame Finder From NCBI*
+
 ![](img/Obeliscus_Aquidurentis/1.png)
 
 - The prediction of ORF1 has relatively low confidence but the light blue region(amino acids 30 to 44)-helical structure (Confident (90 > plDDT > 70)) suggests that ORF1 can potentially be oblin 2---(14,15,16). The low confidence regions suggest flexibility and structural changes.The helix structure can resonate with the prediction in the paper after modifications(15)
+
+*Figure 2: AlphaFold3 Precition on ORF1(Potential Oblin 2)*
 
 ![](img/Obeliscus_Aquidurentis/2.png)
 
 - The prediction of ORF2 has relatively moderate confidence(0.55) and the dark blue region(amino acids 60 to 180)-abundant alpha-helices (with medium to high confidence) suggests that ORF1 can potentially be oblin 1(14,15,16)
 
+*Figure 3: AlphaFold3 Precition on ORF2(Potential Oblin 1)*
+
 ![](img/Obeliscus_Aquidurentis/3.png)
 
-- In the paper, figure 2 demonstrated the predicted strutures for both oblin 1 and 2, and predictions of ORF 1 and 2 shares structural similarities with them. Especially, the four helices structure in prediction of ORF2 align closely to the conserved structural motif in panel B(14,15,16)
+- In the paper, figure 2 demonstrated the predicted structures for both oblin 1 and 2, and predictions of ORF 1 and 2 shares structural similarities with them. Especially, the four helices structure in prediction of ORF2 align closely to the conserved structural motif in panel B(14,15,16)
+
+*Figure 4: Predicted Strcutures and motifs on Oblin 1 and 2 From Figure 2 in Paper(15)*
 
 ![](img/Obeliscus_Aquidurentis/5.png)
 
 - The prediction of interactions between ORF2 and ORF 1 has relatively moderate confidence(pTM = 0.47), suggesting the dimer might not be the best structure(14,15,16)
 
+*Figure 5: AlphaFold3 Precition on Potential ORF2 and ORF1 Interactions(Dimer)*
+
 ![](img/Obeliscus_Aquidurentis/4.png)
+
 
 - The genome for the centroid of Obelisk 17 is 1173 nucelotides long and the average length of clusters is 1177, obelisk 17 has a moderate average genome length while comparing to other obelisks.(1406 for 73, 1377 for 89)
 
@@ -198,17 +209,22 @@ culturing Obelisk 17 and *Flavobacterium aquidurense* under wastewater-like envi
 
 - STRING database suggests input of ORF1 and ORF2 is similar to Periplasmic serine protease, S1-C subfamily, contain C-terminal PDZ domain(18)
 
+*Figure 6: Prediction From STRING Database Suggesting Similar Functions and Relationships Between ORF2 and the Listed Proteins Subfaamlies and Species*
+
 ![](img/Obeliscus_Aquidurentis/8.png)
 
-- The listed protein below has potential relationship or shared function with the input protein, RC62_819 - Peptidase, subfamily S1B unassigned peptidase-Flavobacterium aquidurense also act like an evidence to support the potential host candidate 	    Flavobacterium aquidurense, further analysis on direct protein-protein interactions will be done in question 4
+- The listed protein below has potential relationship or shared function with the input protein(ORF2 protien sequence), RC62_819 - Peptidase, subfamily S1B unassigned peptidase-*Flavobacterium aquidurense* also act like an evidence to support the potential host candidate 	    Flavobacterium aquidurense, further analysis on direct protein-protein interactions will be done in question 4
 
 - As STRING suggests the protein input belongs to protease, this resonate with the peptidase or protease-like function of oblin 1 mentioned in the paper provided from the professor which supports the potential of ORF2 being Oblin 1 (15,18)
 
-- STRING suggests that the ORF inputs can participate in pathways including: Degradation of multiubiquitinated Skp2, Degradation of multiubiquitinated Cyclin A, Degradation of multiubiquitinated Cdh1, Degradation of multiubiquitinated Securin(18)
+*Figure 7: Prediction From STRING Database Suggesting the Potential Pathways the Input Protein May Involve*
 
 ![](img/Obeliscus_Aquidurentis/9.png)
 
+- STRING suggests that the ORF inputs can participate in pathways including: Degradation of multiubiquitinated Skp2, Degradation of multiubiquitinated Cyclin A, Degradation of multiubiquitinated Cdh1, Degradation of multiubiquitinated Securin(18)
 - This suggests that the ORfS can play a role in regulating protein degradation, cell cycle, and adaptations process in the host cells by participated in different phases in the cycles. Also protease commonly have these type of functions in removing inhibitors, protein degradation(19), cleaving ubiquitin tags(20), especially in Multiubiquitination(18). This can also suggests possible functions of bacteria cell wall and biofilm remodeling function from obelisk 17 to the hosts(21).
+
+*Figure 8: Protein-Protein Interaction Network Prediction of the Input Protein From STRING Database, Including Functional Partners*
 
 ![](img/Obeliscus_Aquidurentis/10.png)
 
@@ -218,34 +234,35 @@ culturing Obelisk 17 and *Flavobacterium aquidurense* under wastewater-like envi
 
 - Here's the image for Obelisk 17 genome:
 
-- Figure 1(27):
+*Figure 9: Predicted Jupiter Plot of Obelisk 17 Genome(27), Coloring From Red to Green(low) Indicates Base-Pairing Confidence/Strongness*
 
 ![](img/Obeliscus_Aquidurentis/11.png)
 
-
-- Figure 2(27):
+*Figure 10: Predicted Linear Representation of RNA Secondary Structure of Obelisk 17 With ORF regions And Free Engery Annotations*
 
 ![](img/Obeliscus_Aquidurentis/12.png)
 
-- Figure 3(28)
+*Figure 11: Alignment of Obeliscus_Aquidurentis's Genome Sequence*
 
 ![](img/Obeliscus_Aquidurentis/13.png)
 
-Figure Legend:
-The total length of the genome is 1173 nt, 391 aa. Only ATG start codons were included
+*Figure Legend*
+
+The total length of the genome is 1173 nt, 391 aa. Only ATG start codons were included.
+
 1.For ORF 1, incomplete CDS: The start position is at 943, and the stop position is at 1149."MKTNELKINKRLIFKPEGYTVAELRDCSLADLLFCDMLRELQRNLEPSKFKPKSLNTSKQKESKLTPG" is the amino acid sequence for the ORF. 68 aa, 207 nt.
 
 2.For ORF 2, complete CDS: The start position is at 237, and the stop position is at 971. "MKMNRIYLPSQFDLMDVQGIEKQKSIALESFQEVDPSKTKISEADLFGTTLPEIEFRGTVLKSIRLRYTKKVKYITLVRFLTGKICFDSERVQRIDLLLIYDSMLILQDLVEKDENFKVKFGSDLESLAKILKSFKLHPKTKVLDVKKLGSQIEKEVPNFVLPKRNLSTIWKYVEKMYFFSPSTSSGVELKRLPPKLYLGKGYTDKGTARNPALDGSPSWQEVGQTLAFDPEEPVDENKRTKDK" is the amino acid sequence for the ORF. 244 aa, 735 nt.
 
 3.There are overlaps between ORFs from 943 to 971. Suggest potential regulatory interactions, such as frameshifting or translational coupling(29).
 
-4.There are evidence of poly-A tail at the 3' end of the sequence.
+4.There are evidence of poly-A tail at the 3' end of the sequence which can be observed from Figure 11.
 
-5.In figure 1, high interaction density regions (red and yellow) indicates conserved motifs, especially from 400,800;70, 1149. These hot spots could represents functional domains, including the motif of Oblin 1(multiple helices)that was discussed in the figure 2(panel B) in the paper.
+5.In Figure 9, high interaction density regions (red and yellow) indicates conserved motifs, especially from 400,800;70, 1149. These hot spots could represents functional domains, including the motif of Oblin 1(multiple helices)that was discussed in the figure 2(panel B) in the paper.
 
 6.Regions associated with ORF can have significant structural features, could serve as regulatory sites or binding sites(29).
 
-7.In figure 2, the arcs and loops illustrate the predicted base-pairing interactions, marked with annotations of the ORFs. ORF1/Oblin 2 has less stable regions comparing to ORF2/Oblin 1, with less loops and stems, which can indicate more flexibilities in the structure.The global free energy (ΔG = -313.95 kcal/mol) suggests a relatively high overall stability of the RNA secondary structure(29).
+7.In Figure 10, the arcs and loops illustrate the predicted base-pairing interactions, marked with annotations of the ORFs. ORF1/Oblin 2 has less stable regions comparing to ORF2/Oblin 1, with less loops and stems, which can indicate more flexibilities in the structure.The global free energy (ΔG = -313.95 kcal/mol) suggests a relatively high overall stability of the RNA secondary structure(29).
 
 ```
 #[Using AI assistance from CHATGPT] to perform TPM / RPKM calculation and Coverage profile of reads(33)
@@ -316,16 +333,11 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 
 ### Other sections
 
-- Open reading frame Visualizaitons
+*Figure 12: AlphaFold3 Prediction and Conserved Regions Annotation Of ORF1(Potential Oblin2) and ORF2(Potential Oblin1)*
 
--ORF 1, potentially oblin 2(16)
 
-![](img/Obeliscus_Aquidurentis/6.png)
-
--ORF 2, potentially oblin 1(16)
-
-![](img/Obeliscus_Aquidurentis/7.png)
-
+![](img/Obeliscus_Aquidurentis/6.PNG)
+![](img/Obeliscus_Aquidurentis/7.PNG)
 
 
 - Conserved regions were circled and analysis on the prediction can be found above in observation and features, suggesting the potential functions of the them and how they are aligned with Oblin 1 and 2
@@ -340,44 +352,64 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 6.*BPSL2433 - Subfamily S1C unassigned peptidase; Similar to Pseudomonas aeruginosa serine protease MucD S [...]	Burkholderia pseudomallei*
 7.*RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense*
 
-1. The interaction has lower confidence（0.38) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 214 to 300, 350 to 450 position(36)
+*Figure 13: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and A0A3Q0KVE9 - Subfamily S1B unassigned peptidase (S01 family)	Schistosoma mansoni*
 
 ![](img/Obeliscus_Aquidurentis/14.png)
 
-2. The interaction has lower confidence(0,4) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 106 to 159, 265 to 371 position(37)
+1. The interaction has lower confidence（0.38) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 214 to 300, 350 to 450 position(36)
+
+*Figure 14: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and FGIG_00265 - Subfamily S1B unassigned peptidase (S01 family)	Fasciola gigantica*
 
 ![](img/Obeliscus_Aquidurentis/15.png)
 
-3. The interaction has lower confidence(0,45) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 120 to 400, 428 to 535, 600 to 700 position(38)
+2. The interaction has lower confidence(0,4) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 106 to 159, 265 to 371 position(37)
+
+*Figure 15: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and ALJ27690.1 - Subfamily S1C unassigned peptidase	Stenotrophomonas acidaminiphila*
 
 ![](img/Obeliscus_Aquidurentis/16.png)
 
-4. The interaction has lower confidence(0.43) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains relatively conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 150 to 300, 600 to 700 position(39)
+3. The interaction has lower confidence(0,45) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 120 to 400, 428 to 535, 600 to 700 position(38)
+
+*Figure 16: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and Bxe_A1081 - Subfamily S1C, unassigned peptidase; Belongs to the peptidase S1C family.	Paraburkholderia xenovorans*
 
 ![](img/Obeliscus_Aquidurentis/17.png)
 
-5. The interaction has lower confidence(0.42) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 140 to 280, 572 to 700 position(40)
+4. The interaction has lower confidence(0.43) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains relatively conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 150 to 300, 600 to 700 position(39)
+
+*Figure 17: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and BPSL0808 - Subfamily S1C unassigned peptidase; Similar to Pseudomonas aeruginosa serine protease MucD o [...]	Burkholderia pseudomallei*
 
 ![](img/Obeliscus_Aquidurentis/18.png)
 
-6. The interaction has lower confidence(0.4) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 182 to 273,364 to 400, 410 to 455, 546 to 700 position(41)
+5. The interaction has lower confidence(0.42) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 140 to 280, 572 to 700 position(40)
+
+*Figure 18: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and BPSL2433 - Subfamily S1C unassigned peptidase; Similar to Pseudomonas aeruginosa serine protease MucD S [...]	Burkholderia pseudomallei*
 
 ![](img/Obeliscus_Aquidurentis/19.png)
 
-7.The interaction has lower confidence(0.4) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 142 to 284,300 to 400, 400 to 426, 568 to 700 position(42)
+6. The interaction has lower confidence(0.4) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 182 to 273,364 to 400, 410 to 455, 546 to 700 position(41)
+
+*Figure 19: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and BPSL2433 - RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense*
 
 ![](img/Obeliscus_Aquidurentis/20.png)
+
+7.The interaction has lower confidence(0.4) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions but it remains conserved with each others, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 142 to 284,300 to 400, 400 to 426, 568 to 700 position(42)
 
 - Ranking the potential interactions that can be done between OFR2 and peptidases: *3,4,5,6,7,2,1*
 - Another phylogentic tree was generated between the ORF2 and the above peptidases, suggeting that the *RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense* is the most similar to the Oblin 1 considering evolutionarily.
 
+*Figure 20: Aligment of ORF2(Potential Oblin 1) and All 7 Proteins(Suggested By STRING) Listed Above*
+
 ![](img/Obeliscus_Aquidurentis/21.png)
 
--Multiple sequence alignment of the Obelin sequence
+- Multiple sequence alignment of the Obelin sequence
 
 Using MEGA11(28), the alignment was generated and phylogentic tree of all obelisk was visualized using MAFTT(34) 
 
+*Figure 21: Multiple Sequence Alignment of Obelin Sequences From All Obelisks Using MEGA 11*
+
 ![](img/Obeliscus_Aquidurentis/alignment.png)
+
+*Figure 22: Phylogentic Tree of Obelin Sequences From All Obelisks, Focus on Obelisk 17 Using MAFTT*
 
 ![](img/Obeliscus_Aquidurentis/phy.png)
 
@@ -385,29 +417,37 @@ The closest obelisk on the visualizaiton are 441, and 1333. Going back to the ex
 
 - I-TASSER Prediction Results
 
-Using the I-TASSER tool provided by Zhang's lab, more detailed and confidential predictions on the structure of ORF2(Oblin1) was provided(43,44,45).
-I-TASSER compares the query protein's predicted structure to known structures in Protein Data Bank and suggests that the ORF2 conserved region constructured based on multiple alpha helices which was also mentioned in the AlphaFold3 predictions(15,16).
-The prediction result shows high confidence(TM-score 0.745, usually over 0.5 means high confident) with the hit *4yxxA*, suggesting structural and functional similarity(43,44,45).
+*Figure 23: High Confidence Structural Prediction on ORF2 Using I-TASSER with Similarity to PDB Entry 4YXXA*
 
 ![](img/Obeliscus_Aquidurentis/targetpdb.png)
 
-Meanwhile, the second hit(5gwn) with moderate confidence(0.529 TM-score) suggests potential beta sheet structure of the ORF2(Oblin 1), which also align with the findings in the papter(16)(43,44,45). The Oblin 1 protein structurally includes both alpha heclies and beta sheets(15,43,44,45).
+Using the I-TASSER tool provided by Zhang's lab, more detailed and confidential predictions on the structure of ORF2(Oblin1) was provided(43,44,45).
+I-TASSER compares the query protein's predicted structure to known structures in Protein Data Bank and suggests that the ORF2 conserved region constructured based on multiple alpha helices which was also mentioned in the AlphaFold3 predictions(15,16).
+The prediction result shows high confidence(TM-score 0.745, usually over 0.5 means high confident) with the hit *4YXXA*, suggesting structural and functional similarity(43,44,45).
+
+*Figure 24: Moderate Confidence Structural Prediction on ORF2 Using I-TASSER with Similarity to PDB Entry 5GWNA*
 
 ![](img/Obeliscus_Aquidurentis/5gwn.png)
+
+Meanwhile, the second hit(5GWNA) with moderate confidence(0.529 TM-score) suggests potential beta sheet structure of the ORF2(Oblin 1), which also align with the findings in the papter(16)(43,44,45). The Oblin 1 protein structurally includes both alpha heclies and beta sheets(15,43,44,45).
+
+*Figure 25: Ligand and Active Binding Site Predictions for ORF2 (Oblin 1) Using I-TASSER with Suggestions on Zinc Derivatization and Enzymatic Function in Glycan Metabolism*
+
+![](img/Obeliscus_Aquidurentis/ligand.png)
 
 Then, the predictions also provide information on ligand binding sites(K24,E21) for Zn and active binding site(L61), both with moderate confidence level(0.09 C score, and 0.508 TM-score)(43,44,45). The ligand binding of Zn could supports Zinc derivatization, and this can
 suggests binding sites for metal and structural stability(43,44,45). Also, the active binding site on L61 with EC number 3.2.1.150 indicates that the structure of ORF2(Oblin 1)can facilitate *Flavobacterium aquidurense* in the function of polysaccharide degradation.
 EC number 3.2.1.150 means oligoxyloglucan reducing-end cellobiohydrolase which suggests the function of hydrolysis of cellobiose from the reducing end of xyloglucans. This enzymatic function highlights ORF2's potential role in glycan metabolism, specifically targeting complex polysaccharides for degradation, which aligns with *Flavobacterium aquidurense*'s role.(43,44,45,46).
 
-![](img/Obeliscus_Aquidurentis/ligand.png)
-
-Finally, few Gene Ontology (GO) predictions support the earlier findings that ORF2(Oblin 1) participates in histone binding, regulating gene expression by involving in mitotic nuclear division, S phase of the mitotic cell cycle, cell division, etc(43,44,45).
+*Figure 26: Gene Ontology Predictions for ORF2 (Oblin 1) Using I-TASSER with Potential Involvement in Histone Binding, Mitotic Nuclear Division, and Cell Cycle*
 
 ![](img/Obeliscus_Aquidurentis/go.png)
 
+Finally, few Gene Ontology (GO) predictions support the earlier findings that ORF2(Oblin 1) participates in histone binding, regulating gene expression by involving in mitotic nuclear division, S phase of the mitotic cell cycle, cell division, etc(43,44,45).
+
 ## Discussion
 
-The characterization of Obelisk 17 has interesting biological insights based on its characteristics of genome and ecological role. Obelisk 17 involves in microbial community dynamics potential was highlighted by its existence in wastewater environments. Through taxonomy analysis, codon usage analysis and k-mer analsis, phylogentic analysis, protein-protein interactions prediction and analysis, the results help to confirm that the most possible hosts *Flavobacterium aquidurense* suggests a potential functional connection that involves participating in the breakdown of polysaccharides. This suggests that Obelisk 17 may influence host metabolic processes. In terms of genome, structure and functions, Obelisk 17 has 2 ORFs, which moderately matches with the oblin 1 and oblin 2 protein that was mentioned in the paper after performing multiple comuptational experiments(15). More interestingly, the two ORFs have overlaps from 943 to 971, suggesting potential regulatory mechanisms, such as frameshifting or translational coupling. Also, after performing TPM/RPKM analysis to the ORFs, the result showed that ORF1 (943-1149, 66 amino acids) tends to have higher expression than ORF2 (237-971, 244 amino acids, it has conserved alpha-helices identified in structural predictions align with oblin's functional motifs) after normalization, despite the shorter length of sequence. STRING also suggested a lot of proteins that displays functional similarities or potential interactions with the ORFs, among the 7 suggested proteins, they are all peptidase which is closely related to protease(the suggested function of Oblin 1 in the paper, peptidase is a kind of protease). Phylogentic analysis on ORFs and similar protein families with the ORFs also suggests that *RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense* is the closest to the Obelisk 17 on evolutionary perspective, which confirms the functional similarity between ORF2(Oblin 1) and protease. Also, STRING has suggested ORFs' potential participation in protein degradation and quality control, remodelling cell wall and biofilm, regulating protein complexes in the host, facilitate regulations in gene expression, etc. The fascinating traits about obelisk 17 includes the overlap of ORFS from 943 to 971 which needs further experiments and investigations, while the dominance of ORF1(Oblin 2) expression is also interesting considering it has shorter sequence length comparing to ORF2(Oblin 1). In conclusion, Obelisk 17 is a possible regulator in microbial communities especially in envirnoment like wasterwater, by regulating host metabolic processes(protein degradation, quality control, facilitating gene expression, etc). These findings has boardened the information of obelisks but the ORF overlaps, increased expression of ORF1, interaction with proteases, potential role inpolysaccharide degradation processes, and other significances require further research for confirmation.
+The characterization of Obelisk 17 has interesting biological insights based on its characteristics of genome and ecological role. Obelisk 17 involves in microbial community dynamics potential was highlighted by its existence in wastewater environments. Through taxonomy analysis, codon usage analysis and k-mer analysis, phylogentic analysis, protein-protein interactions prediction and analysis, the results help to confirm that the most possible hosts *Flavobacterium aquidurense* suggests a potential functional connection that involves participating in the breakdown of polysaccharides. This suggests that Obelisk 17 may influence host metabolic processes. In terms of genome, structure and functions, Obelisk 17 has 2 ORFs, which moderately matches with the oblin 1 and oblin 2 protein that was mentioned in the paper after performing multiple comuptational experiments(15). More interestingly, the two ORFs have overlaps from 943 to 971, suggesting potential regulatory mechanisms, such as frameshifting or translational coupling. Also, after performing TPM/RPKM analysis to the ORFs, the result showed that ORF1 (943-1149, 66 amino acids) tends to have higher expression than ORF2 (237-971, 244 amino acids, it has conserved alpha-helices identified in structural predictions align with oblin's functional motifs) after normalization, despite the shorter length of sequence. STRING also suggested a lot of proteins that displays functional similarities or potential interactions with the ORFs, among the 7 suggested proteins, they are all peptidase which is closely related to protease(the suggested function of Oblin 1 in the paper, peptidase is a kind of protease). Phylogentic analysis on ORFs and similar protein families with the ORFs also suggests that *RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense* is the closest to the Obelisk 17 on evolutionary perspective, which confirms the functional similarity between ORF2(Oblin 1) and protease. Also, STRING has suggested ORFs' potential participation in protein degradation and quality control, remodelling cell wall and biofilm, regulating protein complexes in the host, facilitate regulations in gene expression, etc. The fascinating traits about obelisk 17 includes the overlap of ORFS from 943 to 971 which needs further experiments and investigations, while the dominance of ORF1(Oblin 2) expression is also interesting considering it has shorter sequence length comparing to ORF2(Oblin 1). In conclusion, Obelisk 17 is a possible regulator in microbial communities especially in envirnoment like wasterwater, by regulating host metabolic processes(protein degradation, quality control, facilitating gene expression, etc). These findings has boardened the information of obelisks but the ORF overlaps, increased expression of ORF1, interaction with proteases, potential role inpolysaccharide degradation processes, and other significances require further research for confirmation.
 
 ## References
 
