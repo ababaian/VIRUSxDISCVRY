@@ -18,7 +18,7 @@ Our results contribute to a broader understanding of novel RNA-based entities, s
 
 ## Results
 
-##Viral Ecology
+
 
 ## Arcana rumenalis consistently found in bovine gut microbiomes
 
@@ -76,6 +76,7 @@ I could not identify any conserved domains using both InterProScan and NCBI's Co
 
 
 From here, I generated 3D structure of the hypothetical oblin using alphafold[8] then visualized it on Pymol[9]. Its 3D structure is similar to the characterized OBlin-1.
+
 ![3D structure of the oblin](img/Arcana_rumenalis/PymolOblinstructure.png)
 
 Figure 4. AlphaFold prediction of Arcana ruminalis Obilin structure visualized in PyMOL.
