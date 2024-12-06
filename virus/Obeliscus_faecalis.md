@@ -18,7 +18,7 @@ Our results highlight the conserved structural and compositional features of Obe
 
 ## Results
 
-### Ecology subsection A...
+### Origins and Ecological Niches of the Obelisk Genome
 
 The index case of the Obelisk genome comes from the study by Roume et al. (2015), which investigates microbial community-wide metabolic networks. This dataset (PRJNA230567) connects the Obelisk genome to wastewater metagenomes, emphasizing its ecological variety and adaptability.
 
@@ -28,9 +28,13 @@ The Obelisk genome spans 9 BioProjects across various ecosystems:
 2.  Environmental Metagenomes: Wastewater and bioreactor samples, including PRJNA365462, PRJNA395784, and PRJNA230567 [Roume et al., 2015].
 3.  Non-Human Primate Microbiota: PRJNA427715, from juvenile macaques with and without idiopathic chronic diarrhea (ICD), as reported by Westreich et al. (2019). PRJNA716119 is from pig gut microbiome. Only a single dataset (SRR14039825) within a multi-species microbiome bioproject was found with obelisk.
 
+### Geographic Distribution and Sequencing Consistency
+
 These datasets originate from six countries, including the United Kingdom, Luxembourg, China, Austria, Brazil, and the United States. Researchers used Illumina sequencing platforms (HiSeq and NextSeq), ensuring consistent technological methods across studies.
 
 The Obelisk genome is detected in 49 datasets, predominantly from PRJNA427715 (35 datasets, Macaca mulatta). Other datasets include human gut microbiomes, pig fecal samples, and wastewater metagenomes. The shared presence of Obelisks across these distinct sample types suggests an association with gastrointestinal and waste-associated microbial environments.
+
+### Ecological Categorization of Obelisk Genomes
 
 Manual inspection of dataset origins categorizes the Obelisk genome into three ecological niches:
 
@@ -40,13 +44,11 @@ Manual inspection of dataset origins categorizes the Obelisk genome into three e
 
 These niches reveal the adaptability of Obelisk genomes to diverse microbial habitats. Despite high sequence similarity within this cluster, Obelisks occur in geographically distinct locations, reflecting their resilience and widespread distribution.
 
+### Hypotheses and Methodological Approaches
+
 The datasets link Obelisk genomes to waste-associated microbial environments, with a strong representation in monkey feces (Macaca mulatta). This trend suggests that primates may serve as reservoirs, facilitating Obelisk transmission through environmental pathways (inconclusive).
 
 We hypothesize that the Obelisks in this cluster, Obeliscus faecalis, resemble previously characterized Obelisks in their structure, genomic organization, and functional potential. To test this hypothesis, we will use tools like Prodigal for open reading frame (ORF) prediction, mFold for RNA secondary structure analysis, and BLASTn and InterPro to query the ORFs and confirm their identity. Consistent results with prior findings would support this hypothesis. To further explore the ecological and compositional diversity of the Obelisk genome, we propose using quantifiable metrics such as GC content, alignment scores (comparing sequences to the index/centroid Obelisk genome), and average sequence length. These metrics allow us to measure variation across ecological groups and evaluate genomic characteristics within and between datasets. We hypothesize that the Obelisk genome exhibits compositional differences across "non-human-primate-feces," "environmental," and "human-associated" metagenomes. Specifically, we propose that GC content, alignment scores, and sequence length differ significantly between human-associated and non-human-primate-feces metagenomes, as well as between environmental and human-associated datasets. To test these hypotheses, we will compare these metrics across ecological groups, with null hypotheses assuming no differences and alternative hypotheses predicting significant variations. Due to high abundance of samples from macaque feces biosamples, additionally, we hypothesize that Obelisk sequences from macaques with idiopathic chronic diarrhea (ICD) differ from those in healthy controls. By analyzing GC content, alignment scores to a centroid genome, and sequence length, we aim to detect any significant compositional or structural differences between these groups. This comprehensive approach allows us to investigate the genomic and ecological variability of Obelisks using a suite of robust statistical and bioinformatic tools.
-
-### Virus Genome {Q3}
-
-{Insert your Virus Genome Map Figure and figure legend here}
 
 ```         
 Figure 1.1: Index Obelisk Genome Visualization (Obeliscus faecalis 
@@ -66,7 +68,7 @@ underscores the conserved genomic organization and protein-coding potential of
 O. faecalis.
 ```
 
-![](img/Obeliscus_faecalis/Obelisk_000840_000001_000001_visualization.png)
+![Obelisk_000840_000001_000001_visualization](img/Obeliscus_faecalis/Obelisk_000840_000001_000001_visualization.png)
 
 ```         
 Figure 1.2: Secondary Structure Prediction of Obeliscus faecalis 
@@ -82,7 +84,7 @@ of the Obelisk genome, reinforcing its classification within this unique RNA
 element family. 
 ```
 
-![](img/Obeliscus_faecalis/Obelisk_000840_000001_000001_2nd_struct.png){width="666"}
+![Obelisk_000840_000001_000001_2nd_struct](img/Obeliscus_faecalis/Obelisk_000840_000001_000001_2nd_struct.png){width="666"}
 
 ```         
 Figure 1.3: Jupitor Plot of Obeliscus faecalis (Obelisk_000840_000001_000001)
@@ -99,7 +101,7 @@ integrity of O. faecalis, reinforcing its classification within the Obelisk
 RNA family.
 ```
 
-![](img/Obeliscus_faecalis/jupitor_Obelisk_000840_000001_000001.png)
+![jupitor_Obelisk_000840_000001_000001](img/Obeliscus_faecalis/jupitor_Obelisk_000840_000001_000001.png)
 
 ```         
 Figure 2.1 Human-Associated Obelisk Genome Visualization (Obeliscus faecalis, 
@@ -113,7 +115,7 @@ coordinates, with an amino acid scale below. Although Obelisks are circular,
 this linear visualization highlights the ORF locations.
 ```
 
-![](img/Obeliscus_faecalis/Obelisk_000840_000001_000054_visualization.png)
+![Obelisk_000840_000001_000054_visualization](img/Obeliscus_faecalis/Obelisk_000840_000001_000054_visualization.png)
 
 ```         
 Figure 2.2 Secondary Structure Prediction of Human-Associated Obeliscus 
@@ -124,7 +126,7 @@ Mfold, reveals the signature rod-like topology of Obelisks. The folding has a
 calculated free energy (ΔG) of -406.50 kcal/mol, indicating high stability.
 ```
 
-![](img/Obeliscus_faecalis/Obelisk_000840_000001_000054_2nd_struct.png)
+![Obelisk_000840_000001_000054_2nd_struct](img/Obeliscus_faecalis/Obelisk_000840_000001_000054_2nd_struct.png)
 
 ```         
 Figure 2.3 Jupitor Plot of Human-Associated Obeliscus faecalis 
@@ -136,7 +138,7 @@ structure (ΔG = -406.50 kcal/mol). The circular layout highlights conserved
 folding interactions characteristic of Obelisks.
 ```
 
-![](img/Obeliscus_faecalis/jupitor_Obelisk_000840_000001_000054.png)
+![jupitor_Obelisk_000840_000001_000054](img/Obeliscus_faecalis/jupitor_Obelisk_000840_000001_000054.png)
 
 ```         
 Figure 3.1 Monkey-Feces-Associated Obelisk Genome Visualization (Obeliscus 
@@ -151,7 +153,7 @@ representation highlights ORF locations while adhering to conventions used for
 other Obelisks.
 ```
 
-![](img/Obeliscus_faecalis/Obelisk_000840_000001_000017_visualization.png)
+![Obelisk_000840_000001_000017_visualization](img/Obeliscus_faecalis/Obelisk_000840_000001_000017_visualization.png)
 
 ```         
 Figure 3.2: Secondary Structure Prediction of Monkey-Feces-Associated 
@@ -163,7 +165,7 @@ structure is stable, with a predicted folding free energy (ΔG) of -340.20
 kcal/mol.
 ```
 
-![](img/Obeliscus_faecalis/Obelisk_000840_000001_000017_2nd_struct.png)
+![Obelisk_000840_000001_000017_2nd_struct](img/Obeliscus_faecalis/Obelisk_000840_000001_000017_2nd_struct.png)
 
 ```         
 Figure 3.3: Jupitor Plot of Monkey-Feces-Associated Obeliscus faecalis
@@ -175,7 +177,7 @@ calculated free energy (ΔG) of -340.20 kcal/mol, highlighting its genomic
 stability and structural conservation.
 ```
 
-![](img/Obeliscus_faecalis/jupiter_Obelisk_000840_000001_000017.png)
+![jupiter_Obelisk_000840_000001_000017](img/Obeliscus_faecalis/jupiter_Obelisk_000840_000001_000017.png)
 
 ```         
 Figure 4: AlphaFold2 Predicted Protein Structure of Oblin-1 (ORF-1) in 
@@ -191,7 +193,7 @@ The N- and C-termini are labeled for orientation, highlighting the protein's
 overall topology and conserved features.
 ```
 
-![](img/Obeliscus_faecalis/Index_Obelisk_ORF1.png)
+![Index_Obelisk_ORF1](img/Obeliscus_faecalis/Index_Obelisk_ORF1.png)
 
 ## Discussion
 
