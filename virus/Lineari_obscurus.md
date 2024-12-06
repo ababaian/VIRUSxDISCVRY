@@ -40,7 +40,7 @@ Table 1. Summary of SRA runs, BioSample, and BioProject associated with cluster 
 
 ![Table_1](img/Lineari_obscurus/Table_1.png)
 
-### Virus Genome predicts multiple ORFs
+***L. obscurus*** **genome contains multiple ORFs**
 
 ![Figure_1](img/Lineari_obscurus/Figure_1.png)
 
