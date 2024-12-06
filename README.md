@@ -28,6 +28,7 @@
 
 An index of the software tutorial.
 
+- [AlphaFold3](tools/AlphaFold3.md)
 - [BLASTx](tools/BLASTx.md)
 - [HHpred](tools/HHpred.md)
 - [Infernal](tools/Infernal.md)
@@ -42,9 +43,11 @@ An index of the software tutorial.
 - [palmID](tools/palmID.md)
 - [PebbleScout](tools/pebblescout.md)
 - [PepInfo](tools/PepInfo.md)
+- [ProteInfer](tools/ProteInfer.md)
 - [RNAfold](tools/RNAfold.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [sixpack](tools/sixpack.md)
+- [tBLASTn](tools/tblastn.md)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
 ## Virus Index
