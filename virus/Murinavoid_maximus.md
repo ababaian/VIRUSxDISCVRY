@@ -155,7 +155,7 @@ Notably, when I ran BLASTn on the metagenomic (DNA amplification) runs of the sa
 Based on my *moderately* confident hypothesis that if a mouse has the Obelisk infection, it will have it across all days, I screened for Obelisk infection in all mice in the database by checking for read alignment in a singular day. 
 
 | Mouse | Day | Strain  | Infected | Reads (capped at 5000) | Predicted Obelisk existence |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | M1 | All | Balbc | TB | 5000 | Y |
 | M2 | 31 | Balbc | TB | 5000 | Y |
 | M4 | 21 | Balbc | TB | 921 | M |
@@ -186,11 +186,12 @@ Based on my *moderately* confident hypothesis that if a mouse has the Obelisk in
 | M44 | 21 | Black6 | M smeg | 5000 | Y |
 | M45 | 21 | Black6 | M smeg | 5000 | Y |
 | M46 | 21 | Black6 | M smeg| 5000 | Y |
+
 Table 2: The Obelisk presence in each mouse in the bioproject, as extrapolated by a singular day. 
 
 For speed and computational resource issues, I ran all these BLAST queries on their web server. This limited how many reads I could view, giving 5000 per sample. "M" stood for maybe, as in there were a non-trivial amount of reads mapped to the Obelisk. However, I thresholded Obelisk presence to require 5000+ reads in the sample (knowing that the sample always has 8 runs). This is in line with the significance of Obelisk read presence in my mouse 7 analysis, as the minimum there was 22,000 reads. It is important to mention that my centroid bioproject had reads in the order of 100s for datasets with 100 million sequences. Any amount of read alignment was significant, but for the sake of this analysis, relative amounts were more important. 
 
-To test for enrichment with any mouse strain or viral infection, I performed a hypergeometric test (r dhy) on these categories.
+To test for enrichment with any mouse strain or viral infection, I performed a hypergeometric test (dhyper) on these categories.
 ```
 Balbc enrichment: 0.3129051
 Black6 enrichment: 0.1937031
@@ -240,33 +241,33 @@ As far as the data tells us, each mouse infected with _Murinavoid maximus_ does 
 
 Bioprojects:
 
-	1.	Velmurugan, G., Ramprasath, T., Swaminathan, K., Mithieux, G., Rajendhran, J., Dhivakar, M., Parthasarathy, A., et al. (2017). Gut microbial degradation of organophosphate insecticides induces glucose intolerance via gluconeogenesis. Genome Biology, 18(1), 8. https://doi.org/10.1186/s13059-016-1134-6
-	2.	Werbner, M., Barsheshet, Y., Werbner, N., Zigdon, M., Averbuch, I., Ziv, O., Brant, B., et al. (2019). Social-Stress-Responsive Microbiota Induces Stimulation of Self-Reactive Effector T Helper Cells. mSystems, 4. https://doi.org/10.1128/mSystems.00292-18
-	3.	Cabral, D.J., Wurster, J.I., Korry, B.J., Penumutchu, S., & Belenky, P. (2020). Consumption of a Western-Style Diet Modulates the Response of the Murine Gut Microbiome to Ciprofloxacin. mSystems, 5. https://doi.org/10.1128/mSystems.00317-20
-	4.	Broad Institute. (n.d.). TB-ARC Project: Tuberculosis Antibiotic Resistance Catalog Project. Available at: https://www.broadinstitute.org/genome-sequencing-and-analysis/tb-arc-project-tuberculosis-antibiotic-resistance-catalog-project
-	5.	Penumutchu, S., Korry, B.J., Hewlett, K., et al. (2023). Fiber supplementation protects from antibiotic-induced gut microbiome dysbiosis by modulating gut redox potential. Nature Communications, 14, 5161. https://doi.org/10.1038/s41467-023-40553-x
-	6.	Daniel, S.G., et al. (2017). Functional Changes in the Gut Microbiome Contribute to Transforming Growth Factor β-Deficient Colon Cancer. mSystems, 2(5), e00065-17. https://doi.org/10.1128/mSystems.00065-17
-	7.	Schwab, C., et al. (2014). Longitudinal study of murine microbiota activity and interactions with the host during acute inflammation and recovery. The ISME Journal, 8(5), 1101-1114. https://doi.org/10.1038/ismej.2013.223
-	8.	NCBI. (n.d.). Run Browser Metadata: ERR3523737. Available at: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=ERR3523737&display=metadata
-	9.	Connolly, J.P.R., Slater, S.L., O’Boyle, N., et al. (2018). Host-associated niche metabolism controls enteric infection through fine-tuning the regulation of type 3 secretion. Nature Communications, 9, 4187. https://doi.org/10.1038/s41467-018-06701-4
-	10.	Fletcher, J.R., et al. (2021). Clostridioides difficile exploits toxin-mediated inflammation to alter the host nutritional landscape and exclude competitors from the gut microbiota. Nature Communications, 12(1), 462. https://doi.org/10.1038/s41467-020-20746-4
-	11.	Feng, P., et al. (2020). Tibet plateau probiotic mitigates chromate toxicity in mice by alleviating oxidative stress in gut microbiota. Communications Biology, 3(1), 242. https://doi.org/10.1038/s42003-020-0968-3
+1.	Velmurugan, G., Ramprasath, T., Swaminathan, K., Mithieux, G., Rajendhran, J., Dhivakar, M., Parthasarathy, A., et al. (2017). Gut microbial degradation of organophosphate insecticides induces glucose intolerance via gluconeogenesis. Genome Biology, 18(1), 8. https://doi.org/10.1186/s13059-016-1134-6
+2.	Werbner, M., Barsheshet, Y., Werbner, N., Zigdon, M., Averbuch, I., Ziv, O., Brant, B., et al. (2019). Social-Stress-Responsive Microbiota Induces Stimulation of Self-Reactive Effector T Helper Cells. mSystems, 4. https://doi.org/10.1128/mSystems.00292-18
+3.	Cabral, D.J., Wurster, J.I., Korry, B.J., Penumutchu, S., & Belenky, P. (2020). Consumption of a Western-Style Diet Modulates the Response of the Murine Gut Microbiome to Ciprofloxacin. mSystems, 5. https://doi.org/10.1128/mSystems.00317-20
+4.	Broad Institute. (n.d.). TB-ARC Project: Tuberculosis Antibiotic Resistance Catalog Project. Available at: https://www.broadinstitute.org/genome-sequencing-and-analysis/tb-arc-project-tuberculosis-antibiotic-resistance-catalog-project
+5.	Penumutchu, S., Korry, B.J., Hewlett, K., et al. (2023). Fiber supplementation protects from antibiotic-induced gut microbiome dysbiosis by modulating gut redox potential. Nature Communications, 14, 5161. https://doi.org/10.1038/s41467-023-40553-x
+6.	Daniel, S.G., et al. (2017). Functional Changes in the Gut Microbiome Contribute to Transforming Growth Factor β-Deficient Colon Cancer. mSystems, 2(5), e00065-17. https://doi.org/10.1128/mSystems.00065-17
+7.	Schwab, C., et al. (2014). Longitudinal study of murine microbiota activity and interactions with the host during acute inflammation and recovery. The ISME Journal, 8(5), 1101-1114. https://doi.org/10.1038/ismej.2013.223
+8.	NCBI. (n.d.). Run Browser Metadata: ERR3523737. Available at: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=ERR3523737&display=metadata
+9.	Connolly, J.P.R., Slater, S.L., O’Boyle, N., et al. (2018). Host-associated niche metabolism controls enteric infection through fine-tuning the regulation of type 3 secretion. Nature Communications, 9, 4187. https://doi.org/10.1038/s41467-018-06701-4
+10.	Fletcher, J.R., et al. (2021). Clostridioides difficile exploits toxin-mediated inflammation to alter the host nutritional landscape and exclude competitors from the gut microbiota. Nature Communications, 12(1), 462. https://doi.org/10.1038/s41467-020-20746-4
+11.	Feng, P., et al. (2020). Tibet plateau probiotic mitigates chromate toxicity in mice by alleviating oxidative stress in gut microbiota. Communications Biology, 3(1), 242. https://doi.org/10.1038/s42003-020-0968-3
 
 Bioinformatics Tools:
 
-	12.	Gruber, A.R., Lorenz, R., Bernhart, S.H., Neuböck, R., & Hofacker, I.L. (2008). The Vienna RNA Websuite. Nucleic Acids Research, 36(Suppl_2), W70-W74. https://doi.org/10.1093/nar/gkn188
-	13.	Zuker, M. (2003). Mfold web server for nucleic acid folding and hybridization prediction. Nucleic Acids Research, 31(13), 3406-3415. https://doi.org/10.1093/nar/gkg595
-	14.	Rombel, I.T., Sykes, K.F., Rayner, S., & Johnston, S.A. (2002). ORF-FINDER: a vector for high-throughput gene identification. Gene, 282(1–2), 33-41. https://doi.org/10.1016/S0378-1119(01)00819-8
-	15.	Abramson, J., Adler, J., Dunger, J., et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature, 630, 493–500. https://doi.org/10.1038/s41586-024-07487-w
-	16.	The UniProt Consortium. (2025). UniProt: the Universal Protein Knowledgebase in 2025. Nucleic Acids Research, 53(D0-D0). https://doi.org/10.1093/nar/gkaa1100
-	17.	Jones, P., Binns, D., Chang, H.Y., et al. (2014). InterProScan 5: genome-scale protein function classification. Bioinformatics. PMID: 24451626
-	18.	Camacho, C., Coulouris, G., Avagyan, V., et al. (2009). BLAST+: architecture and applications. BMC Bioinformatics, 10, 421. https://doi.org/10.1186/1471-2105-10-421
-	19.	Sievers, F., Wilm, A., Dineen, D.G., et al. (2011). Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Molecular Systems Biology, 7, Article number: 539. https://doi.org/10.1038/msb.2011.75
+12.	Gruber, A.R., Lorenz, R., Bernhart, S.H., Neuböck, R., & Hofacker, I.L. (2008). The Vienna RNA Websuite. Nucleic Acids Research, 36(Suppl_2), W70-W74. https://doi.org/10.1093/nar/gkn188
+13.	Zuker, M. (2003). Mfold web server for nucleic acid folding and hybridization prediction. Nucleic Acids Research, 31(13), 3406-3415. https://doi.org/10.1093/nar/gkg595
+14.	Rombel, I.T., Sykes, K.F., Rayner, S., & Johnston, S.A. (2002). ORF-FINDER: a vector for high-throughput gene identification. Gene, 282(1–2), 33-41. https://doi.org/10.1016/S0378-1119(01)00819-8
+15.	Abramson, J., Adler, J., Dunger, J., et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature, 630, 493–500. https://doi.org/10.1038/s41586-024-07487-w
+16.	The UniProt Consortium. (2025). UniProt: the Universal Protein Knowledgebase in 2025. Nucleic Acids Research, 53(D0-D0). https://doi.org/10.1093/nar/gkaa1100
+17.	Jones, P., Binns, D., Chang, H.Y., et al. (2014). InterProScan 5: genome-scale protein function classification. Bioinformatics. PMID: 24451626
+18.	Camacho, C., Coulouris, G., Avagyan, V., et al. (2009). BLAST+: architecture and applications. BMC Bioinformatics, 10, 421. https://doi.org/10.1186/1471-2105-10-421
+19.	Sievers, F., Wilm, A., Dineen, D.G., et al. (2011). Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Molecular Systems Biology, 7, Article number: 539. https://doi.org/10.1038/msb.2011.75
 
 Other:
 
-	20.	Zheludev, I.N., Edgar, R.C., Lopez-Galiano, M.J., de la Peña, M., Babaian, A., Bhatt, A.S., & Fire, A.Z. (2024). Viroid-like colonists of human microbiomes. Cell, 187(23), 6521-6536.e18. https://doi.org/10.1016/j.cell.2024.09.033
-	21.	Lorenz, R., Bernhart, S.H., Höner zu Siederdissen, C., Tafer, H., Flamm, C., Stadler, P.F., & Hofacker, I.L. (2011). ViennaRNA Package 2.0. Algorithms for Molecular Biology, 6(1), 26. https://doi.org/10.1186/1748-7188-6-26
+20.	Zheludev, I.N., Edgar, R.C., Lopez-Galiano, M.J., de la Peña, M., Babaian, A., Bhatt, A.S., & Fire, A.Z. (2024). Viroid-like colonists of human microbiomes. Cell, 187(23), 6521-6536.e18. https://doi.org/10.1016/j.cell.2024.09.033
+21.	Lorenz, R., Bernhart, S.H., Höner zu Siederdissen, C., Tafer, H., Flamm, C., Stadler, P.F., & Hofacker, I.L. (2011). ViennaRNA Package 2.0. Algorithms for Molecular Biology, 6(1), 26. https://doi.org/10.1186/1748-7188-6-26
 
 
 # Viral Short Story
