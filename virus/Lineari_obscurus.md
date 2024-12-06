@@ -2,7 +2,7 @@
 
 written by: [Meijin Wu]
 
-### {Q1B Virus Name}
+### Virus Name
 
 *Lineari*: most of the proteins encoded in this obelisk appears to incorporate a vaguely linear shape, and as a reference to the classic obelisk shape; *obscurus*: mysterious/unknown in Latin, refers to the many mysteries around this obelisk)
 
@@ -11,8 +11,6 @@ written by: [Meijin Wu]
 Obelisks are newly defined RNA-only agents that are distinct from other RNA viruses and viroids. Obelisks feature circular genomes that fold to a needle-like secondary structure and encode a small number of proteins. Obelisk sequences are prevalent in public metatranscriptomic data, and appear to harbor great variations (Zheludev et al., 2024). Overall, very little is known about the ecology, genome products, and host interactions of obelisks. This study reports characterizations of a novel obelisk group, named *Lineari obscurus*, found in the mice gut microbiome, and begins exploring its digital ecology. *L. obscurus* is found to encode several small proteins, one of which includes a potential BAR domain. Furthermore, additional obelisk groups were found in BioSamples containing *L. obscurus*. The results presented in this study demonstrate the immense differences between obelisk groups and the considerable gap in knowledge in our journey to understand these novel agents. This study provides a number of insights into the presence of obelisks in the mice gut and raises questions regarding the mechanisms of these RNA agents.
 
 ## Results
-
-### Ecology subsection A...
 
 ***Lineari obscurus*** **is primarily found in laboratory mouse gut microbiomes**
 
@@ -40,23 +38,21 @@ Interestingly, the collective data obtained from each BioProject contains a numb
 
 Table 1. Summary of SRA runs, BioSample, and BioProject associated with cluster 1812 obelisks.
 
-![Table 1](img/Lineari_obscurus/Table%201.png)
+![Table_1](img/Lineari_obscurus/Table_1.png)
 
-### Virus Genome {Q3}
+### Virus Genome predicts multiple ORFs
 
-![Figure 1](img/Lineari_obscurus/Figure%201.png)
+![Figure_1](img/Lineari_obscurus/Figure_1.png)
 
 Figure 1. Visualization of the *Lineari obscurus* genome. A) Visualization of the centroid sequence of obelisk cluster 1812, where *Lineari obscurus* was discovered. Predicted ORFs with a peptide length of \>25 amino acids are annotated in purple and labeled #1-#5. The BAR domain found in ORF #1 is annotated in grey. B)+C) Visualizations of obelisk numbers 05 and 10 were found in cluster 1812. Each run contained sequences starting at different locations in the genome, but core features were conserved. The missing positive strand ORF #5 is annotated in red in C). D) Secondary structure prediction of *Lineari obscurus* genome using the ViennaRNA package (Lorenz et al., 2011) with coloured legend of prediction confidence. All visualizations were made using SnapGene.
 
-![Figure 2](img/Lineari_obscurus/Figure%202.png)Figure 2. AlphaFold predictions of *Lineari obscurus* ORF proteins. A) Predicted structure of ORF #1. Left - conserved BAR domain is highlighted in red. Right - AlphaFold confidence of the predicted structure. B)-E) predicted structures of ORFs #2-#4 with confidence, pTM scores, and the expected position error between scored and aligned residues. All structure predictions were conducted on the AlphaFold server (<https://alphafoldserver.com/>).
-
-### Other (bonus) sections
+![Figure_2](img/Lineari_obscurus/Figure_2.png)Figure 2. AlphaFold predictions of *Lineari obscurus* ORF proteins. A) Predicted structure of ORF #1. Left - conserved BAR domain is highlighted in red. Right - AlphaFold confidence of the predicted structure. B)-E) predicted structures of ORFs #2-#4 with confidence, pTM scores, and the expected position error between scored and aligned residues. All structure predictions were conducted on the AlphaFold server (<https://alphafoldserver.com/>).
 
 ***Lineari obscurus*** **include cluster 1813 obelisks**
 
 Analysis of the 1813 cluster obelisks reveal that they are the complementary sequence to the 1812 centroids (Figure 3), which would explain why runs from the same BioSample yielded obelisks sorted to different clusters. However, no additional BioProjects were found in cluster 1813.
 
-![Figure 3](img/Lineari_obscurus/Figure%203.png)
+![Figure_3](img/Lineari_obscurus/Figure_3.png)
 
 Figure 3. Genome comparison of A) run 05 in cluster 1812 and B) run 04 in cluster 1813, which comes from the same BioSample.
 
@@ -64,7 +60,7 @@ Figure 3. Genome comparison of A) run 05 in cluster 1812 and B) run 04 in cluste
 
 Following this, I also investigated the cluster 674 obelisks, which were found in the same BioSample from ProjectC found in cluster 1812. However, the cluster 647 obelisks share virtually no similarity with *L. obscurus*, and contain very different ORFs compared to the 1812 and 1813 obelisks. I decided to investigate the longest two ORFs. However, no known protein domains were found in the ORF, and sequence homology search returned no results.
 
-![Figure 4](img/Lineari_obscurus/Figure%204.png)Figure 4. Genome visualization and annotation of obelisk identified in run 25 in cluster 674, which is sequenced from the same BioSample as sequence data presented in Figure 3. A) Predicted ORFs in the obelisk genome. All negative strand predictions with a peptide length of \>25 are annotated in orange. All positive strand predictions with a peptide length of \>25 are annotated in green. The two longest ORFs (#1 and #2) are annotated in purple. B) AlphaFold structure prediction of ORF #1 protein product with confidence. C) AlphaFold structure prediction of ORF #2 protein product with confidence. D) Secondary structure prediction of cluster 674 obelisk with coloured confidence legend.
+![Figure_4](img/Lineari_obscurus/Figure_4.png)Figure 4. Genome visualization and annotation of obelisk identified in run 25 in cluster 674, which is sequenced from the same BioSample as sequence data presented in Figure 3. A) Predicted ORFs in the obelisk genome. All negative strand predictions with a peptide length of \>25 are annotated in orange. All positive strand predictions with a peptide length of \>25 are annotated in green. The two longest ORFs (#1 and #2) are annotated in purple. B) AlphaFold structure prediction of ORF #1 protein product with confidence. C) AlphaFold structure prediction of ORF #2 protein product with confidence. D) Secondary structure prediction of cluster 674 obelisk with coloured confidence legend.
 
 ## Discussion
 
