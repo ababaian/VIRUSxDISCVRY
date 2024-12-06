@@ -3,15 +3,13 @@ written by: Clare Gillis (https://github.com/claregillis)
 
 ### *Gladius clandestinus*
 
-[Optional: Tutorial 2 Generative AI Cover-art](img/<virusname>/cover.png)
+![RNA Anemone Cover Art](img/Gladius_clandestinus/00_cover_art.jpeg)
 
 ## Abstract
 
 Humans host diverse microbiomes composed of bacteria, fungi, archaea, and viruses. Metagenomic analyses provide insights into these communities by characterizing the species composition of genetic material in samples. However, much of the resulting data remains underexplored. Recently, a novel class of viroid-like agents, termed obelisks, was discovered from this data. Here, I investigate and characterize obelisk cluster 1702, designated *Gladius clandestinus*, which is prevalent in the human oral and respiratory microbiomes. *G. clandestinus* is strongly associated with the Escherichia virus phiX174 in a manner that cannot be fully explained by cohabiting a host. Additionally, an initial AlphaFold analysis suggests that it is possible *G. clandestinus* is replicated by E. coli RNA polymerase and encodes a transcriptional initiation factor. Further investigation into its replication mechanism and ecological role is required to confirm its replication mechanism. Given this investigation, I propose that *G. clandestinus* could represent a new class of virophage, broadening our understanding of satellite viruses. I anticipate this work will serve as a foundation for future studies investigating other obelisks as viral satellites.
 
 ## Results
-
-### Ecology subsection A...
 
 *G. clandestinus* is found in five distinct SRA datasets, spanning multiple ecosystems and host organisms. These sequences were identified in datasets derived from the lower airways of a long-term smoker (run accession SRR11002570; Sulaiman et al., 2021), an oral sample (run accession SRR16316507), a nasal sample (run accession SRR14354277; Zhang et al., 2023), an esophageal tumor (run accession SRR13521325), and a sample associated with an anemone (run accession SRR1944533). These datasets originate from diverse geographic locations and employ metagenomic sequencing technologies, including Illumina and NextSeq instruments. Human samples dominate the dataset, and the anemone-associated sample appears to contain environmental contamination, including DNA from human, dog, and chicken sources.
 
@@ -36,13 +34,11 @@ Using BigQuery, I calculated the frequency of phiX174 detection in SRA runs from
 The link between obelisk cluster 1702 and phiX174 cannot be solely attributed to sharing Escherichia coli as a host. While E. coli is present in all samples with phiX174 and obelisk cluster 1702, the prevalence of phiX174 in respiratory and oral microbiomes reporting both E. coli and any virus is only 7.4%. This supports the hypothesis that the association between obelisk cluster 1702 and phiX174 is not merely incidental but due to a specific relationship.
 
 
-### Virus Genome {Q3}
+### G. Clandestinus Sword-Like Genome Secondary Structure
 
 ![Genome Map](img/Gladius_clandestinus/Secondary_structure.png)
 The jupiter plot on the left represents the base pairing between residues in the secondary structure (generated using MFold; Zuker, 2003). The colour of lines represent the confidence of the predicted base pair. The open reading frame for Oblin1 is highlighted in purple, with arrows denoting the direction of transcription. The conserved region is shown in pink. The sword-like secondary structure is shown on the right with the Oblin1 open reading frame and the conserved region also highlighted in purple and pink respectively.
 
-
-### Other (bonus) sections
 
 ## Hypothesis of function
 
@@ -57,14 +53,29 @@ Figure 4 demonstrates the RNA passing through RNA Polymerase, while Figure 5 hig
 Overall, the model suggests that Oblin1 may interact with RNA Polymerase and the obelisk genome, potentially playing a role in transcription initiation. This must be interpreted with caution, however, since the predictions, especially regarding the RNA structure, are made with low confidence.
 
 ![Figure 2: AlphaFold Confidence](img/Gladius_clandestinus/confidence.png)
+Figure 2: AlphaFold predicted structure of a complex of E. coli RNA polymerase, the G. clandestinus Oblin1, and the G. clandestinus genome.
+
+<br>
 
 ![Figure 3: Overall Complex Structure](img/Gladius_clandestinus/overview.png)
+Figure 3: The predicted complex structure represented in PyMol. RNA Polymerase is shown in green, Oblin1 in cyan with the conserved region shown in magenta, and the RNA genome shown in orange.
+
+<br>
 
 ![Figure 4: RNA Passes Through RNAP](img/Gladius_clandestinus/RNA_inside_RNAP.png)
+Figure 4: An illustration of the RNA molecule (orange) passing through the RNA polymerase (green)
 
-![Figure 4: Conserved Region and RNA Interaction](img/Gladius_clandestinus/conserved_RNA_interaction.png)
+<br>
 
-![Figure 5: Ends of RNA molecule](img/Gladius_clandestinus/ends_of_RNA.png)
+![Figure 5: Conserved Region and RNA Interaction](img/Gladius_clandestinus/conserved_RNA_interaction.png)
+Figure 5: The Oblin1 conserved region (magenta) interacting with the RNA genome (orange)
+
+<br>
+
+![Figure 6: Ends of RNA molecule](img/Gladius_clandestinus/ends_of_RNA.png)
+Figure 6: The ends of the RNA molecule predicted in close proximity, making the RNA molecule form a nearly ciruclar structure
+
+<br>
 
 ## Oblin1 predicted structure from AlphaFold
 
