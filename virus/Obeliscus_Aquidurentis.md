@@ -186,7 +186,7 @@ culturing Obelisk 17 and *Flavobacterium aquidurense* under wastewater-like envi
 
 - In the paper, figure 2 demonstrated the predicted structures for both oblin 1 and 2, and predictions of ORF 1 and 2 shares structural similarities with them. Especially, the four helices structure in prediction of ORF2 align closely to the conserved structural motif in panel B(14,15,16)
 
-*Figure 4: Predicted Strcutures and motifs on Oblin 1 and 2 From Figure 2 in Paper(15) *
+*Figure 4: Predicted Strcutures and motifs on Oblin 1 and 2 From Figure 2 in Paper(15)*
 
 ![](img/Obeliscus_Aquidurentis/5.png)
 
@@ -217,7 +217,7 @@ culturing Obelisk 17 and *Flavobacterium aquidurense* under wastewater-like envi
 
 - As STRING suggests the protein input belongs to protease, this resonate with the peptidase or protease-like function of oblin 1 mentioned in the paper provided from the professor which supports the potential of ORF2 being Oblin 1 (15,18)
 
-*Figure 7: Prediction From STRING Database Suggesting the Potential Pathways the Input Protein May Involve *
+*Figure 7: Prediction From STRING Database Suggesting the Potential Pathways the Input Protein May Involve*
 
 ![](img/Obeliscus_Aquidurentis/9.png)
 
@@ -242,7 +242,7 @@ culturing Obelisk 17 and *Flavobacterium aquidurense* under wastewater-like envi
 
 ![](img/Obeliscus_Aquidurentis/12.png)
 
-*Figure 11: Alignment of Obeliscus_Aquidurentis's Genome Sequence *
+*Figure 11: Alignment of Obeliscus_Aquidurentis's Genome Sequence*
 
 ![](img/Obeliscus_Aquidurentis/13.png)
 
@@ -333,13 +333,11 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 
 ### Other sections
 
-*Figure 12: AlphaFold3 Prediction and Conserved Regions Annotation Of ORF1(Potential Oblin2) and ORF2(Potential Obline1) *
+*Figure 12: AlphaFold3 Prediction and Conserved Regions Annotation Of ORF1(Potential Oblin2) and ORF2(Potential Oblin1)*
 
 
-![](img/Obeliscus_Aquidurentis/6.png)
-
-
-![](img/Obeliscus_Aquidurentis/7.png)
+![](img/Obeliscus_Aquidurentis/6.PNG)
+![](img/Obeliscus_Aquidurentis/7.PNG)
 
 
 - Conserved regions were circled and analysis on the prediction can be found above in observation and features, suggesting the potential functions of the them and how they are aligned with Oblin 1 and 2
@@ -354,13 +352,13 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 6.*BPSL2433 - Subfamily S1C unassigned peptidase; Similar to Pseudomonas aeruginosa serine protease MucD S [...]	Burkholderia pseudomallei*
 7.*RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense*
 
-*Figure 13: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and A0A3Q0KVE9 - Subfamily S1B unassigned peptidase (S01 family)	Schistosoma mansoni *
+*Figure 13: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and A0A3Q0KVE9 - Subfamily S1B unassigned peptidase (S01 family)	Schistosoma mansoni*
 
 ![](img/Obeliscus_Aquidurentis/14.png)
 
 1. The interaction has lower confidence（0.38) comparing to the predictions on ORF2 alone, the multi alpha helices structure that suggests functional motif participates in interactions, suggesting potential binding with the peptidase.The scored residue suggests the interactions located mostly from 214 to 300, 350 to 450 position(36)
 
-*Figure 14: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and FGIG_00265 - Subfamily S1B unassigned peptidase (S01 family)	Fasciola gigantica *
+*Figure 14: AlphaFold3 Prediction of Interactions Between ORF2(Potential Oblin1) and FGIG_00265 - Subfamily S1B unassigned peptidase (S01 family)	Fasciola gigantica*
 
 ![](img/Obeliscus_Aquidurentis/15.png)
 
@@ -399,7 +397,7 @@ Although ORF1 has shorter length, this is suggesting ORF1(Oblin 2) dominates the
 - Ranking the potential interactions that can be done between OFR2 and peptidases: *3,4,5,6,7,2,1*
 - Another phylogentic tree was generated between the ORF2 and the above peptidases, suggeting that the *RC62_819 - Peptidase, subfamily S1B unassigned peptidase	Flavobacterium aquidurense* is the most similar to the Oblin 1 considering evolutionarily.
 
-*Figure 20: Aligment of ORF2(Potential Oblin 1) and All 7 Proteins(Suggested By STRING) Listed Above *
+*Figure 20: Aligment of ORF2(Potential Oblin 1) and All 7 Proteins(Suggested By STRING) Listed Above*
 
 ![](img/Obeliscus_Aquidurentis/21.png)
 
