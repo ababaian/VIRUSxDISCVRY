@@ -6,7 +6,7 @@ _Obeliscus oris_ translates to _obelisk of the mouth_. All samples containing th
 obelisk (excluding one) were isolated from human oral-nasopharyngeal passages,
 hence the name _Obeliscus oris_.
 
-![](img/obeliscus_oris/cover.jpeg)
+![AI generated image of a scientist](img/obeliscus_oris/cover.jpeg)
 
 ## Abstract
 
@@ -114,7 +114,7 @@ passages, and one can hypothesize that this is the obelisk's "native" niche.
 
 ### Virus Genome
 
-![](img/obeliscus_oris/scale_legend_in_nts.png)
+![Scale legend of O. oris in NTs](img/obeliscus_oris/scale_legend_in_nts.png)
 
 **Figure 1: _Obeliscus oris_ contains a single 528 nucleotide-long, CDS-complete**
 **ORF as predicted by ORF Finder [Rombel et al. 2002].** The jupiter plot depicts
@@ -127,7 +127,7 @@ self-complementary to the other half. (This figure was made using
 [The UNAFold Web Server](https://www.unafold.org/) [Markham et al. 2008]
 and [Benchling](https://benchling.com) [Benchling 2024].)
 
-![](img/obeliscus_oris/obelisk_secondary_structure.png)
+![Secondary structure of O. oris RNA](img/obeliscus_oris/obelisk_secondary_structure.png)
 
 **Figure 2: Secondary structure prediction of _Obeliscus oris_ by The UNAFold**
 **Web Server [Markham et al. 2008].** The secondary structure is in accordance
@@ -136,7 +136,7 @@ with 2 smaller stem-loop structures protruding from the larger linear structure
 at approximately half-way. (This figure was made using
 [The UNAFold Web Server](https://www.unafold.org/) [Markham et al. 2008])
 
-![](img/obeliscus_oris/oblin1_alphafold3_annotated.jpg)
+![Annotated AlphaFold 3 prediction of Oblin-1](img/obeliscus_oris/oblin1_alphafold3_annotated.jpg)
 
 **Figure 3: 3D structure prediction of Oblin-1 by AlphaFold 3 [Jumper et al.**
 **2021; Abramson et al. 2024].** Confidence of prediction: deep blue, very high
@@ -148,7 +148,7 @@ helices marked in orange. The two beta strands forming the clasp are marked in
 pink, while the C-terminal alpha helix and conserved domain-A are marked in dark
 green and yellow respectively. 
 
-![](img/obeliscus_oris/protein_cartoon.png)
+![Topological representation of Oblin-1](img/obeliscus_oris/protein_cartoon.png)
 
 **Figure 4: A topological representation of the secondary structure of Oblin-1**
 **encoded by _Obeliscus oris_.** The N-terminal globule is shaded in gray and is
