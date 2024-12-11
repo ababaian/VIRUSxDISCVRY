@@ -62,6 +62,7 @@ An index of the Obelisk Discovery Reports.
 - [Murinavoid maximus](virus/Murinavoid_maximus.md)
 - [Obeliscus aquidurentis](virus/Obeliscus_Aquidurentis.md)
 - [Obeliscus faecalis](virus/Obeliscus_faecalis.md)
+- [Obeliscus_replicandii.md](/virus/obeliscus_replicandii.md)
 - [Obeliskvirus respiratorius](virus/Obeliskvirus_respiratorius.md)
 - [Obeliscus suslichen](virus/obeliscus_suslichen.md)
 - [Obelisk 371](virus/Obelisk371.md)
