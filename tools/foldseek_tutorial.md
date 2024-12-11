@@ -19,9 +19,10 @@ Foldseek will return a list of proteins similar in structure to the query. For e
 ### 1. Download protein sequence FASTA file & upload to Foldseek
 
 - First, download the protein sequence FASTA file from the link provided above. This protein sequence was generated from the whole nucleotide sequence of Obelisk_001739_000001_000001 using the R package Biostrings. The script used for this also provided above for reference and reproducibility. 
+- (new note) Better practice would be to find an open reading frame using a tool like ORFfinder (https://www.ncbi.nlm.nih.gov/orffinder/) and using the output protein sequence rather than crudely converting the whole DNA sequence into a protein sequence. 
 - Next, drag the FASTA file into the input box and click "Predict" for "Structure with ESMFold". This will call the ESMFold protein structure predictor made by Meta to predict the structure of the Obelisk. This step is necessary because there are no structures currently available for this Obelisk. If there was, (for example from a previous AlphaFold run,) the structure from that could be used as a search query instead in Step 2 of this tutorial.
 
-![](./img/Foldseek/predict_structure.png)
+![**Figure 1. Screenshot of Foldseek when going from protein sequence to structure prediction**](img/Foldseek/predict_structure.png)
 
 ### 2. Run the search query
 
@@ -29,7 +30,7 @@ Foldseek will return a list of proteins similar in structure to the query. For e
 - If you are using your own data and already have a structure ready for input, you can skip Step 1 of the tutorial, upload your structure in the query box and proceed directly to Search.
 
 
-![](./img/Foldseek/search.png)
+![**Figure 2. Screenshot of Foldseek when submitting (predicted) protein structure as a query**](img/Foldseek/search.png)
 
 ### 3. Examine the search results
 
@@ -39,7 +40,7 @@ Foldseek will return a list of proteins similar in structure to the query. For e
 - Highlighting some of the hits with higher matching scores, we can notice that the "uncultured Caudovirales phage" from BFDV has an overall score of 28 which is much higher than the rest of the hits and the "Dictyostelium discoideum" from the cath50 database has a TM score (a metric of similarity of two protein structure) of 0.3 which is significantly higher than the rest of the hits, despiting having a lower overall score.
 - These two hits may be a good place to start for further exploration using third-party software / data.
 
-![](./img/Foldseek/search_results_structure.png)
+![**Figure 3. Screenshot of Foldseek's search results page**](img/Foldseek/search_results_structure.png)
 
 ### Conclusion
 
