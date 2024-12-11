@@ -41,7 +41,7 @@ All three cases of this Obelisk were associated with metatranscriptomic RNA-seq 
 
 The associated BioProjects each have 9-11 unique BioSamples and a corresponding run. Of the runs that were not detected for this Obelisk, there were 2 other runs with BioSamples from Anas. The rest were runs from BioSamples taken from Chenonetta (another genus of dabbling ducks), Calidris (a genus of Arctic wading birds)
 
-Non-trivially, a substantial percentage of the reads in each SRR run in the Obelisk cluster are categorized as bacterial (SRR8189300: 6.15%, SRR8189301: 14.36%, SRR7239366: 21.42%). Although the publications associated with these datasets assign the sample origin (birds) as the host for all detected viruses, I hypothesize that the host for this Obelisk could potentially be bacteria. An attempt was made to quantitatively assess this hypothesis as discussed in the following section (Question 3, Figures TODO).
+Non-trivially, a substantial percentage of the reads in each SRR run in the Obelisk cluster are categorized as bacterial (SRR8189300: 6.15%, SRR8189301: 14.36%, SRR7239366: 21.42%). Although the publications associated with these datasets assign the sample origin (birds) as the host for all detected viruses, I hypothesize that the host for this Obelisk could potentially be bacteria. An attempt was made to quantitatively assess this hypothesis which is discussed in the assignment submission but omitted in this public file.
 
 ### Virus Genome
 
