@@ -4,7 +4,7 @@ written by: [David Zheglov](https://github.com/dzheglov)
 ### {Obeliscus porcinus Ω36}
 *{ The name Obeliscus refers to the overarching family of obelisk RNAs, characterized by their rod-like secondary structure. Porcinus is derived from Latin, meaning "of pigs," reflecting its ecological association with the porcine microbiota. The designation omega36 denotes the cluster number assigned during classification. I will also use the name omega36 throughout the text, because it is easier to refer to the obelisk with a short name.}*
 
-[Optional: Tutorial 2 Generative AI Cover-art](img/O_porcinus_omega36/00_cover_art.jpg)
+[Tutorial 2 Generative AI Cover-art](img/O_porcinus_omega36/00_cover_art.png)
 
 ## Abstract
 
@@ -16,7 +16,7 @@ The ecological distribution of omega36 also strengthens the percription of omega
 
 ## Results
 
-### Ecology subsection A...
+## Description of the Obelisk ecology
 
 RNA elements of the obelisk family are recently discovered potential viroid-like agents that might be active in various environments. These unique RNAs which have circular genome and highly structured secondary structures may contain one or two ORFs which determines the classification of the obelisk family [1]. The newly discovered omega36, assigned to this study, has the following characteristics which are similar to those of this classification.
 
@@ -51,7 +51,7 @@ Secondary Hypothesis: Obelisks associated with specific bacterial hosts exhibit 
 
 
 
-### Virus Genome {Q3}
+### Virus Genome
 
 The genome of Obelisk Omega36 was analyzed to identify and annotate its open reading frames (ORFs) and visualize its structural and functional features. Using bioinformatics tools and structural predictions, I created a detailed representation of the genome, highlighting key elements such as ORFs, RNA secondary structure, and conserved features.
 
@@ -75,22 +75,32 @@ For annotation purposes, I focused on ORF8 on the reverse strand, which encodes 
 
 Here are the protein sequences:
 
-Oblin-1: MRINQTVDEFNLDLYRNRDDWETIQLLDGTVYEKVSWYTEDGKYQEYIHK
+Oblin-1: 
+```
+MRINQTVDEFNLDLYRNRDDWETIQLLDGTVYEKVSWYTEDGKYQEYIHK
 SYDNNYDETLPLLLSGVKNPSSEDRMKSRKKKKYFLPKKLSKLRVRPLSF
 WVKGESNLTEILSVYSQVSAKVNIGKTTAYKLLAFLVYLNVEKKMTIFDL
 PLGSDLYDSFTRRARSHAYEGYWGNLNKLLQMQSSLIAAQGHLEFDYSDR
 EKNGNLLPIGREYYENLTISLTACPVTHTARKRGYNDKGSRKDPSKTKEV
 MDNHSTTDYSRQESFLSPRQALYHFLLGPTNPVKKEYRPQSVIDYQKRMN
-RIARQQRRKELERIRSLNGEVKVYVDEAILAKKKENSTEITKKS
+RIARQQRRKELERIRSLNGEVKVYVDEAILAKKKENSTEITKKS 
+```
 
-Oblin-2: MKETAKQQLEILNTKRGNIVNNINNINLKILTLQAQLEKEEKALERIENT
+Oblin-2: 
+```
+MKETAKQQLEILNTKRGNIVNNINNINLKILTLQAQLEKEEKALERIENT
 IANFGKKQAKGPSNQSEDSPSPTEKSEEKESLSN
+```
 
-ORF-3: MQHFTLYSLVSYKSGLDCSINKLQPQLNS
+ORF-3:
+```
+ MQHFTLYSLVSYKSGLDCSINKLQPQLNS
+```
 
-
-ORF-8: MVEPSTLITSWEESISSSYETSFYLLNWDSLLQIEEEEGFHRNCYHKIYEYILDIYRLRYTKKLSRRPYRPGAEWFPNHPCYGKDLG
-
+ORF-8:
+```
+MVEPSTLITSWEESISSSYETSFYLLNWDSLLQIEEEEGFHRNCYHKIYEYILDIYRLRYTKKLSRRPYRPGAEWFPNHPCYGKDLG
+```
 
 Secondary Structure Predictions
 Using RNAfold (-p -r -d2 --noLP --circ) [4], I predicted the minimum free energy (MFE) structure of the Omega36 genome. The secondary structure revealed distinct regions:
@@ -128,7 +138,6 @@ The lack of strong homology or abundant metagenomic data to support this hypothe
 Interestingly, ORF3 includes a Shine-Dalgarno sequence (AGGAGG) upstream of its start codon. This sequence is indicative of bacterial ribosome binding, suggesting that ORF3 may encode a functional peptide. While ORF3 encodes a small protein, its structural predictions indicate potential stability, further supporting its plausibility as a coding region.
 
 
-### Other (bonus) sections
 
 ## AlphaFold protein structure predictions
 
