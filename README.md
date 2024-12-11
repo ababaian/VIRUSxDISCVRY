@@ -55,6 +55,7 @@ An index of the software tutorial.
 An index of the Obelisk Discovery Reports.
 
 - [Aenigmovirus labrynthii](virus/Aenigmovirus_labrynthii.md)
+- [Anas amicus](virus/Anas_Amicus.md)
 - [Arcana rumenalis](virus/Arcanarumenalis.md)
 - [Clostridiae-associata centralis](virus/Clostridiae-associata_centralis.md)
 - [Gladius clandestinus](virus/gladius_clandestinus.md)
@@ -62,7 +63,8 @@ An index of the Obelisk Discovery Reports.
 - [Murinavoid maximus](virus/Murinavoid_maximus.md)
 - [Obeliscus aquidurentis](virus/Obeliscus_Aquidurentis.md)
 - [Obeliscus faecalis](virus/Obeliscus_faecalis.md)
-- [Obeliscus_replicandii.md](/virus/obeliscus_replicandii.md)
+- [Obeliscus porcinus](/virus/obeliscus_porcinus.md)
+- [Obeliscus replicandii](/virus/obeliscus_replicandii.md)
 - [Obeliskvirus respiratorius](virus/Obeliskvirus_respiratorius.md)
 - [Obeliscus suslichen](virus/obeliscus_suslichen.md)
 - [Obelisk 371](virus/Obelisk371.md)
