@@ -68,6 +68,7 @@ An index of the Obelisk Discovery Reports.
 - [Obeliskvirus respiratorius](virus/Obeliskvirus_respiratorius.md)
 - [Obeliscus suslichen](virus/obeliscus_suslichen.md)
 - [Obelisk 371](virus/Obelisk371.md)
+- [Scrofobelisk intestinali](virus/Scrofobelisk_intestinalis.md)
 
 ## 2023 Virus Index
 
