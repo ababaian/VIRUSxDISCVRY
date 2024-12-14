@@ -4,7 +4,7 @@ written by: [Teo Reid](https://github.com/reidmat5) with GenAI
 ### Mammalia ventremi
 *Mammalia ventremi is the name of my obelisk. Mammalia means mammal in latin and ventremi means stomach or in some contexts womb. The common factor between all the obelisks in my cluster are that they are found in stool samples (from the stomach) from mammals (which birth from the womb).*
 
-![Optional: Tutorial 2 Generative AI Cover-art](img/Mammalia_ventremi/00_cover_art.jpg.jpg)
+![Optional: Tutorial 2 Generative AI Cover-art](img/Mammalia_ventremi/00_cover_art.jpg)
 
 ## Abstract
 
@@ -26,49 +26,61 @@ Despite the diversity of sample sources and host organisms, a unifying factor am
 Quantifying observations such as these involves several metrics. For the high level data, the number of obelisk sequences associated with a bioproject, and the number of bioprojects with common descriptions are important factors (Figures 1, 2). Given the wide range of environments the human stool samples were collected under, the only common factor which seems to link these data sets together is the fact that they are all stool samples. The association of Mammalia ventremi with an E. coli genome bioproject and lack of dietary crossover provides a foundation for a targeted hypothesis. Specifically, it can be hypothesized that Mammalia ventremi utilizes E. coli as a host (*low* confidence given lack of other E. coli references).
 
 
-![(1) Mammalia ventremi Cluster Project Metadata. (A) Proportions by number of reads. (B) Proportions by megabases. [“RAWGraphs,” n.d.]](img\Mammalia_ventremi\Screenshot (21).png)
+![Fig 1](img/Mammalia_ventremi/Screenshot_21.png)
+(1) Mammalia ventremi Cluster Project Metadata. (A) Proportions by number of reads. (B) Proportions by megabases. [“RAWGraphs,” n.d.]
 
-![(2) Mammalia ventremi Cluster Geographic Metadata. Proportions by megabases. [“RAWGraphs,” n.d.]](img\Mammalia_ventremi\Screenshot (22).png)
+![Fig 2](img/Mammalia_ventremi/Screenshot_22.png)
+(2) Mammalia ventremi Cluster Geographic Metadata. Proportions by megabases. [“RAWGraphs,” n.d.]
 
-
-### Virus Genome {Q3}
-
-```
 *high* confidence: Mammalia ventremi's genome folds into a rod shaped secondary structure and is one of the shortest and most efficient (in terms of genome length vs oblin-1 length) obelisks. Figures 3-9 illustrate the Mammalia ventremi Genome in various ways. Figures 3-5 show open reading frames and RNA secondary structure interactions; Mammalia ventremi possesses the characteristic rod-shaped secondary structure and only encodes for 1 protein (Oblin-1). Figures 6-9 describe where Mammalia ventremi lands in the scope of current obelisks (and its centriod in its own cluster) with regards to some rudamentary whole genome statistics. I have high confidence in this hypothesis as is it a known characteristic of obelisks to have a rod structure and I have many (thousands) other obelisks to compare against for genome and oblin-1 length measurments from the Zheludev et al. 2024 paper.
-```
 
-![(3) Mammalia ventremi Whole Genome Secondary Structure. Note strong rod shaped structure.[Zuker 2003]](img\Mammalia_ventremi\Screenshot (23).png)
 
-![(4) Mammalia ventremi Open Reading Frames. Note singular continuous protein (Oblin-1).[NCBI. 2019]]((img\Mammalia_ventremi\Screenshot (47).png)
+![Fig 3](img/Mammalia_ventremi/Screenshot_23.png)
+(3) Mammalia ventremi Whole Genome Secondary Structure. Note strong rod shaped structure.[Zuker 2003]
 
-![(5) Mammalia ventremi Jupiter Plot, Oblin-1 Annotated on Exterior. [Zuker 2003]](img\Mammalia_ventremi\Screenshot (55).png)
+![Fig 4](img/Mammalia_ventremi/Screenshot_47.png)
+(4) Mammalia ventremi Open Reading Frames. Note singular continuous protein (Oblin-1).[NCBI. 2019]
 
-![(6) Frequency of Obelisk Genome Lengths, Mammalia ventremi has a Genome Length of 785 Base Pairs. [Zheludev et al. 2024]](img\Mammalia_ventremi\Screenshot (29).png)
+![Fig 5](img/Mammalia_ventremi/Screenshot_55.png)
+(5) Mammalia ventremi Jupiter Plot, Oblin-1 Annotated on Exterior. [Zuker 2003]
 
-![(7) Proportion of Obelisk Genome Lengths, Mammalia ventremi has a Genome Length of 785 Base Pairs. [Zheludev et al. 2024]](img\Mammalia_ventremi\Screenshot (30).png)
+![Fig 6](img/Mammalia_ventremi/Screenshot_29).png)
+(6) Frequency of Obelisk Genome Lengths, Mammalia ventremi has a Genome Length of 785 Base Pairs. [Zheludev et al. 2024]
 
-![(8) Phylogenetic Tree of Sequences in the Mammalia ventremi Cluster, Centriod is highlighted (SRR5949244). Calculated via percent percent identity. [Waterhouse et al. 2009]](img\Mammalia_ventremi\Screenshot (48).png)
+![Fig 7](img/Mammalia_ventremi/Screenshot_30.png)
+(7) Proportion of Obelisk Genome Lengths, Mammalia ventremi has a Genome Length of 785 Base Pairs. [Zheludev et al. 2024]
 
-![(9) Frequencies of the Amount (percentage) of Obelisks Genomes Which Encode for Oblin-1. Mammalia ventremi is in the top 8% of these genomes with more than 88% of the genome reserved for the encoding of Oblin-1. [Zheludev et al. 2024]](img\Mammalia_ventremi\Screenshot (57).png)
+![Fig 8](img/Mammalia_ventremi/Screenshot_48.png)
+(8) Phylogenetic Tree of Sequences in the Mammalia ventremi Cluster, Centriod is highlighted (SRR5949244). Calculated via percent percent identity. [Waterhouse et al. 2009]
+
+![Fig 9](img/Mammalia_ventremi/Screenshot_57.png)
+(9) Frequencies of the Amount (percentage) of Obelisks Genomes Which Encode for Oblin-1. Mammalia ventremi is in the top 8% of these genomes with more than 88% of the genome reserved for the encoding of Oblin-1. [Zheludev et al. 2024]
 
 ### Alphafold
 
-![(10) Comparison of Oblin-1 Predicted Folding in AlphaFold and Chai-1. Note low confidence (ipTM and pTM values) and somewhat similar but generally varied structures. Many other conditions were tested such as different length RNAs, different ions and co-factors and different copies of Oblin-1 with each of these conditions. These three were chosen for this figure as they display the most confident folds and variety between structures.](img\Mammalia_ventremi\Screenshot (46).png)
+![Fig 10](img/Mammalia_ventremi/Screenshot_46.png)
+(10) Comparison of Oblin-1 Predicted Folding in AlphaFold and Chai-1. Note low confidence (ipTM and pTM values) and somewhat similar but generally varied structures. Many other conditions were tested such as different length RNAs, different ions and co-factors and different copies of Oblin-1 with each of these conditions. These three were chosen for this figure as they display the most confident folds and variety between structures.
+
 *low* confidence: Oblin-1 is acting to recruit RNAP from E. coli to it's own genome for replication. This is low confidence as all I am making this prediction off of is the fact that one of my bioprojects was labeled as an E. coli genome (and little else tied my metadata together) and there there is evidence of RNA viruses employing a similar strategy with RNAPII [Chang, 2008]. Furthermore, all I have to test this hypothesis is comparison of predicted folding structures. Though Oblin-1 folded with low confidence without RNAP (Figure 10), once RNAP was added, the overall confidence for the fold increased to an ipTM of 0.7-0.8 and the confidence for the folding of Oblin-1 itself also increased. All of the following folding predictions were completed utilizing AlphaFold 3 as it allows for the required large number of amino acids present in RNAP [Abramson et al. 2024]. Figures 11-16 show the testing of this hypothesis. The figure descriptions point this out, but the key points of these structural analysis are: Oblin-1 interacts strongly with RNAP (espeically its most conserved region, see Figure 20) when sigma factor 70 is absent, and when Mammalia ventremi's RNA genome is present it folds into the replication pocket of RNAP, with Oblin-1 appearing to interact to hold it in place.
 
 
-![(11) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow). The structures folded with and with Oblin-1 have been overlayed. Note how Oblin-1 doesn't seem to disrupt the structure of RNAP.](img\Mammalia_ventremi\Screenshot (60).png)
+![Fig 11](img/Mammalia_ventremi/Screenshot_60.png)
+(11) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow). The structures folded with and with Oblin-1 have been overlayed. Note how Oblin-1 doesn't seem to disrupt the structure of RNAP.
 
-![(12) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow), Zoomed in on Interaction Face. The structures folded with and with Oblin-1 have been overlayed. Note how conserved residues are interacting strongly with RNAP.](img\Mammalia_ventremi\Screenshot (61).png)
+![Fig 12](img/Mammalia_ventremi/Screenshot_61.png)
+(12) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow), Zoomed in on Interaction Face. The structures folded with and with Oblin-1 have been overlayed. Note how conserved residues are interacting strongly with RNAP.
 
-![(13) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow), and Sigma Factor 70 (Purple and Blue). The structures folded with and with Oblin-1 have been overlayed.](img\Mammalia_ventremi\Screenshot (58).png)
+![Fig 13](img/Mammalia_ventremi/Screenshot_58.png)
+(13) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow), and Sigma Factor 70 (Purple and Blue). The structures folded with and with Oblin-1 have been overlayed.
 
-![(14) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow), and Sigma Factor 70 (Purple and Blue), Zoomed in on Interaction Face. The structures folded with and with Oblin-1 have been overlayed. Note how conserved RGYXDXG in Oblin-1 is no longer interacting strongly with RNAP.](img\Mammalia_ventremi\Screenshot (59).png)
+![Fig 14](img/Mammalia_ventremi/Screenshot_59.png)
+(14) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Yellow), and Sigma Factor 70 (Purple and Blue), Zoomed in on Interaction Face. The structures folded with and with Oblin-1 have been overlayed. Note how conserved RGYXDXG in Oblin-1 is no longer interacting strongly with RNAP.
 
-![(15) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Cyan), and with Entire Mammalia ventremi Whole Genome. The structures folded with and with Oblin-1 have been overlayed. Note how conserved RGYXDXG region in Oblin-1 is located at the face of RNAP and the RNA genome. Furthermore, the rest of Oblin-1 is interacting strongly with the RNA genome.](img\Mammalia_ventremi\Screenshot (63).png)
+![Fig 15](img/Mammalia_ventremi/Screenshot_63.png)
+(15) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Cyan), and with Entire Mammalia ventremi Whole Genome. The structures folded with and with Oblin-1 have been overlayed. Note how conserved RGYXDXG region in Oblin-1 is located at the face of RNAP and the RNA genome. Furthermore, the rest of Oblin-1 is interacting strongly with the RNA genome.
 
-![(16) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Cyan), and with Entire Mammalia ventremi Whole Genome. The structures folded with and with Oblin-1 have been overlayed. Note how conserved RGYXDXG in Oblin-1 is longer interacting strongly with RNAP and the RNA genome.](img\Mammalia_ventremi\Screenshot (62).png)
-
+![Fig 16](img/Mammalia_ventremi/Screenshot_62.png)
+(16) RNAP (all subunits) in alphafold with and without Oblin-1 (Red, Conserved RGYXDXG Motif in Cyan), and with Entire Mammalia ventremi Whole Genome. The structures folded with and with Oblin-1 have been overlayed. Note how conserved RGYXDXG in Oblin-1 is longer interacting strongly with RNAP and the RNA genome.
 
 ### Multiple Sequence Alignment of Oblin-1
 
@@ -76,14 +88,17 @@ Quantifying observations such as these involves several metrics. For the high le
 *high* confidence: Mammalia ventremi is Delta obelisk and codes for a novel Oblin-1 protein. High confidence as I compared the sequence of Mammalia ventremi's Oblin-1 with those named in the Zheludev et al. 2024 paper and found Delta obelisk and Mammalia ventremi possessed the exact same Oblin-1 sequence (Figures 18-20). I checked then checked the genome sequences and found they were also identical. I performed BLASTp, HHPRED, and MGnify searches to attempt to find similar proteins to Mammalia ventremi's Oblin-1 [Madeira et al. 2024, National Center for Biotechnology Information. 2018, Richardson et al. 2022, Zimmermann et al. 2018]. BLASTp returned no matches. MGnify only returned one hit with reasonable significance which ended up being from a dataset derived from one already present in my cluster [Richardson et al. 2022]. HHPRED was able to align to some proteins but the confidence and amount aligned is so low I decided not to pursue them (Figure 21) [Zimmermann et al. 2018].
 ```
 
-![(18) Phylogenetic Tree of Named Obelisks. Note how 'My Obelisk' (Mammalia ventremi, highlighted) has exact sequence identity to Delta Obelisk. Calculated via percent identity. [Madeira et al. 2024, Waterhouse et al. 2009, Zheludev et al. 2024]](img\Mammalia_ventremi\Screenshot (50).png)
+![Fig 18](img/Mammalia_ventremi/Screenshot_50.png)
+(18) Phylogenetic Tree of Named Obelisks. Note how 'My Obelisk' (Mammalia ventremi, highlighted) has exact sequence identity to Delta Obelisk. Calculated via percent identity. [Madeira et al. 2024, Waterhouse et al. 2009, Zheludev et al. 2024]
 
-![(19) Multiple Sequence Alignment of Named Obelisks, First Conserved Region (AA 54-62), Highlighted in Red. [Madeira et al. 2024, Waterhouse et al. 2009, Zheludev et al. 2024]](img\Mammalia_ventremi\Screenshot (51).png)
+![Fig 19](img/Mammalia_ventremi/Screenshot_51.png)
+(19) Multiple Sequence Alignment of Named Obelisks, First Conserved Region (AA 54-62), Highlighted in Red. [Madeira et al. 2024, Waterhouse et al. 2009, Zheludev et al. 2024]
 
-![(20) Multiple Sequence Alignment of Named Obelisks, Second Conserved Region (AA 145-167), Highlighted in Red. Note the conserved RGYXGXD motif. [Madeira et al. 2024, Waterhouse et al. 2009, Zheludev et al. 2024]](img\Mammalia_ventremi\Screenshot (52).png)
+![Fig 20](img/Mammalia_ventremi/Screenshot_52.png)
+(20) Multiple Sequence Alignment of Named Obelisks, Second Conserved Region (AA 145-167), Highlighted in Red. Note the conserved RGYXGXD motif. [Madeira et al. 2024, Waterhouse et al. 2009, Zheludev et al. 2024]
 
-![(21) HHPRED Search with Oblin-1 as Query. Note the low length and score of alignments. [Zimmermann et al. 2018]](img\Mammalia_ventremi\Screenshot (6).png)
-
+![Fig 21](img/Mammalia_ventremi/Screenshot_6.png)
+(21) HHPRED Search with Oblin-1 as Query. Note the low length and score of alignments. [Zimmermann et al. 2018]
 
 ## Discussion
 
