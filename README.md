@@ -61,6 +61,7 @@ An index of the Obelisk Discovery Reports.
 - [Gladius clandestinus](virus/gladius_clandestinus.md)
 - [Lineari obscurus](virus/Lineari_obscurus.md)
 - [Murinavoid maximus](virus/Murinavoid_maximus.md)
+- [Mammalia ventremi](virus/Mammalia_ventremi.md)
 - [Obeliscus aquidurentis](virus/Obeliscus_Aquidurentis.md)
 - [Obeliscus faecalis](virus/Obeliscus_faecalis.md)
 - [Obeliscus porcinus](/virus/obeliscus_porcinus.md)
