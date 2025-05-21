@@ -126,6 +126,17 @@ An index of the Virus Discovery Reports.
 │   └─── img/<virusname>/    # For each <virusname>, supporting data or image
 │                            # files are kept in their own directory named
 │                            # after the virus
+|
+├── data/                    # Example Data  ==================================
+│   │
+│   └───                     # Initial datasets for starting the project from
+|                            # the 2023 RNA Virus Assignment. Allows for the
+|                            # modules to be completed as a self-contained
+|                            # tutorial / individual study project.
+|                            # (Recommended) Instead of using these data,
+|                            # select a random palmprint (palmDB) or
+|                            # a library of specific interest (serratus.io)
+|                            # as your initial seed.
 │
 ├── README.md                # Project README
 ├── LICENSE                  # AGPL 3.0 / cc0
