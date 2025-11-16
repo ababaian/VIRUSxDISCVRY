@@ -140,8 +140,9 @@ An index of the Virus Discovery Reports.
 │
 ├── README.md                # Project README
 ├── LICENSE                  # AGPL 3.0 / cc0
-├── assignment3.Rmd          # Instructions for Assignment 3
-├── tutorial3.Rmd            # Instructions for Tutorial 3
+├── vx.Rmd                   # Instructions for VIRUSxDISCVRY Project
+├── lab2.Rmd                 # Instructions for Lab/Tutorial 2
+├── lab3.Rmd                 # Instructions for Lab/Tutorial 3
 │
 ⦿
 ```
