@@ -29,7 +29,8 @@
 An index of the software tutorial.
 
 - [AlphaFold3](tools/AlphaFold3.md)
-- [BLASTx](tools/BLASTx.md)
+- [BLAST - BLASTx](tools/BLASTx.md)
+- [BLAST - tBLASTn](tools/tblastn.md)
 - [HHpred](tools/HHpred.md)
 - [Infernal](tools/Infernal.md)
 - [InterProScan](tools/InterProScan.md)
@@ -47,7 +48,6 @@ An index of the software tutorial.
 - [RNAfold](tools/RNAfold.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [sixpack](tools/sixpack.md)
-- [tBLASTn](tools/tblastn.md)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
 ## 2024 Obelisk Index
