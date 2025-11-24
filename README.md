@@ -55,8 +55,10 @@ An index of the software tutorial.
 - [iqtree](tools/iqtree.md)
 
 ### Databases
+- [ICTV](https://ictv.global/)
 - [NCBI Taxonomy](tools/ncbi_tax.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
+- [ViralZone](https://viralzone.expasy.org/)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
 ## 2024 Obelisk Index
