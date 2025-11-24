@@ -51,10 +51,10 @@ An index of the software tutorial.
 - [MGnify_search](tools/MGnify_search.md)
 - [PebbleScout](tools/pebblescout.md)
 
-# Phylogenetics
+### Phylogenetics
 - [iqtree](tools/iqtree.md)
 
-# Databases
+### Databases
 - [NCBI Taxonomy](tools/ncbi_tax.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
