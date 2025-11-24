@@ -28,26 +28,35 @@
 
 An index of the software tutorial.
 
+### NT Sequence Analysis
+- [Infernal](tools/Infernal.md)
+- [mFold](tools/mFold.md)
+- [ORFfinder](tools/ORFfinder.md)
+- [palmID](tools/palmID.md)
+- [RNAfold](tools/RNAfold.md)
+- [sixpack](tools/sixpack.md)
+  
+### AA Sequence Analysis
 - [AlphaFold3](tools/AlphaFold3.md)
+- [IUPred2A](tools/IUPred2A.md)
+- [muscle](tools/muscle.md)
+- [PepInfo](tools/PepInfo.md)
+- [ProteInfer](tools/ProteInfer.md)
+  
+### Homology Search Tools
 - [BLAST - BLASTx](tools/BLASTx.md)
 - [BLAST - tBLASTn](tools/tblastn.md)
 - [HHpred](tools/HHpred.md)
-- [Infernal](tools/Infernal.md)
 - [InterProScan](tools/InterProScan.md)
-- [iqtree](tools/iqtree.md)
-- [IUPred2A](tools/IUPred2A.md)
-- [mFold](tools/mFold.md)
 - [MGnify_search](tools/MGnify_search.md)
-- [muscle](tools/muscle.md)
-- [NCBI Taxonomy](tools/ncbi_tax.md)
-- [ORFfinder](tools/ORFfinder.md)
-- [palmID](tools/palmID.md)
 - [PebbleScout](tools/pebblescout.md)
-- [PepInfo](tools/PepInfo.md)
-- [ProteInfer](tools/ProteInfer.md)
-- [RNAfold](tools/RNAfold.md)
+
+# Phylogenetics
+- [iqtree](tools/iqtree.md)
+
+# Databases
+- [NCBI Taxonomy](tools/ncbi_tax.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
-- [sixpack](tools/sixpack.md)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
 ## 2024 Obelisk Index
