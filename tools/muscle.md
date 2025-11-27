@@ -81,18 +81,23 @@ For the sake of demonstration, we will choose Pearson/fasta as the output format
 
 ## Making Figures 
 
-- [You can take a screenshot of the aligned residues in the "Alignments" section and modify the coloring in the drop-down option where it says "clustal2". Use "+" if the residues seem too far apart and "-" if they seem too close. However, this visual alignment treats the first sequence from your FASTA as consensus sequence.
-](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_alignment.png)
+- You can take a screenshot of the aligned residues in the "Alignments" section and modify the coloring in the drop-down option where it says "clustal2". Use "+" if the residues seem too far apart and "-" if they seem too close. However, this visual alignment treats the first sequence from your FASTA as consensus sequence.
+
+![MVIEW1](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_alignment.png)
 
 - You can download the FASTA Alignment and also view it under the various tools shown under "Result Viewers".
 
-- [Downloading FASTA Alignment](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/alignment_in_mview_1.png)
+- Downloading FASTA Alignment
+![MVIEW2](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/alignment_in_mview_1.png)
 
-- [Opening MVIEW](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/mview2.png)
+- Opening MVIEW
+![MVIEW3](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/mview2.png)
 
-- [Select the type of polymer you are trying to view and insert the downloaded FASTA Alignment file, and press "Submit"](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/mview3.png)
+- Select the type of polymer you are trying to view and insert the downloaded FASTA Alignment file, and press "Submit"
+![MVIEW3](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/mview3.png)
 
-- [Here you can get a view of the alignment MUSCLE conducted in chunks](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/mview4.png)
+- Here you can get a view of the alignment MUSCLE conducted in chunks
+![MVIEW4](https://raw.githubusercontent.com/ney0/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/mview4.png)
 
 ### INTERPRETATION OF MVIEW
 
