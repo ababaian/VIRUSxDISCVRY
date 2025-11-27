@@ -28,29 +28,62 @@
 
 An index of the software tutorial.
 
-- [AlphaFold3](tools/AlphaFold3.md)
-- [BLASTx](tools/BLASTx.md)
-- [HHpred](tools/HHpred.md)
+### NT Sequence Analysis
 - [Infernal](tools/Infernal.md)
-- [InterProScan](tools/InterProScan.md)
-- [iqtree](tools/iqtree.md)
-- [IUPred2A](tools/IUPred2A.md)
 - [mFold](tools/mFold.md)
-- [MGnify_search](tools/MGnify_search.md)
-- [muscle](tools/muscle.md)
-- [NCBI Taxonomy](tools/ncbi_tax.md)
 - [ORFfinder](tools/ORFfinder.md)
 - [palmID](tools/palmID.md)
-- [PebbleScout](tools/pebblescout.md)
+- [RNAfold](tools/RNAfold.md)
+- [sixpack](tools/sixpack.md)
+  
+### AA Sequence Analysis
+- [AlphaFold3](tools/AlphaFold3.md)
+- [IUPred2A](tools/IUPred2A.md)
+- [muscle](tools/muscle.md)
 - [PepInfo](tools/PepInfo.md)
 - [ProteInfer](tools/ProteInfer.md)
-- [RNAfold](tools/RNAfold.md)
+  
+### Homology Search Tools
+- [BLAST - BLASTx](tools/BLASTx.md)
+- [BLAST - tBLASTn](tools/tblastn.md)
+- [FoldSeek](tools/foldseek.md)
+- [HHpred](tools/HHpred.md)
+- [InterProScan](tools/InterProScan.md)
+- [MGnify_search](tools/MGnify_search.md)
+- [PebbleScout](tools/pebblescout.md)
+
+### Phylogenetics
+- [iqtree](tools/iqtree.md)
+
+### Databases
+- [ICTV](https://ictv.global/)
+- [NCBI Taxonomy](tools/ncbi_tax.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
-- [sixpack](tools/sixpack.md)
-- [tBLASTn](tools/tblastn.md)
+- [ViralZone](https://viralzone.expasy.org/)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
-## Virus Index
+## 2024 Obelisk Index
+
+An index of the Obelisk Discovery Reports.
+
+- [Aenigmovirus labrynthii](virus/Aenigmovirus_labrynthii.md)
+- [Anas amicus](virus/Anas_Amicus.md)
+- [Arcana rumenalis](virus/Arcanarumenalis.md)
+- [Clostridiae-associata centralis](virus/Clostridiae-associata_centralis.md)
+- [Gladius clandestinus](virus/gladius_clandestinus.md)
+- [Lineari obscurus](virus/Lineari_obscurus.md)
+- [Murinavoid maximus](virus/Murinavoid_maximus.md)
+- [Mammalia ventremi](virus/Mammalia_ventremi.md)
+- [Obeliscus aquidurentis](virus/Obeliscus_Aquidurentis.md)
+- [Obeliscus faecalis](virus/Obeliscus_faecalis.md)
+- [Obeliscus porcinus **<99%>**](/virus/obeliscus_porcinus.md)
+- [Obeliscus replicandii **<99%>**](/virus/obeliscus_replicandii.md)
+- [Obeliskvirus respiratorius](virus/Obeliskvirus_respiratorius.md)
+- [Obeliscus suslichen](virus/obeliscus_suslichen.md)
+- [Obelisk 371](virus/Obelisk371.md)
+- [Scrofobelisk intestinali](virus/Scrofobelisk_intestinalis.md)
+
+## 2023 Virus Index
 
 An index of the Virus Discovery Reports.
 
@@ -59,13 +92,13 @@ An index of the Virus Discovery Reports.
 - [Blumevirus macaceinfi](virus/Blumevirus_macaceinfi.md)
 - [Black Queen Cell Virus (Picornavirus)](virus/BQCV.md)
 - [Cripavirus inexspectatus (Dicistrovirus)](virus/Cripavirus_inexspectatus.md)
-- [Hemileia pugnator (Mitovirus) _-99%-_](virus/Hemileia_pugnator.md)
+- [Hemileia pugnator (Mitovirus) **<99%>**](virus/Hemileia_pugnator.md)
 - [Hemiptinidovirus metis (Nidovirus)](virus/H_metis.md)
-- [Hespivirus rivalense (Negevirus) _-99%-_](virus/hespivirus_rivalense.md)
+- [Hespivirus rivalense (Negevirus) **<99%>**](virus/hespivirus_rivalense.md)
 - [Locarnavirus Nudiformis (Marnavirus)](virus/Locarnavirus_nudiformis.md)
 - [Orthocurvulavirus phantasma](virus/Orthocurvulavirus_phantasma.md)
 - [Posasimilis intestivirus (Posavirus)](virus/p_intestivirus.md)
-- [Pupavirus apiscarab (Narnavirus) _-99%-_](virus/Pupavirus_apiscarab.md)
+- [Pupavirus apiscarab (Narnavirus) **<99%>**](virus/Pupavirus_apiscarab.md)
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
 - [Sedimentum occultus (Picornavirus)](virus/sedimentum_occultus.md)
 - [Thogotovirus_aidenensis (Orthomyxovirus)](virus/Thogotovirus_aidenensis.md)
@@ -105,11 +138,23 @@ An index of the Virus Discovery Reports.
 │   └─── img/<virusname>/    # For each <virusname>, supporting data or image
 │                            # files are kept in their own directory named
 │                            # after the virus
+|
+├── data/                    # Example Data  ==================================
+│   │
+│   └───                     # Initial datasets for starting the project from
+|                            # the 2023 RNA Virus Assignment. Allows for the
+|                            # modules to be completed as a self-contained
+|                            # tutorial / individual study project.
+|                            # (Recommended) Instead of using these data,
+|                            # select a random palmprint (palmDB) or
+|                            # a library of specific interest (serratus.io)
+|                            # as your initial seed.
 │
 ├── README.md                # Project README
 ├── LICENSE                  # AGPL 3.0 / cc0
-├── assignment3.Rmd          # Instructions for Assignment 3
-├── tutorial3.Rmd            # Instructions for Tutorial 3
+├── vx.Rmd                   # Instructions for VIRUSxDISCVRY Project
+├── lab2.Rmd                 # Instructions for Lab/Tutorial 2
+├── lab3.Rmd                 # Instructions for Lab/Tutorial 3
 │
 ⦿
 ```

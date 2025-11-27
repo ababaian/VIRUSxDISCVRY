@@ -1,0 +1,57 @@
+# RNA Virus Assignment Data 2023
+sOTU	n_runs	n_bioprojects	max_contig_coverage	genbank_aa%	genbank_target_species	genbank_target_family	example_run_label	Index_run	assembly_link
+u130682	28	8	244	68	Narnaviridae sp.	Narnaviridae	Rattus norvegicus	SRR9331386	https://mgy441.s3.amazonaws.com/assembly/SRR9331386_output/transcripts.fasta
+u507489	NA	NA	NA	NA	NA	NA	NA	#N/A	#N/A
+u123129	8	5	473	62	Bofa virus	NA	Latrodectus hesperus	SRR17250291	https://mgy441.s3.amazonaws.com/assembly/SRR17250291_output/transcripts.fasta
+u212335	8	8	182	57	Mitovirus sp.	Mitoviridae	Xenopus laevis	SRR15030738	https://mgy441.s3.amazonaws.com/assembly/SRR15030738_output/transcripts.fasta
+u150420	10	5	436	53	Riboviria sp.	NA	Gallus gallus	SRR14557243	https://mgy441.s3.amazonaws.com/assembly/SRR14557243_output/transcripts.fasta
+u911856	87	13	789	63	Comovirinae sp.	Secoviridae	Rattus norvegicus	SRR14877800	https://mgy441.s3.amazonaws.com/assembly/SRR14877800_output/transcripts.fasta
+u812429	NA	NA	NA	NA	NA	NA	NA	#N/A	#N/A
+u125491	8	5	4637	55	Rasavirus sp.	NA	Ovis aries	ERR3143221	https://mgy441.s3.amazonaws.com/assembly/ERR3143221_output/transcripts.fasta
+u85215	12	7	238	69	Betachrysovirus aspergilli	Chrysoviridae	Vitis vinifera	SRR15319223	https://mgy441.s3.amazonaws.com/assembly/SRR15319223_output/transcripts.fasta
+u98198	31	5	102	50	Hubei virga-like virus 10	NA	Plutella xylostella	SRR3948414	https://mgy441.s3.amazonaws.com/assembly/SRR3948414_output/transcripts.fasta
+u113868	13	5	427	48	Mitoviridae sp.	Mitoviridae	Hemileia vastatrix HvCat	SRR17583173	https://mgy441.s3.amazonaws.com/assembly/SRR17583173_output/transcripts.fasta
+u689868	66	39	1760	70	Kummerowia striata picorna-like virus	NA	Xiphophorus maculatus	SRR5466727	https://mgy441.s3.amazonaws.com/assembly/SRR5466727_output/transcripts.fasta
+u736734	709	117	20025	70	Betaarterivirus suid 2	Arteriviridae	Zingiber nudicarpum	NA	NA
+u434958	43	6	11881	47	Diamondback moth iflavirus	Iflaviridae	Vanessa cardui	ERR1013071	https://mgy441.s3.amazonaws.com/assembly/ERR1013071_output/transcripts.fasta
+u189933	55	11	1300	45	Atrato Virga-like virus 2	Virgaviridae	Veratrum mengtzeanum	SRR4026775	https://mgy441.s3.amazonaws.com/assembly/SRR4026775_output/transcripts.fasta
+u508736	24	5	115	58	Totiviridae sp.	Totiviridae	Stegodyphus africanus	SRR19115554	https://mgy441.s3.amazonaws.com/assembly/SRR19115554_output/transcripts.fasta
+u971375	8	6	345	45	Tofonivirus foami	Mesoniviridae	Vaccinium corymbosum	SRR2496606	https://mgy441.s3.amazonaws.com/assembly/SRR2496606_output/transcripts.fasta
+u189554	16	7	111	32	Triniovirus yonagoense	Xinmoviridae	Hydra vulgaris	SRR922615	https://mgy441.s3.amazonaws.com/assembly/SRR922615_output/transcripts.fasta
+u52546	28	5	887	62	Pacehavirus pelovicinum	Blumeviridae	Macaca mulatta	SRR6425410	https://mgy441.s3.amazonaws.com/assembly/SRR6425410_output/transcripts.fasta
+u135155	10	5	490	68	Black queen cell virus	Dicistroviridae	Homo sapiens	SRR10556080	https://mgy441.s3.amazonaws.com/assembly/SRR10556080_output/transcripts.fasta
+u301296	NA	NA	NA	NA	NA	NA	NA	NA	NA
+u165418	88	10	4071	44	Hepelivirales sp.	NA	Xibalbanus tulumensis	SRR6768060	https://mgy441.s3.amazonaws.com/assembly/SRR6768060_output/transcripts.fasta
+u168083	6	5	1196	49	Picornaviridae sp.	Picornaviridae	Whitmania pigra	SRR21290552	https://mgy441.s3.amazonaws.com/assembly/SRR21290552_output/transcripts.fasta
+u274086	202	109	696	68	Yanbian Chuvi tick virus 1	Chuviridae	Wolbachia endosymbiont of Atemnus politus	NA	NA
+u71279	61	10	319	55	Riboviria sp.	NA	Ovis aries	SRR13008222	https://mgy441.s3.amazonaws.com/assembly/SRR13008222_output/transcripts.fasta
+u391367	10	6	170	40	Red mite associated hypovirus 1	Hypoviridae	Tremella fuciformis	SRR8689296	https://mgy441.s3.amazonaws.com/assembly/SRR8689296_output/transcripts.fasta
+u735658	6	6	116	70	Botourmiaviridae sp.	Botourmiaviridae	Homo sapiens	SRR15319203	https://mgy441.s3.amazonaws.com/assembly/SRR15319203_output/transcripts.fasta
+u257616	141	40	222	48	Ancient Northwest Territories cripavirus	Dicistroviridae	Ovis aries	SRR13764152	https://mgy441.s3.amazonaws.com/assembly/SRR13764152_output/transcripts.fasta
+u61099	8	5	217	66	Lactarius rufus orthocurvulavirus 1	Curvulaviridae	Suillus weaverae	SRR5491302	https://mgy441.s3.amazonaws.com/assembly/SRR5491302_output/transcripts.fasta
+u548372	94	63	840	59	Picornaviridae sp.	Picornaviridae	Tegillarca granosa	SRR7219125	https://mgy441.s3.amazonaws.com/assembly/SRR7219125_output/transcripts.fasta
+u962751	25	20	3902	56	Yunnan farmland cysto-like virus	Cystoviridae	Streptomyces avermitilis MA-4680 = NBRC 14893	SRR12666013	https://mgy441.s3.amazonaws.com/assembly/SRR12666013_output/transcripts.fasta
+u133282	20	5	36668	69	Riboviria sp.	NA	Zicrona caerulea	SRR11781474	https://mgy441.s3.amazonaws.com/assembly/SRR11781474_output/transcripts.fasta
+u1053111	30	5	231	60	Wenling chelidoperca picornavirus	NA	Oryzias latipes	DRR018327	https://mgy441.s3.amazonaws.com/assembly/DRR018327_output/transcripts.fasta
+u283879	5	5	17151	57	Brenthis ino	Nymphalidae	Mus musculus	SRR2924893	https://mgy441.s3.amazonaws.com/assembly/SRR2924893_output/transcripts.fasta
+u50343	117	7	2143	62	Picornavirales sp.	NA	Ulmus minor	SRR7182220	https://mgy441.s3.amazonaws.com/assembly/SRR7182220_output/transcripts.fasta
+u908607	122	38	3220	41	Zeugodacus tau toti-like virus 1	Totiviridae	Sus scrofa	SRR13479621	https://mgy441.s3.amazonaws.com/assembly/SRR13479621_output/transcripts.fasta
+u56869	15	6	1742	52	Picornaviridae sp.	Picornaviridae	Urechis unicinctus	SRR11096627	https://mgy441.s3.amazonaws.com/assembly/SRR11096627_output/transcripts.fasta
+u988032	17	7	306	67	Hepeviridae sp.	Hepeviridae	Sturnus vulgaris	SRR10874830	https://mgy441.s3.amazonaws.com/assembly/SRR10874830_output/transcripts.fasta
+u795099	103	12	313	69	Nidovirales sp.	NA	Xibalbanus tulumensis	SRR9942965	https://mgy441.s3.amazonaws.com/assembly/SRR9942965_output/transcripts.fasta
+u71384	6	6	5062	67	Riboviria sp.	NA	Cortinarius clelandii	SRR11566194	https://mgy441.s3.amazonaws.com/assembly/SRR11566194_output/transcripts.fasta
+u308044	12	5	16922	41	Grapevine toga-like virus	Togaviridae	Mus musculus	SRR15319227	https://mgy441.s3.amazonaws.com/assembly/SRR15319227_output/transcripts.fasta
+u165979	14	6	1138	67	Trichomonas vaginalis virus 4	Totiviridae	unclassified sequences	SRR7547279	https://mgy441.s3.amazonaws.com/assembly/SRR7547279_output/transcripts.fasta
+u649745	27	5	116	57	Partitiviridae sp.	Partitiviridae	Macaca mulatta	ERR9465200	https://mgy441.s3.amazonaws.com/assembly/ERR9465200_output/transcripts.fasta
+u55890	16	5	152	46	Picornaviridae sp.	Picornaviridae	Oryctolagus cuniculus	SRR6808584	https://mgy441.s3.amazonaws.com/assembly/SRR6808584_output/transcripts.fasta
+u117617	13	5	237	52	Picornaviridae sp.	Picornaviridae	Porites astreoides	SRR7359922	https://mgy441.s3.amazonaws.com/assembly/SRR7359922_output/transcripts.fasta
+u136737	14	7	1237	44	Erysiphe necator associated narnavirus 22	Narnaviridae	Varroa destructor	SRR9982125	https://mgy441.s3.amazonaws.com/assembly/SRR9982125_output/transcripts.fasta
+u239030	679	99	22925	63	Hypera postica associated alphaflexivirus	Alphaflexiviridae	Zanthoxylum nitidum	DRR031397	https://mgy441.s3.amazonaws.com/assembly/DRR031397_output/transcripts.fasta
+u34739	17	6	610	66	Panonychus citri mivirus	Chuviridae	Tetranychus urticae	NA	NA
+u894764	12	5	23339	46	Diamondback moth iflavirus	Iflaviridae	Schlechtendalia chinensis	NA	NA
+u502879	290	177	627	66	Flumine Astrovirus 3	Astroviridae	Zanthoxylum armatum	NA	NA
+u801335	38	5	622	55	Orin narna-like virus	Narnaviridae	Macaca mulatta	NA	NA
+u223232	5	5	280	54	Benthesicyme durna-like virus	NA	Styela clava	NA	NA
+u70797	14	8	2021	61	Nete virus	NA	Oedaleus asiaticus	NA	NA
+u59298	16	7	334	61	Driatsky virus	NA	Sus scrofa	NA	NA
+u185566	7	5	158	63	Erysiphales associated totivirus 12	Totiviridae	Podosphaera xanthii	NA	NA
