@@ -46,6 +46,7 @@ An index of the software tutorial.
 ### Homology Search Tools
 - [BLAST - BLASTx](tools/BLASTx.md)
 - [BLAST - tBLASTn](tools/tblastn.md)
+- [FoldSeek](tools/foldseek.md)
 - [HHpred](tools/HHpred.md)
 - [InterProScan](tools/InterProScan.md)
 - [MGnify_search](tools/MGnify_search.md)
