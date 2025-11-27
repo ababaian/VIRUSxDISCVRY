@@ -1,4 +1,4 @@
-# {Name of the Tool}
+# {DotMatcher}
 written by: [Ismail Majid](https://github.com/majidism006)
 
 [15 minute] Dotmatcher is an EMBOSS pairwise comparison tool that generates dot plots between two nucleotide or amino acid sequences. It works by sliding a window across both sequences and placing a dot wherever the similarity score exceeds a chosen threshold. In virus discovery, dot plots help quickly visualize conserved regions, repeats, or structural similarities between an unknown viral agent and known sequences.
