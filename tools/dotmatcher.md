@@ -30,11 +30,11 @@ test2:
 MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAAGFSYTDANKNKGITW 
 GEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE 
 
-![example](input.png)
+![example](img/dotmatcher/input.png)
 
 ### Step 3 — Set Parameters
 
-# MATRIX (BLOSUM62 / 35 / 40)
+#### MATRIX (BLOSUM62 / 35 / 40)
 This is the substitution matrix used to score amino-acid matches within each window.
 
 It tells the program how similar each pair of amino acids is.
@@ -43,23 +43,23 @@ BLOSUM62: default, good for sequences with “normal” (~60–80%) similarity.
 
 BLOSUM40 / 35: for more divergent proteins – they give relatively higher scores to weaker similarities, so you may detect more distant homology.
 
-# WINDOW SIZE
+#### WINDOW SIZE
 Dotmatcher doesn’t look at single residues; it slides a window (e.g. 10 aa long) along both sequences and sums the matrix scores over that window.
 
-# THRESHOLD
+#### THRESHOLD
 After summing scores in the window, if the total ≥ threshold (e.g. 23), Dotmatcher draws a dot at that coordinate; otherwise it leaves it blank.
 
 Lower threshold → more dots (more sensitive, more noise)
 
 Higher threshold → fewer dots (more specific, cleaner)
 
-![example](parameters.png)
+![example](img/dotmatcher/parameters.png)
 
 ### Step 4 — Run Dotmatcher
 
 Click Submit. The server will process the sequences and generate a dot plot.
 
-![example](processing.png)
+![example](img/dotmatcher/processing.png)
 
 ### Step 5 — Interpret the Dot Plot
 
@@ -71,7 +71,7 @@ Gaps or breaks suggest insertions, deletions, or evolutionary divergence.
 
 Off-diagonal patterns can reveal inverted repeats or palindromes (often found in RNA viruses and viroid-like agents).
 
-![example](results.png)
+![example](img/dotmatcher/results.png)
 
 ### Step 6
 
