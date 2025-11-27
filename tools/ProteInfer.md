@@ -45,12 +45,12 @@ In summary mode (shown as above), on the left, `ProteInfer` presents the most sp
 
 Let's click on on the first GO annotation on the list on the left and see what this term entails:
 
-![Output example3](img/ProteInfer/GO_term.png)
+![GO_term](img/ProteInfer/GO_term.png)
 Want more information on how these terms appear and are interpreted in published lliterature? Here is an example of a paper that identified the same GO classification on protein-interaction networks between humans and HTLV retroviruses: https://pmc.ncbi.nlm.nih.gov/articles/PMC4133621/
 
 Let's look at all genes and gene products that also have this annotation. You can use this to compare the conservation of sequences and assess whether your protein of interest is most similar to a well-established gene product:
 Click on the first "Link" next to the "Related" section:
-![Output example3](img/ProteInfer/GO_term.png)
+![related](img/ProteInfer/related.png)
 
 As `ProteInfer` is a fairly recently published tool, there are not many papers that employ this tool directly to annotate functional predections of amino acid sequences. 
 However, here is a paper that uses `ProteInfer`'s framework to further develop their own prediction model called ProtNote: https://academic.oup.com/bioinformatics/article/41/5/btaf170/8113843
@@ -62,7 +62,7 @@ One way is by measuring the confidence by producing a precision-recall curve. Th
 The model results in a 96.7% of true positives and 1.4% of false positives. Comparatively, other protein function predictive models have ~90-97% true positives, while alignment methods like BLAST have lower rates near ~70%.
        
 Finally, let's improve our output figure using R code to group our clusters in a more visually clear way:
-![Output example3](img/ProteInfer/final.png)
+![final](img/ProteInfer/final.png)
 
 Figure 1. Gene Ontology (GO) term hierarchy predicted by Proteinfer for Hemoglobin subunit alpha. Nodes represent GO terms and edges indicate parent–child relationships within the directed acyclic graph (DAG). Nodes are sorted by GO term: Molecular Function (pink), Biological Process (light violet), and Cellular Component (light blue). Transparency reflects the Proteinfer confidence score (lower transparency indicates higher confidence). 
 
