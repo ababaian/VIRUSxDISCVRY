@@ -48,23 +48,23 @@ For the sake of demonstration, we will choose Pearson/fasta as the output format
 
 
 - The output of the tool is shown in this section, users can `Download` the tool output or `Show` alignment with colours
-![tool output](https://p.ipic.vip/32qsut.png)
+![tool output](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_tool_output.png)
 
 
 - The phylogenetic tree shows the evolutionary relationship between input sequences with a sliding tile to zoom in and out
-![phylogenetic tree](https://p.ipic.vip/pa8ea7.png)
+![phylogenetic tree](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_phylogenetic_tree.png)
 
 
 - Links to related result viewers to further investigate the results
-![result Viewers](https://p.ipic.vip/51swp4.png)
+![result Viewers](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_result_viewers.png)
 
 
 - All result files and links to download them
-![result files](https://p.ipic.vip/joq6of.png)
+![result files](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_result_files.png)
 
 
 - Submission details about this job
-![submission details](https://p.ipic.vip/w2ruy3.png)
+![submission details](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_submission_details.png)
 
 
 ### Conclusion
