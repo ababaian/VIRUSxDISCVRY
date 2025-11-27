@@ -64,7 +64,7 @@ The MetaGraph Web Tool is accessible at [https://metagraph.ethz.ch/](https://met
 Then, click the `Start Search` button, the [<u>→ start a search</u>](https://metagraph.ethz.ch/search) link, or the `🔍 Search` button in the top bar.
 
 <details open>
-<summary><b>📷 The MetaGraph web tool home page</b> (<i>click to expand</i>)</summary>
+<summary><b>📷 The MetaGraph web tool home page</b> (<i>click to collapse</i>)</summary>
 <blockquote>
 <br>
 <center>
@@ -105,7 +105,7 @@ For Amino Acid sequences, you may have to go to the **Advanced search settings**
 If you like, you can enter an identifying name for the job under the `Job title` field. You can also provide an email in the `✉` field to be notified when your job is completed.
 
 <details open>
-<summary><b>📷 Searching using the MetaGraph web tool.</b> (<i>click to expand</i>)</summary>
+<summary><b>📷 Searching using the MetaGraph web tool.</b> (<i>click to collapse</i>)</summary>
 <blockquote>
 <br>
 <center>
@@ -127,7 +127,7 @@ Click **Advanced search settings** to expand the advanced settings module.
 Click **Accession selector** to expand the manual Accession Selection menu. Here, you can manually select which databases you'd like to search for your sequence. Here, we're going to include the **SRA Superkingdom bacteria** option under **SRA by Taxonomy (Logan Contigs)**. Under the **View selected databases** module, you can see which specific databases will be searched.
 
 <details open>
-<summary><b>📷 Selecting Databases.</b> (<i>click to expand</i>)</summary>
+<summary><b>📷 Selecting Databases.</b> (<i>click to collapse</i>)</summary>
 <blockquote>
 <br>
 <center>
@@ -149,7 +149,7 @@ The **Align** toggle sets whether to use sequence alignment or exact k-mer match
 The MetaGraph tool also supports LLM-based summarization of the returned results. This can be enabled or disabled using the **AI Summary** toggle. When this option is set to enabled, you can also enable **AI Organism Identification**, which classifies the likely organism your sequence belongs to, using confidence scores from taxonomic identification.
 
 <details open>
-<summary><b>📷 Advanced Search Parameters.</b> (<i>click to expand</i>)</summary>
+<summary><b>📷 Advanced Search Parameters.</b> (<i>click to collapse</i>)</summary>
 <blockquote>
 <br>
 <center>
@@ -176,7 +176,7 @@ If you want to stop the search, you can either click <code>⏸ Stop & View Resul
 </blockquote><br>
 
 <details open>
-<summary><b>📷 Search Progress.</b> (<i>click to expand</i>)</summary>
+<summary><b>📷 Search Progress.</b> (<i>click to collapse</i>)</summary>
 <blockquote>
 <br>
 <center>
