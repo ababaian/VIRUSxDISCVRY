@@ -1,115 +1,67 @@
-# BLASTp Bootcamp
-written by: Jade Juba
+# BLASTp (Basic Local Alignment Search Tool for proteins)
+written by: [Allan Hu](https://github.com/lorda6)
 
-[20 minutes] **BLASTp, the Basic Local Alignment Search Tool for proteins**, takes a "query" protein sequence, breaks it into pieces, and compares each piece to a database of known proteins. Once it finds a match, it extends the alignment until the entire query sequence is accounted for, then it returns all significant matches it finds. BLASTp can be used to compare sequences, characterize sequences of interest, find proteins with functional and/or structural similarities, and more! After generating a putative open reading frame for your obelisk and decoding the codons into amino acid residues, you can use BLASTp to investigate the oblin(s) it codes for.
+[10 minute] `BLASTp` is a bioinformatics tool designed to compare a protein sequence against a database of protein sequences. It works by finding regions of local similarity, giving them a score, and identifying potential homologs. For virus discovery, BLASTp is critical in identifying viral proteins by matching unknown sequences to known viral protein databases, revealing evolutionary relationships or functional insights.
 
-**Tutorial Objective**: We will use `BLASTp` to investigate our Oblin and look for similar amino acid sequences.
+**Tutorial Objective**: We will learn how to use `BLASTp` to compare potential viral protein sequences to the database, as well as doing the analysis.
 
 ## Input / Prerequisites
-- Access to [BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)
-- Access to [ORFfinder](https://www.ncbi.nlm.nih.gov/orffinder/), to generate putative ORFs and amino acid sequences from your obelisk
-- Web browser
-- A protein sequence
 
-Find example data [here](https://www.uniprot.org/uniprotkb/O89281/entry). This link will send you to the `Uniprot` page for the `RdRp catalytic domain-containing protein` of `Tremovirus A`, a virus that infects chickens and some other fowl. On the left-hand menu, click `Sequence`, and in the light-blue box containing the amino acid sequence, click `Copy sequence`. You'll be using it in your tutorial-guided analysis.
+- Access to [BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)
+- A `FASTA` file of protein (Link to example data [Monkeypox virulence protein](https://www.ncbi.nlm.nih.gov/protein/WMY82716.1?report=fasta))
+- Web browser
 
 ## Output
 
-The identification of `amino acid sequences` which have some similarity to our oblin sequence.
+The output of `BLASTp` includes a list of database matches to your input protein sequence, including max/total score, percent identity, etc. It highlights an E-value indicating the significance of each match, and an alignment showing conserved regions. The results can be directly viewed in the graphic summary, or could be downloaded as a text/csv file. The output helps researchers better identify and understand the input protein sequence.
 
-### 1. Navigate to the [BLASTp portal](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)
+### 1. Access [BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins) tool in your web browser.
 
-### 2. Create and submit a protein search query
+### 2. Create a `BLASTp` Query. 
 
-**2.1: Entering our amino acid sequence**
+Copy the protein sequence from the FASTA file and paste it into the query sequence box, or you can upload it directly. Here we can also adjust the subrange of the sequence that is intended to be put into the search. 
 
-Start by pasting your **amino acid sequence** in the box under the `Enter Query Sequence` titlecard. Make sure to title your sequence with a single line above the sequence, starting with a greater-than sign `>`. This is known as FASTA format. I named my sequence `obelisk223_putative_oblin`. If you have a single sequence, the title you enter will also appear in the `Job Title` box.
+![image](https://github.com/user-attachments/assets/1b32efd2-64ca-49d5-9bc6-19f6e3b32644)
 
-Instead of the amino acid sequence, you can also paste an accession number connected to your sequence of interest in a database, or you can upload your sequence to the system as a file (using the `Upload File` button underneath the text box).
+Select a relevent database such as nr (Non-redundant protein database) or a viral-specific protein database if the query sequence is specified as a potential viral protein. We can also change the algorithm of the search, depending on what we are trying to achieve. 
 
-![BLASTp "Enter Query Sequence" box](img/BLASTp/enter_sequence.jpg)
+![image](https://github.com/user-attachments/assets/bcdbeaeb-28cd-49c2-a52f-7d4d0f015f0f)
 
-The `Query Subrange` section on the right allows you to narrow down your search to a subsequence within your sequence. If you're entering your Oblin sequence, you probably don't know enough about the putative protein to limit the search to a subsequence.
+Adjust parameters if necessary, such as changing the E-value threshold to filter matches for statistical significance, altering the scoring matrix, etc.
 
-`BLASTp` also allows you to align sequences! If you want to find similarities between two or more putative Oblin amino acid sequences, you can check this box and use this function. Otherwise, don't worry about it!
+![image](https://github.com/user-attachments/assets/c4572ac3-b772-4b53-a075-e08753f4d004)
 
-**2.2: Refining our search**
+### 3. Query Results. 
 
-To refine our search, we can...
+The example `FASTA` file used here is a [Monkeypox virulence protein](https://www.ncbi.nlm.nih.gov/protein/WMY82716.1?report=fasta). Default `BLASTp` setting is used. 
 
-- Choose different `Databases` to query. The `Standard databases` consist of traditional GenBank and RefSeq sequences. The `Experimental databases` are smaller databases grouped by organism domains (eukaryotes, prokaryotes, viruses, and others). If you don't know where your data will appear, you better cast a wider net and query the `Standard databases`! There are several types of Standard databases, but the default, and the one we will use, is the `Non-redundant protein sequences (nr)` database, containing non-redundant sequences from many different databases, as well as some environmental whole-genome sequencing samples.
-- Choose the `Organism` which our query sequence will be compared against. This is helpful if you only want to find matches from a specific organism, but because we don't know where our Oblin could be found, it would severely and unnecessarily limit our results.
-- `Exclude` certain types of proteins or samples. Again, we don't want to limit ourselves, so leave these boxes unchecked!
+We can see what we have done in the query and filter the results here.
 
-We can also choose which algorithm BLASTp will use to perform our search. Here, we're going with the good old `blastp (protein-protein BLAST)`. The other options are limiting or there for efficiency, and we don't need to use them for our purposes.
+![image](https://github.com/user-attachments/assets/d43ccbed-8b9a-4c1b-954c-38832e05d77e)
 
-![BLASTp "Choose Search Set" and "Program Selection" boxes](img/BLASTp/other_options.jpg)
+In this case, there are 100 matches in the database, and we can see the results listed on the right. E-value represents the number of matches you would expect to find by random chance when searching a database, and typically an E-value which is < 0.01 implies a statistically significant result (i.e. not a random alignment). 
 
-**2.3: BLAST off!**
+![image](https://github.com/user-attachments/assets/f703a774-0515-42b3-8a9f-3639ac09019e)
 
-Press `BLAST` to perform your search. It might take some time to complete.
+We will select the second protein sequence with the accession number of `UWO45316.1`. You can download the results in a txt/csv file in the Download tab. 
 
-![BLASTp "BLAST" button and "Algorithm parameters" drop-down box](img/BLASTp/press_blast.jpg)
+In the Graphic Summary tab, we will see the general alignment on the top and the distribution of alignment scores on the bottom. You can also clikc on the image to see a more detailed version showing the residues. 
 
-You'll notice another drop-down box titled `Algorithm Parameters`. These are advanced options for further refining your search and its parameters. We don't need to mess with them right now, but if you're a BLAST expert, feel free to tweak the search to your liking.
+![image](https://github.com/user-attachments/assets/6d7efcb3-a59f-4142-82e7-52e36be14cf4)
 
-### 3. Take a look at your results
+Clicking on the Alignment tab will show us the actual alignment of the query and the subject sequences. 
 
-It took about a minute, but our `Job` is finally complete! Let's take a look:
+![image](https://github.com/user-attachments/assets/67f7d99c-75e9-45d0-8aed-9d1820310767)
 
-![BLASTp "No significant similarity found" results box](img/BlastP/no_matches.jpg)
+Under the Taxnomy tab the lineage and organism where the protein sequence is from are listed. You can also see how many hits have been selected. We will select another sequence in the results with an accession number of `SNB49514.1` and look at the tab. 
 
-Oh. BLASTp searched far and wide and couldn't find any matches for our putative oblin amino acid sequence. Well, I guess it's to be expected - these are novel RNA elements we're looking at. When Zheludev et al. identified oblins 1 and 2, their amino acid sequences didn't match any known protein sequences either. Besides, the ORF we found might not even really code for anything! So don't let this result discourage you: I suggest that you try different putative ORFs from different obelisks in your obelisk family. You may find one that works - otherwise, you can use the [example amino acid sequence](https://www.uniprot.org/uniprotkb/O89281/entry) linked here and above. This link will send you to the `Uniprot` page for the `RdRp catalytic domain-containing protein` of `Tremovirus A`, a virus that infects chickens and some other fowl. On the left-hand menu, click `Sequence`, and in the light-blue box containing the amino acid sequence, click `Copy sequence` and paste it into the query sequence box in `BLASTp`.
-
-### 4. When your query finally works...
-
-Look at that! We queried the Tremovirus A RdRp sequence and got a ton of hits!
-
-![BLASTp Tremovirus A RdRp alignment results](img/BlastP/tremovirus_results.jpg)
-
-The results come in a table with important headings and values.
-
-- `Scientific Name` is the organism from which the target sequence originates.
-- `Max Score` and `Total Score` have to do with BLASTp's scoring metric for how similar the query sequence is to the target sequence. `Max Score` is the maximum possible score based on the two sequences, and `Total Score` is the actual score for the query sequence and that particular target. The closer `Total Score` is to `Max Score`, the better the alignment is.
-- `Query Cover` is the percentage of your query sequence which is included in the target sequence. This value has to do with the length of the query sequence, so a value of 100% doesn't mean the match is perfect, but it means the entire length of the query can be mapped (perhaps imperfectly mapped) to the target sequence.
-- `E Value` estimates the likelihood of a random alignment producing a match that is as good or better than the match between the query and that particular target sequence. A low value indicates that this particular match is a good one and unlikely to occur by chance.
-- `Per. Ident`, or `Percent Identity`, is the percentage of aligned amino acid residues which match perfectly between the query and target sequences. The higher this value is, the better the alignment is.
-- `Acc. Len`, or `Accession Length`, is the number of amino acids in the target protein sequence.
-- `Accession` is the `accession number` of the target amino acid sequence. Clicking the link will take you to that sequence's page on whichever database it came from.
-
-Click on the `Scientific name` of one of the results to see an alignment of your query sequence and the target sequence. I chose to display a result in which the `Percent Identity` was 49%.
-
-![BLASTp alignment of query (Tremovirus A RdRp) to target (Picornavirus A polyprotein)](img/BlastP/picornavirus_alignment.jpg)
-
-This alignment has gaps, mismatches (some are between amino acids with little to no similarity, so there is only a space between the aligned residues, but some are between amino acids with some similarity as defined by a BLOSUM matrix, so there is a plus sign `+` between the aligned residues), and perfect matches. The better an alignment is (as defined by values such as `E Value` and `Percent Identity`), the better an alignment will be.
-
-Take a look at the result with the highest `E-value` - it should be at the top of the list of results. How good is the alignment? Do you think the target sequence represents the protein we queried for?
-
-Spoiler alert: the top hit is the protein we queried for. Now, imagine we had no idea what protein we were looking for, and all we had was the sequence - we would've just found it with BLASTp!
-
-### 5. Explore your results!
-
-You can browse the list of hits, checking out target sequences which have similarity to your query. Follow links to the pages for those target sequences in databases. What organism are those sequences from? If the organism is different from the one which we queried, how similar are those two organisms? Is it the same type of protein (an RNA-dependent RNA polymerase) as your query sequence? 
-
-BLASTp has some other fun outputs. You can get a graphic summary of the matches to your query sequence:
-
-![Visual alignment of hits to query sequence](img/BLASTp/graphic_summary.jpg)
-
-You can also see a taxonomy of the organisms from which sequence similarities were found:
-
-![BLASTp taxonomy of similar orgsnidmd](img/BLASTp/taxonomy.jpg)
-
-Play around with it! The little question mark icons within blue circles can be clicked, and they'll provide more information about what you're seeing or doing.
+![image](https://github.com/user-attachments/assets/db0602de-5786-4e45-ae54-b541b791cb55)
 
 ### Conclusion
 
-That's it! You've used `BLASTp` to find amino acid sequences with similarity to your query sequence!
+That's it! You've used the `BLASTp` to compare a protein sequence against a database and identify viral homologs!
 
-You've explored protein sequence alignments, orthologs, and taxonomy - but BLASTp can only go so far. Think of it as the beginning into an investigation of your amino acid sequence. In this case, we know what our query sequence is, and if we thought a little bit about what the results may be beforehand, we probably would've predicted that we'd get RdRp proteins from the same and similar viruses. But if we were querying a putative amino acid sequence for an uncharacterized protein - like we would've been if our oblin queries yielded any significant results - each significant alignment would represent a pathway leading to discovery. The structure of a similar protein could give us some idea as to what conformation our oblin might take. The function of that protein may tell us something about what our oblin does. On the off chance that our oblin was picked up on in some experiment and loaded into a database, we could learn more about where that oblin is found - what organism, what tissue, what geographic location, etc. Sequence similarity can imply structural and functional similarity, but be careful not to over-conclude. Search for literature, formulate testable hypotheses, and brainstorm experiments or analyses that would allow you to reject your null hypothesis. Most importantly, have fun in your analyses!
 
 ### See Also:
 
-- [BLAST: at the core of a powerful and diverse set of sequence analysis tools](https://pmc.ncbi.nlm.nih.gov/articles/PMC441573/)
-- [BLAST tutorial from the UC Berkeley Library](https://guides.lib.berkeley.edu/ncbi/blast)
-- [The OG paper on BLAST](https://www.sciencedirect.com/science/article/abs/pii/S0022283605803602)
-- [A guided example of using BLAST to detect and interpret sequence homology](https://community.gep.wustl.edu/repository/course_materials_WU/annotation/Detecting_Interpreting_Genetic_Homology.pdf)
+- [Additional useful link](https://web.archive.org/web/19991128125537/http://www.geocities.com/Heartland/Bluffs/4157/hampdance.html)
