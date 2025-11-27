@@ -44,6 +44,7 @@ An index of the software tutorial.
 - [ProteInfer](tools/ProteInfer.md)
   
 ### Homology Search Tools
+- [BLAST - BLASTp](tools/BLASTp.md)
 - [BLAST - BLASTx](tools/BLASTx.md)
 - [BLAST - tBLASTn](tools/tblastn.md)
 - [FoldSeek](tools/foldseek.md)
