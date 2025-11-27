@@ -14,7 +14,10 @@ If you have a raw sequence that you want to turn into FASTA format, you can add 
 
 ```
 >green_fluorescent_protein
-MSKGEELFTGVVPILVELDGDVNGQKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFYKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKMEYNYNSHNVYIMADKPKNGIKVNFKIRHNIKDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMILLEFVTAAGITHGMDELYK
+MSKGEELFTGVVPILVELDGDVNGQKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTL
+VTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFYKDDGNYKTRAEVKFEGDTLV
+NRIELKGIDFKEDGNILGHKMEYNYNSHNVYIMADKPKNGIKVNFKIRHNIKDGSVQLAD
+HYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMILLEFVTAAGITHGMDELYK
 ```
 A FASTA file can contain more than one sequence, with each sequence headed with a descriptor. MetaGraph's web interface can read up to ten FASTA sequences at once.
 </blockquote>
@@ -26,14 +29,23 @@ A FASTA file can contain more than one sequence, with each sequence headed with 
 
 ```
 >bacillus_sp_16s_rrna_407bp
-TACAGACCAGAAAGTCGCCTTCGCCACTGGTGTTCCTCCCTATCTCTACGCATTTCACCGCTACACATGGAATTCCACTTTCCTCTTCTGCACTCAAGACTCCCAGTTTCCAATGACCCTCCACGGTTGAGCCGTGGGCTTTCACATCAAACTTAAGAAACCACCTGCGCGCGCTTTACGCCCAATAATTCCGGATAACGCTTGCCACCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGTGGCTTTCTGGTTAGGTACCGTCAAGGTGCCAGCTTATTCCACTAGCACTTGTTCTTCCCTAACAACAGAGTTTTACGACCCGAAAGCCTTCATCACTCACGCGGCGTTGCTCCGTCGGACTTTCGTCCATTGCGGAAGATTCCCTACTGCTGCCTCCCGTA
+TACAGACCAGAAAGTCGCCTTCGCCACTGGTGTTCCTCCCTATCTCTACGCATTTCACCG
+CTACACATGGAATTCCACTTTCCTCTTCTGCACTCAAGACTCCCAGTTTCCAATGACCCT
+CCACGGTTGAGCCGTGGGCTTTCACATCAAACTTAAGAAACCACCTGCGCGCGCTTTACG
+CCCAATAATTCCGGATAACGCTTGCCACCTACGTATTACCGCGGCTGCTGGCACGTAGTT
+AGCCGTGGCTTTCTGGTTAGGTACCGTCAAGGTGCCAGCTTATTCCACTAGCACTTGTTC
+TTCCCTAACAACAGAGTTTTACGACCCGAAAGCCTTCATCACTCACGCGGCGTTGCTCCG
+TCGGACTTTCGTCCATTGCGGAAGATTCCCTACTGCTGCCTCCCGTA
 ```
 
 **2. *Aequorea victoria* green-fluorescent protein (GFP) mRNA (GenBank: L29345.1)**
 
 ```
 >gfp_238aa
-MSKGEELFTGVVPILVELDGDVNGQKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFYKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKMEYNYNSHNVYIMADKPKNGIKVNFKIRHNIKDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMILLEFVTAAGITHGMDELYK
+MSKGEELFTGVVPILVELDGDVNGQKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTL
+VTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFYKDDGNYKTRAEVKFEGDTLV
+NRIELKGIDFKEDGNILGHKMEYNYNSHNVYIMADKPKNGIKVNFKIRHNIKDGSVQLAD
+HYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMILLEFVTAAGITHGMDELYK
 ```
 
 </details>
@@ -291,7 +303,7 @@ Notice that, while *Aequoria victoria* is a organism that repeatedly shows up in
 
 ### Conclusion
 
-That's it! You've used MetaGraph to identify sequence archive samples containing a nucleotide and amino acid sequence of interest!
+Congratulations! You have now used MetaGraph to identify sequence archive samples containing a nucleotide and amino acid sequence of interest!
 
 Here, we demonstrated how to use MetaGraph to search a selection of publicly-available sequence archives in a highly efficient manner in order to find deposited experimental samples matching your sequence of interest. Hopefully, this tutorial has been useful in communicating both how to use this tool, as well as how this tool can be used to better understand the environmental context of genome sequences in samples. And of course, any time you use an LLM-based tool, ensure to sanity-check and fact-check the conclusions provided, based on the information you have!
 
@@ -300,9 +312,9 @@ In the future, this tool plans to support even more functionalities, including i
 
 ### See Also:
 
-- [ETHzürich Article on MetaGraph] Eberhard. [A DNA Search Engine](https://ethz.ch/en/news-and-events/eth-news/news/2025/10/a-dna-search-engine.html). ETHzürich 2025.
-- [Metagraph Paper] Karasikov et al. [Efficient and accurate search in petabase-scale sequence repositories](https://doi.org/10.1038/s41586-025-09603-w). *Nature* 2025.
-- [Logan Project Preprint] Chikhi et al. [Logan: Planetary-Scale Genome Assembly Surveys Life’s Diversity](https://doi.org/10.1101/2024.07.30.605881). *bioRxiv* 2025.
+- **[ETHzürich Article on MetaGraph]** Eberhard. [A DNA Search Engine](https://ethz.ch/en/news-and-events/eth-news/news/2025/10/a-dna-search-engine.html). ETHzürich 2025.
+- **[Metagraph Paper]** Karasikov et al. [Efficient and accurate search in petabase-scale sequence repositories](https://doi.org/10.1038/s41586-025-09603-w). *Nature* 2025.
+- **[Logan Project Preprint]** Chikhi et al. [Logan: Planetary-Scale Genome Assembly Surveys Life’s Diversity](https://doi.org/10.1101/2024.07.30.605881). *bioRxiv* 2025.
 - [MetaGraph Documentation](https://metagraph.ethz.ch/static/docs/index.html)
   - [Help & Quick Start](https://metagraph.ethz.ch/help)
   - [Example Searches](https://metagraph.ethz.ch/examples)
