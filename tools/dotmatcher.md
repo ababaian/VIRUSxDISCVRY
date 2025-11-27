@@ -30,7 +30,7 @@ test2:
 MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAAGFSYTDANKNKGITW 
 GEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE 
 
-![example](img/dotmatcher/input.png)
+![example](img/dotmatcher/inputs.png)
 
 ### Step 3 — Set Parameters
 
@@ -71,7 +71,7 @@ Gaps or breaks suggest insertions, deletions, or evolutionary divergence.
 
 Off-diagonal patterns can reveal inverted repeats or palindromes (often found in RNA viruses and viroid-like agents).
 
-![example](img/dotmatcher/results.png)
+![example](img/dotmatcher/output.png)
 
 ### Step 6
 
