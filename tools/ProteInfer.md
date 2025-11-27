@@ -65,7 +65,7 @@ Finally, let's improve our output figure using R code to group our clusters in a
 ![final](img/ProteInfer/final.png)
 
 Figure 1. Gene Ontology (GO) term hierarchy predicted by Proteinfer for Hemoglobin subunit alpha. Nodes represent GO terms and edges indicate parent–child relationships within the directed acyclic graph (DAG). Nodes are sorted by GO term: Molecular Function (pink), Biological Process (light violet), and Cellular Component (light blue). Transparency reflects the Proteinfer confidence score (lower transparency indicates higher confidence). 
-
+This figure was generated with the use of a generative large language model (ChatGPT 5.1 Thinking, 2025-11-27).
 ### Conclusion
 
 That's it! You've used the `ProteInfer` to predict potential function of your obelisk!
