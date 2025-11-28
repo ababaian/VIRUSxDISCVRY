@@ -89,10 +89,10 @@ $$
 E = K \cdot m \cdot n \cdot e^{-\lambda S}
 $$
 
-where $m$ = query length, $n$ = database size, $S$ = alignment score, and $K, \lambda$ are statistical parameters.  
-Lower $E$ means the match is less likely to occur by chance.
+-  $m$ = query length, $n$ = database size, $S$ = alignment score, and $K, \lambda$ are statistical parameters.  
+- Lower $E$ means the match is less likely to occur by chance.
 
-### Thresholds
+2. Thresholds
 - **Strong significance:** $E \leq 10^{-50}$, percent identity ≥ 30%, query cover ≥ 70%
 - **Moderate confidence:** $10^{-10} \leq E \leq 10^{-50}$
 - **Not significant:** $E \geq 1$
