@@ -67,6 +67,7 @@ Prepare your input sequences in **FASTA** or **BED** format.
   MEME rejects duplicate IDs or IDs with spaces.  
   In this tutorial, we use the **MA0447.1** transcription factor binding dataset for **gt** (*Drosophila melanogaster*):  
   https://jaspar.elixir.no/matrix/MA0447.1/
+![JASPAR MA0447.1 website](img/MEME/JASPARwebsite.png)
 
 - **BED:**  
   MEME extracts sequences automatically using the selected genome build.
@@ -76,7 +77,6 @@ Optional refinements:
 - Supply a custom background model for biased sequences  
 - Choose the number of motifs (default = 3)
 
-![JASPAR MA0447.1 website](img/MEME/JASPARwebsite.png)
 
 ---
 
