@@ -4,7 +4,7 @@ output:
   pdf_document: default
 ---
 # Retrieving Viral Genomes using TBLASTN
-written by: Ak Kannan
+written by: Ak Kannan (https://github.com/KannanAk05)
 
 [20 minutes] Translated BLAST (TBLASTN) is a website based tool on NCBI that compares a query protein sequence against a nucleotide sequence database by translating the nucleotide sequence in all six reading frames to identify nucleotide sequences similar to the provided protein query. This is especially useful in the identification of the contig (nucleotide sequence) containing the RNA-dependent RNA polymerase (RdRp) palm ID, allowing for the retrieval of the complete viral RdRp sequence for further analysis.
 
@@ -32,7 +32,7 @@ text editor and compared to the Logan assembly of the given SRA your palmID prot
 For the virus you are investigating find the unique palmID protein sequence and the SRA associated with it.
 
 *Figure 1. Location of the palmID sequence and it's associated SRA in the virusRunObservations excel (Green = columns of interest, orange = data used in demo)*
-![](Images/Lab12.Fig1.png)
+![](img/ViralTBLASTN/Lab12.Fig1.png)
 
 
 ### 2. Open up the website and input your palmID
@@ -40,7 +40,7 @@ For the virus you are investigating find the unique palmID protein sequence and 
 Find the link to the website in the area above, and then copy your virus palmID (from step 1) to paste it into the "Enter Query Sequence" field. Note that you can also upload a FASTA file of a protein sequence by clicking on "Choose File".
 
 *Figure 2. Inputting the palmID protein sequence in the query field*
-![](Images/Lab12.Fig2.png)
+![](img/ViralTBLASTN/Lab12.Fig2.png)
 
 
 ### 3. Choosing Your Search Set - The Nucleotide Search Database
@@ -55,13 +55,13 @@ file for the SRA, unzip it, and upload it into the "Choose File" field in the ne
 you have a nucleotide search set FASTA (if less than 10 mil characters). 
 
 *Figure 3. Find Logan Assembly FASTA in the virusRunObservations excel (Blue = column of interest, Pink = data used in demo)*
-![](Images/Lab12.Fig3.png)
+![](img/ViralTBLASTN/Lab12.Fig3.png)
 
 *Figure 4. Location to upload Logan assembly FASTA, and BLAST button*
-![](Images/Lab12.Fig4.png)
+![](img/ViralTBLASTN/Lab12.Fig4.png)
 
 *Figure 5. Likely ERROR mesage after running*
-![](Images/Lab12.Fig5.png)
+![](img/ViralTBLASTN/Lab12.Fig5.png)
 
 
 #### 3B. Use your SRA as the search database (will hopefully work)
@@ -72,17 +72,17 @@ In the field below that prompts you to input an SRA ascension, we will input the
 which pertains to the SRA run, as seen in Figure 7. Finally, click the BLAST button and pray it works!!
 
 *Figure 6. Database dropdown in "Choose Search Set", choose database as SRA*
-![](Images/Lab12.Fig6.png)
+![](img/ViralTBLASTN/Lab12.Fig6.png)
 
 *Figure 7. Input the SRA in the field below the database and click the first match that appears*
-![](Images/Lab12.Fig7.png)
+![](img/ViralTBLASTN/Lab12.Fig7.png)
 
 ### 4. Analayzing the output
 
 There will be three tabs on the output: Description, Graphic Summary, and Alignments. Let's go through each!
 
 *Figure 8. Tabs in results (at the top) currently showing the Description Tab*
-![](Images/Lab12.Fig8.png)
+![](img/ViralTBLASTN/Lab12.Fig8.png)
 
 #### 4A. The Description Tab
 
@@ -96,14 +96,14 @@ from the SRA run to contain the RdRp palmID, because that is where serratus basi
 If you press "Select All" in the Description Tab, this tab shows you where ALL the translated nucleotide alignments from the given database align with the given query. 
 
 *Figure 9. Graphic Summary of Alignments*
-![](Images/Lab12.Fig9.png)
+![](img/ViralTBLASTN/Lab12.Fig9.png)
 
 #### 4C. The Alignments Tab
 
 If you press "Select All" in the Description Tab, this tab displays the actual amino acid alignments between the protein query and all the translated nucleotide sequence one-by-one.
 
 *Figure 10. Display of actual alignment between amino acids of query and translated nucleotide*
-![](Images/Lab12.Fig10.png)
+![](img/ViralTBLASTN/Lab12.Fig10.png)
 
 
 ### 5. Opening Logan assembly FASTA and obtaining alignment FASTA
@@ -112,7 +112,7 @@ Go back to the Description Tab and ensure "Select All" is checked. We will now d
 This FASTA contains the nucleotide sequences, that when translated, will align to some part of the query (your PalmID). Open the alignment FASTA using your operating software's text editor and also the FASTA associated with the Logan assembly of the SRR you took the PalmID from.
 
 *Figure 11. Downloading the Alignments as an Aligned Sequences FASTA*
-![](Images/Lab12.Fig11.png)
+![](img/ViralTBLASTN/Lab12.Fig11.png)
 
 
 ### 6. A simple search
@@ -121,10 +121,10 @@ Now we are going to find the contig containing our RdRp, so that we can get it's
 your Logan assembly file with each set of aligned nucleotides until you find the contig! The aligned sequences act as landmarks for the contig containing the whole viral RdRp.
 
 *Figure 12. Copy one of your alignments from the alignment FASTA*
-![](Images/Lab12.Fig12.png)
+![](img/ViralTBLASTN/Lab12.Fig12.png)
 
 *Figure 13. Paste the alignment in the search tab and go to the Logan assembly FASTA, and hopefully you should have a match. This match contains the contig containing the whole (hopefully) nucleotide sequence of the RdRp*
-![](Images/Lab12.Fig13.png)
+![](img/ViralTBLASTN/Lab12.Fig13.png)
 
 ### 7. Use Other Tutorials!! 
 
