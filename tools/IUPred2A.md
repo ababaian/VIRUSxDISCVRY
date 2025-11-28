@@ -56,8 +56,6 @@ The common/accepted thresholds for "true positive" or "significance" outputs is 
 
 The output can be used in the creation of a "Figure" as a line graph that shows the disorder/binding propensity along the protein sequence. For a reproducible analysis, it is necessary to document the tool version, prediction type, protein sequence (identifier or sequence), threshold values, and any additional changes made to the analysis in the legend. An example of this can be seen in the previous section.
 
-
-
 # Conclusion
 
 That's it! You've used IUPred2 to look for unstructured regions in the protein!
@@ -69,3 +67,5 @@ See Also:
 [IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding](https://academic.oup.com/nar/article/46/W1/W329/5026265)
 
 [AIUPred, IUPred 3.0 newest version](https://iupred.elte.hu/)
+
+This information was edited using a generative LLM model [Claude, Sonnet 4.5, November 28, 2025]
