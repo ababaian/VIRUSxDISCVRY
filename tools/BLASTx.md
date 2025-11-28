@@ -1,5 +1,6 @@
 # BLASTx
 written by: [Isha Singh](https://github.com/its-isha-singh)
+Edited by: [Jierui Wang](https://github.com/WJerry66)
 
 [8 minutes] In this tutorial we will explore BLASTx, a tool that enables researchers to determine the protein encoded for in their nucleotide sequence of interest. By comparing your sequence to annotated proteins, BLASTx helps reveal potential viral functions, evolutionary relationships, and candidate genes for further study. BLASTx accepts nucleotide sequences (FASTA format, accession numbers, or GI identifiers) and translates them in all six reading frames before comparison, then output a ranked list of protein matches by statistical confidence (E‑value, percent identity, query coverage). This tool can help characterise a viral protein
 encoded in a sequence of interest by aligning the amino acid sequence of the encoded protein to other closely related and annotated proteins. This makes BLASTx especially powerful for characterizing unknown viral contigs or confirming gene identity in metagenomic datasets.
@@ -83,13 +84,18 @@ glycoprotein!
 
 ### Interpreting Results
 1. BLASTx confidence is primarily based on the E‑value:
-$$ E = K \cdot m \cdot n \cdot e^{-\lambda S} $$
-where (m) = query length, (n) = database size, (S) = alignment score, and (K, \lambda) are statistical parameters.
-lower the E, match is less likely by chance.
-2. Threshold
-- Strong significance: E ≤ 1^^‑50^^, percent identity ≥ 30%, query cover ≥ 70%.
-- Moderate confidence: E between 1^^‑10^^ and 1^^‑50^^.
-- Not significant: E ≥ 1.
+
+$$
+E = K \cdot m \cdot n \cdot e^{-\lambda S}
+$$
+
+where \(m\) = query length, \(n\) = database size, \(S\) = alignment score, and \(K, \lambda\) are statistical parameters.  
+Lower E means the match is less likely to occur by chance.
+
+2. Thresholds
+- **Strong significance**: \(E \leq 10^{-50}\), percent identity ≥ 30%, query cover ≥ 70%  
+- **Moderate confidence**: \(10^{-10} \leq E \leq 10^{-50}\)  
+- **Not significant**: \(E \geq 1\)
 3. Cite result as figure
 - include: query sequence ID, top hit accession, percent identity, query coverage, E‑value. 
 - document: database searched, BLASTx version, parameters (default vs custom), and date of search (databases evolve).
