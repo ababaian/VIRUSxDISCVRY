@@ -22,19 +22,29 @@ e.g., >MA0447.1_gt_1
 *(4)Optional parameters to modify:*
 **Sequence-set related:**
 -Control sequences for discriminative/differential modes
+
 **Motif occurrence models:**
 -oops — One Occurrence Per Sequence
+
 -zoops — Zero or One Occurrence Per Sequence
+
 -anr — Any Number of Repetitions
+
 **Motif discovery settings:**
+
 -Number of motifs to find
 -Motif width (min/max)
+
 -Expected number of sites
+
 **Background model:**
 -A custom background model (0-order or higher)
+
 **Special options (used only in specific cases):**
 -Single vs double-stranded search
+
 -Palindromic motif restriction
+
 -Sequence shuffling for background estimation
 
 
