@@ -49,7 +49,7 @@ e.g., `>MA0447.1_gt_1`
 
 ## Output
 
-MEME generates several types of output files, including sequence logos, position weight matrices (PWMs), motif alignments, motif site locations, and statistical values such as E-values. Results are provided in HTML (interactive), text, and MEME motif formats, making them compatible with TOMTOM, FIMO, MAST, and other downstream tools.
+MEME produces sequence logos, E-values, detailed motif statistics (accessible through the “More” panel), and a table of motif locations showing where each site appears in your sequences. It also reports the full input settings used in the run to ensure reproducibility.
 
 ---
 
