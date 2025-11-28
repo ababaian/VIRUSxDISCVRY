@@ -83,16 +83,19 @@ Optional refinements:
 ### 3. Selecting Discovery Mode
 
 **1. Classic Mode**  
-- Discovers motifs enriched relative to a random background model.  
-- Best for a single dataset.
+- Discovers motifs enriched within a single sequence set by comparing observed nucleotide patterns against a background model derived from the input sequences.  
+- Best used when only one dataset is available and you want to identify general conserved motifs without comparing two conditions.
 
 **2. Discriminative Mode**  
-- Requires Primary + Control sets.  
-- Identifies motifs enriched only in the Primary set.
+- Requires both *Primary* and *Control* sequence sets.  
+- Identifies motifs that are significantly more common or more strongly conserved in the Primary set.  
+- Uses a position-specific prior (PSP) to guide the EM algorithm toward motifs that differentiate the two sets.  
+- Useful for condition-based comparisons (e.g., infected vs. uninfected, bound vs. unbound regions).
 
 **3. Differential Enrichment Mode**  
-- Also uses Primary + Control sets.  
-- Uses hypergeometric enrichment to find motifs whose presence is strongly different between sets.
+- Also requires Primary + Control sequences, but focuses on differences in **site counts** rather than PWM structure.  
+- Uses a hypergeometric enrichment model to test whether motif occurrences are significantly overrepresented in the Primary set.  
+- Best for short motifs or when the biological question centers on motif *presence or absence* instead of detailed motif shape.
 
 ![Different Mode](img/MEME/MotifDiscoveryMode.png)  
 ![Primary and Control Sequences Option](img/MEME/PrimaryandControlSequences.png)
@@ -101,9 +104,20 @@ Optional refinements:
 
 ### 4. Choosing Motif Occurrence Model
 
-- **OOPS:** One occurrence per sequence  
-- **ZOOPS:** Zero or one per sequence (recommended default)  
-- **ANR:** Any number of repeats  
+**OOPS (One Occurrence Per Sequence)**  
+- Assumes every sequence contains exactly one motif instance.  
+- Fastest model; produces sharp, well-defined PWMs.  
+- Should only be used when true motif presence is expected in all sequences.
+
+**ZOOPS (Zero or One Occurrence Per Sequence)**  
+- Allows each sequence to have either none or one motif instance.  
+- More flexible and realistic for many biological datasets.  
+- Considered the recommended default for most DNA regulatory motif searches.
+
+**ANR (Any Number of Repetitions)**  
+- Allows zero, one, or multiple motif copies per sequence.  
+- Captures repetitive motifs, tandem repeats, or transcription factor clusters.  
+- Computationally slower; best for sequences where repeats or multiple sites per region are biologically expected.
 
 ![Occurrence model](img/MEME/SiteDistribution.png)
 
@@ -111,14 +125,21 @@ Optional refinements:
 
 ### 5. Configuring Background Model
 
-**0-order background:**  
-Base frequencies only (A/C/G/T).
 
-**Higher-order backgrounds:**  
-Capture di-/tri-nucleotide structure.
+**0-order background**  
+- Uses only single nucleotide frequencies (A, C, G, T) to model the expected random composition of the sequences.  
+- Suitable when sequences have no strong dinucleotide or structural bias.  
+- Common default for general motif discovery tasks.
 
-**Custom background:**  
-Upload from your own organism or data.
+**Higher-order background**  
+- Incorporates di- or tri-nucleotide patterns (e.g., CpG frequencies), providing a more realistic null model for genomes with sequence structure.  
+- Useful for organisms with strong compositional biases or repetitive motifs.  
+- Reduces false positives caused by local sequence structure.
+
+**Custom background**  
+- User-provided background model derived from a specific genome, dataset, or shuffled version of the input sequences.  
+- Useful when your sequences are highly biased (AT-rich, GC-rich, repetitive) or when matching a particular biological context is essential.  
+- Ensures the motif significance is evaluated relative to the correct biological background.
 
 ![Background Model](img/MEME/BackgroundModel.png)
 
@@ -154,17 +175,17 @@ Quantify motif significance
 (e.g., **1.2e-052** → extremely significant).
 
 **Detailed Information ("More"):**  
-Includes LLR, IC, RE, BT, p-value, and site-level details.
+Includes Log Likelihood Ratio, Information Content, Relative Entropy, Bayes Threshold, p-value, and site-level details.
 
 ![Detailed Information](img/MEME/DetailedInformation.png)
 
 **Motif Locations:**  
-For each sequence: position, strand, match, score.
+This table lists every place where MEME detected the motif within your input sequences. For each hit, MEME reports the sequence ID, the strand (+/–), the exact start coordinate, the matched subsequence, and a score representing how closely the site fits the motif model. This allows you to quickly see which sequences contain strong motif matches, whether motifs occur on a preferred strand, and how consistently the motif appears across the dataset.
 
 ![Motif Locations](img/MEME/MotifLocations.png)
 
 **Input Settings:**  
-Shows all parameters used for reproducibility.
+This section records all parameters used during the MEME run, including the input file, motif discovery mode, occurrence model (OOPS/ZOOPS/ANR), motif width limits, number of motifs requested, background model, and strand search options. These settings fully document how the analysis was performed, ensuring that anyone can reproduce the results exactly.
 
 ![Input Settings](img/MEME/InputandSettings.png)
 
