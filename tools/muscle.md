@@ -109,8 +109,6 @@ For the sake of demonstration, we will choose Pearson/fasta as the output format
 
 **insertions/deletions** - Insertions and deletions are shown as "-"
 
-- 
-
 ### Conclusion
 
 That's it! You've used the `MUSCLE` to produce multiple sequence alignment for hemoglobin subunit sequences from humans, house mice and goats!
