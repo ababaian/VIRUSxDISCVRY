@@ -1,8 +1,8 @@
 # MUSCLE
 written by: [Yunyi Cheng](https://github.com/yunyicheng)
-edited by: [Clare Gillis](https://github.com/claregillis), Neyo T
+edited by: [Clare Gillis](https://github.com/claregillis)
 
-MUSCLE is a computer program for creating multiple sequence alignments of proteins and nucleotides. It incorporates fast distance estimation using *k* mer counting, progressive alignment using a profile function we call the log‐expectation score, and refinement using tree‐dependent restricted partitioning. It could be used in phylogenetic tree estimation, structure prediction and critical residue identification, which are useful for virus identification and discovery.
+MUSCLE is a computer program for creating multiple sequence alignments of proteins and nucleotides. It incorporates fast distance estimation using *k* mer counting, progressive alignment using a profile function we call the log‐expectation score, and refinement using tree‐dependent restricted partitioning. It could be used in phylogenetic tree estimation, and critical residue identification, which are useful for virus identification and discovery.
 
 **Tutorial Objective**: We will use `MUSCLE` to produce multiple sequence alignment for hemoglobin subunit sequences from humans, house mice and goats.
 
