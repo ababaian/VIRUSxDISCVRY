@@ -70,6 +70,9 @@ An index of the software tutorial.
 - [ViralZone](https://viralzone.expasy.org/)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
+## Cool Virus Projects
+- [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br))
+
 ## 2024 Obelisk Index
 
 An index of the Obelisk Discovery Reports.
