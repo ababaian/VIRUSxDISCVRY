@@ -1,5 +1,5 @@
 # BLASTp Tutorial
-written by: [Allan Hu, Jade Juba, Abigael Smith] (https://github.com/lorda6)
+written by: [Allan Hu, Jade Juba, Abigael Smith] (https://github.com/Abs531)
 
 [15 minutes] BLASTp, the Basic Local Alignment Search Tool for proteins, takes a "query" protein sequence, breaks it into pieces, and compares each piece to a database of known proteins. Once it finds a match, it extends the alignment until the entire query sequence is accounted for, then it returns all significant matches it finds. BLASTp can be used to compare sequences, characterize sequences of interest, find proteins with functional and/or structural similarities, and more! After generating a putative open reading frame for your **virus** and decoding the codons into amino acid residues, you can use BLASTp to investigate the **protein(s)** it codes for, **and see any similar sequences**.
 
