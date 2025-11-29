@@ -3,14 +3,13 @@ written by: [Yunyi Cheng](https://github.com/yunyicheng)
 edited by: [Clare Gillis](https://github.com/claregillis)
 last reviewed and edited by: [Dingjiu Tang](https://github.com/Dangelo2002)
 
-## Dingjiu's edits are shown in **bold** ##
 
-**Multiple Sequence Comparison Log-Expectation (MUSCLE)** is a computer program for creating **multiple sequence alignments (MSA)** of proteins **and polynucleotides**. **Introduced in 2004, MUSCLE brought a leap in speed and accuracy to MSA.** It incorporates fast distance estimation using *k* mer counting, progressive alignment using a profile function we call the log‐expectation score, and refinement using tree‐dependent restricted partitioning. 
+Multiple Sequence Comparison Log-Expectation (MUSCLE) is a computer program for creating multiple sequence alignments (MSA) of proteins and polynucleotides. Introduced in 2004, MUSCLE brought a leap in speed and accuracy to MSA. It incorporates fast distance estimation using *k* mer counting, progressive alignment using a profile function we call the log‐expectation score, and refinement using tree‐dependent restricted partitioning. 
 
-**These algorithms and iterative optimization have enabled MUSCLE to rapidly rise as one of the most trusted bioinformatics tools in the post-genomic era of data explosion.** It could be used in phylogenetic tree estimation, structure prediction and critical residue identification, which are useful for virus identification and discovery. **However, please note that MUSCLE itself cannot directly construct phylogenetic trees or predict protein structure and function from sequences, nor can it generate highly readable visualizations. It can only provide evidence of similarity in the MSA output. Other tools are required for downstream analysis. For online versions of MUSCLE, some downstream analysis tools have been integrated, allowing for direct visualization of results.**
+These algorithms and iterative optimization have enabled MUSCLE to rapidly rise as one of the most trusted bioinformatics tools in the post-genomic era of data explosion. It could be used in phylogenetic tree estimation, structure prediction and critical residue identification, which are useful for virus identification and discovery. However, please note that MUSCLE itself cannot directly construct phylogenetic trees or predict protein structure and function from sequences, nor can it generate highly readable visualizations. It can only provide evidence of similarity in the MSA output. Other tools are required for downstream analysis. For online versions of MUSCLE, some downstream analysis tools have been integrated, allowing for direct visualization of results.
 
 
-**Tutorial Objective**: **MUSCLE can be run locally via the command line or through a web server. Locally running MUSCLE offers more advanced parameter tuning and automated batch processing. On the other hand, running MUSCLE online is simpler and suitable for small datasets where advanced parameter tuning is not required. In this tutorial, we will use the MUSCLE server provided by the European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI) to perform multiple sequence alignment of hemoglobin subunits from humans, house mice, and goats.**
+**Tutorial Objective**: MUSCLE can be run locally via the command line or through a web server. Locally running MUSCLE offers more advanced parameter tuning and automated batch processing. On the other hand, running MUSCLE online is simpler and suitable for small datasets where advanced parameter tuning is not required. In this tutorial, we will use the MUSCLE server provided by the European Molecular Biology Laboratory-European Bioinformatics Institute (EMBL-EBI) to perform multiple sequence alignment of hemoglobin subunits from humans, house mice, and goats.
 
 ## Input / Prerequisites
 
@@ -18,7 +17,7 @@ last reviewed and edited by: [Dingjiu Tang](https://github.com/Dangelo2002)
 - [Link to example data formats](https://www.ebi.ac.uk/jdispatcher/docs/formats/)
 - Web browser
 - Three or more sequences of interest in GCG, FASTA, EMBL (Nucleotide only), GenBank, PIR, NBRF, PHYLIP, or UniProtKB/Seiss-Prot (Protein only) format directly, or upload a file.
-- **This website tool supports alignment of up to 500 sequences or files up to 1 MB in size.**
+- This website tool supports alignment of up to 500 sequences or files up to 1 MB in size.
 
 ## Output
 
@@ -62,7 +61,7 @@ For the sake of demonstration, we will choose Pearson/fasta as the output format
 ![phylogenetic tree](img/muscle/example_phylogenetic_tree.png)
 
 
-- Links to related result viewers to further investigate the results
+- Links to related result viewers to further investigate the results. Click on `Send to MView` will take you to the MView interface, which is useful for visualizing comparison results (see below).
 ![result Viewers](img/muscle/example_result_viewers.png)
 
 
@@ -83,6 +82,21 @@ For the sake of demonstration, we will choose Pearson/fasta as the output format
 
 As mentioned in the "Output" section above, MUSCLE's output files are typically plain text. There are several ways to interpret output files, but there is also some information that the output cannot reveal.
 
+### Regarding visualization of MSA output files via MView:
+
+- After clicking `Send to MView`, you can input the MUSCLE output files in MView. If you do not want to use the default settings, click `More options` and adjust the parameters as needed.
+![mview input](img/muscle/example_mview_input.png)
+
+- After submitting the MView job and waiting for it to complete, you can view a visualization of the MUSCLE alignment results in MView under `Tool Output`. You can click `Download` to obtain the output file. You can also view other tabs (`Result Files` and `Submission Details`) for more information. The visualizations of the alignment results for the three sequences used as examples in the tutorial are shown below:
+![mview output](img/muscle/example_mview.png)
+
+- Interpretation of this MView output: 
+  - Reference sequence: test3 was selected as the reference sequence, and all percentage identities (pIDs) were calculated based on this sequence.
+  - pID (Percent Identity): The percentage of identical amino acid residues in the sequence compared to the reference sequence.
+  - cov (Coverage): The percentage of the sequence that was aligned to a reference relative to its total length.
+  - Colored by (Identity and Conservation): The color scheme indicates that the residues are colored based on their identity and conservation. Background fill color is related to the physicochemical properties of residues, and the same fill color directly reflects conservation. In consensus sequences, dark background fill indicates high conservation, while no background fill indicates high variability.
+  - Consensus Rows (e.g., consensus/100%): Consensus sequence rows generated based on a set percentage threshold to summarize the conservatism of the sequence. Lowercase letters usually indicate unaligned residues or residues with low alignment quality and low confidence.
+  
 ### Regarding confidence analysis: 
 
 MUSCLE's output files do not provide information about residue confidence. Output files such as clusterW only provide a consensus line, which indicates the degree of conservation of residues. To obtain information about the confidence level of multiple sequence alignment results, other downstream analysis tools, such as Gblocks or Guidance, are required.
@@ -115,6 +129,8 @@ Similarly, MUSCLE cannot provide information on true positives, false positives,
 
 ### A phylogenetic tree example with full documentation and explanation:
 
+Here is an example of a phylogenetic tree with legends and captions, from the paper [Diversification of giant and large eukaryotic dsDNA viruses predated the origin of modern eukaryotes](https://doi.org/10.1073/pnas.1912006116)
+![real_tree_example](img/muscle/phylogenetic_tree_with_legend.png)
 
 
 ## Conclusion
