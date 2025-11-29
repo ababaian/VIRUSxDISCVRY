@@ -11,7 +11,7 @@ MUSCLE is a computer program for creating multiple sequence alignments of protei
 - [Tool Weblink](https://www.ebi.ac.uk/jdispatcher/msa/muscle)
 - [Link to example data formats](https://www.ebi.ac.uk/jdispatcher/docs/formats/)
 - Web browser
-- Three or more sequences of interest
+- Two or more sequences of interest
 - Formats: GCG, FASTA, EMBL (Nucleotide only), GenBank, PIR, NBRF, PHYLIP, UniProtKB/Seiss-Prot (Protein only) format directly, or upload a file.
 
 ## Output
