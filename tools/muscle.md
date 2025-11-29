@@ -16,7 +16,7 @@ These algorithms and iterative optimization have enabled MUSCLE to rapidly rise 
 - [Tool Weblink](https://www.ebi.ac.uk/jdispatcher/msa/muscle)
 - [Link to example data formats](https://www.ebi.ac.uk/jdispatcher/docs/formats/)
 - Web browser
-- Three or more sequences of interest in GCG, FASTA, EMBL (Nucleotide only), GenBank, PIR, NBRF, PHYLIP, or UniProtKB/Seiss-Prot (Protein only) format directly, or upload a file.
+- Two or more sequences of interest in GCG, FASTA, EMBL (Nucleotide only), GenBank, PIR, NBRF, PHYLIP, or UniProtKB/Seiss-Prot (Protein only) format directly, or upload a file.
 - This website tool supports alignment of up to 500 sequences or files up to 1 MB in size.
 
 ## Output
