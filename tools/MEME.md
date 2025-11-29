@@ -170,8 +170,8 @@ Graphical representation showing conserved bases.
 
 ![Sequence Logos](img/MEME/SequenceLogo.png)
 
-**E-values:**  
-Quantify motif significance  
+**E-values:**  (**Quantify motif significance**)  
+In MEME, the E-value estimates how many motifs with the same log-likelihood ratio (LLR) or better would be expected by chance in a random dataset of the same size. It is derived from the motif’s statistical significance under a background model and scaled by the number of candidate motifs tested during the EM search. In simple terms, a low E-value means the motif is highly unlikely to appear randomly and is therefore considered biologically meaningful.
 (e.g., **1.2e-052** → extremely significant).
 
 **Detailed Information ("More"):**  
