@@ -86,11 +86,11 @@ As mentioned in the "Output" section above, MUSCLE's output files are typically 
 
 - After clicking `Send to MView`, you can input the MUSCLE output files in MView. If you do not want to use the default settings, click `More options` and adjust the parameters as needed.
 
-![mview input](img/muscle/example_mview_input.png)
+![mview input](tools/img/muscle/example_mview_input.png)
 
 - After submitting the MView job and waiting for it to complete, you can view a visualization of the MUSCLE alignment results in MView under `Tool Output`. You can click `Download` to obtain the output file. You can also view other tabs (`Result Files` and `Submission Details`) for more information. The visualizations of the alignment results for the three sequences used as examples in the tutorial are shown below:
 
-![mview output](img/muscle/example_mview.png)
+![mview output](tools/img/muscle/example_mview.png)
 
 - Interpretation of this MView output: 
   - Reference sequence: test3 was selected as the reference sequence, and all percentage identities (pIDs) were calculated based on this sequence.
@@ -133,7 +133,7 @@ Similarly, MUSCLE cannot provide information on true positives, false positives,
 
 Here is an example of a phylogenetic tree with legends and captions, from the paper [Diversification of giant and large eukaryotic dsDNA viruses predated the origin of modern eukaryotes](https://doi.org/10.1073/pnas.1912006116)
 
-![real_tree_example](img/muscle/phylogenetic_tree_with_legend.png)
+![real_tree_example](tools/img/muscle/phylogenetic_tree_with_legend.png)
 
 
 ## Conclusion
