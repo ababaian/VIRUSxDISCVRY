@@ -81,7 +81,7 @@ For the sake of demonstration, we will choose Pearson/fasta as the output format
 
 ## Making Figures 
 
-- You can take a screenshot of the aligned residues in the "Alignments" section and modify the coloring in the drop-down option where it says "clustal2". Use "+" if the residues seem too far apart and "-" if they seem too close. However, this visual alignment treats the first sequence from your FASTA as consensus sequence.
+- You can take a screenshot of the aligned residues in the "Alignments" section and modify the coloring or view them in conext of chemical properties by clicking the drop-down option where it says "clustal2". Use "+" if the residues seem too far apart and "-" if they seem too close.
 
 ![MVIEW1](https://raw.githubusercontent.com/ababaian/VIRUSxDISCVRY/refs/heads/main/tools/img/muscle/example_alignment.png)
 
