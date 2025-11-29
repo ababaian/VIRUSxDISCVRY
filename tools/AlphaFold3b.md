@@ -50,7 +50,7 @@ We need to submit our sequence to the NCBI ORF Finder (<https://www.ncbi.nlm.nih
 
 ### **3. Pick your Entity Type and enter the seuqence into the box provided (our example is still following the 'Protein' sequence we obtained in Step 1).**
 
-![Input Sequence](img/AlphaFold3/TutStep3.png)
+![Input Sequence](img/AlphaFold3b/TutStep3.png)
 
 In this case we pick Protein as the Entity Type and enter our 'Protein' Sequence from Step 1. Users should make sure that their translated protein sequence contains only valid amino acid letters and nothing ambigious like "X", i.e., ensure correct input sequence cleaning. AlphaFold 3 visually displays the sequence in formatted blocks, without altering the input sequence
 
@@ -58,7 +58,7 @@ Tip: Explore this page of AlphaFold 3 - it has many elements that can be used fo
 
 ### **4. Click on 'Continue and Preview Job' to generate your 3D protein structure.**
 
-![Submitted Job](img/AlphaFold3/TutStep4.png)
+![Submitted Job](img/AlphaFold3b/TutStep4.png)
 
 You will see a table at the bottom showing all the jobs you have submitted - note that there is a 'Jobs Remaining' count on the top right of the screen that tells you how many jobs you have left to submit on this tool. The job name will have a check icon next to it once it's completed and ready to view.
 
@@ -68,7 +68,7 @@ Note: This part usually takes a couple of minutes, but the job run time can vary
 
 Once the job is complete, you can click on it and it will show the generated structure.
 
-![Final Structure](img/AlphaFold3/TutStep5.png)
+![Final Structure](img/AlphaFold3b/TutStep5.png)
 
 Now you can explore your protein structure in all its glory! The structure is color coded with a high confidence to low confidence color range (key shown above the structure). In this case we can see that the blue domains are determined with high confidence and are the most useful for inferring function or conducting further analyses! There is also a Predicted Aligned Error Plot next to the structure which is also color coded for you to interpret the structure's reliability.
 
@@ -136,7 +136,7 @@ For an acceptable figure for the Final Project, it's best to include:
 
 **Figure X. AlphaFold 3 predicted structure of the protein**
 
-![Figure](img/AlphaFold3/TutFigure.png)
+![Figure](img/AlphaFold3b/TutFigure.png)
 
 The amino acid sequence shown (117 aa) was submitted to AlphaFold 3 (AF3) using the default *Protein* entity settings with no ligands, ions, or partner molecules added. The predicted 3D structure is rendered and coloured by plDDT confidence, where darker blue corresponds to very high confidence (plDDT \> 90). The overall model shows uniformly high local confidence across the structure, indicating a stable and well-defined fold. The accompanying Predicted Aligned Error (PAE) plot shows consistently low expected positional error (\<5 Å), suggesting high certainty in both intra-domain residue positioning and global orientation of the structure.
 
@@ -150,7 +150,7 @@ The next steps are up to you - AlphaFold 3 gave you a protein structure that has
 
 We can visually identify domains from our structure generated in this Tutorial.
 
-![Structure Analysis](img/AlphaFold3/TutConclusion.png)
+![Structure Analysis](img/AlphaFold3b/TutConclusion.png)
 
 After identifying these areas of interest, you can compare your structure to other similar ones or other structures generated from different sequences of interest. AlphaFold 3 has give you a platform to infer any protein functions from the structure - your turn to use the structure to narrow down the characterization of your virus!
 
