@@ -48,7 +48,6 @@ An index of the software tutorial.
 - [BLAST - BLASTp](tools/BLASTp.md) # Protein Search in Protein Database
 - [BLAST - BLASTx](tools/BLASTx.md) # Translated Nucleotide Search in Protein Database
 - [BLAST - tBLASTn](tools/tblastn.md) # Protein Search Search in Nucleotide Database
-
 - [FoldSeek](tools/foldseek.md) # Protein Structure Search
 - [HHpred](tools/HHpred.md) # HMM Model Search Tools
 - [InterProScan](tools/InterProScan.md) # InterPro HMM Model Search
