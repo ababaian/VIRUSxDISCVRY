@@ -33,12 +33,11 @@ An index of the software tutorial.
 - [mFold](tools/mFold.md) # Secondary Fold DNA/RNA
 - [ORFfinder](tools/ORFfinder.md) # Open Reading Frame calculator
 - [OpenVirome](https://openvirome.com/) # RdRp palmprint graph tool 
-- [palmID](tools/palmID.md) # RdRp palmprint search tool
 - [RNAfold](tools/RNAfold.md) # Secondary Fold DNA/RNA
 - [sixpack](tools/sixpack.md) # Six-frame translation calculator
   
 ### AA Sequence Analysis
-- [AlphaFold3 (A)](tools/AlphaFold3.md) [Ver. (B)](tools/AlphaFold3b.md) # Protein Structure prediction
+- [AlphaFold3 (A)](tools/AlphaFold3.md) | [Version. (B)](tools/AlphaFold3b.md) # Protein Structure prediction
 - [IUPred2A](tools/IUPred2A.md) # Dirordered Sequence prediction
 - [muscle](tools/muscle.md) # Multiple Sequence Alignment (MSA)
 - [PepInfo](tools/PepInfo.md) # Protein summary statistics
@@ -49,6 +48,7 @@ An index of the software tutorial.
 - [BLAST - BLASTp](tools/BLASTp.md) # Protein Search in Protein Database
 - [BLAST - BLASTx](tools/BLASTx.md) # Translated Nucleotide Search in Protein Database
 - [BLAST - tBLASTn](tools/tblastn.md) # Protein Search Search in Nucleotide Database
+
 - [FoldSeek](tools/foldseek.md) # Protein Structure Search
 - [HHpred](tools/HHpred.md) # HMM Model Search Tools
 - [InterProScan](tools/InterProScan.md) # InterPro HMM Model Search
@@ -56,6 +56,10 @@ An index of the software tutorial.
 - [PebbleScout](tools/pebblescout.md) # Nucleotide kmer search (big)
 - [MetaGraph](tools/metagraph.md) # Nucleotide kmer search (bigger)
 - [Logan-Search](https://logan-search.org/) # Nucleotide kmer search (Biggest)
+
+### Virus Specific Tools
+- [BLAST - tBLASTn for Virology](tools/ViralTBLASTN.md) # Find your viral contig in SRA 
+- [palmID](tools/palmID.md) # RdRp palmprint search tool
 
 ### Phylogenetics
 - [iqtree](tools/iqtree.md) # Generate phylogenetic tree from MSA
