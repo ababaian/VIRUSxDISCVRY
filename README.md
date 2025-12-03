@@ -38,7 +38,7 @@ An index of the software tutorial.
 - [sixpack](tools/sixpack.md) # Six-frame translation calculator
   
 ### AA Sequence Analysis
-- [AlphaFold3](tools/AlphaFold3.md) # Protein Structure prediction
+- [AlphaFold3 (A)](tools/AlphaFold3.md) [Ver. (B)](tools/AlphaFold3b.md) # Protein Structure prediction
 - [IUPred2A](tools/IUPred2A.md) # Dirordered Sequence prediction
 - [muscle](tools/muscle.md) # Multiple Sequence Alignment (MSA)
 - [PepInfo](tools/PepInfo.md) # Protein summary statistics
