@@ -1,0 +1,76 @@
+# NCBI Taxonomy
+written by: Gretl Baghdadi(https://github.com/gretlb04)
+
+[10-15 minutes] The NCBI taxonomy is a comprehensive database of organism names and taxonomic relationships that covers all organisms represented in the International Nucleotide Sequence Database Collaboration (INSDC). The database uses approximate phylogenetic hierarchy to map and demonstrate taxonomic relationships between organisms in the database, from superkingdom down to species. By providing a taxonomic rank for every sample within its ecosystem, the NCBI taxonomy provides a streamlined way to explore all data annotated at the same level, allowing you to explore questions relating to the diversity and evolution of your virus. 
+
+**Tutorial Objective**: Learn how to use the NCBI Taxonomy to explore taxonomic relationships for your virus and a host organism.
+
+## Input / Prerequisites
+- [NCBI Taxonomy Weblink](https://www.ncbi.nlm.nih.gov/taxonomy/)
+- [Example query input] (/lab12/data/ncbi_tax_ex)
+- The input can be any of the following valid query terms for NCBI Taxonomy:
+  - Scientific name (e.g., Escherichia coli)
+  - TaxID (e.g., 562)
+  - Common name (e.g., “human”)
+  - Lineage term (e.g., “Bacteria”)
+- We will use these known classifications of your virus or host (e.g. Genus, Family, Order, etc.): 
+    - BLAST results of viral contigs
+    - SRA metadata from viral runs
+    
+- A functional web browser and wifi connection
+
+## Output
+
+You will see a list of the top hits to your search query. You will be able to see what phylogenetic lineages relate to your search best, in a nested table format. This is full taxonomic path - from the superkingdom, down to the level of your search query.  The table's columns include the taxonomic name, the number of genomes sequences in that row's category, and several options for further action, such as downloading taxon data as .json or .tsv files or viewing name details. From this page, you can explore taxon-specific pages, where each species is assigned a numeric NCBI Taxonomy ID (ex: 67722). This page might be helpful to explore what genomes of the same species if the one of interest is not found. You can also explore related/child/parent strains and families and be led to their respective database links for their sequences, SRA, and projects of interest. From here, there are further online tools, such as Taxonomy Common Tree to generate a taxonomic tree rooted at the last common ancestor of your species, or Batch Entrez to easily download bulk numbers of records from a variety of databases.
+
+### Tutorial
+NOTE: This tool recently underwent an update that makes the user interface much easier to understand - choose the new version when possible! This tutorial applies to either version. 
+### Tutorial 1.1 (VIRUS) - Accessing NCBI from BLASTp results of virus protein sequence
+1. By running protein BLAST on a known contig of your virus will show the closest related sequences. (https://blast.ncbi.nlm.nih.gov/blast/Blast.cgi)
+![fig 1](~lab12/images/tutorial_ex_1)
+
+2. Navigate to the "Taxonomy" tab on BLAST to see a nested list. Click on a taxon of your choice - here we will click on the closest related RdRp: Rosellinia necatrix partitivirus 26. 
+![fig 2](~lab12/images/tutorial_ex_2)
+![fig 3](~lab12/images/tutorial_ex_3)
+3. You are now at the taxon page of this RdRp. From here, you have access to its Entrez Record as well as other dataset links. You can also access related phylogenies via the right hand menu. 
+![fig 4](~lab12/images/tutorial_ex_4)
+4. It is interesting to note that this is a dsRNA, similar to the other hits with >70% sequence identity. This similarity may indicate that this is a dsRNA virus as well. What else can you learn from these related sequences?
+
+### Tutorial 1.2 (VIRUS) - Accessing Virus phylogeny information from NCBI Taxonomy browser
+1. You can also search information directly on the browser about the parent taxon of interest. For example, search for "partitivirus" (you can obtain this type of information with the top match from serratus.io)
+![fig 9](~lab12/images/tutorial_ex_9)
+
+2. The taxon page will include the taxonomy ID, and more importantly, links to known data about it and quantifications of each. Here let's navigate to the mRNA sequences known. This can help us identify shared elements with our virus mRNA using alignments. 
+![fig 10](~lab12/images/tutorial_ex_10)
+![fig 11](~lab12/images/tutorial_ex_11)
+3. You can also explore the known protein structures. You can compare known elements of the 3D structure of type of virus to compare an alphafold structure. This is also helpful to identify shared elements of the structure. 
+![fig 12](~lab12/images/tutorial_ex_12)
+
+### Tutorial 2 (HOST) - Accessing Host phylogeny information from NCBI Taxonomy browser
+1. Let's explore the related species of a host species - Amanita pantherina as an example. Input this into the search box of the browser.
+![fig 8](~lab12/images/tutorial_ex_8)
+
+2. We can navigate to the taxon's page to find more information. For example, it might be helpful to explore known mRNA sequencing that was done to use that sequence for alignments or weblogos. It is interesting how the study in which this was sequenced was also related to mineral absorption in the host - this is the same as the paper in which the virus was found. What can we do with this information?  
+![fig 5](~lab12/images/tutorial_ex_5)
+![fig 6](~lab12/images/tutorial_ex_6)
+![fig 7](~lab12/images/tutorial_ex_7)
+3. Another example is to compare known protein sequences, which are shown as search results in another NCBI browser. This can be interesting to compare amino acid sequences and 3D structure predictions. 
+
+### Interpreting results
+For NCBI Taxonomy, “confidence” usually refers to how strongly a sequence matches a taxonomic group. Tools that output taxonomy (like BLAST) calculate this using things like alignment score, % identity, E-value, or how many k-mers support that taxon. Higher identity / lower E-value = higher confidence in the assigned rank.
+Here are some benchmarks: 
+- Species-level match: usually >97–99% identity or very low E-value (<1e-5)
+- Genus-level: ~90–95% identity
+0 Family/order: lower identity still acceptable
+If confidence falls too low, the assignment is usually moved up to a broader rank.
+You can plot confidence values (e.g., % identity, E-value, score) in a figure to show how strong each taxonomic assignment is, where you would include information about the databse version, what metric used and the threshold for a taxon call. 
+
+
+### Conclusion
+
+That's it! You've used the NCBI Taxonomy Database to find the phylogenetic lineage of your virus! Now you are able to navigate this resource and find all the related organisms that have molecular data in the NCBI databases - and you can use different query terms - how cool! It is especially usefull to navigate to other databases - the options are endless!
+
+### See Also:
+
+- [The NCBI Taxonomy database] https://doi.org/10.1093/nar/gkr1178
+- [NCBI Taxonomy: a comprehensive update on curation, resources and tools](https://doi.org/10.1093/database/baaa062)
