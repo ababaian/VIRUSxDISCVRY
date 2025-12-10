@@ -1,5 +1,8 @@
 # {Video Presentation Title / Report Title}
 { --- Delete braced comments prior to submission --- }
+{ Include a copy of this file in VIRUSxDSCVRY repo
+as `/virus/vid/<virus_name>_desc.md`}
+
 
 ### Video Thumbnail
 {Include a thumbnail for your video in your `img/<virusname>` folder.}
