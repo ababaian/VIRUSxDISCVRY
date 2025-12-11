@@ -42,19 +42,19 @@ Now you will see the results as a graph! On the x axis is the amino acid positio
 
 ### 5. Interpretating Results
 
-IUPred measures the confidence of a disordered region by estimating the energy of a residue in an amino acid sequence using the following formula:
+IUPred measures the confidence of a disordered region by estimating the energy of a residue in an amino acid sequence using the following formula [Mészáros et al., 2018]:
 
 $e_i^k = \sum_{j=1}^{20} P_{ij} \cdot c_j^k$
 
-Where $e_i^k$ is the estimated energy of the residue at position $k$ of amino acid type, $i$ $P_{ij}$ is the $(i,j)$-th element of the $20 \times 20$ energy predictor matrix, $c_j^k$ is the $j$-th element of the amino acid composition vector, representing the ratio of amino acid type $j$ in the sequence neighborhood of position $k$. The energies are smoothed with a window size and then transformed into a score between 0 and 1, which can be interpreted as quasi-probabilities of a given residue being disordered. Residues with favorable (low) energies are predicted as ordered; residues with unfavorable (high) energies are predicted as disordered. The common/accepted thresholds for "true positive" or "significance" outputs is 59.6% when using 5% false positive rates and 68.72% when using 10% false positive rates.
+Where $e_i^k$ is the estimated energy of the residue at position $k$ of amino acid type, $i$ $P_{ij}$ is the $(i,j)$-th element of the $20 \times 20$ energy predictor matrix, $c_j^k$ is the $j$-th element of the amino acid composition vector, representing the ratio of amino acid type $j$ in the sequence neighborhood of position $k$. The energies are smoothed with a window size and then transformed into a score between 0 and 1, which can be interpreted as quasi-probabilities of a given residue being disordered. Residues with favorable (low) energies are predicted as ordered; residues with unfavorable (high) energies are predicted as disordered. The common/accepted thresholds for "true positive" or "significance" outputs is 59.6% when using 5% false positive rates and 68.72% when using 10% false positive rates [Mészáros et al., 2018].
 
-Another result that is found when using IUPred2 is the ANCHOR2 line, which measures the confidence for the identification of disordered binding sites. Similarly, it also measures the energy of a residue in an amino acid sequence, but it also includes estimates for the energy associated with an interaction with a globular protein and with the local disordered sequence environment. These additional estimates are added onto the following formula:
+Another result that is found when using IUPred2 is the ANCHOR2 line, which measures the confidence for the identification of disordered binding sites. Similarly, it also measures the energy of a residue in an amino acid sequence, but it also includes estimates for the energy associated with an interaction with a globular protein and with the local disordered sequence environment [Mészáros et al., 2018]. These additional estimates are added onto the following formula:
 
 $S_k =(E_{gain,k}(w_1) - E_{gain,0})(I_k(w_2)-I_0)$
 
 The common/accepted thresholds for "true positive" or "significance" outputs is 64% when using a false positive rate of 5%
 
-The output can be used in the creation of a "Figure" as a line graph that shows the disorder/binding propensity along the protein sequence. For a reproducible analysis, it is necessary to document the tool version, prediction type, protein sequence (identifier or sequence), threshold values, and any additional changes made to the analysis in the legend. An example of this can be seen in the previous section.
+The output can be used in the creation of a "Figure" as a line graph that shows the disorder/binding propensity along the protein sequence. For a reproducible analysis, it is necessary to document the tool version, prediction type, protein sequence (identifier or sequence), threshold values, and any additional changes made to the analysis in the legend. An example of this can be seen in the previous section [Mészáros et al., 2018].
 
 # Conclusion
 
