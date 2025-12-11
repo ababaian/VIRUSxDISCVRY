@@ -12,7 +12,7 @@ marker of consumption rather than disease.
 
 ## Abstract
 
-{Characterizing vertebrate viromes is essential for pathogen surveillance, though 
+Characterizing vertebrate viromes is essential for pathogen surveillance, though 
 it is frequently complicated by the ambiguity between genuine infection and 
 environmental contamination. Leveraging the exponential growth of public databases, 
 computational approaches now facilitate the high-throughput discovery of viral 
@@ -28,7 +28,7 @@ for using structural biology to resolve ecological ambiguity in metagenomic data
 More broadly, Qinghai voles are a dominant keystone species on the Tibetan Plateau; 
 studying their virome can not only contribute to deeper insights into their 
 ecology but also demonstrate non-invasive methods for monitoring viral diversity 
-in fragile ecosystems.}
+in fragile ecosystems.
 
 ## Results
 
