@@ -2,7 +2,7 @@
 
 written by: Anzar Alvi
 
-[YouTube/Video Link to your presentation video](https://videolink.goes.here)
+[YouTube video coming soon! Link will be posted here]
 
 ### *Fraterculapartitivirus comitans*
 
@@ -34,33 +34,35 @@ Here we show that a divergent RNA-dependent RNA polymerase (RdRp), sotu u979394,
 
 ### Digital Ecology
 
-#### **2.1 Host association and dataset context**
+#### **Host association and dataset context**
 
-To investigate the ecological context of this virus, I began by loading *virusRunObservations.csv* into R and filtering the table to sotu u979394 using the provided identifier. Using base R, I counted the number of unique SRA runs, BioProjects, and BioSamples, tabulated *scientific_name* to summarize host annotations, and inspected *node_coverage* as a run-level proxy for viral abundance. This workflow was recorded in an R script (2.1_code.R) to ensure reproducibility.
+**The section below was edited using ChatGPT 5.1 (2025-12-11) [OpenAI, 2025]. The writing was synthesized by myself from notes from the original final project assignment.**
 
-Across all datasets, u979394 was detected in 51 SRA runs, corresponding to 51 BioSamples and 9 distinct BioProjects. Host annotations were heavily skewed toward Neotropical tephritid fruit flies. Of the 51 runs, *Anastrepha fraterculus* accounted for 29 detections, *Anastrepha obliqua* for 15, *Anastrepha turpiniae* for 2, and *Anastrepha distincta* for 1. Two runs were annotated as “insect metagenome,” and two additional detections appeared in non-tephritid hosts (*Apatura laverna* and *Cenostigma pyramidale* root transcriptome). The highest viral contig coverage (node_coverage = 151) occurred in the *A. fraterculus* run SRR7666026, with other *Anastrepha* datasets showing moderate coverage and non-*Anastrepha* detections displaying much lower coverage.
+To investigate the ecological context of this virus, I began by loading *virusRunObservations.csv* into R and filtering the table to sotu u979394 using the provided identifier [R Core Team, 2021]. Using base R, I counted the number of unique SRA runs, BioProjects, and BioSamples, tabulated *scientific_name* to summarize host annotations, and inspected *node_coverage* as a run-level proxy for viral abundance. This workflow was recorded in an R script (2.1_code.R) to ensure reproducibility.
 
-These observations span nine BioProjects, including the index project PRJNA485419, several transcriptomic studies of *A. fraterculus* and *A. obliqua*, reproductive and head transcriptomes, microbiome-associated datasets, and even plant-associated root transcriptomes. Together, they originate from multiple South American institutions, USDA-ARS, and international research groups.
+Across all datasets, u979394 was detected in 51 SRA runs, corresponding to 51 BioSamples and 9 distinct BioProjects [Sayers et al., 2024]. Host annotations were heavily skewed toward Neotropical tephritid fruit flies. Of the 51 runs, *Anastrepha fraterculus* accounted for 29 detections, *Anastrepha obliqua* for 15, *Anastrepha turpiniae* for 2, and *Anastrepha distincta* for 1. Two runs were annotated as “insect metagenome,” and two additional detections appeared in non-tephritid hosts (*Apatura laverna* and *Cenostigma pyramidale* root transcriptome). The highest viral contig coverage (node_coverage = 151) occurred in the *A. fraterculus* run SRR7666026, with other *Anastrepha* datasets showing moderate coverage and non-*Anastrepha* detections displaying much lower coverage.
 
-Overall, the consistent detection of u979394 across multiple labs, years, and independently generated transcriptomes, especially within *A. fraterculus*, suggests that it is not the result of contamination. Instead, its recurrence in healthy flies implies that it represents a persistent background component of the host’s molecular environment rather than a virus causing overt disease, consistent with typical partitivirus behavior.
+These observations span nine BioProjects, including the index project PRJNA485419, several transcriptomic studies of *A. fraterculus* and *A. obliqua*, reproductive and head transcriptomes, microbiome-associated datasets, and even plant-associated root transcriptomes [Scannapieco et al., 2020; Congrains et al., 2021]. Together, they originate from multiple South American institutions, USDA-ARS, and international research groups.
 
-#### **2.2 Index case: SRR7666026 as a representative ecological snapshot**
+Overall, the consistent detection of u979394 across multiple labs, years, and independently generated transcriptomes, especially within *A. fraterculus*, suggests that it is not the result of contamination [Sayers et al., 2024; Edgar et al., 2022]. Instead, its recurrence in healthy flies implies that it represents a persistent background component of the host’s molecular environment rather than a virus causing overt disease, consistent with typical partitivirus behavior [Nibert et al., 2014; Cross et al., 2020].
 
-Using *virusAssignments.csv*, I identified my assigned virus as sotu u979394, nicknamed *tutorialProbable*, with index run SRR7666026, annotated as *Anastrepha fraterculus* (BioSample SAMN09789507; BioProject PRJNA485419). I inspected the Serratus entry for SRR7666026 to view its viral contigs and microassembly, downloaded the corresponding `.rdrp` file, and examined node 6, the contig containing the u979394 palmprint. Node 6 exhibited the highest reported node coverage (151) among all positive runs.
+#### **Index case: SRR7666026 as a representative ecological snapshot**
 
-To contextualize the dataset, I retrieved metadata from the SRA and BioProject pages. SRR7666026 is an RNA-seq dataset from *A. fraterculus* sp. 1, produced using an Illumina HiSeq 2500 with a transcriptomic, randomly primed, paired-end library strategy—meaning no viral enrichment was performed. Despite this, the dataset yielded a well-covered RdRp contig (node 6), reinforcing that the viral RNA is present at biologically meaningful levels.
+Using *virusAssignments.csv*, I identified my assigned virus as sotu u979394, nicknamed *tutorialProbable*, with index run SRR7666026, annotated as *Anastrepha fraterculus* (BioSample SAMN09789507; BioProject PRJNA485419). I inspected the Serratus entry for SRR7666026 to view its viral contigs and microassembly, downloaded the corresponding `.rdrp` file, and examined node 6, the contig containing the u979394 palmprint. Node 6 exhibited the highest reported node coverage (151) among all positive runs [Sayers et al., 2024].
+
+To contextualize the dataset, I retrieved metadata from the SRA and BioProject pages. SRR7666026 is an RNA-seq dataset from *A. fraterculus* sp. 1, produced using an Illumina HiSeq 2500 with a transcriptomic, randomly primed, paired-end library strategy, meaning no viral enrichment was performed. Despite this, the dataset yielded a well-covered RdRp contig (node 6), reinforcing that the viral RNA is present at biologically meaningful levels.
 
 Using ORF Finder, I translated node 6 into a partial RdRp sequence that encapsulated the provided palmprint. The full nucleotide sequence and translated amino-acid fragment are shown above.
 
-Altogether, the presence of a well-covered RdRp contig in a random-primed host transcriptome suggests that the virus is either replicating or maintained at detectable RNA levels in *A. fraterculus*. The associated study [Scannapieco et al., 2020] reports typical developmental and reproductive phenotypes for the host species, supporting the interpretation that u979394 represents a persistent, low-pathogenicity infection rather than an overtly harmful virus.
+Altogether, the presence of a well-covered RdRp contig in a random-primed host transcriptome suggests that the virus is either replicating or maintained at detectable RNA levels in *A. fraterculus* [Edgar et al., 2022]. The associated study [Scannapieco et al., 2020] reports typical developmental and reproductive phenotypes for the host species, supporting the interpretation that u979394 represents a persistent, low-pathogenicity infection rather than an overtly harmful virus [Nibert et al., 2014; Cross et al., 2020].
 
-#### **2.3 Broader digital ecology and unexpected detections**
+#### **Broader digital ecology and unexpected detections**
 
 Expanding beyond the index case, I used the same R script to group u979394-positive runs by *scientific_name* and *bio_project*. Most detections originated from *Anastrepha* fruit flies collected across South American or Neotropical settings, sequenced by multiple Brazilian laboratories and other regional groups. However, several low-coverage detections appeared in unexpected contexts, including a plant root transcriptome (PRJNA552047), a butterfly mitochondrial genome dataset (PRJNA732951), and two “insect metagenome” libraries associated with *A. obliqua* larvae microbiomes (PRJNA845910).
 
 These non-canonical detections exhibited lower node_coverage values and likely reflect incidental occurrences, such as insect contamination in plant samples, dietary or microbial RNA, low-level index hopping, or weak spillover into ecologically related arthropods. Rather than undermining host specificity, these anomalies highlight the complexities of interpreting meta-transcriptomic datasets. Inference of host association is therefore best grounded in recurrent, high-coverage detections such as those found in *Anastrepha*.
 
-#### **2.4 Hypothesis emerging from digital ecology**
+#### **Hypothesis emerging from digital ecology**
 
 Integrating the observations from sections 2.1–2.3, u979394 is frequently and repeatedly detected in *Anastrepha* transcriptomes, especially in *A. fraterculus*, a major quarantine pest. It occurs at low-to-moderate coverage in host-focused RNA-seq libraries and displays sequence features consistent with the RdRp segment of the family Partitiviridae, which is known for persistent, asymptomatic infections.
 
