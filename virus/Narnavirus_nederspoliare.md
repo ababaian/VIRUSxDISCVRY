@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # The Unsuspecting Viral Sensation: Narnavirus nederspoliare isolated in the Blue Cheese Mold from the Netherlands
 
 written by: [Merrilyn Chen](https://github.com/merrilynchen)
