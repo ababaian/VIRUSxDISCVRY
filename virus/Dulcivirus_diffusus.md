@@ -37,10 +37,10 @@ Unfortunately, all associated datasets have poor coverage of reads mapping to th
 ### Hypothesis: Association, not transmission, via fungal hosts
 An initial BLASTp search [6] on the RdRp palm signature of _D. Diffusus_ identified ~80 alignments, mainly with other RdRps of narna-like or narnaviruses with ~50-60% identity and extremely low e-values (Figure 2), suggesting that _D. Diffusus_ may also fall into this Narnaviridae family of positive-strand RNA viruses [7]. Interestingly, they are all fungal narnaviruses, many of them infecting plants: the fungal _Aspergillus creber narnavirus_, narnaviruses found in moss and grapevine, powdery mildew, and more. A glimpse of the Blast Tree (Figure 3) shows that this particular signature is closest to RdRp signatures of fungal narnaviruses infecting leaves. Note that this is not a phylogenetic tree derived from MSA, and I will be generating one once retrieving a more complete sequence below to conduct analysis with higher confidence. The ecological niche of these aligned narnaviruses do not align with the human host (index case) or various animals. 
 
-![Fig2](final_data/Fig2.png)
+![Fig2](img/D_diffusus/Fig2.png)
 **Figure 2. BLASTp searches on D. diffusus palm signature.** The palm signature was queried to search for alignments with other sequences. The top hits are fingal-associated narnaviruses.
 
-![Fig3](final_data/Fig3.png)
+![Fig3](img/D_diffusus/Fig3.png)
 **Figure 3. BLASTp tree view.** Sequences belonging to viral proteins were aligned to the _D. diffusus_ palm signature and the alignment lineages were mapped on BLASTp. MSA was not conducted for this analysis (see Figure 4). 
 
 Putting all of this information together, **I hypothesize that _D. Diffusus_ is a fungal-associated narnavirus that persists across species belonging to other kingdoms via environmental deposition, and not by direct transmission or infection**. A secondary hypothesis would be that _D. Diffusus_ is therefore not a pathogenic agent in animals (consistent with its low coverage across datasets) but only indirectly to plants as they can be infected with such fungal diseases. 
@@ -51,7 +51,7 @@ Using Serratus.io, I investigated which other virus families are detected across
 ### 4. BLASTp homology searches & phylogenetic analysis attempt
 Using the partially-recovered RdRp (see Q3 for assembly), I searched BLASTp as previously described to see whether the aligned sequences still majorly reflected RdRp's of plant-infecting fungal narnaviruses. Interestingly, there were many more hits for narnaviruses with plant hosts, such as the Rubus leaf-associated narnavirus, and more instances of narnaviruses associated with plasmopara, a non-fungal plant pathogen (Table 2). This builds some support towards the host of _D. Diffusus_ being plants and thus directly infecting them, rather than by associated means via a fungal host as I hypothesized.  
 
-![table2](final_data/Table2.png)
+![table2](img/D_diffusus/Table2.png)
 **Table 2. Top 10 BLASTp hits for resolved D. diffusus RdRp.** A BLASTp search using the recovered RdRp shows viral matches, the host infected, and % identities for the first ten hits. Most are plant-associated fungal narnaviruses or plant infecting narnaviruses.
 
 To investigate this further, I attempted to generate a phylogenetic tree using the IQ-TREE tutorial on the repository and supplemented with R code after downloading the tree file. To do this, I acquired Multiple Sequence Alignments (MSAs) of not only the hit sequences but also non-fungal associated narnaviruses to see where _D. Diffusus_ clusters. First, I downloaded the Hit Table CSV file from my BLASTp search, which contains each protein's NCBI accession code. After compiling the codes into a .txt file, I retrieved FASTA fies containing entire sequences using NCBI's Batch Entrez Protein Database tool [1]. I separately retrieved FASTA files for RdRps of other narnaviruses directly via NCBI by searching up the virus name (e.g., Saccharomyces 20S narnavirus). I ran all FASTA files into Clustal Omega [8] to generate MSAs, which I finally analyzed via IQ-TREE.  
@@ -193,7 +193,7 @@ plot(phy, cex=0.7)
 
 Unexpectedly, the _D. Diffusus_ branch had the longest arm and did not split from any nodes or cluster with any other narnaviruses (Figure 4). This would mean that _D. Diffusus_ is either highly divergent or belongs to another virus family, as the query viruses were all narna-like or narnaviruses. High divergence of _D. Diffusus_ seemed unlikely to be the case, as searching on the obtained full RdRp sequence of _Aspergillus creber narnavirus_ on BLASTp yielded alignments with plant or fungal narnaviruses with identities ranging from 40-60% for the top 30 hits, which is in line with the percent identities shared between the _D. Diffusus_ RdRp and other narnavirus RdRps. Unfortunately, this most likely occurred due to comparing the full RdRp sequences of query viruses to only the partially obtained RdRp. Had I been able to recover its entire RdRp, this method would have yielded more insight into the ecological niche and host of _D. Diffusus_. Thus, I am limited to the tree outputted by BLAST, which still shows that the RdRp fragment clusters with fungal narnaviruses infecting plant leaves.
 
-![fig4](final_data/Fig4.png)
+![fig4](img/D_diffusus/Fig4.png)
 **Figure 4. Phylogenetic tree analysis of *D. Diffusus* RdRp.** The top figure depicts the entire phylogeny of all aligned sequences, which include the 84 hits and 5 queried sequences of other non-fungal narnaviruses to assess for phylogenetic clustering. The bottom figure is a zoomed-in depiction of the top left corner, showing the single branching of _D. diffusus_. The two main clusters on the left and right are plant/plasmopara associated narnaviruses and fungus associated narnaviruses respectively. FASTA files were obtained via BLAST and NCBI Batch Entrez, MSAs mapped on ClustalOmega, and trees generated via IQ-TREE with supplemented R code above.
 
 ## 1. Attempting to retrieve full RdRp contig through tBLASTn & other methods
@@ -202,12 +202,12 @@ Several issues emerged from the genome assembly process. Upon using the Viral tB
 ## 2. Using MEGAHIT & DIAMOND to assemble longer contigs across datasets
 To assemble longer RdRp contigs for analysis with tBLASTn, I used MEGAHIT [9], a de novo assembler, and DIAMOND [10], a protein to DNA sequence aligner. As the assemblies required over 5-10GB of disk storage, which my computer did not have, I used a Google colab notebook to run both programs. Both notebooks are written in Python and thus generated with the help of a generative large language model (ChatGPT 5.1, 2025-12-11). The .ipynb notebooks are within the final_data folder. Below are their R versions.
 
-- [MEGAHIT](final_data/MEGAHIT.Rmd)
-- [DIAMOND](final_data/DIAMOND.Rmd)
+- [MEGAHIT](img/D_diffusus/MEGAHIT.Rmd)
+- [DIAMOND](img/D_diffusus/DIAMOND.Rmd)
 
 From MEGAHIT, I recovered a single 752 nt long viral contig that indeed mapped to the entire RdRp palm signature and extended the sequence by 173 AA. All contigs from which this contig was derived originated in the index case and PRJNA706851 FASTA files. Using ORFfinder [11], I found one reading frame of its reverse transcribed sequence, validating that the genomic sequence is indeed RNA. I initially assumed that this was indeed the full _D. diffusus_ RdRp. InterPro also identified a single RNA polymerase domain. However, the contig seemed largely inconsistent with the fact that narnaviruses generally have ~800-1000 AA long RdRps (ranging ~2.2-3.2kb) [12]. I then investigated the exact alignments on BLASTp:
 
-![fig5](final_data/Fig5.png)
+![fig5](img/D_diffusus/Fig5.png)
 **Figure 5. Representative alignment of D. diffusus and A. creber narnavirus 1 RdRps.** All 80 hits showed the _D. diffusus_ RdRp to align with the C terminal regions of the viral sequences, suggesting that the N-terminal region of the _D. diffusus_ RdRp is unresolved.
 
 Strikingly, the _D. diffusus_ RdRp aligned to the C terminal regions of all 80+ narnavirus RdRps (Figure 6). The _D. diffusus_ RdRp's first residue tends to align to other RdRps' ~450-470th residues. If the RdRp is missing ~460AA or 1380 bases, this would be more consistent with the general length of narnavirus RdRps. This also supports against the possibility of high divergence of _D. diffusus_ from narnaviruses, as the alignments are all localized to the C terminal regions and not with dispersed mismatches throughout (or smaller chunks of aligned sequences throughout). Furthhermore, the amino acid sequence of the _D. diffusus_ RdRp identified the GDD motif, or Motif C, but not Motifs A or B upstream, indicating that the N terminus is indeed missing. Using DIAMOND, I was able to obtain two more contigs, one mapping upstream and adding 60 nt, and 7 nt downstream of the STOP codon, presumably being the short 3' UTR characteristic of narnaviruses. Beyond this sequence, however, I was unable to find any more contigs overlapping to the recovered sequence, despite using less stringent parameters (e.g., setting minimum contig length to 20 instead of the default 200 in MEGAHIT, and more-sensitive mode in DIAMOND). I then downloaded the RdRp microassembly files for each SRA run and ran the programs to see if any matches were identifiable with the most upstream sequences, but this strategy did not yield further contigs. This strongly suggests that the RdRp N terminal region is not detectable within these 13 runs, as consistent with the low coverage of 1-10.
@@ -226,7 +226,7 @@ A K25R Single Nucleotide Variant (SNV) was detected from the recovered RdRp and 
 
 Thus, I have generated my genome with the inclusion of a missing upstream region of 1380 nt, and the resolved 821 nt fragment will be mapping from 1381-2196 nt (or 461-733 AA), considering the 7nt 3' UTR. I will arbitrarily assign the 5' UTR length to be 10 nt, given that the well-characterized 20S Narnavirus in Saccharomyces cerevisiae has 12 nt UTRs [13]. I also be generated a linear genome structure, consistent with the linear genomes of Narnaviruses [13]:
 
-![fig6](final_data/Fig6.png)
+![fig6](img/D_diffusus/Fig6.png)
 **Figure 6. Structure of the incomplete _Dulcivirus diffusus_ genome.** ORF/RdRp and 5' UTR lengths were assigned by literature observances, and the partially resolved RdRp structure is indicated above the ORF arrow. _Dulcivirus diffusus_ has a linear, positive-strand RNA genome, as with all narnaviruses. Contigs from 9 BioProjects containing the RdRp signature were merged into one FASTA file and assembled de novo into larger contigs using MEGAHIT (see tutorial linked above). The largest contig (752 nt) was recovered from three smaller contigs from the BioProject PRJNA706851 dataset.Further sequences upstream and downstream were resolved using DIAMOND (see tutorial linked above). The sequences were collated, reverse transcribed to get the positive strand RNA sequence, and translated into an AA sequence using ScanProsite. ORFfinder was used to find ORFs, but the missing N-terminal region makes this analysis limited. 
 
 <details>
@@ -363,13 +363,13 @@ dd #plot!
 ```
 </details>
 
-![fig7](final_data/Fig7.png)
+![fig7](img/D_diffusus/Fig7.png)
 **Figure 7. RNA secondary structure of _Dulcivirus diffusus_ RdRp.** RNAfold [14] was used to generate the secondary structures of the _Dulcivirus diffusus_ RdRp. 
 
-![fig8](final_data/Fig8.png)
+![fig8](img/D_diffusus/Fig8.png)
 **Figure 8. Predicted 3D structure of the _Dulcivirus diffusus_ RdRp via AlphaFold [15]**. Minimum Free Energy (MFE, left) and most probable centroid (right) structures are depicted.
 
-![fig9](final_data/Fig9.png)
+![fig9](img/D_diffusus/Fig9.png)
 **Figure 9. Predicted 3D structure of the _Dulcivirus diffusus_ RdRp via PyMol [16]**. The only recovered GDD motif, Motif C, is highlighted in red for residues 92-94.
 
 ##Baking a Christmas pudding with the viral genome
