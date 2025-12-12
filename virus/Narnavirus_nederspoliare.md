@@ -10,9 +10,6 @@ neder: Part of Netherlands in Dutch, since the virus originated from the Netherl
 spoliare: Latin for spoil, since the virus is associated with rotting/spoiled food
 ```
 
-[Optional: Tutorial 2 Generative AI
-Cover-art](img/%3Cvirusname%3E/cover.png)
-
 ## Abstract
 
 ```         
