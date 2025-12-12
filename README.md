@@ -76,6 +76,12 @@ An index of the software tutorial.
 ## Cool Virus Projects
 - [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br))
 
+## 2025 Virus Index
+
+An index of the Virus Discovery Reports.
+
+- [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
+
 ## 2024 Obelisk Index
 
 An index of the Obelisk Discovery Reports.
