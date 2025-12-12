@@ -507,37 +507,7 @@ The evidence towards _Dulci diffusus_ being a narna-like or narnavirus infecting
 
 15. Abramson, J., Adler, J., Dunger, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024). https://doi.org/10.1038/s41586-024-07487-w
 
-16. 1.Rosignoli, S. & Paiardini, A. Boosting the full potential of PyMOL with Structural Biology plugins. Biomolecules 12, 1764 (2022). 1. National Library of Medicine. National Center for Biotechnology Information. https://www.ncbi.nlm.nih.gov/ 
-
-2. Babaian, A., & Edgar, R. C. (2022). Ribovirus classification by a polymerase barcode sequence. PeerJ, 10, e14055. https://doi.org/10.7717/peerj.14055
-
-3. Zhang, Y., Qiu, K., Ren, J. et al. Roles of human papillomavirus in cancers: oncogenic mechanisms and clinical use. Sig Transduct Target Ther 10, 44 (2025). https://doi.org/10.1038/s41392-024-02083-w
-
-4. Wang, CY., Liu, SR., Zhang, XY. et al. Genome-wide screening and characterization of long non-coding RNAs involved in flowering development of trifoliate orange (Poncirus trifoliata L. Raf.). Sci Rep 7, 43226 (2017). https://doi.org/10.1038/srep43226
-
-5. McBride, A.A. Human papillomaviruses: diversity, infection and host interactions. Nat Rev Microbiol 20, 95–108 (2022). https://doi.org/10.1038/s41579-021-00617-5
-
-6. Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. Basic local alignment search tool. J Mol Biol, 215(3), 403–410 (1990). https://doi.org/10.1016/S0022-2836(05)80360-2
-
-7. DeRisi, J.L., Huber, G., Kistler, A. et al. An exploration of ambigrammatic sequences in narnaviruses. Sci Rep 9, 17982 (2019). https://doi.org/10.1038/s41598-019-54181-3
-
-8. Sievers, F. et al. Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega. Mol. Syst. Biol. 7, 539 (2011). https://doi.org/10.1038/msb.2011.75
-
-9. Li, D., Liu, C.-M., Luo, R., Sadakane, K. & Lam, T.-W. MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinformatics 31, 1674–1676 (2015). https://doi.org/10.1093/bioinformatics/btv033
-
-10. Buchfink, B., Xie, C. & Huson, D. H. Fast and sensitive protein alignment using DIAMOND. Nat. Methods 12, 59–60 (2015). https://doi.org/10.1038/nmeth.3176
-
-11. Rombel, I. T., Sykes, K. F., Rayner, S. & Johnston, S. A. ORF-FINDER: a vector for high-throughput gene identification. Gene 282, 33–41 (2002). https://doi.org/10.1016/S0378-1119(01)00819-8
-
-12. Olendraite, I., Brown, K. & Firth, A. E. Identification of RNA virus–derived RdRp sequences in publicly available transcriptomic data sets. Mol. Biol. Evol. 40, msad060 (2023). https://doi.org/10.1093/molbev/msad060
-
-13. Fujimura, T. & Esteban, R. Interactions of the RNA polymerase with the viral genome at the 5′- and 3′-ends contribute to 20s RNA narnavirus persistence in yeast. Journal of Biological Chemistry 282, 19011–19019 (2007). 
-
-14. Lorenz, R. et al. ViennaRNA Package 2.0. Algorithms Mol. Biol. 6, 26 (2011). https://doi.org/10.1186/1748-7188-6-26
-
-15. Abramson, J., Adler, J., Dunger, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024). https://doi.org/10.1038/s41586-024-07487-w
-
-16. 1.Rosignoli, S. & Paiardini, A. Boosting the full potential of PyMOL with Structural Biology plugins. Biomolecules 12, 1764 (2022). 
+16. Rosignoli, S. & Paiardini, A. Boosting the full potential of PyMOL with Structural Biology plugins. Biomolecules 12, 1764 (2022). 1. National Library of Medicine. National Center for Biotechnology Information. https://www.ncbi.nlm.nih.gov/ 
 
 # Viral Short Story
 
