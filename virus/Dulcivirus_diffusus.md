@@ -512,13 +512,13 @@ The evidence towards _Dulci diffusus_ being a narna-like or narnavirus infecting
 # Viral Short Story
 
 ```
-Step right up, ladies and gents, and behold the marvel of the new scientific age! Introducing the **newly found virus**, discovered by our brightest laboratory minds in gleaming chrome facilities where the future is born!
+Step right up, ladies and gents, and behold the marvel of the new scientific age! Introducing the newly found narnavirus, discovered by our brightest laboratory minds in gleaming chrome facilities where the future is born!
 
-This astonishing microscopic wonder has already demonstrated its versatility by **infecting a variety of woody botanical beauties, including strawberries, trifoliate oranges, and even the humble melon**. Why, it seems there’s no orchard too robust, no vine too sturdy for its ambitions!
+This astonishing microscopic wonder has already demonstrated its versatility by residing in a variety of woody botanical beauties, including strawberries, trifoliate oranges, and even the humble melon. Why, it seems there’s no orchard too robust, no vine too sturdy for its ambitions!
 
-But hold on to your hats, space-age citizens, because our research reveals a twist fit for the atomic era: **it also is present in the busy bodies of western honey bees!** That’s right! Your friendly neighborhood pollinators now have a microscopic hitchhiker along for the ride. Imagine the possibilities for tomorrow’s agriculture… (and the concerns)!
+But hold on to your hats, space-age citizens, because our research reveals a twist fit for the atomic era: it also is present in the busy bodies of western honey bees! That’s right! Your friendly neighborhood pollinators now have a microscopic hitchhiker along for the ride. Imagine the possibilities for tomorrow’s agriculture… (and the concerns)!
 
-Our scientists report that this bold new organism is no ordinary germ. No, sir! It’s a **double-stranded RNA virus**, the sort seen only in the most curious corners of nature. And what company does it keep? None other than **its distant viral cousins—Totivirus, Narnavirus, and members of the Botourmiaviridae, infamous for infecting fungi, plants, and protists**. With such a family tree, you might ask: “How could this infect humans?!” Well, friends, that’s a question for the future, and the future is coming fast.
+Our scientists report that this bold new organism is no ordinary germ. No, sir! It’s a positive-stranded RNA virus, the sort seen only in the most curious corners of nature. And what company does it keep? None other than its distant viral cousins—Totivirus, Mitovirus, and members of the Botourmiaviridae, infamous for infecting fungi, plants, and protists. With such a family tree, you might ask: “How could this infect humans?!” Well, friends, that’s a question for the future, and the future is coming fast.
 
 And in a final twist worthy of tomorrow’s headlines, early rumblings in the scientific community whisper that this cosmic curiosity **could be linked to cervical cancer**. But don’t fret yet! Tune in next week as our brave researchers peer further into the glittering unknown.
 
