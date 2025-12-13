@@ -1,0 +1,124 @@
+---
+title: An R Markdown document converted from "~/Desktop/MEGAHIT.ipynb"
+output: html_document
+---
+
+```{python}
+#First, install all necessary packages:
+!apt-get update
+!apt-get install -y megahit ncbi-blast+ seqtk emboss mafft
+```
+
+```{python}
+#Import compressed (zip) version of files, orelse it takes way too long; upload your highest coverage SRR
+from google.colab import files
+uploaded = files.upload()
+```
+
+```{python}
+!unzip all_contigs.fa.zip #unzip my all_contigs file
+```
+
+```{python}
+!ls -lh #check to see that our unzipped file exists
+```
+
+```{python}
+#Run MEGAHIT assembly for contigs
+!mkdir -p /content/megahit_tmp  #temporary directory
+
+!megahit -r all_contigs.fa \
+         -o /content/megahit_out \
+         --min-contig-len 25 \
+         --tmp-dir /content/megahit_tmp
+
+#Zip the output folder & download
+!zip -r megahit_out.zip megahit_out
+from google.colab import files
+files.download('megahit_out.zip')
+```
+
+```{python}
+!ls megahit_out #check to see that our final.contigs.fa has been created
+```
+
+```{python}
+#Create a new fasta file for my rdrp palm sequence
+with open("/content/palm.faa", "w") as f:
+    f.write(">rdrp_palm\n")
+    f.write("MMGVPQEDIQMVEFFWLGHKRLFVKGKFVGTMVNGIPMGDPLTKTCMSLAHAIAHLYAVYKVGAFGRNEGNGDDLTL\n")
+```
+
+```{python}
+#Create a nucleotide database from our MEGAHIT contigs to conduct our analysis
+!makeblastdb \
+    -in /content/megahit_out/final.contigs.fa \
+    -dbtype nucl \
+    -out /content/contigs_db
+```
+
+```{python}
+!ls -lh /content/contigs_db* #Check contents
+```
+
+```{python}
+#Finally, tblastn! This can also be done on site, but I am keeping everything in this notebook for ease
+!tblastn -query /content/palm.faa \
+         -db /content/contigs_db \
+         -out /content/tblastn_results.txt \
+         -evalue 1e-5 \
+         -outfmt 6
+```
+
+```{python}
+!head /content/tblastn_results.txt #Check what contigs are hit!
+```
+
+```{python}
+#Open BLAST results to get matching contig IDs
+with open('/content/tblastn_results.txt', 'r') as f:
+  hits = f.readlines()
+  contig_ids = [hit.split()[1] for hit in hits]
+
+#Extract matching sequences only
+with open('/content/megahit_out/final.contigs.fa', 'r') as f:
+  contigs = f.read()
+
+#Finally, put only matching contigs into a new file
+with open('/content/filtered_contigs.fa', 'w') as f:
+    for contig_id in contig_ids:
+        start_index = contigs.find(f">{contig_id}")
+        if start_index != -1:
+            end_index = contigs.find(">", start_index + 1)
+            contig = contigs[start_index:end_index] if end_index != -1 else contigs[start_index:]
+            f.write(contig + "\n")
+```
+
+```{python}
+#Download my rdrp!
+from google.colab import files
+files.download('/content/filtered_contigs.fa')
+```
+
+```{python}
+!head -n 10 /content/filtered_contigs.fa #check first 10 bases
+```
+
+```{python}
+#Next, blasgn to see if any other contigs align to our recovered rdrp contig to extend the genome
+!blastn -query /content/filtered_contigs.fa -db /content/megahit_out/final.contigs.fa -out /content/blastn_results.txt -evalue 1e-5 -outfmt 6
+```
+
+```{python}
+#Extract contigs
+!grep -A 1 ">k141_24308" /content/megahit_out/final.contigs.fa > /content/contig_k141_24308.fa
+!grep -A 1 ">k141_36662" /content/megahit_out/final.contigs.fa > /content/contig_k141_36662.fa
+!grep -A 1 ">k141_40107" /content/megahit_out/final.contigs.fa > /content/contig_k141_40107.fa
+```
+
+```{python}
+#Finally, download. You now have all files needed for rdrp/genome assembly!
+from google.colab import files
+files.download('/content/contig_k141_24308.fa')
+```
+

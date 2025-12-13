@@ -1,0 +1,38 @@
+---
+title: An R Markdown document converted from "~/Desktop/DIAMOND.ipynb"
+output: html_document
+---
+
+```{python}
+#Install DIAMOND
+!apt-get update -y
+!apt-get install -y diamond-aligner
+```
+
+```{python}
+from google.colab import files #import palm sequence as fasta
+uploaded = files.upload()
+```
+
+```{python}
+from google.colab import files #import SRR of interest in zip format
+uploaded = files.upload()
+```
+
+```{python}
+!unzip SRR13091309.contigs.fa.zip #unzip
+```
+
+```{python}
+!ls #check to see if files were uploaded
+```
+
+```{python}
+!diamond makedb --in palm.fasta -d palm_db #make diamond database from palm seq
+```
+
+```{python}
+#run diamond blast; get contigs that have some alignment to palm; download file called "diamond_results"
+!diamond blastx -d palm_db -q SRR13091309.contigs.fa -o diamond_results.tsv -f 6 --more-sensitive
+```
+
