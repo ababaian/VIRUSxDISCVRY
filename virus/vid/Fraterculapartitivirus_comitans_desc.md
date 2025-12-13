@@ -6,7 +6,7 @@
 
 ### Video Description
 
-[***A hidden, harm-free virus quietly thriving inside the South American fruit fly reveals an unseen world where survival unfolds in molecular whispers rather than outbreaks.***]{.underline}
+***A hidden, harm-free virus quietly thriving inside the South American fruit fly reveals an unseen world where survival unfolds in molecular whispers rather than outbreaks.***
 
 *The Quiet Companion: A Hidden Virus of the Fruit Fly* is a short scientific nature documentary exploring the subtle biology of a newly characterized virus quietly accompanying one of South America’s most impactful agricultural pests: the South American fruit fly, *Anastrepha fraterculus*. Rather than focusing on dramatic outbreaks, the film highlights a rarely discussed category of viruses—those that coexist peacefully with their hosts and leave almost no trace of disturbance.
 
