@@ -89,7 +89,7 @@ To distinguish whether the virus primarily infects plant or feed associated fung
 
 However, to provide some preliminary bioinformatic support for either hypothesis I decided to create a phylogenetic tree using MUSCLE to place my virus in an evolutionary context [3]. The figure below also contains some samples from the initial BLAST projects that I found through my BioProjects [1,10]. New Zealand sheep refers to the methane production in sheep study, and China and Germany Cattle also refer to the previously mentioned studies that had my virus present in the rumen of these animals between a 50-60% identity [22,19,27].
 
-![](images/clipboard-2074418752.png)
+![](img/P_rumenrex/clipboard-2074418752.png)
 
 The phylogenetic tree was constructed the RNA-dependent RNA polymerase (RdRp) sequences of well-characterized fungal partitiviruses representing both rumen-associated and plant/soil associated hosts [26,30]. The resulting topology is organized into three biologically coherent clades [18,. The first clade included viruses from Piromyces and Neocallimastix, which are obligate anaerobic fungi that permanently inhabit the rumen [4,31]. The second major clade comprised partitiviruses infecting plant and soil associated fungi such as Penicillium, Mortierella, and Fusarium poae partitivirus 1, reflecting their shared ecological niche outside the rumen and their more canonical Partitiviridae genomic organization [26,33,34].
 
@@ -148,7 +148,7 @@ Understanding this made it crucial to connect the locations ecologically. Unders
 
 Although Hainan, China initially appeared to be a primary site for this virus based on BLAST hits, closer examination of the source study revealed that partitivirus-like sequences were detected across multiple Chinese provinces [2]. This prompted a shift in focus from asking where the virus occurs to why a sequence from Hainan was detected in particular. The figure below contextualizes Hainan within a broader geographic landscape, showing that partitiviruses are not unique to this region but occur across diverse ecological zones [2]. Hainan therefore does not represent an isolated hotspot; rather, its signal likely reflects local ecological features: such as tropical climate, high fungal biomass, or specific sampling contexts that made detection possible in that dataset [2,4,31]. This reframing suggests that the Hainan-associated detection is best interpreted as one instance within a wider, structured distribution of partitiviruses across China, rather than evidence of geographic restriction or origin [2,26].
 
-![](images/clipboard-3025347824.png)
+![](img/P_rumenrex/clipboard-3025347824.png)
 
 How the figure was generated: To evaluate whether partiti–picobirna-like viral fragments showed preferential geographic clustering within China, I consolidated four separate Excel spreadsheets containing the environmental sampling metadata from Chen et al. (2022) [2]. After standardizing province and region names, I created a master dataset in Excel containing the sampling location and the number of viral detections per site [2]. I then used PivotTables to sum the number of samples containing partiti–picobirna-like reads for each geographic region [2]. Finally, I produced a horizontal bar chart showing counts per province, with bar colors representing broader ecological zones (cold/steppe, temperate agricultural, tropical land, or non-specific regions). This visualization allowed me to compare sample frequencies across a wide range of Chinese environments [2].
 
@@ -160,7 +160,7 @@ As China’s only fully tropical province, Hainan supports fungal communities th
 
 This next figure is about sample site rather than geographic location (although the biomes are also noted). I wanted to see if there were any relationships between certain sampling locations. Notably, my virus RdRp was found in the cattle feces [2,27].
 
-![](images/clipboard-1772811167.png)
+![](img/P_rumenrex/clipboard-1772811167.png)
 
 **How the figure was generated:** To assess whether partiti–picobirna-like viral fragments were associated with specific ecological niches rather than strictly geographic locations, I reclassified each sample site into one of four habitat categories: animal-associated samples (e.g., cattle feces, chicken feces), freshwater/aquatic habitats (e.g., sediment, riverbank), agricultural/human-modified landscapes (e.g., farmland, biofilm), and terrestrial natural environments (e.g., grassland, forest, alpine meadow, desert, wetland). Using Excel PivotTables, I summed the number of viral detections for each habitat type and generated a grouped bar chart to visually compare their relative contributions. This data was obtained from the same study exploring [2].
 
@@ -347,7 +347,7 @@ What remained unresolved from ecological analysis alone, and what motivates geno
 
 ## 3.0 Viral Genome Results
 
-![](images/clipboard-549750263.png){width="536"}
+![](img/P_rumenrex/clipboard-549750263.png){width="536"}
 
 **Figure 1. Circular genome representation and ORF annotation of the *P. rumenrex* assembly.**\
 
@@ -365,7 +365,7 @@ In the tree, *P. rumenrex* groups with sequences labeled “Germany_Cattle” an
 
 The phylogenetic tree places the Germany cattle, China cattle, and New Zealand sheep rumen-derived RdRp contigs in a tight cluster with short internal branch lengths, indicating close relatedness despite different hosts and continents. The “rodent-associated partiti-like virus” RdRp fragment, added because it shared \~72% amino-acid identity to my assembled RdRp region, falls outside this core rumen cluster on a longer branch. This pattern is consistent with the rodent sequence representing a related but distinct lineage rather than the same virus, and it supports the interpretation that partiti-like RdRp signals can recur across digestive-content datasets without implying vertebrate infection. Instead, this can be explained via that these sequences track fungal hosts (or fungal biomass) that are consumed and persist in gut environments, particularly the rumen.
 
-![](images/clipboard-746855702.png)
+![](img/P_rumenrex/clipboard-746855702.png)
 
 **Figure 2:** The local RNA secondary structure for this contig was predicted using the ViennaRNA RNAfold web server with default parameters [8]. The minimum free-energy model (ΔG ≈ –12 kcal/mol) contains several stem–loop structures, including a stable hairpin spanning approximately nt 30–55. These structures indicate that the fragment is capable of forming stable secondary elements, although their functional relevance cannot be determined from this partial sequence. No evidence of poly-A sequence, frameshift motifs, or splicing signals was detected.
 
@@ -387,9 +387,9 @@ Although no specific functional RNA motif can be inferred from this analysis alo
 
 #### AlphaFold Analysis
 
-![](images/clipboard-3063718039.png){width="424"}
+![](img/P_rumenrex/clipboard-3063718039.png){width="424"}
 
-![](images/clipboard-30598929.png)
+![](img/P_rumenrex/clipboard-30598929.png)
 
 AlphaFold predicted that my ORF forms a single protein made of two structural domains, shown in different colours in the 3D model [6]. The TED consensus identifies Domain 1 as two disconnected regions at the N- and C-termini (residues 32–74 and 396–507), while Domain 2 spans the large central block (83–377) [6]. This type of “split domain” arrangement is not unusual in viral RNA polymerases because conserved catalytic regions can be separated by long loops [26]. The second domain is considered "better defined" because it matches a known structural class in the CATH database (3.90.1730), which corresponds to a canonical RNA-dependent RNA polymerase fold [6]. It also has a very high average pLDDT score (\~97), indicating AlphaFold is extremely confident in its local structure, whereas Domain 1 has no database match and slightly lower confidence (\~93). This simply suggests that the core of the protein (Domain 2) resembles known polymerase structures more strongly than the outer regions.
 
@@ -409,7 +409,7 @@ The final hex code colour is this warm, rumen-y brown/orange, which I think is p
 
 #A56C2C
 
-![](images/clipboard-1648399508.png)
+![](img/P_rumenrex/clipboard-1648399508.png)
 
 ### Tweet-torial
 
