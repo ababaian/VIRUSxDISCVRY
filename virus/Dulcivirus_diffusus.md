@@ -668,9 +668,9 @@ obtained the following outputs:
     pistachios, and orange zest. Thus, it has an evenly balanced genome
     containing 22.7 % C, 26.6 % G, 22.5 % U, & 28.3 % A!
 
-    <details>
+<details>
 
-    <summary>*R Code to bake our D. diffusus RNA pudding*</summary>
+<summary>*R Code to bake our D. diffusus RNA pudding*</summary>
 
 ```{r}
 library(Biostrings)
@@ -724,9 +724,9 @@ taste_sentence
     the fairly even distribution of bases. Below is a visualization of
     our observations:
 
-    <details>
+<details>
 
-    <summary>*R Code to bake our D. diffusus RdRp pudding*</summary>
+<summary>*R Code to bake our D. diffusus RdRp pudding*</summary>
 
 ```{r}
 #Same code as before, just modified for an AA sequence:
