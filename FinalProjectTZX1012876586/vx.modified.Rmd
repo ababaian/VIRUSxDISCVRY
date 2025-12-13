@@ -1,0 +1,550 @@
+---
+title: "Final Project - The Platinum Age of Virus Discovery"
+output:
+  html_document:
+    fig_caption: true
+---
+
+## Preamble
+Please mark the following boxes with an X as appropriate:
+```
+- [ ] Completed the Request for Evaluation by Artem
+- [X] Answers assisted with generative AI (please indicate where)
+Chatgpt have only been used for word-polishing purposes.
+```
+
+# FINAL PROJECT ================================================================
+# ==============================================================================
+```
+..==                                                                        ==..
+..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
+..==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           ==..
+..==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           ==..
+..==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            ==..
+..==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           ==..
+..==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           ==..
+..==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            ==..
+..==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              ==..
+..==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            ==..
+..==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            ==..
+..==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            ==..
+..==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            ==..
+..==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            ==..
+..==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             ==,.
+..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
+..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
+..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
+..==           ░               ░           ░            ░ ░                 ==..
+..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
+
+At the dawn of the Molecular Genetics, Max Delbruck led a loose collection of
+geneticists known as the "Phage Group". They were amongst the first to pick up
+the reciever when the Molecular Revolution was calling. They had two unifying
+philosophies:
+
+(1) Hard Physics-style Scientific Inquiry
+(2) They studied viruses, because that's the simplest model organism to do
+    cool science in.
+    
+Computational Biology is having that kind of moment today. And the way to 
+realize the Computational Revolution of biology is by choosing a strong model;
+Viruses and Virus-like Agents!
+
+Guidance from the Elders:
+
+https://www.science.org/doi/10.1126/science.146.3642.347
+
+..==                                                                        ==..
+..==                                                                        ==..
+..==                                                                        ==..
+```
+
+## Learner Objectives
+```
+By the end of this assignment, you will have taken the plunge into a real
+research problem, there is risk and no certainty of "success", but as the old
+saying goes, "If you can't fatally kill your hypothesis, then it was never alive
+to begin with." Risk begets Reward.
+
+It is up to you to find and guide the direction of the project, these questions
+only give you a generic scaffold. As such, (and with the bonus marks) it will
+be possible to do a technically good job and you'll do fine on the assignment.
+
+A subset of you will rise to the occasion and knock it out of the park, that 
+will reflect the 99% grades. If you earn 99% on this final, consider it a formal
+job offer to join the RNAlab for the summer.
+
+If you do an exceptional on this project and uncover something worth publishing,
+I will encourage you to pursue it and go through with a publication.
+
+Remember, you're a scientist if you choose to be.
+```
+
+## Assignment Objectives
+```
+For this project you're going to compile all the components for a short
+"Genome Announcement" style scientific report, describing the RNA virome
+of a species which you have been randomized. You do not need to re-write the
+answers into a seperate paper, this assignment serves as the paper/methods 
+template. You will know by the end if it's worth formalizing. In addition you
+are to prepare a 6 minute video  presentation summarizing your work.
+
+The goal here is *Data Exploration*, you are not expected to have every analysis
+work and be super insightful, instead you will be graded on rationale, creativity
+technical execution, and presentation of your analysis. Outcome does not affect
+grade. 
+
+Most analyses will be difficult or impossible to interpret, the fun part of
+science  is we can't always know the difference. If you are able to
+justify (hypothesis) the reason you performed a given analysis, and it's
+inconclusive, you will recieve full marks for trying. You will be deducted (few)
+marks if you include an analysis and it's not justified, or if you misinterpret
+the analysis results. The _most common_ error is not justifying your conclusions
+with reported data, or over-claiming conclusions. Be precise, be specific, and 
+back up your statements with data! This is the feedback/learning mechanism of
+peer review, it will guide you in the future.
+
+Please include in the work when you judge you can make a *low*, *moderate* or
+*high*  confidence conclusion. Also state if your results are inconclusive.
+```
+
+
+## Logistics
+```
+Inclusive in this document should be all supporting code, scripts, and/or 
+software settings used to answer any questions in the assignment. If you use or
+generate a data-object, such as .fasta, .pdb, .sto, .csv, etc..., include this
+in your submission repository.
+
+For Written portions please use block text like this and you can include 
+references simply as square brackets [Babaian. 1989], with a references section
+at the end.
+```
+
+## Virus Assignment
+```
+You are randomly assigned a Virus. 
+
+## `data/virusAssignments.csv` 
+  Gives the assignment of your virus. Each virus has a unique identifier (sOTU)
+  as well as some summary statistics about where this virus was "found" in the
+  SRA. You're also given a link to the assembly file from the "index run" which
+  should contain your virus sequence.
+
+## `data/virusRunObservations.csv`
+  This file  contains a list of all SRA "runs" in which these  viruses were 
+  reliably detected. You can use the sOTU identifier to get an  estimate overview
+  for your virus. The final column in this file contains the  barcode sequence
+  detected in that particular run.
+
+```
+
+## Example "Virus Announcement" references
+(Emulate these! Read for inspiration.)
+
+- [Obelisks](https://www.sciencedirect.com/science/article/abs/pii/S0092867424010912)
+- [Odysseus](https://academic.oup.com/ve/article/10/1/veae040/7668577)
+- [Inocles](https://www.biorxiv.org/content/10.1101/2024.09.30.615745v1)
+- [Borg](https://www.nature.com/articles/s41586-022-05256-1)
+- [Zeta Elements](https://www.nature.com/articles/s41586-021-04332-2)
+- [Ambivirus elements](https://www.nature.com/articles/s41467-023-38301-2)
+- [Bornaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8321990/)
+- [Pepino Mosiac Virus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952647/)
+- [Lancehead filovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8498845/)
+- [Perch filovirus](https://journals.asm.org/doi/10.1128/mra.00028-23)
+- [Locarnaviruses](https://link.springer.com/article/10.1007/s00705-023-05908-1)
+
+
+# ==============================================================================
+
+## Question 1 : Framing the story `(10 points)` --------------------------------
+**Q.** `(1 point)` Write a title for your paper which describes your key finding.
+
+**A.** A novel narnavirus-like RNA virus associated with the swine gut microbiome
+
+**Q.** `(bonus point)` Include a pun in your title which relates to a theme or motif
+used throughout your paper.
+
+**A.** Hogging the Polymerase: Discovery of a Novel Narnavirus-like RNA Virus in the Swine Gut
+
+The phrase “Hogging the Polymerase” refers both to the pig-associated origin of the virus and to its genome structure, which is dominated by a single large RNA-dependent RNA polymerase gene, a hallmark of narnavirus-like viruses.
+
+**Q.** `(1 point)` Give your virus a latin binomial name, and explain the etiology
+of the name and how it relates to the story of your virus.
+
+**A.** Narnavirus porcinus
+The virus is provisionally named Narnavirus porcinus. The genus name Narnavirus reflects the virus’s phylogenetic placement, based on RdRp sequence similarity, conserved polymerase motifs, and genome organization consistent with members of the family Narnaviridae.
+
+The species epithet porcinus is derived from Latin, meaning “of pigs,” and refers to the repeated detection of this virus in swine-associated gut metatranscriptomic and metagenomic datasets. This name reflects both the evolutionary relationship of the virus and the ecological context in which it was discovered.
+
+**Q.** `(8 points)` For any given paper, 90% of the readership will only read your
+abstract. How many people go on to read the rest of your paper will depend
+on your ability to capture peoples interest in the abstract. (hint: write the
+abstract last)
+
+Read *How to Construct a Nature summary paragraph* and write a short abstract
+closely following this structure. Max 300 words.
+
+Link: https://www.nature.com/documents/nature-summary-paragraph.pdf
+
+**A.** 
+RNA viruses are abundant components of gut microbiomes, yet many remain uncharacterized because their genomes are highly divergent and are often detectable only through short conserved motifs in the RNA-dependent RNA polymerase (RdRp). As a result, the diversity, ecology, and genome organization of capsid-less RNA viruses in mammalian gut sequencing datasets remain poorly understood. Here, I investigated a previously unclassified viral operational taxonomic unit, sOTU u249886, identified by the conserved RdRp palmprint u78967, using publicly available metatranscriptomic and metagenomic data. All SRA runs containing this palmprint were enumerated using the course-provided virusRunObservations table, and a representative viral contig was reconstructed from the assigned index case SRR5368803 derived from piglet fecal samples in BioProject PRJNA237795. Viral classification was performed using a combination of RdRp motif detection (Serratus/PalmScan), ORF prediction (ORFfinder), sequence similarity searches (BLASTp), multiple sequence alignment (Clustal Omega), phylogenetic inference (MEGA X; maximum likelihood with JTT + Γ model and 100 bootstrap replicates), and protein structure prediction (AlphaFold). The identical 103-amino-acid palmprint was detected in nine independent SRA runs spanning two BioProjects, all originating from gut-associated libraries, indicating a reproducible signal across independent studies. The representative contig encodes a single long ORF (ORF5; 690 aa) and lacks additional large ORFs corresponding to structural proteins. BLASTp and phylogenetic analyses place this virus within the Lenarviricota, most closely related to members of the Narnaviridae, but clearly distinct from any described species. Conserved RdRp motifs A–C localize to the predicted polymerase core, supporting functional conservation despite low overall sequence identity. Together, these results support the discovery of a novel narnavirus-like RNA virus associated with the swine gut microbiome and highlight how motif-based discovery pipelines can reveal stable, capsid-less RNA viruses embedded within complex microbial ecosystems.
+
+
+## Question 2 : Digital Ecology  `(20 points)` ---------------------------------
+
+In brief, ecology is the relationship of an organism to biotic and abiotic
+factors. Consider the sample source for this virus and describe the specifics
+(e.g. run accessions, study authors, associated species, ...) and generics 
+(e.g. type of ecosystem, country/continent, common associated host class like
+Mammals).
+
+All viruses occur in more than one dataset (SRA run), compare and contrast
+the ecology of your index case, and the broader ecology of all virus-containing
+datasets. What commonalities, if any, emerge?
+
+Organize your answer in notes and ideas into at two or three topic sub-sections,
+with a heading for each. This will form the "body" of your story. For
+each sub-heading, develop a logical progression of notes or short sentences.
+
+This should be methodology oriented, explain the details of what and how you
+performed the analysis, linking logical ideas together. If you ran any program
+with a non-standard parameter, be sure to include that information.
+
+Guiding questions:
+- Is there an associated publication with your index case?
+- How many different "bioProjects" does your virus land in? Are there more
+  publications describing those?
+- Which dataset(s) is the virus found in?
+- How does this observation compare to the "expected" niche of related viruses?
+- What is the origin(s) of these dataset(s), technology and biology.
+- Can you observe a common factor which links these datasets together and
+  may explain the presence of the virus?
+- How can you measure and quantify your observations. More importantly, how do 
+  you translate this into a hypothesis?
+
+
+**1. Index case: piglet gut under carbadox treatment (PRJNA237795)**
+
+For the index case, I started from the Serratus palmprint u78967 listed in the course-provided virusRunObservations table and used this table to enumerate all SRA runs containing the same RdRp fragment.
+
+Although SRR5368803 was assigned as the representative index case for this virus, it is one of several runs sharing an identical palmprint sequence rather than being uniquely distinguished by coverage alone.
+
+The run SRR5368803 is annotated as Sus scrofa domesticus feces from BioProject PRJNA237795. Using the SRA record and linked BioProject, I identified the associated publication, “Carbadox has both temporary and lasting effects on the swine gut microbiota” by Looft et al. (2014).
+
+In that study, 3-week-old piglets in Iowa, USA were split into carbadox-treated and non-medicated groups and followed for eight weeks. Carbadox was given in feed at 50 g/ton for 21 days, followed by a 6-week withdrawal period; fecal samples were collected repeatedly to profile the gut microbiota.[Looft et al., 2014]
+
+The virus-containing runs SRR5368803, SRR5368806, SRR5368811, SRR5368809, and SRR5368786 all come from pig fecal samples in this trial, so the ecological setting of the index case is nursery-age pigs in an intensive production system in the Midwest USA, under strong abiotic pressure from in-feed carbadox and concurrent diet change.
+
+At the biological level, these runs represent metatranscriptomic RNA-seq from pig gut contents, so the virus is observed in a mixed community of bacteria, archaea, eukaryotes, and their viruses rather than as an isolated culture. The host class for the sample is mammals (swine), but based on the RdRp sequence and narnavirus-like genome organization, the putative viral host is more likely a fungal or protozoan member of the gut microbiota rather than the pig itself.
+
+**2. Broader digital ecology across SRA runs and BioProjects**
+
+Using the same palmprint ID (u78967), I then collected all SRA runs in which this motif (sequence) was detected. These include five pig fecal metatranscriptomes from PRJNA237795 and four additional runs from PRJNA716119, annotated more generically as “gut metagenome” (SRR14039712, SRR14039773, SRR14039721, SRR14039579). Thus, the virus appears in nine runs spanning two distinct BioProjects, but all are gut-associated libraries, pointing to a consistent intestinal ecosystem niche.
+
+For PRJNA237795, the sequencing technology is Illumina HiSeq (1 × 100 bp) metatranscriptomic RNA-seq from piglet feces. For PRJNA716119, the metadata describe shotgun gut metagenomes; although the exact host species is summarized as “gut metagenome,” the sample type again indicates intestinal contents from warm-blooded animals. Across both BioProjects, the virus is always detected in fecal or gut community sequencing and never in environmental water, soil, or respiratory samples, suggesting a stable association with enteric microbial communities rather than a free-living environmental lifestyle.
+
+To compare the ecology of the index case with the broader set, I treated PRJNA237795 as representing a pig, antibiotic-perturbed gut system and PRJNA716119 as representing other gut metagenomes without explicit carbadox treatment.
+Across all nine runs, the same 103-amino-acid RdRp palmprint sequence is recovered, indicating repeated detection of the same viral operational unit across independent datasets. However, the long ORF5 RdRp sequence was reconstructed only from SRR5368803 and is therefore used as a representative genome-level inference rather than evidence that full-length ORFs were assembled in every run.
+
+**3. Common patterns and ecological hypothesis**
+
+Commonalities across all virus-positive datasets include the fact that all samples are gut or fecal libraries from mammals or mammal-associated intestinal systems.
+All detections derive from untargeted gut metatranscriptomic or metagenomic sequencing performed to study microbial communities rather than from virus-focused enrichment protocols, indicating that the virus is detectable within general community sequencing data.
+
+Within PRJNA237795, the virus occurs in multiple pigs and across multiple sampling points, including during carbadox treatment and after withdrawal, indicating persistence despite major antibiotic-driven shifts in bacterial community composition.
+
+From these observations, I interpret the ecology of this virus as that of a narnavirus-like RNA virus associated with gut microbiomes of pigs and other mammals. Its putative host is likely a commensal fungal or protist taxon that is widespread in intestinal ecosystems. The repeated detection of the same RdRp palmprint across independent gut studies suggests that this virus represents a stable, biologically meaningful component of the gut virome rather than a sequencing artifact or transient contaminant.
+## Question 3 : Interrogate the Virus `(20 points)` ----------------------------
+
+**Q.** `(10 points)` Research and identify what are at least 10 *features* and 
+10 *observations* regarding your virus.
+
+Ideally this section should capture 50+ one line observations, almost like a
+"scratch pad" to document your thinking. If you rule something out, keep it and
+mark the line with [X]. This is "bank" of accurate statements from which you will
+interpret, and build your analysis upon
+
+List or write short sentences describing those features here. Examples are:
+```
+# Example Answer
+- [X] Narnaviruses have a DNA genome
+- Narnaviruses have an RNA genome
+- Narnaviruses have a single-stranded genome
+- The typical genome length is between 2,200 - 3,200 nucleotides long
+- Narnaviruses typically encode for a single protein, RdRp
+- Narnavirus RdRp are typically 800-1000 amino acids long
+- [X] Narnaviruses infect fungi, like yeast
+- Narnaviruses infect apicomplexans, like toxoplasma
+- ...
+```
+**A.** 
+**Feature**
+(1)The assigned virus operational unit is sOTU u249886 with unique palm ID u78967
+(2)The palmprint sequence length is 103 amino acids
+(3)The palmprint corresponds to the conserved RdRp "palm" region (polymerase motifs A–C fall in this region in RdRps).
+(4)In the SRR5368803 assembly, the viral contig containing this region is SRR5368803_3168 ka:f:79.250 and it's nucleotide sequence length is around 2214 nt (Infer using ORFfinder).
+(5)ORF prediction identified one dominant long ORF (ORF5) that contains the palmprint region.
+(6)ORF5 is a long protein which contain 690 aa
+(7)The palmprint is located internally within ORF5 (not at the extreme N- or C-terminus).
+(8)The contig/ORF does not show obvious additional large ORFs that would correspond to capsid proteins (typical for many encapsidated RNA viruses).
+(9)The virus is inferred to have a RNA genome (Contain RdRp pattern)
+(10)The genome is inferred to be single-stranded hypothetically (Based on classification).
+(11)The virus is best described as Lenarviricota-like based on RdRp similarity.
+(12)The virus remains low-confidence at the species level due to low percent identity (<90%)
+(13)The virus is provisionally treated as a novel virus in the analysis
+(14)[X] A second large ORF corresponds to a capsid/lysis protein (89 aa)
+(15)The virus is represented in Serratus by a palmprint ID (u78967) rather than a full curated genome, indicating it is tracked as an RdRp motif-based operational unit.
+(16)The palmprint is a short conserved region, so it is suitable for broad detection across runs but insufficient alone to define full genome content.
+Observation.
+(17)Based on Serratus, motif A is located at position 1-12, motif B is located at position 63-76, and motif C is located at position 96-103, along with a score of 34.8, which indicates that the palmprint is a high-confidence RdRp with high-PSSM-score and good-segment-length. 
+(18)According to the STAT-taxonomy (kmer analysis) associated with input virus -- %id scaled which reflects dominant microbial background rather than viral host, most of them are indicating to archaea/ bacteria.
+(19)[X]The virus belongs to a classical encapsidated ssRNA virus family
+(20)[X]The virus represents a known, previously classified species.
+
+**Observation**
+(1)The identical 103-aa palmprint (u78967) appears in 9 SRA runs listed in virusRunObservations.csv.
+(2)Those 9 runs fall into 2 BioProjects: PRJNA237795 and PRJNA716119.
+(3)Five runs are annotated as Sus scrofa domesticus (pig) and four runs are annotated as gut metagenome.
+(4)The top two hits are RdRps from Orin narna-like virus (family Narnaviridae), with 77% and 75% amino-acid identity over the full length of the fragment (100% query coverage, E-values 10⁻⁵¹ and 10⁻⁴⁹, 0 gaps).Two additional high-scoring matches correspond to partial RdRps annotated from uncultivated Leviviricetes/Fiersviridae viruses, followed by a more distant hit to a mitovirus RdRp (family Mitoviridae) with 51% identity.  
+(5)These identity values are below the typical species demarcation threshold
+(6)The BLAST result support classification at the Lenarviricota (phylum) level.
+(7)BLAST alone is insufficient for final classification.
+(8)ORF and its 5 top hit has been compared to perform multiple alignment and phylogenetic analysis, which produces results that are considered robust and evidential.
+(9)The nearest neighbours includes two characterized Narnaviridae sequences and one Leviviridae sequence.
+(10)MEGA phylogenetic tree using ORF5 and selected reference RdRps places ORF5 closest to two Narnaviridae references, with one levivirus-like reference also nearby.
+(11)The virus forms a distinct clade relative to known viruses
+(12)This placement (Phylogenetic analysis) supports a Narnaviridae/ Leviviridae-like classification.
+(13)The presence of the identical palmprint across two BioProjects supports that this signal is reproducible across independent studies, not a single-run artifact.
+(14)In the Serratus run summary for SRA5368803, viral reads constitute a small fraction of total classified reads (e.g., ~0.03%), which is consistent with viruses often being a minor component of total gut community nucleic acid.
+(15)[X]The virus is directly infecting Sus scrofa domesticus (the pig host)
+
+**Q.** `(10 points)`  Create a figure(s) visualizing your virus genome (see 
+papers for examples/inspiration). The figure should capture the *key genomic*
+*features* of the virus which includes (but is not limited to):
+- Open reading frames, and note if they are not CDS complete
+- Annotation of every ORF
+- A scale legend in nucleotides and amino acids for ORFs
+
+In addition consider virus-family specific features, such as
+- RNA secondary structures
+- Conserved sequence motifs
+- Frameshifting sites
+- Evidence of poly-A or splicing
+- Additional known (or unknown) protein domains
+
+In addition consider additional measurements, such as
+- TPM / RPKM for the virus within your dataset
+- Additional viral segments/viral contigs
+- Coverage profile of reads mapped to your contig
+- Single Nucleotide Variants present in the mapping data
+
+The Figure Legend must contain sufficient methods description such that your
+analysis is reproducible. Include supplementary data files if need be.
+
+- `(6 points)` Figure (technical)
+- `(2 points)` Figure (aesthetic)
+- `(2 points)` Figure legend
+
+**A.** 
+
+https://docs.google.com/presentation/d/1hueQHcGimvE4jB4QJMaLV-PGywigcju8a1YtrKLuV-A/edit?usp=sharing
+
+**Refer to this google slide link for figures**
+
+**Q.** - `(bonus 2 points)`
+  - Run the RdRp and/or open reading frame through AlphaFold
+  - Add a figure of the RdRp with motifs A (blue), B (green), and C (red) visualized.
+    See: `Odysseyus Narnavirus` example paper. Try PyMol.
+
+**A.** 
+
+https://docs.google.com/presentation/d/1puyB6-Fm79RQObGpCz6KXuX_mIfYMK6U1bW-sIYUAks/edit?usp=sharing
+
+**Results of Pymol**
+
+## Question 4 : `(5 bonus points max)` -----------------------------------------
+
+**Q.** `(bonus 5 points)` 
+  Do something creative or cool with the viral genome. The endevour should be
+  creative `3 points` and yield an insight that could not otherwise be obtained
+  `2 points`.
+
+**A.** 
+
+https://docs.google.com/presentation/d/1ysZsVDTkYlA-uBMNjqvciQTFKgXNw6ySHxLRJBOVzcs/edit?usp=sharing
+
+**Answers for the corresponding question**
+
+## Question 5 : Discussion `(5 points)` ----------------------------------------
+
+Highlight for your reader what you have learned from this virus, or what novel
+biological insights does characterizing this genome offers to the reader. What
+facts did you find the most fascinating about your kind of virus, and did your 
+virus share these traits? Even more interesting is if it _doesn't_ have a trait
+known to that virus. It's always fun to push against the textbook definitions.
+(3 sentence and 50 - 150 word limit)
+
+**A.** 
+Characterizing this virus taught me that even very short conserved regions, such as the RdRp palmprint, can be powerful enough to identify and classify highly divergent RNA viruses. What I found most interesting is that this virus appears to encode only a single large RdRp ORF and lacks any obvious capsid or structural proteins, which matches what is known for narnavirus-like viruses. However, seeing this capsid-less virus repeatedly detected in multiple pig gut datasets was surprising, because it suggests that such viruses can persist stably in complex ecosystems without forming viral particles, likely by replicating inside fungal or protist hosts rather than infecting the animal directly.
+
+## Question 6 : References `(10 points)` ---------------------------------------
+
+Add at least **10 relevant references** throughout your report. Be sure to 
+reference both software papers, biology papers, and the paper from which the
+data was generated (if available).
+
+(1)Looft, T., Allen, H. K., Casey, T. A., Alt, D. P., & Stanton, T. B. (2014).
+Carbadox has both temporary and lasting effects on the swine gut microbiota.
+mBio, 5(3), e01319-14.
+https://pubmed.ncbi.nlm.nih.gov/24959163/
+
+(2)Altschul, S. F., Madden, T. L., Schäffer, A. A., Zhang, J., Zhang, Z., Miller, W., & Lipman, D. J. (1997).
+Gapped BLAST and PSI-BLAST: A new generation of protein database search programs.
+Nucleic Acids Research, 25(17), 3389–3402.
+
+(3)National Center for Biotechnology Information (NCBI).
+ORFfinder: Open Reading Frame Finder.
+https://www.ncbi.nlm.nih.gov/orffinder/
+
+(4)Kumar, S., Stecher, G., Li, M., Knyaz, C., & Tamura, K. (2018).
+MEGA X: Molecular evolutionary genetics analysis across computing platforms.
+Molecular Biology and Evolution, 35(6), 1547–1549.
+
+(5)Sievers, F., & Higgins, D. G. (2014).
+Clustal Omega, accurate alignment of very large numbers of sequences.
+Methods in Molecular Biology, 1079, 105–116.
+
+(6)Babaian, A., Edgar, R. C., et al. (2024).
+Ribovirus discovery and classification using conserved RNA-dependent RNA polymerase motifs.
+Cell.
+https://www.sciencedirect.com/science/article/pii/S0092867424010912
+
+(7)Wikipedia contributors.
+Virus classification.
+Wikipedia.
+https://en.wikipedia.org/wiki/Virus_classification
+
+(8)International Committee on Taxonomy of Viruses (ICTV).
+Family Leviviridae.
+ICTV 9th Report.
+https://ictv.global/report_9th/RNApos/Leviviridae
+
+(9)Nature Publishing Group.
+Nature summary paragraph guidelines.
+https://www.nature.com/documents/nature-summary-paragraph.pdf
+
+(10)Hillman, B. I., & Cai, G. (2013).
+The family Narnaviridae: Simplest of RNA viruses.
+Advances in Virus Research, 86, 149–176.
+https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/B9780123943156000064
+
+(11)Jumper, J., Evans, R., Pritzel, A., et al. (2021).
+Highly accurate protein structure prediction with AlphaFold.
+Nature, 596, 583–589.
+https://doi.org/10.1038/s41586-021-03819-2
+
+(12)AlphaFold Protein Structure Database.
+AlphaFold Server user guide.
+https://alphafoldserver.com/guides
+
+(13)Babaian, A.
+Obeliscus porcinus: Example viral discovery workflow.
+VIRUSxDISCVRY GitHub repository.
+https://github.com/ababaian/VIRUSxDISCVRY/blob/main/virus/obeliscus_porcinus.md
+
+
+## Question 7 : `(5 bonus points max)` -----------------------------------------
+
+```
+Twitter-like platforms are powerful means to communicate key messages of a 
+scientific work. Compose a Tweet-torial of 1-3 tweets (280 character limit + 
+option for image) to highlight the story of your scientific report.
+
+Example: https://x.com/RayanChikhi/status/1963157152958210378
+```
+
+**A.** 
+https://x.com/i/status/1999588821097218480
+
+
+## Question 8 : `(30 points)` --------------------------------------------------
+
+The rate of scientific progress is accelerating. We are saturated in research
+results, making it difficult to resolve your work from everyone else. In this 
+landscape, your science communication must evolve to stand out.
+
+**Q.** - `(30 points + 5 Bonus for creative use of the medium)`
+Create a video (upto 8 minutes) to tell the story of your virus in the most 
+compelling way possible.
+
+-- OR --
+
+**Q.** - `(30 points)`
+Congratulations, your scientific abstract has been selected for a short 'Oral 
+Presentation' for the `3rd RNA VIRUSxDISCVRY Symposium`! Please prepare a
+**8 minute scientific talk** for the symposium. For your convenience we have
+provided a _suggested_ outline for the presentations.
+
+You probably will not have the time to present _all_ of your findings, you
+can and should prioritize the most compelling 
+
+- `(1 points)`: Title Slide
+  Don't under-estimate the importance of a good first impression.
+  Include a professional title slide which includes
+  - Your name (prominently)
+  - The date
+  - Venue you are presenting
+  - A research title. Make it engaging, or your main scientific conclusion
+  - A visually compelling image related to your work
+
+- `(4 points)` : Background (~2 slides)
+  The primary purpose of scientific talks is to educate. You have been learning
+  and exploring the subject matter, and along the way you have uncovered a new
+  perspective on your subject. What background information did you find
+  the most fascinating? Share that! Others will be fascinated too.
+  
+  (1) Introduce the host/environment in which your virus was found in,
+  and describe the societal relevance of this system. Why was it being
+  studied? What are the big questions in the field?
+  
+  (2) Introduce the kind of virus which you will be describing, what are the
+  expected properties of these viruses, and which species of this type are the
+  most prominent / well known?
+  
+- `(3 point)` : Hypothesis / Research Question
+  Using the information in the background, what do you expect to find? If you
+  write a hypothesis it must be falsifiable (measurable).
+  
+  A great hypothesis is something which is a clear logical extension of the
+  background information.
+  
+- `(5 points)`: Methods (~2 slides)
+  Describe what you did to address the Research Question in the appropriate
+  amount of detail. For a talk you do not have to provide every detail of your
+  method, but you must provide the logical formulation of what you did. 
+  Parameters / method details can be written on the slide as part of the visuals
+  while your oral discussion focuses on the concepts and rationale for this
+  approach.
+
+- `(5 points)`: Results (~2 slides)
+  
+  (1) See: Question 2 -- Digital Ecology
+  
+  (2) See: Question 3/4 -- Interrogating your Virus
+
+- `(5 points)` : Discussion (1 slide)
+  See: Question 5
+
+- `(2 points)` : Conclusion (1 slide)
+  What are the 3-4 most important conclusions which you can drive home. Bring
+  home the key take-aways here.
+
+- `(5 points)` : Effective use of slide visuals (clarity, colors, emphasis),
+   logical organization of ideas, and clarity of the narrative. 
+
+**How to prepare a scientific talk**
+- [NSF Guide for Scientific Talks](https://www.cgd.ucar.edu/research/scientific-talk)
+- [How to tell a compelling story in scientific presentations](https://www.nature.com/articles/d41586-021-03603-2)
+- [Effective slide design](https://pedsresearch.org/uploads/blog/doc/Designing_Effective_Scientific_Presentations_from_SfN.pdf)
+ 
