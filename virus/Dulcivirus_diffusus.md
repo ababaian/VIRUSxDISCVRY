@@ -651,8 +651,8 @@ the *Dulcivirus diffusus* RdRp via AlphaFold [15]**. Minimum Free Energy
 the *Dulcivirus diffusus* RdRp via PyMol [16]**. The only recovered GDD
 motif, Motif C, is highlighted in red for residues 92-94.
 
-## Baking a Christmas pudding with the viral genome Let's bake a
-Christmas pudding with the sweet *Dulcivirus diffusus* genome and RdRp!
+## Baking a Christmas pudding with the viral genome 
+Let's bake a Christmas pudding with the sweet *Dulcivirus diffusus* genome and RdRp!
 A scoop of each pudding will give insight into the exact ratio of bases
 and amino acids (all in just one bite). Recall that I am using only a
 portion of the D. diffusus viral RdRp and not the actual genome, as the
