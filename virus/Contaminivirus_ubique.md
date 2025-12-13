@@ -1,13 +1,7 @@
----
-title: "A Case of Viral *In-Kit-Uity*: Defining the Global Contaminant RdRp Marker,
-  Contaminivirus ubique(u148308), as a Totivirus-like Kitome Standard"
-author: Jay Du
+
+# A Case of Viral In-Kit-Uity: Defining the Global Contaminant RdRp Marker, Contaminivirus ubique(u148308), as a Totivirus-like Kitome Standard
+written by: Jay Du  
 date: "12 December 2025"
-output:
-  html_document:
-    keep_md: true
-  pdf_document: default
----
 
 
 ![*Contaminivirus_ubique - "If I'm going to have a past, I prefer it to be multiple choice!"*](img/Contaminivirus_ubique/U148308_Joker.png)
