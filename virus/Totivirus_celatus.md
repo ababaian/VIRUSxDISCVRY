@@ -61,8 +61,8 @@ We name this virus ***Totivirus celatus***. It underwent a dramatic divergent ev
 
 ### Structure Prediction using AlphaFold
 
-![predicted ORF1](img/predicted_orf1.png)
-![ORF1gif](img/rdrp_rotation.gif)
+![predicted ORF1](img/Totivirus_celatus/predicted_orf1.png)
+![ORF1gif](img/Totivirus_celatus/rdrp_rotation.gif)
 >**3D Structural Prediction.** The tertiary structure of the *T. celatus* RdRp ORF1 was predicted using AlphaFold3 (via AlphaFold Server) with default parameters. The highest-confidence model (model_0,  pTM = 0.81) was visualized using PyMOL (3.1.3). The spatial arrangement of Motif A (blue), Motif B (green), and Motif C (red) forms the active site pocket, confirming the preservation of the structural catalytic core despite sequence divergence.
 
 
@@ -71,6 +71,19 @@ We name this virus ***Totivirus celatus***. It underwent a dramatic divergent ev
 ### A Trojan Horse in the Heart: Parasite-Mediated Viral Transport
 
 The unexpected detection of an Eimeria-associated virus in yak cardiac tissue challenges the conventional understanding of enteric parasite restriction. We propose a **"Trojan Horse"** mechanism where phagocytized sporozoites act as "armored" vectors, transporting the viral payload from the gut to peripheral tissues via systemic circulation. This finding suggests that parasitic coinfections may vastly expand the tissue tropism of their viral passengers, allowing strictly enteric viruses to access and potentially persist in immunologically privileged sites like the heart, undetected by standard surveillance.
+
+### The Genomic Divergence and the Methodological Blind Spot
+
+A critical methodological insight from this study is the failure of standard nucleotide mapping tools, such as Bowtie2 (available on the Galaxy EU server), to identify the virus using the Eimeria stiedai RNA virus 1 (ESRV1) reference genome from NCBI. Despite the high abundance of viral transcripts in the yak transcriptome, the nucleotide sequence has undergone extensive synonymous mutation and drift, rendering it "invisible" to DNA/RNA alignment algorithms that require high sequence identity. However, the viral RdRp retained a high degree of amino acid conservation (>96%) and the canonical GDD catalytic motif. This discrepancy underscores the necessity of protein-based "digital archeology" approaches, such as the Serratus/Logan workflow used here, to uncover divergent viral lineages that have evolutionarily drifted from their known references while maintaining functional integrity.
+
+### Differential Evolutionary Pressures on Viral Proteins
+
+The observation that the viral capsid (ORF1) shares only ~51% amino acid identity with ESRV1, in stark contrast to the highly conserved RdRp (>96%), suggests distinct evolutionary pressures acting on different regions of the viral genome. While the RdRp is subject to strong purifying selection to maintain replicative function within the Totiviridae family, the structural proteins are exposed to the intracellular environment of the specific host. The shift from a lagomorph-specific host (E. stiedai in rabbits) to a bovine-specific host (Eimeria spp. in yaks) likely imposed significant diversifying selection on the capsid. This "coat remodelling" may be a requisite adaptation for capsid stability or immune evasion within the distinct physiological conditions of the yak, representing a molecular signature of host specialization.
+
+### High-Altitude Hypoxia and Systemic Dissemination
+
+The detection of this enteric-associated virus in cardiac tissue may be further influenced by the extreme environmental conditions of the Qinghai-Tibetan Plateau. The host yaks reside in a high-altitude, hypoxic environment known to induce systemic physiological stress. Chronic hypoxia can compromise intestinal barrier function ("leaky gut"), potentially facilitating the translocation of pathogens from the lumen to the circulatory system. This environmental stressor may act synergistically with the macrophage-mediated transport mechanism, increasing the likelihood that Eimeria sporozoites—carrying their viral payload—breach the gut epithelium and disseminate to peripheral organs such as the heart, resulting in the ectopic viral signals observed in this study.
+
 
 ## References
 
