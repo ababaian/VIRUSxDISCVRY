@@ -29,32 +29,42 @@
 An index of the software tutorial.
 
 ### NT Sequence Analysis
-- [Infernal](tools/Infernal.md)
-- [mFold](tools/mFold.md)
-- [ORFfinder](tools/ORFfinder.md)
-- [palmID](tools/palmID.md)
-- [RNAfold](tools/RNAfold.md)
-- [sixpack](tools/sixpack.md)
+- [Infernal](tools/Infernal.md) # Search RNA Structures
+- [mFold](tools/mFold.md) # Secondary Fold DNA/RNA
+- [ORFfinder](tools/ORFfinder.md) # Open Reading Frame calculator
+- [OpenVirome](https://openvirome.com/) # RdRp palmprint graph tool 
+- [RNAfold](tools/RNAfold.md) # Secondary Fold DNA/RNA
+- [sixpack](tools/sixpack.md) # Six-frame translation calculator
   
 ### AA Sequence Analysis
-- [AlphaFold3](tools/AlphaFold3.md)
-- [IUPred2A](tools/IUPred2A.md)
-- [muscle](tools/muscle.md)
-- [PepInfo](tools/PepInfo.md)
-- [ProteInfer](tools/ProteInfer.md)
+- [AlphaFold3 (A)](tools/AlphaFold3.md) | [Version. (B)](tools/AlphaFold3b.md) # Protein Structure prediction
+- [IUPred2A](tools/IUPred2A.md) # Dirordered Sequence prediction
+- [muscle](tools/muscle.md) # Multiple Sequence Alignment (MSA)
+- [PepInfo](tools/PepInfo.md) # Protein summary statistics
+- [Phyre](tools/Phyre2.2.md) # Protein Structure prediction (old)
+- [ProteInfer](tools/ProteInfer.md) # Protein Function predictor
   
 ### Homology Search Tools
-- [BLAST - BLASTp](tools/BLASTp.md)
-- [BLAST - BLASTx](tools/BLASTx.md)
-- [BLAST - tBLASTn](tools/tblastn.md)
-- [FoldSeek](tools/foldseek.md)
-- [HHpred](tools/HHpred.md)
-- [InterProScan](tools/InterProScan.md)
-- [MGnify_search](tools/MGnify_search.md)
-- [PebbleScout](tools/pebblescout.md)
+- [BLAST - BLASTp](tools/BLASTp.md) # Protein Search in Protein Database
+- [BLAST - BLASTx](tools/BLASTx.md) # Translated Nucleotide Search in Protein Database
+- [BLAST - tBLASTn](tools/tblastn.md) # Protein Search Search in Nucleotide Database
+- [FoldSeek](tools/foldseek.md) # Protein Structure Search
+- [HHpred](tools/HHpred.md) # HMM Model Search Tools
+- [InterProScan](tools/InterProScan.md) # InterPro HMM Model Search
+- [MGnify_search](tools/MGnify_search.md) # MGnify assemblage search
+- [PebbleScout](tools/pebblescout.md) # Nucleotide kmer search (big)
+- [MetaGraph](tools/metagraph.md) # Nucleotide kmer search (bigger)
+- [Logan-Search](https://logan-search.org/) # Nucleotide kmer search (Biggest)
+
+### Virus Specific Tools
+- [BLAST - tBLASTn for Virology](tools/ViralTBLASTN.md) # Find your viral contig in SRA 
+- [palmID](tools/palmID.md) # RdRp palmprint search tool
 
 ### Phylogenetics
-- [iqtree](tools/iqtree.md)
+- [iqtree](tools/iqtree.md) # Generate phylogenetic tree from MSA
+
+### Visualizations
+- [MyDomains](tools/MyDomains.md) # Draws linear protein domain figure 
 
 ### Databases
 - [ICTV](https://ictv.global/)
@@ -62,6 +72,19 @@ An index of the software tutorial.
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [ViralZone](https://viralzone.expasy.org/)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
+
+## Cool Virus Projects
+- [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br))
+
+## 2025 Virus Index
+
+An index of the Virus Discovery Reports.
+
+#### Narnaviruses
+- [Narnavirus subdolus](virus/narnavirus_subdolus.md)
+  
+#### Other
+- [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ## 2024 Obelisk Index
 
@@ -137,8 +160,10 @@ An index of the Virus Discovery Reports.
 │   └─── <virusname>.md      # Upload your completed virus discovery report
 │   │                        # into this folder
 │   └─── img/<virusname>/    # For each <virusname>, supporting data or image
-│                            # files are kept in their own directory named
-│                            # after the virus
+│   │                        # files are kept in their own directory named
+│   │                        # after the virus
+│   └─── vid/<virusname>/    # For each <virusname>, video descriptions
+│                            # for project YT channel
 |
 ├── data/                    # Example Data  ==================================
 │   │
