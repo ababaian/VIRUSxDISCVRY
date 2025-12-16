@@ -95,15 +95,11 @@ $$
 Probability of a Stop Codon:
 
 $$
-
 \begin{aligned}
 P(UAA) &= P(U) × P(A) × P(A)  \approx 0.00910 \\
-
 P(UAG) &= P(U) × P(A) × P(G) \approx 0.01187 \\
-
 P(UGA) &= P(U) × P(G) × P(A) \approx 0.01187
 \end{aligned}
-
 $$
 
 Summing these independent probabilities:
@@ -117,10 +113,9 @@ The probability under null of a stop codon with nucleotide bias is 3.28%
 How many stop codons are expected in a 633 aa long stretch:
 
 $$
-
 n \approx  633 × 0.0328 \approx 20.78
-
 $$
+
 Under null you would expect at least 21 stop codons to appear in a 633 amino acid long stretch.
 
 Probability of seeing 0 stop codons using the poisson distribution for zero events
@@ -246,4 +241,5 @@ Taxonomy: Kraken2, Serratus
 
 
 27) Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410
+
 
