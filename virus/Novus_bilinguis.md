@@ -95,6 +95,7 @@ $$
 Probability of a Stop Codon:
 
 $$
+
 \begin{aligned}
 P(UAA) &= P(U) × P(A) × P(A)  \approx 0.00910 \\
 
@@ -102,6 +103,7 @@ P(UAG) &= P(U) × P(A) × P(G) \approx 0.01187 \\
 
 P(UGA) &= P(U) × P(G) × P(A) \approx 0.01187
 \end{aligned}
+
 $$
 
 Summing these independent probabilities:
@@ -244,3 +246,4 @@ Taxonomy: Kraken2, Serratus
 
 
 27) Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410
+
