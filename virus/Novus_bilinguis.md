@@ -5,7 +5,7 @@ is this a good final draft? Am i forgetting any citations?
 **Written by:** [Neyo](https://github.com/ney0)
 
 ### *Novus bilinguis*
-###Etymology:
+### Etymology:
 
 #### Novus (Latin for New): This was chosen to show that this virus is a "new" addition to the Narnaviridae family, an undiscovered virus that brings new things to the coding table.
 
@@ -241,5 +241,6 @@ Taxonomy: Kraken2, Serratus
 25) Venkataraman, S., Prasad, B. V. L. S., & Selvarajan, R. (2018). RNA Dependent RNA Polymerases: Insights from Structure, Function and Evolution. Viruses, 10(2), 76. https://doi.org/10.3390/v10020076
 
 26) Edgar, R.C., Taylor, B., Lin, V. et al. Petabase-scale sequence alignment catalyses viral discovery. Nature 602, 142–147 (2022). https://doi.org/10.1038/s41586-021-04332-2
+
 
 27) Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410
