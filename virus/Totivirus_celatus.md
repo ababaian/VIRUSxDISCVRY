@@ -62,7 +62,9 @@ We name this virus ***Totivirus celatus***. It underwent a dramatic divergent ev
 ### Structure Prediction using AlphaFold
 
 ![predicted ORF1](img/Totivirus_celatus/predicted_orf1.png)
+
 https://github.com/user-attachments/assets/ebf7dc79-2dba-4090-9cc3-828131560ce0
+
 >**3D Structural Prediction.** The tertiary structure of the *T. celatus* RdRp ORF1 was predicted using AlphaFold3 (via AlphaFold Server) with default parameters. The highest-confidence model (model_0,  pTM = 0.81) was visualized using PyMOL (3.1.3). The spatial arrangement of Motif A (blue), Motif B (green), and Motif C (red) forms the active site pocket, confirming the preservation of the structural catalytic core despite sequence divergence.
 
 
