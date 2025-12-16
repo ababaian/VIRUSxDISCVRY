@@ -112,7 +112,7 @@ Initial skepticism focused on $\text{u148308}$ being a "short fragment" 107 aa o
 
 #### Segment 2: The Engine (Functional RdRp)
 
-The sequence $\text{u148308}$ served as the probe for assembling the $\text{RdRp}$ contig ($\text{NODE\_2}$). This final contig was established to be 2,028 nt in length.
+The sequence $\text{u148308}$ served as the probe for assembling the $\text{RdRp}$ contig (NODE_2). This final contig was established to be 2,028 nt in length.
 
 ORF and Domain Analysis: Using NCBI's ORFfinder and InterProScan, we identified the largest coding region (ORF) as 237 aa which contained the entire RdRp core domain ($\text{IPR001795}$)[4, 5].
 
