@@ -80,8 +80,11 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
-- [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
+#### Narnaviruses
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md)
+  
+#### Other
+- [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ## 2024 Obelisk Index
 
@@ -157,8 +160,10 @@ An index of the Virus Discovery Reports.
 │   └─── <virusname>.md      # Upload your completed virus discovery report
 │   │                        # into this folder
 │   └─── img/<virusname>/    # For each <virusname>, supporting data or image
-│                            # files are kept in their own directory named
-│                            # after the virus
+│   │                        # files are kept in their own directory named
+│   │                        # after the virus
+│   └─── vid/<virusname>/    # For each <virusname>, video descriptions
+│                            # for project YT channel
 |
 ├── data/                    # Example Data  ==================================
 │   │
