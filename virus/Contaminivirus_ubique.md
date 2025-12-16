@@ -25,8 +25,8 @@ date: "12 December 2025"
 
 ## Abstract
 
-A foundational challenge in viral metagenomics is distinguishing genuine biological signal from pervasive laboratory contamination[11]. We performed a forensic investigation on Contaminivirus ubique, an uncharacterized $\text{RNA}$-dependent $\text{RNA}$ $\text{Polymerase}$ ($\text{RdRp}$) fragment initially identified in mouse $\text{RNA}$-$\text{Seq}$ data[20]. Our analysis confirms Contaminivirus ubique possesses the canonical GDD catalytic motif of $\text{Totiviridae}$, a family of $\text{dsRNA}$ mycoviruses.
-Given the biological impossibility of a fungal virus replicating in a mammalian T-cell sample, we advanced the conservative forensic hypothesis: **The detection of the Contaminivirus ubique sequence in non-fungal sequencing libraries is an artifact of contamination, which will establish a stable, near-perfect identity profile ($\mathbf{98\%-100\%}$ nucleotide identity) that is originating from the reagent source.** To test this, we systematically queried the sequence against 16 disparate public sequencing projects (over 150 BioProjects total), spanning host kingdoms from Mammals to Fungi and sequencing strategies from $\text{RNA}$-$\text{Seq}$ to $\text{mNGS}$[12-24]. ($\mathbf{98\%-100\%}$ ID) across numerous projects compromised by contamination, such as those from $\textit{Homo sapiens}$ and $\textit{Malassezia}$-associated environments, confirming the hypothesis[1]. Conversely, matches in complex environmental and fungal samples were significantly more divergent ($\approx 93\%-96\%$), representing naturally occurring sister strains[1]. Crucially, the $100\%$ identical sequence was detected in sensitive $\text{SARS}$-$\text{CoV}$-$2$ patient sequencing despite the primary fungal host being absent, proving its stability as naked nucleic acid in commercial reagents. This work fully characterizes Contaminivirus ubique as the Type Strain of a new $\text{Totivirus}$ lineage—Contaminivirus ubique—and provides a critical marker for diagnosing and filtering reagent-borne viral contamination in sequencing datasets globally.
+A foundational challenge in viral metagenomics is distinguishing genuine biological signal from pervasive laboratory contamination[11]. We performed a forensic investigation on Contaminivirus ubique, an uncharacterized $\text{RNA}$-dependent $\text{RNA}$ $\text{Polymerase}$ ($\text{RdRp}$) fragment initially identified in mouse $\text{RNA-Seq}$ data[20]. Our analysis confirms Contaminivirus ubique possesses the canonical GDD catalytic motif of $\text{Totiviridae}$, a family of $\text{dsRNA}$ mycoviruses.
+Given the biological impossibility of a fungal virus replicating in a mammalian T-cell sample, we advanced the conservative forensic hypothesis: **The detection of the Contaminivirus ubique sequence in non-fungal sequencing libraries is an artifact of contamination, which will establish a stable, near-perfect identity profile (98%-100% nucleotide identity) that is originating from the reagent source.** To test this, we systematically queried the sequence against 16 disparate public sequencing projects (over 150 BioProjects total), spanning host kingdoms from Mammals to Fungi and sequencing strategies from $\text{RNA-Seq}$ to $\text{mNGS}$[12-24]. (98%-100% ID) across numerous projects compromised by contamination, such as those from $\textit{Homo sapiens}$ and $\textit{Malassezia}$-associated environments, confirming the hypothesis[1]. Conversely, matches in complex environmental and fungal samples were significantly more divergent (~93%-96%), representing naturally occurring sister strains[1]. Crucially, the 100% identical sequence was detected in sensitive $\text{SARS-CoV-2}$ patient sequencing despite the primary fungal host being absent, proving its stability as naked nucleic acid in commercial reagents. This work fully characterizes Contaminivirus ubique as the Type Strain of a new $\text{Totivirus}$ lineage—Contaminivirus ubique—and provides a critical marker for diagnosing and filtering reagent-borne viral contamination in sequencing datasets globally.
 
 ***
 
@@ -65,22 +65,22 @@ To test the abiotic hypothesis, we conducted a forensic TBLASTN screen across 16
 
 | Project \# | SRA/ERR Run | Project Focus / Sample Type | $\text{u148308}$ Identity Match | Final Significance for Investigation |
 | :---: | :--- | :--- | :--- | :--- |
-| **1** | $\text{SRR11908268}$ | Mouse T-cell Transcriptomics | $\mathbf{100\%}$ | **Contaminant Baseline** (High $\text{Malassezia}$ context). |
-| **2** | $\text{SRR8165595}$ | Human Plasma Virome ($\text{Anellovirus}$ study) | $\mathbf{\approx 98\%}$ | **Kitome Standard** (Cross-protocol contamination). |
-| **3** | $\text{SRR19670769}$ | Infant Virome ($\text{Shotgun}$ sequencing) | $\mathbf{\approx 98\%}$ | **Widespread Recurrence** in human populations. |
-| **4** | $\text{ERR6753523}$ | Primate Embryo Spatial Profiling | $\mathbf{\approx 98\%}$ | **High-Sensitivity Contamination** (5.10% $\text{Malassezia}$). |
-| **5** | $\text{SRR7992836}$ | Human Skin Microbiome ($\text{DOCK8}$ study) | $\mathbf{100\%}$ (Short) | **Conserved Motif** (Evidence of stable nucleic acid fragment). |
-| **6** | $\text{SRR18728785}$ | Fungal Isolate ($\text{Botryosphaeriaceae}$) Sequencing | $\mathbf{\approx 95\%}$ | **Native Strain Baseline** (Expected evolutionary distance). |
-| **7** | $\text{SRR12704714}$ | Viral Metagenomics **Extraction Methods** Comparison | $\mathbf{100\%}$ (Very Short) | **Methodological Source** (Contamination linked to extraction kits). |
-| **8** | $\text{SRR5204420}$ | Lake Michigan Metatranscriptome | $\mathbf{\approx 96\%}$ | **Environmental Plausibility** (Natural strain actively expressed). |
-| **9** | $\text{SRR6033685}$ | Global Bee Virome | $\mathbf{\approx 98\%}$ | **Kitome Consistency** (Co-occurs with human/$\text{Malassezia}$ contamination). |
-| **10** | $\text{SRR10433864}$ | Poplar Xylem Transcriptomics | $\mathbf{\approx 96\%}$ | **Natural Lineage** (Related strain in plant endophytes). |
-| **11** | $\text{SRR1781804}$ | Amazon Continuum Metatranscriptomes | $\mathbf{\approx 94\%-96\%}$ | **Natural Strain Breadth** (Globally distributed $\text{Totivirus}$ lineage). |
-| **12** | $\text{SRR21866486}$ | Barley Waterlogging Transcriptomics | $\mathbf{\approx 96\%}$ | **Contamination Vector** (Linked to high $\text{Homo sapiens}$ contamination). |
-| **13** | $\text{SRR6031646}$ | Honeybee Gut Transcriptomics | $\mathbf{94\%}$ and $\mathbf{100\%}$ | **Dual Signal** (Kitome contamination alongside potential native insect virus). |
-| **14** | $\text{SRR12733389}$ | $\text{SARS}$-$\text{CoV}$-$2$ Patient Sequencing | $\mathbf{100\%}$ (Short) | **Final Proof of Concept** (Contamination via naked nucleic acid). |
-| **15** | $\text{SRR15243463}$ | Salt-Stressed Plant Proteomics | $\mathbf{100\%}$ | **Ultimate Ubiquity** (Confirmed $100\%$ $\text{ID}$ in another plant RNA-Seq). |
-| **16** | $\text{SRR641306}$ | **Fungal Transcriptomics ($\text{Neurospora crassa}$)** | $\mathbf{\approx 70\%-83\%}$ | **Evolutionary Outgroup** (Defines the deep branching of the entire $\text{u148308}$ lineage). |
+| **1** | $\text{SRR11908268}$ | Mouse T-cell Transcriptomics | 100% | **Contaminant Baseline** (High $\text{Malassezia}$ context). |
+| **2** | $\text{SRR8165595}$ | Human Plasma Virome ($\text{Anellovirus}$ study) | ~98% | **Kitome Standard** (Cross-protocol contamination). |
+| **3** | $\text{SRR19670769}$ | Infant Virome ($\text{Shotgun}$ sequencing) | ~98% | **Widespread Recurrence** in human populations. |
+| **4** | $\text{ERR6753523}$ | Primate Embryo Spatial Profiling | ~98% | **High-Sensitivity Contamination** (5.10% $\text{Malassezia}$). |
+| **5** | $\text{SRR7992836}$ | Human Skin Microbiome ($\text{DOCK8}$ study) | 100% (Short) | **Conserved Motif** (Evidence of stable nucleic acid fragment). |
+| **6** | $\text{SRR18728785}$ | Fungal Isolate ($\text{Botryosphaeriaceae}$) Sequencing | ~95% | **Native Strain Baseline** (Expected evolutionary distance). |
+| **7** | $\text{SRR12704714}$ | Viral Metagenomics **Extraction Methods** Comparison | 100% (Very Short) | **Methodological Source** (Contamination linked to extraction kits). |
+| **8** | $\text{SRR5204420}$ | Lake Michigan Metatranscriptome | ~96% | **Environmental Plausibility** (Natural strain actively expressed). |
+| **9** | $\text{SRR6033685}$ | Global Bee Virome | ~98% | **Kitome Consistency** (Co-occurs with human/$\text{Malassezia}$ contamination). |
+| **10** | $\text{SRR10433864}$ | Poplar Xylem Transcriptomics | ~96% | **Natural Lineage** (Related strain in plant endophytes). |
+| **11** | $\text{SRR1781804}$ | Amazon Continuum Metatranscriptomes | ~94%-96% | **Natural Strain Breadth** (Globally distributed $\text{Totivirus}$ lineage). |
+| **12** | $\text{SRR21866486}$ | Barley Waterlogging Transcriptomics | ~96% | **Contamination Vector** (Linked to high $\text{Homo sapiens}$ contamination). |
+| **13** | $\text{SRR6031646}$ | Honeybee Gut Transcriptomics | 94% and 100% | **Dual Signal** (Kitome contamination alongside potential native insect virus). |
+| **14** | $\text{SRR12733389}$ | $\text{SARS}$-$\text{CoV}$-$2$ Patient Sequencing | 100% (Short) | **Final Proof of Concept** (Contamination via naked nucleic acid). |
+| **15** | $\text{SRR15243463}$ | Salt-Stressed Plant Proteomics | 100% | **Ultimate Ubiquity** (Confirmed 100% $\text{ID}$ in another plant RNA-Seq). |
+| **16** | $\text{SRR641306}$ | **Fungal Transcriptomics ($\text{Neurospora crassa}$)** | ~70%-83% | **Evolutionary Outgroup** (Defines the deep branching of the entire $\text{u148308}$ lineage). |
 
 #### 1. The "Zero Evolution" Profile  
 Biological viruses mutate as they adapt to different hosts (e.g., a "Mouse Strain" vs. a "Plant Strain"). In contrast, u148308 displayed a 98–100% Identity profile across biologically incompatible libraries:
@@ -116,7 +116,8 @@ The sequence $\text{u148308}$ served as the probe for assembling the $\text{RdRp
 
 ORF and Domain Analysis: Using NCBI's ORFfinder and InterProScan, we identified the largest coding region (ORF) as 237 aa which contained the entire RdRp core domain ($\text{IPR001795}$)[4, 5].
 
-![*RdRp domain Found in Contigs*](img/Contaminivirus_ubique/U148308_ORF.png)
+![RdRp domain Found in Contigs](img/Contaminivirus_ubique/U148308_ORF.png)  
+
 
 <br>
 
@@ -132,7 +133,8 @@ We identified the second major component as a distinct contig, 2,043 nt in lengt
 
 Analysis: This segment contains 10 ORFs and lacks the $\text{GDD}$ polymerase motif[4]. InterProScan confirmed the absence of any recognizable viral structural domains but flagged strong hits for Transmembrane ($\text{TM}$) helices and Signal Peptides[5].
 
-![*Absence of any recognizable viral structural domains*](img/Contaminivirus_ubique/U148308_Shell.png)
+![Absence of any recognizable viral structural domains](img/Contaminivirus_ubique/U148308_Shell.png)  
+
 
 Conclusion: This 2,043 nt segment fulfills the requirements of the Gag (Capsid) gene in a bipartite $\text{Totiviridae}$ architecture. The lack of standard domain hits proves the sequence is highly novel, while the $\text{TM}$ anchor suggests the protein is membrane-associated for packaging.
 
@@ -157,14 +159,17 @@ Alignment against verified Totiviruses confirmed the preservation of the critica
 #### 2. AlphaFold 3D Modeling  
 Structural prediction confirmed that the amino acid sequence folds into a stable Palm Domain, the core of the viral "Right Hand" polymerase structure. This structural stability explains how the viral RNA survives the harsh chemical environment of lysis buffers and spin columns[7, 8].
 
-![*Alpha Fold with PyMOL to mark motif A, B, C*](img/Contaminivirus_ubique/U148308_AlphaFold.png)
+Motifs A is marked blue, B for green, and C for red.
+
+![Alpha Fold with PyMOL to mark motif A, B, C. Motifs A (blue), B (green), and C (red).](img/Contaminivirus_ubique/U148308_AlphaFold.png)  
+
 
 <br>
 
 ### V. Discussion: The "Kitome" Standard
 Based on this multi-layered evidence, we establish a new classification for Totiviridae sequences found in NGS data:
 
-* Cluster A: The Kitome Standard ($\mathbf{98\%-100\%}$ Identity)
+* Cluster A: The Kitome Standard (98%-100% Identity)
 
   * Identity: Contaminivirus ubique.
 
@@ -172,7 +177,7 @@ Based on this multi-layered evidence, we establish a new classification for Toti
 
   * Action: Reads mapping to this cluster should be bioinformatically filtered as technical noise. The abundance (RPKM/TPM) of this virus can serve as a Quality Control metric for library purity.
 
-* Cluster B: The Native Lineage ($\mathbf{70\%-96\%}$ Identity)
+* Cluster B: The Native Lineage (70%-96% Identity)
 
   * Identity: Genuine environmental Totiviruses (e.g., Project 8: Lake Michigan, Project 16: Neurospora).
 
@@ -190,13 +195,13 @@ This geographical map visualizes the worldwide distribution of Sequence Read Arc
 
 It is highly significant to observe the global impact of this contaminant, with positive submissions spanning major sequencing centers across North America, Europe, and Asia . This map serves as critical visual evidence demonstrating that $\text{u148308}$ is a truly ubiquitous marker and not restricted to a specific region or laboratory. The geographical spread reinforces the conclusion that the source of the contamination is linked to the global scientific supply chain rather than a localized lab outbreak.
 
-![*Geographical appearance of U148308(Generated by Gemini, with maneul searched locations)*](img/Contaminivirus_ubique/U148308_Geo_Map.png)
+![Geographical appearance of U148308(Generated by Gemini, with maneul searched locations)](img/Contaminivirus_ubique/U148308_Geo_Map.png)  
 
 ***
 
 ## Discussion
 
-Characterizing the $\text{u148308}$ sequence provides the critical insight that viral contamination is not sporadic noise, but a **systematic, highly stable biological artifact** that requires standardized filtering across all sequencing disciplines. Our finding that the global contaminant strain ($\text{u148308}$, $98\%-100\%$ identity) is a close relative of genuinely expressed environmental strains ($\approx 95\%$ identity) means that simple identity filters are insufficient; researchers must use phylogenetic context to distinguish the lab noise from the true mycobiome signals. This emphasizes that $\text{Totiviridae}$, known for their simple structure and persistence, are uniquely successful in contaminating the reagent supply chain, pushing against the textbook definition of a virus that must be dependent on a living host for spread, as $\text{u148308}$ successfully spreads through sterile buffers.
+Characterizing the $\text{u148308}$ sequence provides the critical insight that viral contamination is not sporadic noise, but a **systematic, highly stable biological artifact** that requires standardized filtering across all sequencing disciplines. Our finding that the global contaminant strain ($\text{u148308}$, 98%-100% identity) is a close relative of genuinely expressed environmental strains (~95% identity) means that simple identity filters are insufficient; researchers must use phylogenetic context to distinguish the lab noise from the true mycobiome signals. This emphasizes that $\text{Totiviridae}$, known for their simple structure and persistence, are uniquely successful in contaminating the reagent supply chain, pushing against the textbook definition of a virus that must be dependent on a living host for spread, as $\text{u148308}$ successfully spreads through sterile buffers.
 
 ***
 
