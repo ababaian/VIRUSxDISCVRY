@@ -81,6 +81,7 @@ An index of the software tutorial.
 An index of the Virus Discovery Reports.
 
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
+- [Narnavirus subdolus](virus/narnavirus_subdolus.md)
 
 ## 2024 Obelisk Index
 
