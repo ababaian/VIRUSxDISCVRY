@@ -6,7 +6,7 @@ written by: [Mark N. Metri](https://github.com/mnmetri4-sketch)
 ### {Q1B Virus Name}
 *{Q1B, etiology of virus name}*
 
-[Optional: Tutorial 2 Generative AI Cover-art](img/InsessorSalmoscalpicī/thumbnail.png)
+EMBED(img/InsessorSalmoscalpicī/thumbnail.png)
 
 ## Abstract
 
