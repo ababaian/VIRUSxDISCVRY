@@ -4,7 +4,7 @@ written by: [Dingjiu Tang](https://github.com/Dangelo2002)
 ### *Totivirus celatus*
 *{Totivirus is the genus name, and celatus means "hidden" or "disguised" in Latin. This term reflects the difficulties encountered during the research. The virus exhibits a paradoxical evolutionary pattern—high protein conservation in the RdRp palm domain (>96%) alongside drastic nucleotide alterations. This drastic sequence alteration effectively "hides" it from conventional nucleotide mapping tools (such as Bowtie2), rendering it undetectable in standard reference-based alignments. Analysis of the ORF1 (Capsid/Gag) region reveals low similarity (~51%) to the prototype Eimeria stiedai RNA virus 1 (ESRV1), indicating that the virus possesses a highly divergent structural "disguise" likely driven by adaptation to the bovine Eimeria host niche.}*
 
-![cover art](img/Totivirus_celatus/image_summary.png)
+![cover art](img/Totivirus_celatus/image_summary.jpg)
 >The Deceptive Treaty: A Visual Metaphor for the Emergence of *Totivirus celatus*.
 This allegorical illustration visualizes the cross-species transmission and immune evasion of the virus:
 The Peace Treaty (Foreground): The handshake between the Rabbit (original host) and the Bovine soldier (new host) symbolizes the ecological interface or initial contact that allowed the host jump to occur, possibly under conditions of immune tolerance.
@@ -62,7 +62,7 @@ We name this virus ***Totivirus celatus***. It underwent a dramatic divergent ev
 ### Structure Prediction using AlphaFold
 
 ![predicted ORF1](img/Totivirus_celatus/predicted_orf1.png)
-![ORF1gif](img/Totivirus_celatus/rdrp_rotation.gif)
+![ORF1video](img/Totivirus_celatus/rdrp_video.mp4)
 >**3D Structural Prediction.** The tertiary structure of the *T. celatus* RdRp ORF1 was predicted using AlphaFold3 (via AlphaFold Server) with default parameters. The highest-confidence model (model_0,  pTM = 0.81) was visualized using PyMOL (3.1.3). The spatial arrangement of Motif A (blue), Motif B (green), and Motif C (red) forms the active site pocket, confirming the preservation of the structural catalytic core despite sequence divergence.
 
 
