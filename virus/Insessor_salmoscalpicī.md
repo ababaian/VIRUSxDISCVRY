@@ -1,12 +1,15 @@
 # Insessor Salmoscalpicī bugs the Salmon Louse: the latest head-scratcher in the increasingly animal toti-like clusterfunk.  
 written by: [Mark N. Metri](https://github.com/mnmetri4-sketch)
 
-[YouTube/Video Link to your presentation video](https://youtu.be/9LtbfNcHAt8)
+(https://youtu.be/9LtbfNcHAt8)
 
-### {Q1B Virus Name}
-*{Q1B, etiology of virus name}*
+### *Insessor Salmoscalpicī*
+*Insessor- Settler, occupant of.
+Salmoscalpicī: Genitive (of Salmoscalpicus) Salmoscalpicus: Scalpicus->scratching, irritating of
+Salmo: Salmon
+Altogether: Settler/occupant of the scratch/itcher of the salmon. I chose the term Inessor rather than something more aggressive because I did not conduct any analysis to demonstrate Inessor's negative impact on the salmon louse.*
 
-EMBED(img/InsessorSalmoscalpicī/thumbnail.png)
+![Thumbnail](virus/img/Insessor_Salmoscalpicī/thumbnail.png)
 
 ## Abstract
 
@@ -17,7 +20,7 @@ These findings provide strong evidence that Insessor salmoscalpicī is a toti-li
 
 ## Results
 
-### Ecology subsection A...
+### *Insessor salmoscalpicī* is a novel toti-like virus infecting *Lepeophtheirus salmonis*
 
 # Initial surface-level observations
 
@@ -39,45 +42,32 @@ To characterize *Insessor*, I first conducted a BLASTp search on its RdRp amino 
 
 *Orthototiviridae* traditionally infect fungi and protozoa. However, there has been a significant rise in the characterization of novel *Orthototiviridae* and toti-like viruses infecting other hosts—arthropods, crustaceans, and fish. Piscine myocarditis virus (PMCV) is a double-stranded RNA (dsRNA) virus that infects salmon; it is a rare example of an *Orthototiviridae* known to infect fish (Sandlund et al., 2021). This was a surprising finding, as I had previously hypothesized that my novel virus infected the salmon louse. To more confidently rule out Atlantic salmon as a host and further characterize my novel virus, I formulated a new hypothesis: the novel virus and its palmprint BLASTp hits are phylogenetically distinct from both PMCV and classical, well-characterized *Totiviridae*. To test this, I used MUSCLE to align the RdRp open reading frame (ORF) of PMCV with that of *Insessor* and 11 of the top 15 palmprint BLASTp hits, using the classical totivirus NC *Saccharomyces cerevisiae* virus L-A as the outgroup (Purav Gupta, MUSCLE collab). The phylogenetic tree provides evidence for *Insessor* and its BLASTp hits clustering in a clade, distinct from that of the classical totivirus and PMCV. The divergence of PMCV could suggest that it evolved later from the salmon louse or a related virus, but there is currently little evidence to support this conclusion (Fig. 1).
 
-```{r}
-knitr::include_graphics("Metri_Incessor_Figures/Fig.1A.svg")
-```
-
-
-**Figure 1**: A phylogenetic tree depicting
+![Figure 1A](virus/img/Insessor_Salmoscalpicī/Fig.1A.png)
 
 Broadly, the three phylogenetic groups display distinct genomic architectures. NC *S. cerevisiae* virus L-A is approximately 4.5 kb in length and possesses two characteristic overlapping ORFs. *Insessor* and its related sequences possess larger genomes of 6–7 kb with two slightly overlapping ORFs. The PMCV genome contains two overlapping ORFs and is about 6.5 kb in length; it also encodes a third ORF, p33, which functions as a cytotoxic chemokine (Fig. 1B). The phylogenetic distance between PMCV and *Insessor* (and the palmprint BLASTp hits) supports the hypothesis that *Insessor* does not infect *Salmo salar*. These results also provide evidence for the divergence of *Insessor* and its palmprint hits from classical *Totiviridae*.
 
-### Virus Genome {Q3}
+### Characterizing the *Insessor salmoscalpicī* genome
 
-```{r}
-knitr::include_graphics("Metri_Incessor_Figures/Fig.2A.png")
-```
+![Figure 2A](virus/img/Insessor_Salmoscalpicī/Fig.2A.png)
 **Fig.2A**: Annotation of the positive strand of *Insessor salmoscalpicī* genome. 
 "Insessor_assembly" was opened in SnapGene and annotated. ORFs were determined using ORFfinder, RdRP motifs were determined as mentioned in (Fig.3). Slippery site was manually searched using command F; the site was chosen due to its position slightly upstream of the RdRP ORF.The putative downstream hairpin structure was determined by copying the 20nt sequence 10nt downstream of the slippery site into Mfold, generating the structure in (Fig.2D).The polyA signal was found by command F, the site was chosen from other candidates due to its placement in the 3' UTR. Finally GC content is depicted in the chart above the sequence.
 
-```{r}
-knitr::include_graphics("Metri_Incessor_Figures/Fig.2BC.png")
-```
+![Figure 2B–C](virus/img/Insessor_Salmoscalpicī/Fig.2BC.png)
 **Fig.2B-D**: Secondary structures of region of 5' UTR with highest IRES probability as determined by IRESpy (B), whole 3'UTR(C), and haripin 9nt downstream of slippery site (D). Secondary structures were generated using Mfold. Gibbs free energy and sequence labels are visible below structures.
 
-```{r}
-knitr::include_graphics("Metri_Incessor_Figures/Fig.3.png")
-```
+![Figure 3](virus/img/Insessor_Salmoscalpicī/Fig.3.png)
 **Fig.3**: Conservation of RdRP palm motifs in between *Incessor* and BLASTp hits. MUSCLE alignment was performed on "insessor RdRP hits AAs", sourced from BLASTp hits of the completed RdRP of Insessor salmoscalpicī "Insessor_RdRp_complete_AA". The alignment was then visualized using Jalview. RdRP palm motifs were determined using Alpha fold structure visualized in PYMOL "insessor_RdRP_forfold" as well as conservation within Jalview. Motifs are labeled, with Motifs A-C being highlighted in Blue, Green, and Red, respectively.
-### Other (bonus) sections
 
-{
-```{r}
-knitr::include_graphics("Metri_Incessor_Figures/Fig.4.png")
-```
+
+### The structural phylogeny of *Insessor salmoscalpicī* RdRp
+
+
+![Figure 4](virus/img/Insessor_Salmoscalpicī/Fig.4.png)
 **Fig. 4**: Predicted structure of *Insessor* RdRP. "Insessor_RdRp_complete_AA" was uploaded to AlphaFold servers, and the highest confidence .cif file was uploaded to PyMol. Motifs were determined as mentioned in (Fig.3).
-}
 
-```{r}
-knitr::include_graphics("Metri_Incessor_Figures/Fig.5A.png")
-knitr::include_graphics("Metri_Incessor_Figures/Fig.5B.png")
-```
+
+![Figure 5A](virus/img/Insessor_Salmoscalpicī/Fig.5A.png)
+![Figure 5B](virus/img/Insessor_Salmoscalpicī/Fig.5B.png)
 **Fig.5**
 In addition to using my RdRp AlphaFold results to annotate the protein, I loaded the.cif file onto FoldSeek. This generated a phylogenetic tree containing the top 1000 hits corresponding to my RdRP (A). Interestingly, the highest structural match found by FoldSeek (Aedis Aegypti virus 2) is different than the highest match found by BlastP (Hattula totivirus 2) (B).
 
