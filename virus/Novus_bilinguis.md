@@ -20,7 +20,7 @@ The Narnaviridae family comprises the simplest known RNA viruses, defined by onl
 ### Viral Population Structure
 In order to define the species boundary, all 12 initial RNA-dependent RNA polymerase (RdRP) sequence hits given by Serratus [Edgar. 2022] were aligned using MUSCLE [Edgar. 2004, Edgar. 2022]. The alignment’s percent identity matrix, shown in Figure 1 revealed two distinct viral populations: a "Blue" cluster (sharing >95% identity) and a "Red" cluster (sharing 93-100% pairwise identity). These two clusters shared only ~50% nucleotide identity with each other, indicating they are distinct viral species. All downstream analysis was done on the "Red" cluster (the 5 samples described below) to ensure genomic assembly accuracy.
 
-![Figure1](img/Novus_bilinguis/percent_identity_matrix.png)
+![Figure1](img/Novus_bilinguis/fig_1_genome_hits_percent_identity_matrix.png)
 Figure 1: Percent Identity Matrix of the Novus bilinguis between the 12 viral samples identified by Serratus. The alignment reveals two distinct viral populations: a blue cluster (sharing >95% identity) and a red cluster (containing the assigned case, sharing 93-100% identity). The inter-cluster identity is approximately 50%, indicating both being different species. The red cluster associated with Aspergillus hiratsukae was selected for analysis.
 
 ### The Primary Host: Aspergillus hiratsukae
@@ -41,27 +41,27 @@ A viral signal was identified in a related species, Aspergillus laciniosus (SRR1
 ## The Genome
 The genome of *N. bilinguis* consists of a single linear positive-sense ssRNA molecule (>2,308 bp) with a high GC content (59.4%). It is a member of the Narnaviridae family.
 
-![Genome](img/Novus_bilinguis/LINEAR_MAP.png)
+![Genome](img/Novus_bilinguis/fig_2_GENOME_LINEAR_MAP.png)
 Figure 2. Genome of N. bilinguis showing the sense RdRp with conserved motifs (F, A, B, C, E) and antisense "mystery" protein.
 
 
 ### Illumina Artifacts:
 The attempts to extend the genome using SPAdes and Trinity yielded extensions that were simply Illumina adapter sequences and not actual biological event. The regions which had 100% alignment through all three assemblers were chosen as the consensus sequence.[Edgar. 2004, Bankevich. 2012, Grabherr. 2011, Illumina. 2016]
 
-![Adapter](img/Novus_bilinguis/Alignment.png)
+![Adapter](img/Novus_bilinguis/fig_3_Assembler_illumina_adapter.png)
 Figure 3. Alignment showing Illumina adapter sequences (red).
 
 ### Phylogeny
 Phylogenetic analysis confirms *N. bilinguis* evolved away from mitoviruses, and is a member of the *Narnaviridae* family. The tree was constructed using IQ-TREE 2 with 1000 bootstrap replicates.
 
-![Tree](img/Novus_bilinguis/tree.png)
+![Tree](img/Novus_bilinguis/fig_4_Maximum_likelihood_phylogeny_tree.png)
 Figure 4. Maximum likelihood phylogeny of Novus bilinguis
 
 ### RNA & Protein Structure (RdRp)
 
 Structural analysis reveals a highly conserved catalytic core in the viral polymerase, supported by a thermodynamically stable yet globally dynamic RNA genome
 
-![Figure_5](img/Novus_bilinguis/image%20(9).png)
+![Figure_5](img/Novus_bilinguis/fig_5_Genome_rdrp_motifs_RNAFold_annotated.png)
 
 Figure 5. Genome structure, protein conversion of RNA-Dependent RNA Polymerase, and thermodynamic stability of Novus bilinguis.
 
@@ -128,35 +128,35 @@ $$
 
 To investigate the potential function of the reverse ORF product (mystery protein), a structure prediction was performed using AlphaFold. The resulting model exhibited very low confidence (pLDDT < 50) throughout most of the sequence, besides the very end.[Abramson. 2024]
 
-![Alphafold1](img/Novus_bilinguis/493D7B8EC8D49F2B.png)
+![Alphafold1](img/Novus_bilinguis/fig_6_rORF_Mystery_AlphaFold.png)
 
 Figure 6: AlphaFold 3 predicted structure of mystery protein
 
 Analysis using IUPred2A indicated a highly disordered protein. However, it revealed that the C-terminal region possesses disorder characteristics but it has the ability to fold upon binding. The residue composition of this region was positively charged amino acids, suggesting potential electrostatic interactions with negatively charged viral components such as RNA backbone, the RdRP Motif C, or a host protein. [Mészáros. 2018]
 
-![IUPred2A](img/Novus_bilinguis/bokeh_plot%20(1).png)
+![IUPred2A](img/Novus_bilinguis/fig_7_IUPred2A_rORF_mystery.png)
 
 Figure 7: IUPred2A analysis of the mystery protein 
 
 The C-terminal region was isolated and re-analyzed with AlphaFold. This specific fragment yielded a structural model with significantly improved confidence (90 > pLDDT > 70), predicting a distinct mini-helix and loop motif at the end.[Abramson. 2024]
 
-![Alpha_2](img/Novus_bilinguis/6B1E042EE2DCC2E3.png)
+![Alpha_2](img/Novus_bilinguis/fig_8_rORF_Mystery_c_termini_AlphaFold.png)
 
 Figure 8: AlphaFold 3 predicted structure of isolated C-terminai of mystery protein 
 
 To test potential biological interactions, co-folding simulations were conducted for this fragment in complex with putative binding partners, including viral RNA and the viral polymerase. Both scenarios yielded low to moderate confidence models (pLDDT < 50), indicating that the specific binding interface or partner remains unconfirmed.[Abramson. 2024]
 
-![Alpha_3](img/Novus_bilinguis/CE309D60E6DBE1.png)
+![Alpha_3](img/Novus_bilinguis/fig_9_rORF_Mystery_c_termini_with_RdRP_AlphaFold.png)
 
 Figure 9: AlphaFold 3 predicted co-folding structure of isolated C-terminai of mystery protein with RdRP. At the top the disordered loop is the C termini of mystery protein.
 
-![Alpha4](img/Novus_bilinguis/B3CD3D86E354869.png)
+![Alpha4](img/Novus_bilinguis/fig_10_rORF_Mystery_c_termini_with_RNA_AlphaFold.png)
 
 Figure 10: AlphaFold 3 predicted co-folding structure of isolated C-terminai of mystery protein with a RNA molecule. An interacting helix did form but most of it was low confidence with moderate confidence regions at the mini-helix end. 
 
 A sequence conservation analysis to see whether this protein is conserved across related viruses, BLASTp and tBLASTn [Altschul. 1990] searches were performed. Hits showing 22–31% identity were aligned using MUSCLE [Edgar. 2004] to screen for conserved structural motifs. No significant motifs were identified across the aligned samples. The lack of sequence homology or folding suggests the protein may be unique and the database is incomplete or the use of this ORF maybe non-coding, structural RNA function related; but the maintenance of such a large ORF implies evolutionary pressure to preserve the sequence. However, it has not escaped my notice that the sequence conservation I have postulated could just be a statistical echo from the viruses need to preserve the RdRP genetic material.
 
-![mystery_alignment](img/Novus_bilinguis/alignment_of_motif_search_mystery.png)
+![mystery_alignment](img/Novus_bilinguis/fig_11_MUSCLE_alignment_rORF_mystery.png)
 
 Figure 11: A screenshot of Mystery Protein sequence alignment with its closest neighbors. There is little to no conservation across species. The sequence is full of gaps and random mutations
 
@@ -167,7 +167,7 @@ Initially Novus bilinguis challenged the definition of Narnaviridae as being sim
 ## Tweets
 > **1/3**
 > Real protein or ghost? 👻 The reverse strand of *Novus bilinguis* lacks stop codons (statistically very unlikely: P < 10^-10!). But MY analysis suggests this is a statistical echo: AlphaFold gave pLDDT < 50 and there’s very little conservation seen.
-> ![Genome](img/Novus_bilinguis/genome.png)
+> ![Genome](img/Novus_bilinguis/tweet_image_genome.png)
 
 > **2/3**
 > Apparently Narnaviruses evolved from Mitoviruses which escaped the mitochondria. I don’t buy it: Mitoviruses rely on UGA for Tryptophan. In the cytosol, UGA = STOP. An escape would instantly make the whole polymerase useless. The evolutionary penalty is too high. 🧬
@@ -238,6 +238,7 @@ Taxonomy: Kraken2, Serratus
 26) Edgar, R.C., Taylor, B., Lin, V. et al. Petabase-scale sequence alignment catalyses viral discovery. Nature 602, 142–147 (2022). https://doi.org/10.1038/s41586-021-04332-2
 
 27) Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410
+
 
 
 
