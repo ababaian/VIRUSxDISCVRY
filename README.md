@@ -88,7 +88,7 @@ An index of the Virus Discovery Reports.
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md)
 
 #### Totivirus
--[Totivirus celatus](virus/Totivirus_celatus.md)
+- [Totivirus celatus](virus/Totivirus_celatus.md)
 
 #### Other
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
