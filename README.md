@@ -82,6 +82,7 @@ An index of the Virus Discovery Reports.
 
 #### Narnaviruses
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md)
+- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md)
 
 #### Partitivirus
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md)
