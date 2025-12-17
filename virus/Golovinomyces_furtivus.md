@@ -102,7 +102,7 @@ Ultimately, with monumental amounts of data being made available daily regarding
 
 ## References
 
-# Bioinformatic Tools: 
+### Bioinformatic Tools: 
 
 MUSCLE: Edgar, R. C. (2022). Muscle5: High-accuracy alignment ensembles enable unbiased assessments of sequence homology and phylogeny. Nature Communications, 13(1). https://doi.org/10.1038/s41467-022-34630-w 
 
@@ -128,7 +128,7 @@ IQ-TREE3: Wong, T., Ly-Trong, N., Ren, H., Baños, H., Roger, A., Susko, E., Bie
 Mfold: Zuker, M., (2003). Mfold web server for nucleic acid folding and hybridization prediction. Nucleic Acids Res. 31 (13), 3406-3415. 
 
 
-# Mitoviruses:
+### Mitoviruses:
 
 Khan, H. A., Mukhtar, M., & Bhatti, M. F. (2023). Mycovirus-induced hypovirulence in notorious fungi Sclerotinia: a comprehensive review. Brazilian Journal of Microbiology, 54(3), 1459–1478. https://doi.org/10.1007/s42770-023-01073-4 
 
@@ -138,7 +138,7 @@ Neupane, A., Feng, C., Feng, J., Kafle, A., Bücking, H., & Marzano, S. L. (2018
 
 Viruses, I. C. O. T. O., & King, A. M. (2011). Virus taxonomy: Ninth Report of the International Committee on Taxonomy of Viruses. Elsevier. 
 
-# Fungi and Golovinomyces cichoracearum:
+### Fungi and Golovinomyces cichoracearum:
 
 Balaga, O. N. R., & Patayon, U. B. (2024). Effectiveness of Background Segmentation Algorithm and Deep Learning Technique for Detecting Anthracnose (leaf blight) and Golovinomyces cichoracearum (powdery mildew) in Rubber Plant. Procedia Computer Science, 234, 294–301. https://doi.org/10.1016/j.procs.2024.03.013 
 
@@ -147,7 +147,7 @@ Takamatsu, S., Matsuda, S., & Grigaliunaite, B. (2013). Comprehensive phylogenet
 Xu, Z., Wu, S., Liu, L., Cheng, J., Fu, Y., Jiang, D., & Xie, J. (2014). A mitovirus related to plant mitochondrial gene confers hypovirulence on the phytopathogenic fungus Sclerotinia sclerotiorum. Virus Research, 197, 127–136. https://doi.org/10.1016/j.virusres.2014.12.023 
 
 
-# Papers Associated with BioProjects:
+### Papers Associated with BioProjects:
 
 Dani, K. G. S., Pollastri, S., Pinosio, S., Reichelt, M., Sharkey, T. D., Schnitzler, J., & Loreto, F. (2021). Isoprene enhances leaf cytokinin metabolism and induces early senescence. New Phytologist, 234(3), 961–974. https://doi.org/10.1111/nph.17833 
 
