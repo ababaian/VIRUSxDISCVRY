@@ -2,7 +2,7 @@
 
 written by: [Merrilyn Chen](https://github.com/merrilynchen)
 
-### *Narnavirus nederspoliare*
+### Narnavirus nederspoliare
 
 ```         
 Narnavirus: It is the genus belonging to the Narnaviridae family
@@ -73,11 +73,7 @@ supporting its association with food-related organisms. Table 1 summarizes the
 samples with the highest viral coverage. 
 ```
 
-Table 1: Overview of the BioProjects that contained the highest coverage
-of N. nederspoliare, along with information on the paper associated with
-the BioProject, the total number of runs for the BioProject, the SRR
-runs that contained the virus, the species that was being sequenced in
-those runs, and the geographic origin of the sample that was sequenced.
+Table 1: Overview of the BioProjects that contained the highest coverage of N. nederspoliare, along with information on the paper associated with the BioProject, the total number of runs for the BioProject, the SRR runs that contained the virus, the species that was being sequenced in those runs, and the geographic origin of the sample that was sequenced.
 ![Table 1](img/Narnavirus_nederspoliare/table1_full.png)
 
 ### Identifiaction and Characterization of the N. nederspoliare Viral Genome
@@ -110,22 +106,11 @@ an AlphaFold3 structural prediction and mapped the positions of these motifs ont
 the predicted protein structure using PyMol, as shown in Figure 3. 
 ```
 
-![Figure 1](img/Narnavirus_nederspoliare/interproscan.png) Figure 1:
-InterProScan annotation of the proposed ORF, showing the location of the
-RdRp domain. The scale is in amino acids. The presence of this conserved
-domain supports that this ORF corresponds to the viral genome typical of
-the Narnaviridae.
+![Figure 1](img/Narnavirus_nederspoliare/interproscan.png) 
+Figure 1: InterProScan annotation of the proposed ORF, showing the location of the RdRp domain. The scale is in amino acids. The presence of this conserved domain supports that this ORF corresponds to the viral genome typical of the Narnaviridae.
 
-![Figure 2](img/Narnavirus_nederspoliare/GenomeMap-1.png) Figure 2:
-Genome map of *N. nederpeculiaris*. The open reading frame (ORF)
-containing the RdRp domain is highlighted in red at the top. Below, the
-nucleotide and protein sequence alignments are shown. For readability,
-the nucleotide sequence is displayed at 5-base intervals, while the
-amino acid sequence is presented at single–residue resolution. Each
-colour represents a different amino acid/base.For amino acids, the
-colour also represents the charge the amino acid has. Both sequences
-appear to be equally distributed, without any stretches of any
-particular base or amino acid type.
+![Figure 2](img/Narnavirus_nederspoliare/GenomeMap-1.png) 
+Figure 2: Genome map of *N. nederpeculiaris*. The open reading frame (ORF) containing the RdRp domain is highlighted in red at the top. Below, the nucleotide and protein sequence alignments are shown. For readability, the nucleotide sequence is displayed at 5-base intervals, while the amino acid sequence is presented at single–residue resolution. Each colour represents a different amino acid/base.For amino acids, the colour also represents the charge the amino acid has. Both sequences appear to be equally distributed, without any stretches of any particular base or amino acid type.
 
 ```         
 The colour code for each nucleotide 
@@ -143,11 +128,7 @@ aa_colors <- c(
 ```
 
 ![Figure 3](img/Narnavirus_nederspoliare/coloured_pymol_motifs.png)
-Figure 3: Alphafold3 predicted struture of the ORF. The 3 motifs of the
-RdRp sequence are shown in their respecitve colours. Motif A is shown in
-blue and ranges from position 384 to 396. Motif B, shown in green is at
-position 447 to 460. Lastly, Motif C is found in red at position 478 to
-487.
+Figure 3: Alphafold3 predicted struture of the ORF. The 3 motifs of the RdRp sequence are shown in their respecitve colours. Motif A is shown in blue and ranges from position 384 to 396. Motif B, shown in green is at position 447 to 460. Lastly, Motif C is found in red at position 478 to 487.
 
 ### Common Denominator Between Samples
 
