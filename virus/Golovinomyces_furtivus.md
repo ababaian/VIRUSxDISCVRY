@@ -17,21 +17,21 @@ With the looming advent of the platinum age of viral discovery, and the exponent
 
 ## Results
 
-###Host Fungal Ecology 
+### Host Fungal Ecology 
 
 Golovinomyces cichoracearum, G. furtivus’ primary host, infects a wide array of plants, primarily those in the Asteraceae family, in species such as lettuce, sunflowers, and A. thaliana. Previous phylogenetic analyses and genomic studies have shown that G. cichoracearum has a high divergence between lineages and demonstrates close evolutionary relationships with its host species [Takumatsu et al. 2013].  
  
-###Detection  
+### Detection  
 
 Golovinomyces furtivus was detected in six different BioProjects, either directly in Golovinomyces cichoracearum samples, or in known hosts of the fungi: (i-ii) A transcriptome analysis of Golovinomyces cichoracearum (iii) A secondary transcriptome analysis targeting mRNA in a comparitive genomic analysis uncovering powdery mildew host adaptations by Wu et al. 2018, (iv) An analysis of poplar species with isoprene (a compound associated with fast growth) suppressed to study its role in plant development conducted by Dani et al. 2021, (v) A leaf metagenone sample with Golovinomyces cichoracearum metatranscriptome isolates, (vi) A transcriptome analysis of Lindernia subracemosa and desiccation tolerance. A table of BioProjects, and associated runs and publications can be found in Table_1_Bioprojects_Golovinomyces_furtivus.xslx.  
 
-###Biological Ecology 
+### Biological Ecology 
 
 These observations of Golovinomyces furtivus are in line with its biological niche when compared to other mitoviruses, as many of the projects either directly deal with Golovinomyces cichoracearum or its host species. While Golovinomyces cichoracearum was not directly detected in all samples, this is likely an issue with detection as historically it has been difficult to identify. Newly developed deep learning techniques have demonstrated a high success rate in a study done by Balaga and Patayon [2024] which has the potential for great use in the detection of powdery mildew disease going forward.  
 
 In addition, the sequence contains UGA codons that encode for Trp, not a stop codon, indicating the virus does not directly infect plants [Nibert et al. 2018]. Mitoviruses that infect plants use plant codon code, which use UGA as a stop codon, which is used to code for Trp in Golovinomyces furtivus. 
 
-###Digital Ecology 
+### Digital Ecology 
 
 Since a palmprint sequence was already known for the RdRp protein sequence of the virus, this was used to uncover the full genome of Golovinomyces furtivus.  
 
@@ -90,19 +90,19 @@ Figure 5. Phylogenetic tree of related RdRp sequences to Golovinomyces furtivus.
 
 By characterizing Golovinomyces furtivus’ genome, we are potentially one step closer to being able to utilize mitoviruses for our own gain. The most interesting fact about mitoviruses, are their ability to cause hypovirulence in the host species, due to their residence in the mitochondria. By understanding mitovirus RNA genome and structure, we have the future potential to manipulate the genome to create or amplify a hypovirulence effect in the Golovinomyces cichoracearum. This, and the specificity of mitoviruses restricting its effect to only its host species and spread only by reproduction, could allow millions more crops per year to flourish, instead of decaying by powdery mildew disease. In addition, by understanding how the virus is related to other mitoviruses, we can begin to uncover how these minimal RNA sequences replicate and evolve. 
 
-###Limitations
+### Limitations
 
 While the discovery of Golovinomyces furtivus is exciting, and can prove usefull in further study of mitoviruses, there are caveats to this analysis. Due to the high rates of divergence seen in RdRp sequences aside from conserved motifs, creating a truly accurate phylogeny proves difficult. In addition, the lack of any other sequences in the genome makes multiple loci analyses impossible. Despite this, it is useful in attempting to determine the lineage of mitoviruses, and further analysis could prove useful in understand the evolutionary mechanisms of these viruses.  
 
 Unfortunately, no hypovirulent activity of Golovinomyces furtivus could be found to date, due to the limited scope of sequences found and the novelty of the virus. This does not indicate that could not exist, or potentially one day edited to have hypovirulent properties in their host, but in the meantime, further study should be conducted to determine if Golovinomyces furtivus could be a potential solution to powdery mildew disease. This research is fundamental, and can be used as a starting point to search for hypovirulence within the species.  
 
-###Final Conclusion
+### Final Conclusion
 
 Ultimately, with monumental amounts of data being made available daily regarding transcriptomes and metagenomes, more viruses will be uncovered as we learn to parse the data. This is a very exciting time to be a part of bioinformatics, and the discovery of Golovinomyces furtivus, and other uncharacterized viruses is only the beginning of possibilities in finding solution to powdery mildew disease, potentially other fungal infections, and wider virology as a whole. 
 
 ## References
 
-Bioinformatic Tools: 
+# Bioinformatic Tools: 
 
 MUSCLE: Edgar, R. C. (2022). Muscle5: High-accuracy alignment ensembles enable unbiased assessments of sequence homology and phylogeny. Nature Communications, 13(1). https://doi.org/10.1038/s41467-022-34630-w 
 
@@ -128,7 +128,7 @@ IQ-TREE3: Wong, T., Ly-Trong, N., Ren, H., Baños, H., Roger, A., Susko, E., Bie
 Mfold: Zuker, M., (2003). Mfold web server for nucleic acid folding and hybridization prediction. Nucleic Acids Res. 31 (13), 3406-3415. 
 
 
-Mitoviruses:
+# Mitoviruses:
 
 Khan, H. A., Mukhtar, M., & Bhatti, M. F. (2023). Mycovirus-induced hypovirulence in notorious fungi Sclerotinia: a comprehensive review. Brazilian Journal of Microbiology, 54(3), 1459–1478. https://doi.org/10.1007/s42770-023-01073-4 
 
@@ -138,7 +138,7 @@ Neupane, A., Feng, C., Feng, J., Kafle, A., Bücking, H., & Marzano, S. L. (2018
 
 Viruses, I. C. O. T. O., & King, A. M. (2011). Virus taxonomy: Ninth Report of the International Committee on Taxonomy of Viruses. Elsevier. 
 
-Fungi and Golovinomyces cichoracearum:
+# Fungi and Golovinomyces cichoracearum:
 
 Balaga, O. N. R., & Patayon, U. B. (2024). Effectiveness of Background Segmentation Algorithm and Deep Learning Technique for Detecting Anthracnose (leaf blight) and Golovinomyces cichoracearum (powdery mildew) in Rubber Plant. Procedia Computer Science, 234, 294–301. https://doi.org/10.1016/j.procs.2024.03.013 
 
@@ -147,7 +147,7 @@ Takamatsu, S., Matsuda, S., & Grigaliunaite, B. (2013). Comprehensive phylogenet
 Xu, Z., Wu, S., Liu, L., Cheng, J., Fu, Y., Jiang, D., & Xie, J. (2014). A mitovirus related to plant mitochondrial gene confers hypovirulence on the phytopathogenic fungus Sclerotinia sclerotiorum. Virus Research, 197, 127–136. https://doi.org/10.1016/j.virusres.2014.12.023 
 
 
-Papers Associated with BioProjects:
+# Papers Associated with BioProjects:
 
 Dani, K. G. S., Pollastri, S., Pinosio, S., Reichelt, M., Sharkey, T. D., Schnitzler, J., & Loreto, F. (2021). Isoprene enhances leaf cytokinin metabolism and induces early senescence. New Phytologist, 234(3), 961–974. https://doi.org/10.1111/nph.17833 
 
