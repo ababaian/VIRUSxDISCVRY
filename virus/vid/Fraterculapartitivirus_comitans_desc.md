@@ -22,16 +22,6 @@ Blending nature imagery, molecular biology and computational discovery, *The Qui
 
 *This response was generated with the use of a generative large language model (ChatGPT 5.1, 2025-12-11) [OpenAI, 2025].*
 
-------------------------------------------------------------------------
-
-Viruses form vast, mostly hidden communities within animals and plants, subtly influencing host fitness, ecology and evolution. High-throughput sequencing now allows these cryptic viral passengers to be uncovered directly from public transcriptome data. Tephritid fruit flies such as *Anastrepha fraterculus* are major agricultural pests in South America, yet their RNA viromes remain poorly characterized [Scannapieco et al., 2020]. Members of the family *Partitiviridae* are small, segmented dsRNA viruses that typically establish persistent, low-pathogenicity infections and are only beginning to be recognized in insects [Nibert et al., 2014].
-
-Here we show that a divergent RNA-dependent RNA polymerase (RdRp), sotu u979394, represents a partitivirus recurrently detected at low to moderate abundance in *Anastrepha* transcriptomes, with the strongest signal in *A. fraterculus*. Using Serratus palmprint mining, SRA microassemblies and manual curation, we recovered a single RdRp-encoding segment with canonical partitivirus motifs and mapped its occurrence across 51 sequencing runs from 9 BioProjects [Edgar et al., 2022; Sayers et al., 2024]. The virus appears consistently in host-focused RNA-seq datasets from apparently healthy flies, without association with disease or experimental treatment.
-
-These findings support a model in which this virus, named *Fraterculapartitivirus comitans*, behaves as a persistent, low-pathogenicity infection rather than an acute pathogen or biocontrol agent. More broadly, this work illustrates how petabase-scale computational virus discovery can expose largely tolerated viromes in key agricultural pests, generating hypotheses for future studies of host–virus interactions.
-
-*The abstract above was written with the help of ChatGPT 5.1 (2025-12-11) (copy-editing) [OpenAI, 2025].*
-
 presented by: Anzar Alvi project link: [*Fraterculapartitivirus comitans*](https://github.com/ababaian/VIRUSxDISCVRY/blob/main/virus/Fraterculapartitivirus_comitans.md)
 
 ------------------------------------------------------------------------
