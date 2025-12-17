@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # The Cow, the Trypanosomatidae, and some AlphaFold: The Chronicles of a Narn(i)avirus
 
 written by: [Megan Ding]
@@ -49,7 +43,7 @@ from S. caecilius.
 
 ### Ecology
 
-#### Virus classification:
+#### Virus classification
 
 To get a feeling for what we should be looking for before we assemble
 the S. caecilius's genome, we ran blastp on all of the given palmprints.
@@ -59,7 +53,7 @@ Narnaviridae sp. RdRp (E-values: 1e-48 to 1e-25).
 
 This suggests that S. caecilius is most likely a Narnavirus.
 
-#### Genome reconstruction:
+#### Genome reconstruction
 
 Finding the full-ish genome:
 
@@ -217,7 +211,7 @@ against due to their large antigenic variation [La Greca 2011]. If there
 is a Narnavirus that infects Trypanosoma, producing a more consistent
 antigenic signature, it may be possible to make more effective vaccines.
 
-### Virus Genome {Q3}
+### Virus Genome
 
 ![A) Composite plot of genome read coverage from SRR12324618, the one
 RdRp ORF in S. caecilius (gggenes), and the nucleotide identity for each
@@ -228,15 +222,14 @@ structure that has the minimum free energy. This structure may be
 inaccurate due to its large
 size.](./img/Scandoremscalaria_caecilius/viral_genome_ss.png)
 
-### Other (bonus) sections
 
-#### AlphaFold RdRp structure in ChimeraX
+### AlphaFold RdRp structure in ChimeraX
 
 ![Stereo view of S. caecilius's RdRp AlphaFold (Jumper 2021) structure
 in ChimeraX (Pettersen
 2020).](./img/Scandoremscalaria_caecilius/CX_S_caecilius_RdRp.png)
 
-#### Variant effect predictor
+### Variant effect predictor
 
 DeMaSk [Munro 2020] is a naive variant effect predictor (VEP) that just
 takes an amino acid sequence and calculates entropy, variant rate, and
@@ -287,7 +280,7 @@ maps, but it may suggest that future S. caecilius mutants (which could
 infect more pathogenic Trypanosomatidae) are likely to have variants in
 their N and C termini.
 
-#### R to ChimeraX interface example script
+### R to ChimeraX interface example script
 
 ```         
 # CX function informed by Prof. Steipe
