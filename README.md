@@ -74,19 +74,18 @@ An index of the software tutorial.
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
 ## Cool Virus Projects
-- [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br))
+- [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br)
 
 ## 2025 Virus Index
 
 An index of the Virus Discovery Reports.
 
-#### Narnaviruses
-- [Narnavirus subdolus](virus/narnavirus_subdolus.md)
-
-#### Partitivirus
-- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md)
-  
-#### Other
+- [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
+- [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
+- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
+- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
+- [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus)
+- [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ## 2024 Obelisk Index
