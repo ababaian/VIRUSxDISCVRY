@@ -1,10 +1,10 @@
 # Puccinia triticum - The silent killer of the world's food supply
 
-written by: [Ryan Fu](https://github.com/yourname%20*optional%20link*)
+written by: [Ryan Fu](https://github.com/RF216)
 
 ### Puccinia triticum
 
-(Puccinia for the fungus it resides in, triticum for the wheat plant the fungus infects)
+Puccinia for the fungus it resides in, triticum for the wheat plant the fungus infects
 
 ## Abstract
 
