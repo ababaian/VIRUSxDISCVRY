@@ -1,0 +1,43 @@
+# entrez direct command on a list of partitiviruses and other related viruses generated with the assistance of Claude (Sonnet 4.5, 5/12/2025) given Blastp results
+# partitiviruses.fasta in supplementary data
+
+esearch -db protein -query "\           
+(White clover cryptic virus 1[ORGN] OR \     
+White clover cryptic virus 2[ORGN] OR \
+Pepper cryptic virus[ORGN] OR \        
+Red clover cryptic virus 1[ORGN] OR \         
+Vicia cryptic virus[ORGN] OR \                
+Hop trefoil cryptic virus 1[ORGN] OR \                    
+Penicillium stoloniferum virus S[ORGN] OR \    
+Rosellinia necatrix partitivirus 1[ORGN] OR \
+Rosellinia necatrix partitivirus 2[ORGN] OR \
+Heterobasidion partitivirus 13[ORGN] OR \                  
+Heterobasidion annosum partitivirus[ORGN] OR \
+Gremmeniella abietina RNA virus L1[ORGN] OR \
+Gremmeniella abietina RNA virus L2[ORGN] OR \
+Fusarium poae partitivirus 1[ORGN] OR \
+Fusarium poae partitivirus 2[ORGN] OR \  
+Colletotrichum acutatum RNA virus 1[ORGN] OR \
+Aspergillus lentulus partitivirus 1[ORGN] OR \
+Aspergillus ochraceous virus[ORGN] OR \
+Aspergillus fumigatus partitivirus 1[ORGN] OR \
+Aspergillus flavus partitivirus[ORGN] OR \
+Aspergillus niger partitivirus[ORGN] OR \
+Penicillium aurantiogriseum partiti-like virus 1[ORGN] OR \
+Penicillium chrysogenum virus[ORGN] OR \
+Penicillium digitatum virus[ORGN] OR \
+Fragaria chiloensis cryptic virus[ORGN] OR \
+Atkinsonella hypoxylon virus[ORGN] OR \
+Cryptosporidium parvum virus 1[ORGN] OR \
+Trichomonas vaginalis virus 1[ORGN] OR \
+Giardia lamblia virus[ORGN] OR \
+Ophiostoma partitivirus 1[ORGN] OR \
+Discula destructiva virus 1[ORGN] OR \
+Discula destructiva virus 2[ORGN] OR \
+Ustilaginoidea virens partitivirus[ORGN] OR \
+Sclerotinia sclerotiorum partitivirus[ORGN] OR \
+Rhizoctonia solani partitivirus[ORGN] OR \
+Cucurbit cryptic virus[ORGN]) \
+AND (RNA-dependent RNA polymerase OR RdRp OR polymerase)" \
+| efetch -format fasta \
+> partitivirus_refs2.faa
