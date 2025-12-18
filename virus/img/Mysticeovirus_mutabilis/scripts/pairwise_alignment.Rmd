@@ -1,0 +1,44 @@
+
+
+```{r}
+
+library(Biostrings)
+
+#---------------------------
+# Load sequences from FASTA
+#---------------------------
+seqs <- readAAStringSet("virus_proteins.fasta")
+
+# Check what you loaded
+seqs
+names(seqs)
+
+# Ensure exactly two sequences
+stopifnot(length(seqs) == 2)
+
+# Extract and clean sequences
+s1 <- seqs[[1]]
+s2 <- seqs[[2]]
+
+# Remove whitespace, newlines, stray characters
+s1 <- AAString(gsub("[^A-Za-z]", "", as.character(s1)))
+s2 <- AAString(gsub("[^A-Za-z]", "", as.character(s2)))
+
+#---------------------------
+# Pairwise alignment
+#---------------------------
+align <- pairwiseAlignment(
+    pattern = s1,
+    subject = s2,
+    substitutionMatrix = "BLOSUM62",
+    gapOpening = -10,
+    gapExtension = -0.5,
+    scoreOnly = FALSE
+)
+
+align
+
+
+
+```
+
