@@ -84,6 +84,7 @@ An index of the Virus Discovery Reports.
 - [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
 - [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
+- [Puccinia triticum.md](virus/Puccinia_triticum.md) (Narnavirus)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
