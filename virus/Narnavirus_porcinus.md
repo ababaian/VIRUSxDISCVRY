@@ -8,7 +8,7 @@ The virus is provisionally named Narnavirus porcinus. The genus name Narnavirus 
 The species epithet porcinus is derived from Latin, meaning “of pigs,” and refers to the repeated detection of this virus in swine-associated gut metatranscriptomic and metagenomic datasets. This name reflects both the evolutionary relationship of the virus and the ecological context in which it was discovered.
 
 
-![Generative AI Cover-art](img/Narnavirus_porcinus/cover.png)
+![Generative AI Cover-art](img/Narnavirus_Porcinus/cover.png)
 
 ## Abstract
 
@@ -24,21 +24,21 @@ To characterize the ecological context of this virus, I began with the Serratus 
 
 SRR5368803 is annotated as Sus scrofa domesticus feces from BioProject PRJNA237795. The associated publication, “Carbadox has both temporary and lasting effects on the swine gut microbiota” by Looft et al. (2014), describes a controlled feeding experiment in which twelve three-week-old piglets in Iowa, USA were divided into carbadox-treated and non-medicated groups. Treated pigs received carbadox in feed for 21 days, followed by a six-week withdrawal period. Fecal samples were collected longitudinally to profile gut microbial communities using high-throughput sequencing.
 
-！[Study & Timeline of Perturbation](img/Narnavirus_porcinus/study_timeline.png)
+![Study & Timeline of Perturbation](img/Narnavirus_Porcinus/study_timeline.png)
 
 Five virus-positive runs (SRR5368803, SRR5368806, SRR5368811, SRR5368809, and SRR5368786) originate from pig fecal samples within this trial. Thus, the index ecological setting is the gut ecosystem of nursery-age pigs in an intensive agricultural environment, subject to strong abiotic perturbation from in-feed antibiotics and concurrent dietary changes.
 
 These datasets consist of metatranscriptomic RNA-seq derived from whole gut communities, meaning the virus is detected within a complex mixture of bacteria, archaea, eukaryotes, and their associated viruses. While the sample host is mammalian, the narnavirus-like genome organization and RdRp sequence strongly suggest that the virus does not infect the pig directly, but instead replicates within a microbial host—most plausibly a fungal or protist member of the gut microbiota.
 
-![SRA Results](img/Narnavirus_porcinus/sra_results.png)
+![SRA Results](img/Narnavirus_Porcinus/sra_results.png)
 
-![SRA Attributes](img/Narnavirus_porcinus/SRA_attributes.png)
+![SRA Attributes](img/Narnavirus_Porcinus/SRA_attributes.png)
 
 #### Broader digital ecology across SRA runs and Bioprojects
 
 Using palmprint ID u78967, I identified all SRA runs in which this conserved RdRp motif occurs. In total, the virus is detected in nine independent runs spanning two BioProjects. In addition to the five pig fecal metatranscriptomes from PRJNA237795, four additional runs (SRR14039712, SRR14039773, SRR14039721, SRR14039579) originate from BioProject PRJNA716119 and are annotated more generically as “gut metagenome.”
 
-![SRA runs with the same palmprint sequence](img/Narnavirus_porcinus/data_excelfile.png)
+![SRA runs with the same palmprint sequence](img/Narnavirus_Porcinus/data_excelfile.png)
 
 Although the host species for PRJNA716119 is not explicitly specified, all samples are intestinal or fecal in origin, again pointing to a gut-associated ecological niche. Across both BioProjects, the virus is consistently detected in gut community sequencing datasets and is absent from environmental water, soil, or respiratory samples, supporting a stable association with enteric microbial ecosystems rather than a free-living environmental lifestyle.
 
@@ -59,19 +59,19 @@ Taken together, these observations support the interpretation that Narnavirus po
 
 Serratus taxonomy analysis of SRR5368803 shows that 34.78% of reads could be taxonomically classified, while 65.22% remained unassigned. Among the classified reads, the majority correspond to cellular organisms, including Eukaryota (20.39%) and Bacteria (14.30%). Viral reads constitute only a very small fraction of the dataset (0.03%), which is consistent with the expected low abundance of viral sequences in untargeted metatranscriptomic fecal samples. This result indicates that the detected virus is present at low abundance relative to host and microbial RNA.
 
-![Serratus Taxonomy](img/Narnavirus_porcinus/SRA_taxonomy.png)
+![Serratus Taxonomy](img/Narnavirus_Porcinus/SRA_taxonomy.png)
 
 ####Detection of conserved RdRp palmprint motifs
 
 Despite the low abundance of viral reads, Serratus detected a conserved 103–amino acid RNA-dependent RNA polymerase (RdRp) palmprint corresponding to sOTU u249886. The presence of conserved polymerase motifs A–C within this palmprint supports its identification as a bona fide RNA virus and explains how this virus could be reliably detected across datasets despite its low representation in total sequencing reads.
 
-![Serratus Motifs](img/Narnavirus_porcinus/SRA_motifs.png)
+![Serratus Motifs](img/Narnavirus_Porcinus/SRA_motifs.png)
 
 ####SRA annotation and environmental metadata context
 
 To contextualize the ecological distribution of this virus, Serratus-generated SRA annotation word clouds were examined. These annotations, scaled by percent identity, show that sequences matching the candidate virus are predominantly associated with Sus scrofa domesticus gut metagenomes, as well as wastewater and bioreactor samples. This metadata pattern indicates a strong association with swine-linked and gut-associated microbial environments rather than a single isolated study.
 
-![Serratus Annotations](img/Narnavirus_porcinus/SRA_annotations.png)
+![Serratus Annotations](img/Narnavirus_Porcinus/SRA_annotations.png)
 
 ### BLASTp analysis of the RdRp palmprint sequence
 
@@ -84,21 +84,21 @@ Additional high-scoring hits include partial RdRp sequences annotated from uncul
 The exclusive recovery of RdRp homologs and the taxonomic distribution of the top hits place the query within the RdRp diversity of the phylum Lenarviricota. Because all matches fall well below commonly used species-level amino-acid identity thresholds (~90%), these results support classification of sOTU u249886 as a novel narnavirus-like virus rather than a previously described species. The closest affinities to narnaviruses and mitoviruses—groups known to infect fungi or protists—suggest that the true host is likely a micro-eukaryote present in the porcine gut ecosystem rather than Sus scrofa itself.
 
 
-![BLASTp analysis results](img/Narnavirus_porcinus/blastp.png)
+![BLASTp analysis results](img/Narnavirus_Porcinus/blastp.png)
 
 The top five BLASTp matches recovered using the 103–amino acid RdRp palmprint query all fall within the same viral phylum, Lenarviricota, as shown in the RNA virus taxonomy framework (adapted from Wikipedia/ICTV). Although the hits are assigned to different families within this phylum (including Narnaviridae, Leviviridae/Fiersviridae, and Mitoviridae), their shared placement within Lenarviricota reflects a common evolutionary origin of their RNA-dependent RNA polymerase. This result supports phylum-level classification of the query virus based on conserved RdRp sequence similarity.
 
-![Wikipedia Taxonomy](img/Narnavirus_porcinus/wikipedia_taxonomy.png)
+![Wikipedia Taxonomy](img/Narnavirus_Porcinus/wikipedia_taxonomy.png)
 
 ###tBLASTn validation of RdRp palmprint genomic context
 
 To validate the genomic context of the Serratus-identified RdRp palmprint, the SRR5368803 contig assembly was split into multiple fragments to accommodate tBLASTn input size constraints. The 103–amino-acid RdRp palmprint sequence was queried against these contig subsets using tBLASTn. Significant hits were recovered in multiple overlapping contigs, including SRR5368803_3168, with complete query coverage (103/103 aa), no gaps, and extremely low E-values, confirming a high-confidence match (Highlighted with a red box). The palmprint maps internally within a long open reading frame, supporting its annotation as part of a viral RNA-dependent RNA polymerase rather than an isolated or spurious match.
 
-![tBLASTn Results p1](img/Narnavirus_porcinus/tblastn_part1.png)
+![tBLASTn Results p1](img/Narnavirus_Porcinus/tblastn_part1.png)
 
-![tBLASTn Results p2](img/Narnavirus_porcinus/tblastn_part2.png)
+![tBLASTn Results p2](img/Narnavirus_Porcinus/tblastn_part2.png)
 
-![tBLASTn Results p3](img/Narnavirus_porcinus/tblastn_part3.png)
+![tBLASTn Results p3](img/Narnavirus_Porcinus/tblastn_part3.png)
 
 ### ORFfinder analysis of the SRR5368803 viral contig
 
@@ -106,7 +106,7 @@ Having localized the RdRp palmprint within the SRR5368803 contig and confirmed t
 
 Open reading frame (ORF) prediction was performed on the SRR5368803 contig containing the u78967 RdRp palmprint using NCBI ORFfinder under the standard genetic code, restricting start codons to ATG. A total of eight ORFs were detected. Among these, a single dominant long ORF (ORF5; approximately 690 amino acids) spans the majority of the contig and contains the conserved 103–amino acid RdRp palmprint region internally. The remaining ORFs are substantially shorter and partially overlapping, and they lack features characteristic of known viral structural or capsid proteins. This genome architecture—dominated by a single large RdRp-encoding ORF—is consistent with narnavirus-like viruses, which typically encode only an RNA-dependent RNA polymerase.
 
-![ORFfinder Results](img/Narnavirus_porcinus/orffinder_results.png)
+![ORFfinder Results](img/Narnavirus_Porcinus/orffinder_results.png)
 
 ```
 >lcl|ORF5
@@ -213,9 +213,9 @@ PLEMGGYFRRYYQTVLPDWYRKKFRPTPTDKIFSMLRIAAEEVGLSNSVDSTVNTTTIGDQCGSPWQGCN
 DY
 ```
 
-![BLASTp ORF5 p1](img/Narnavirus_porcinus/blastp_orf5.png)
+![BLASTp ORF5 p1](img/Narnavirus_Porcinus/blastp_orf5.png)
 
-![BLASTp ORF5 p2](img/Narnavirus_porcinus/blastp2_orf5.png)
+![BLASTp ORF5 p2](img/Narnavirus_Porcinus/blastp2_orf5.png)
 
 ### Multiple sequence alignment of ORF5 with homologous RdRps
 
@@ -223,9 +223,9 @@ To further evaluate sequence conservation and functional homology, a multiple se
 
 Motifs A and B also exhibit high amino-acid conservation, with only conservative substitutions observed, consistent with strong purifying selection acting on the polymerase active site. In contrast, the N-terminal and C-terminal regions show substantially higher sequence divergence, including frequent substitutions and small insertions or deletions. This pattern—conservation of the catalytic core flanked by more variable regions—is characteristic of RdRps from Lenarviricota and is consistent with previously described narnavirus- and levivirus-like polymerases. Together, these results support the interpretation that ORF5 encodes a functional, evolutionarily divergent RdRp belonging to a narnavirus-like lineage.
 
-![Cluster Omega Overall Sequence Alignment](img/Narnavirus_porcinus/cluster_overall.png)
+![Cluster Omega Overall Sequence Alignment](img/Narnavirus_Porcinus/cluster_overall.png)
 
-![Cluster Omega Motifs Only Alignment](img/Narnavirus_porcinus/cluster_motifs.png)
+![Cluster Omega Motifs Only Alignment](img/Narnavirus_Porcinus/cluster_motifs.png)
 
 ### Phylogenetic placement of ORF5 within Lenarviricota
 
@@ -233,7 +233,7 @@ To further resolve the evolutionary position of the candidate virus, a phylogene
 
 The resulting tree places ORF5 within the broader Lenarviricota RdRp clade, clustering most closely with RdRps from Orin narna-like viruses. ORF5 forms a distinct branch adjacent to these narnavirus-like references, supported by high bootstrap values at internal nodes (>90%). Although ORF5 is most closely related to Narnaviridae-associated sequences, its branch length and separation from established reference sequences indicate substantial evolutionary divergence. More distantly related RdRps from Leviviridae-like viruses and mitoviruses form separate branches, consistent with BLAST-based similarity results. Together, these phylogenetic relationships support classification of ORF5 as a novel narnavirus-like RNA virus within Lenarviricota rather than a member of a previously described species.
 
-![MEGA Results](img/Narnavirus_porcinus/mega_results.png)
+![MEGA Results](img/Narnavirus_Porcinus/mega_results.png)
 
 ###Structural validation of RdRp identity using AlphaFold
 
@@ -241,7 +241,7 @@ To assess whether ORF5 encodes a structurally plausible RNA-dependent RNA polyme
 
 Mapping of conserved polymerase motifs onto the predicted structure reveals that motifs A, B, and C cluster spatially within the palm domain of the enzyme. Motif A (residues 401–412), motif B (residues 463–476), and motif C (residues 496–503), including the conserved “GDD” catalytic signature, are positioned in the expected orientation relative to one another, forming the active site of the polymerase. This structural organization mirrors that observed in experimentally characterized narnavirus and mitovirus RdRps. The concordance between sequence conservation, phylogenetic placement, and three-dimensional structure provides independent validation that ORF5 encodes a functional RNA-dependent RNA polymerase and supports its annotation as the sole coding gene of a narnavirus-like genome.
 
-![Alpha Fold Results](img/Narnavirus_porcinus/alphafold_results.png)
+![Alpha Fold Results](img/Narnavirus_Porcinus/alphafold_results.png)
 
 ## Discussion
 
