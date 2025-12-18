@@ -87,7 +87,7 @@ An index of the Virus Discovery Reports.
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
 - [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus)
-- [Diatototivirus sanguinis)(virus/Diatototivirus_sanguinis.md) (Totivirus)
+- [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
