@@ -32,13 +32,13 @@ These datasets consist of metatranscriptomic RNA-seq derived from whole gut comm
 
 ![SRA Results](img/Narnavirus_Porcinus/sra_results.png)
 
-![SRA Attributes](img/Narnavirus_Porcinus/SRA_attributes.png)
+![SRA Attributes](img/Narnavirus_Porcinus/sra_attributes.png)
 
 #### Broader digital ecology across SRA runs and Bioprojects
 
 Using palmprint ID u78967, I identified all SRA runs in which this conserved RdRp motif occurs. In total, the virus is detected in nine independent runs spanning two BioProjects. In addition to the five pig fecal metatranscriptomes from PRJNA237795, four additional runs (SRR14039712, SRR14039773, SRR14039721, SRR14039579) originate from BioProject PRJNA716119 and are annotated more generically as “gut metagenome.”
 
-![SRA runs with the same palmprint sequence](img/Narnavirus_Porcinus/data_excelfile.png)
+[SRA runs with the same palmprint sequence](img/Narnavirus_Porcinus/data_excelfile.csv)
 
 Although the host species for PRJNA716119 is not explicitly specified, all samples are intestinal or fecal in origin, again pointing to a gut-associated ecological niche. Across both BioProjects, the virus is consistently detected in gut community sequencing datasets and is absent from environmental water, soil, or respiratory samples, supporting a stable association with enteric microbial ecosystems rather than a free-living environmental lifestyle.
 
