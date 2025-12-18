@@ -80,8 +80,9 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
-- [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 - [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
+- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus)
+- [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 - [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
 - [Narnavirus porcinus](virus/Narnavirus_porcinus.md) (Narnavirus)
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
