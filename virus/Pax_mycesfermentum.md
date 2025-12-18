@@ -1,10 +1,9 @@
-Viral Fermentation: Novel Virus Pax Mycesfermentum found in Saccharomyces cerevisiae
+# Viral Fermentation: Novel Virus Pax mycesfermentum found in Saccharomyces cerevisiae
 written by: Sabrina Xi
 
 [Video Link](https://gitlab.ccbr.utoronto.ca/xisabrin/final-project/-/blob/main/Xi_PaxMycesfermentum.mp4)
 
-### {Q1B Virus Name}
-Pax Mycesfermentum
+### Pax mycesfermentum
 
 Pax: the latin word for peace. This alludes to the "pacifist" or somewhat incidental nature of this virus. 
 Myces: this is a component in the name of Saccharomyces cerevisiae, signifying "fungus". This alludes to the fact that its most common host is Saccharomyces cerevisiae and that its virus family most commonly affects fungi. 
@@ -16,7 +15,7 @@ Saccharomyces cerevisiae, also known more commonly as yeast, play a significant 
 
 ## Results
 
-### Pax Mycesfermentum Ecology
+### Pax mycesfermentum Ecology
 
 Pax mycesfermentum (P. mycesfermentum) has been found globally across different species, including in China, Korea, Costa Rica, Germany, Belgium, and the US. They were found through the Sequence Read Archive (SRA) where it was found in 12 bioprojects and was associated with 19 individuals SRA runs. Of these, 4 out of 12 Bioprojects (9 out of 19 runs) contained samples from Saccharomyces cerevisiae. 
 
@@ -34,35 +33,35 @@ Interestingly, there were two cases where Pax mycesfermentum was found in only 1
 
 This may indicate that the virus does not transmit through horizontal transfer. This is additionally supported by our index case, where Saccharomyces cerevisiae were isolated from associated stalks. However, it is difficult to make any conclusions with a high level of confidence, as there are still few studies with a high number of Pax mycesfermentum. 
 
-### Pax Mycesfermentum Classification
+### Pax mycesfermentum Classification
 
 Using the sotu (u157028) and palmprint sequence which were originally extracted from Serratus [Edgar, 2022], we identified the virus's probable family affiliation. 
 
 We did so by accessing Blastp [Atlschul, 1990] and inputting the palmprint sequence. From this, we were able to get 100 hits. We narrowed them down to 48 hits by filtering for >40 percent identify and >90 coverage. The highest percent identity match (54.87%) was "insect narna-like virus 2". With the same score and e-value, and highest percent identity match not far behind at 50.43% was the "XiangYun narna-levi-like virus". Following, we also found "Dracophyllum associated narna-like virus 71", "Sanya narnavirus 11", "Beihai barnacle virus 10", "Moss associated narna-like virus 31", "Sherlock virus". 
 
 We cross-checked this conclusion through Serratus [Edgar, 2022]. Using the index SRA run (ERR2676424) [Fu, 2018], we get Narnaviridae-23 as the top match. From these, we were able to conclude that the virus likely belongs to the Narnaviridae family. We constructed a phylogenetic tree highlighting this:
-![](./img/Pax_mycesfermentum/phylogenetic_tree.jpg)
+![Pax mycesfermentum Phylogenetic Tree](./img/Pax_mycesfermentum/phylogenetic_tree.jpg)
 
 This likely also gives an explanation into its ecology and function, as viruses in the Narnaviridae family are known to have very simple genomes and be found in fungi, which yeast are members of. This also gives insight into its benign function, as many Narnaviruses do not have particular phenotypes associated with them. 
 
-### Pax Mycesfermentum Genome
+### Pax mycesfermentum Genome
 
 To confirm our classification analysis, we delved deeper into Pax mycesfermentum's genome. Using tblastn [Altschul, 1990], we input the palmprint sequence and received a contigs, which we used to identify the virus's genome by mapping to the assembly genome. We then used ORFfinder to identify open reading frames (ORFs) within the genome [Rombel, 2002]. ORFfinder returned a single ORF encompassing the genome, which aligns with traits commonly found in other narnaviruses. However, we did identify 47 nested ORFs within this ORF.
 
 We then input the resulting amino acid sequence to blastp [Altschul, 1990], which identified motifs and catalytic domains in the sequence. We also attempted to overlay additional domains using InterProScan [Blum, 2025], but this tool yielded no additional results, so we did not include them within the figure here. 
 
-![](./img/Pax_mycesfermentum/genome_with_motifs.jpg)
+![Pax mycesfermentum Annotated Genome](./img/Pax_mycesfermentum/genome_with_motifs.jpg)
 Figure 2. NCBI BLAST representation of the Pax Mycesfermentum genome. The ORF is not noted as it is represented by the whole genome. Catalytic domains, Motif A is represented in blue, Motif B is represented in green, and Motif C is represented in red. The RdRp is highlighted in yellow. 
 
 We also visualized the top 17 highest percentage identity hits to the RdRp sequence of Pax Mycesfermentum from BlastP [Altschul, 1990] restricted to those with >90% query coverage and 40% identity. We also filtered out viruses with the same name or named 'Narnaviridae sp.', tie-breaking by percent identity. We aligned their sequences using MUSCLE [Madeira, 2024]. We visualized this using Jalview [Waterhouse, 2009], annotating the A and B motifs, which we can note are highly conserved. As these are mostly with viruses related to narnaviruses, this reinforces our belief that Pax Mycesfermentum is within this family. 
 
-![](./img/Pax_mycesfermentum/jalview_viz.jpg)
+![Pax mycesfermentum RdRp Visualization and Comparison](./img/Pax_mycesfermentum/jalview_viz.jpg)
 Figure 3. Jalview visualization of Pax Mycesfermentum RdRp (highlighted) and its top 17 highest percentage identity hits from BlastP with nucleotide conservation. The A and B motifs are also annotated below the sequences.
 
 A similar investigation was carried out for the entire genome, but we elected not to show these findings as we felt these were more relevant. 
 
 A possible protein structure was also visualized in Alphafold3 [Abramson, 2024]. We see that it has a relatively high confidence level, which supports our work done investigating Pax mycesfermentum's genome.
-![](./img/Pax_mycesfermentum/alphafold_rdrp.png)
+![Pax mycesfermentum Alphafold3 Predicted Protein Structure](./img/Pax_mycesfermentum/alphafold_rdrp.png)
 Figure 4. The predicted protein structure of the Pax Mycesfermentum RdRp using Alphafold3. Areas in dark blue represent very high confidence (plDDT >90), light blue represent moderate confidence (plDDT >70), yellow represent low confidence (plDDT >50), and orange represent very low confidence (plDDT <50).
 
 
