@@ -2,8 +2,6 @@
 
 
 ### Video Thumbnail
-{Include a thumbnail for your video in your `img/<virusname>` folder.}
-
 [Video thumbnail](img/Durnavirus_ambigiformis/thumbnail.png) 
 
 
