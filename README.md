@@ -80,19 +80,24 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
+#### Mitovirus
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 - [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
-  
+- 
+#### Narnavirus
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
-  
+
+#### Partitivirus
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
 - [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus)
 
+#### Totivirus
 - [Diatototivirus sanguinis)(virus/Diatototivirus_sanguinis.md) (Totivirus)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
-  
+
+#### Other
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ## 2024 Obelisk Index
