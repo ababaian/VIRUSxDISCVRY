@@ -1,26 +1,20 @@
-# {Q1A Paper Title}
-
-Two to Tandem Repeat: A pair of novel mitoviruses with high RNA sequence homology but divergent RNA-dependent RNA polymerase products.
+# Two to Tandem Repeat: A pair of novel mitoviruses with high RNA sequence homology but divergent RNA-dependent RNA polymerase products.
 
 written by: [Owen Lo](https://github.com/wenloow)
 
 [YouTube/Video Link to your presentation video](https://videolink.goes.here)
 
-### {Q1B Virus Name}
+### Antagonascensor sororminor and Antagonascensor sorormajor
 
-Antagnascensor sororminor and Antagnascensor sorormajor
-
-Antagnascensor comes from antagonist and ascensor, meaning rider, because these viruses reside in fungi that are antagonistic to other fungi. Soror means sister, and indicates the close relation of the two species. Sororminor is named thusly for its small RdRp and its putative younger age, and sorormajor is named thusly for its larger RdRp and its likely ancestral relation to sororminor.
+Antagonascensor comes from antagonist and ascensor, meaning rider, because these viruses reside in fungi that are antagonistic to other fungi. Soror means sister, and indicates the close relation of the two species. Sororminor is named thusly for its small RdRp and its putative younger age, and sorormajor is named thusly for its larger RdRp and its likely ancestral relation to sororminor.
 
 ## Abstract
 
-Mitoviruses are mitochondria-replicating viruses, known to infect fungi, plants and invertebrates, with some of the simplest RNA genomes in nature [Tatsuhiro et al. 2023]. They consist of a strand of positive-sense RNA with a single open reading frame encoding an RNA-dependent RNA polymerase. The mitochondrial location of mitoviruses in the cell poses a challenge for characterization [Shahi et al. 2020], but modern tools enabling rapid metatranscriptome sequencing and analysis provide valuable new approaches to mitovirus discovery. Despite this, mitoviral diversity is largely unexplored. Here I present two putative novel mitoviruses, Antagnascensor sororminor, a mitovirus producing the shortest sequenced mitoviral RdRp to date, and Antagnascensor sorormajor, its close phylogenetic relation. Through analysis of metatranscriptomic datasets using RdRp palmprint sequences, I identified A. sororminor and A. sorormajor as a pair of conserved sequences homologous to genomes of the family Mitoviridae. The A. sororminor and A. sorormajor sequences both include complete ORFs encoding mitoviral RdRps, and despite 95.0% coding sequence identity, their RdRps share only 55.4% amino acid sequence identity, demarcating them as separate species of mitovirus. The A. sororminor RdRp is 469 amino acids in length, 93 amino acids shorter than the shortest mitoviral RdRp that has heretofore been sequenced. The characteristics of A. sorormajor and A. sororminor exhibit how divergence can occur through just a few mutations in small RNA viruses, and demonstrate the capacity of the conserved domains of mitoviral RdRps to maintain function even in greatly truncated proteins. 
+Mitoviruses are mitochondria-replicating viruses, known to infect fungi, plants and invertebrates, with some of the simplest RNA genomes in nature [Tatsuhiro et al. 2023]. They consist of a strand of positive-sense RNA with a single open reading frame encoding an RNA-dependent RNA polymerase. The mitochondrial location of mitoviruses in the cell poses a challenge for characterization [Shahi et al. 2020], but modern tools enabling rapid metatranscriptome sequencing and analysis provide valuable new approaches to mitovirus discovery. Despite this, mitoviral diversity is largely unexplored. Here I present two putative novel mitoviruses, Antagonascensor sororminor, a mitovirus producing the shortest sequenced mitoviral RdRp to date, and Antagonascensor sorormajor, its close phylogenetic relation. Through analysis of metatranscriptomic datasets using RdRp palmprint sequences, I identified A. sororminor and A. sorormajor as a pair of conserved sequences homologous to genomes of the family Mitoviridae. The A. sororminor and A. sorormajor sequences both include complete ORFs encoding mitoviral RdRps, and despite 95.0% coding sequence identity, their RdRps share only 55.4% amino acid sequence identity, demarcating them as separate species of mitovirus. The A. sororminor RdRp is 469 amino acids in length, 93 amino acids shorter than the shortest mitoviral RdRp that has heretofore been sequenced. The characteristics of A. sorormajor and A. sororminor exhibit how divergence can occur through just a few mutations in small RNA viruses, and demonstrate the capacity of the conserved domains of mitoviral RdRps to maintain function even in greatly truncated proteins. 
 
 ## Results
 
-### Ecology subsection A...
-
-**Initial discovery of an enigmatic Mitoviral ecology** 
+### Initial discovery of an enigmatic Mitoviral ecology
 
 The viral palmprint (sotu u247182) was identified in 14 NCBI SRA [Sayers et al. 2024] sequencing read datasets. 12 of the runs do not share any BioProject identifiers amongst themselves. Briefly profiling the datasets:
 
@@ -48,7 +42,7 @@ A single mitovirus species being hosted by multiple fungi is not unheard of. BcM
 
 I adopted the working hypothesis that the palmprint belonged to a mitovirus hosted by two different species: T. harzianum and N. sitophila.
 
-**Potential explanation uncovered in sequence assembly**
+### Potential explanation uncovered in sequence assembly
 
 Using tblastn [Camacho et al. 2009] with the viral palmprint sequence as query and the logan assembly of the index run as subject [Chikhi et al. 2025], a 549 bp contig was identified containing part of the palmprint sequence.
 
@@ -87,9 +81,9 @@ To assess viability of both coding sequences, untranslated regions were input in
 
 The criteria for mitovirus species demarcation are ill-defined, but amino acid sequence identities between the RdRps of strains of the same mitovirus species are greater than 90% [Lefkowitz et al. 2017]. The RdRps of the two viral sequences identified in this study were pairwise aligned using MUSCLE with default parameters and sequence identity was calculated at 54.7%, so I hypothesized that the two coding sequences represented genomes of distinct viral species (virus_rdrp_alignment.fa).
 
-The virus with the shorter RdRp was dubbed Antagnascensor sororminor and the virus with the longer RdRp was dubbed Antagnascensor sorormajor.
+The virus with the shorter RdRp was dubbed Antagonascensor sororminor and the virus with the longer RdRp was dubbed Antagonascensor sorormajor.
 
-**Confirmation and elaboration of the two-species hypothesis**
+### Confirmation and elaboration of the two-species hypothesis
 
 A blastn search on the genome of A. sororminor revealed 8 e-value 0.0 alignments, to 5 different strains of BcMV1 and RaMito6, MfrcMV9, and OnuMV3b (query coverage range from 84-93%, percent-identity range from 68.62-70.04%). A blastn search on the genome of A. sorormajor revealed the same 8 e-value 0.0 results (coverage range from 81-97%, percent-identity range from 68.56-69.98%)
 
@@ -129,7 +123,7 @@ Drawing from genomic and ecological data, I conclude with high confidence that A
 
 ### Virus Genome {Q3}
 
-![](img/Antagnascensor_sororminor_and_sorormajor/figure_1.png)
+![](img/Antagonascensor_sororminor_and_sorormajor/figure_1.png)
 
 **Figure 1:** RNA and amino acid sequences of A. sororminor and A.
 sorormajor. (A) Genome of A. sororminor. (B) Genome of A. sorormajor (C)
@@ -143,7 +137,7 @@ and visualized in Geneious Prime 2026.0 [Kearse et al. 2012].
 
 ### Other (bonus) sections
 
-![](img/Antagnascensor_sororminor_and_sorormajor/figure_2.png)
+![](img/Antagonascensor_sororminor_and_sorormajor/figure_2.png)
 
 **Figure 2:** RdRp structural alignments and conservation. (A) A.
 sororminor RdRp aligned with A. sorormajor RdRp. (B) BcMV1 RdRp aligned
