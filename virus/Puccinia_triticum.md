@@ -12,7 +12,7 @@ Triticum aesitivum, or common wheat, as been a global food staple for centuries.
 
 ## Results
 
-### Ecology subsection A...
+### Ecology: Serratus biosamples reveal Puccinia triticum infects pathogens responsible for wheat rust
 
 Analyzing the SRA runs obtained from serratus, containing our sequence, we can determine which species’ our virus most likely infects.
 
