@@ -190,7 +190,7 @@ The open reading frame was submitted along with all complete mitovirus RdRp
 sequences available, retrieved using the following Entrez Direct (Kans, 2024) command:
 
 ```
-esearch -db protein -query "(mitovirus OR Mitoviridae OR mitovirus-like) AND (RNA-dependent RNA polymerase OR RdRp)"
+esearch -db protein -query "(mitovirus OR Mitoviridae OR mitovirus-like) AND (RNA-dependent RNA polymerase OR RdRp)"| grep -v -i "partial" | sed 's/^\(>.*\)\([^>]\)/\1\n\2/' > mito_filtered.fasta"
 ```
 
 These sequences were analyzed using NGPhylogeny.fr’s (Lemoine et al., 2019) one-click workflow, where 
@@ -334,13 +334,11 @@ Waterhouse, A. M., Procter, J. B., Martin, D. M., Clamp, M., & Barton, G. J. (20
 
 ##Supplementary data 
 
-[Viral Contig](img/Fungicola_Clarireediae/contig_with_rdrp.rtf)
+[Viral Contig](img/Fungicola_Clarireediae/contig_with_rdrp.txt)
 
-[Viral Coding sequence](img/Fungicola_Clarireediae/orf_rdrp_cds.rtf)
+[Viral Coding sequence](img/Fungicola_Clarireediae/orf_rdrp_cds.txt)
 
-[Viral Protein Sequence](img/Fungicola_Clarireediae/orf_rdrp.rtf)
-
-[File Submited for Phylogeny Analysis](img/Fungicola_Clarireediae/phyto_send_file.fasta)
+[Viral Protein Sequence](img/Fungicola_Clarireediae/orf_rdrp.txt)
 
 [Full Phylogeny tree file](img/Fungicola_Clarireediae/FastTree_output_tree.nhx)
 
