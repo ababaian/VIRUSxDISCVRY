@@ -121,7 +121,7 @@ The possibility of other fungi within the samples hosting A. sororminor or A. so
 
 Drawing from genomic and ecological data, I conclude with high confidence that A. sororminor and A. sorormajor represent two novel mitoviruses.
 
-### Virus Genome {Q3}
+### Virus Genome
 
 ![](img/Antagonascensor_sororminor_and_sorormajor/figure_1.png)
 
