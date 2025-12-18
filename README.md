@@ -80,11 +80,20 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
+- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
+- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus)
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
+- [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
+- [Narnavirus porcinus](virus/Narnavirus_porcinus.md) (Narnavirus)
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
+- [Puccinia triticum.md](virus/Puccinia_triticum.md) (Narnavirus)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
+- [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
 - [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus)
+- [Partitivirus rumenrex](virus/Partitivirus_rumenrex.md) (Partitivirus)
+- [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus)
+- [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
@@ -113,26 +122,25 @@ An index of the Obelisk Discovery Reports.
 
 An index of the Virus Discovery Reports.
 
-- [Apiovirus anomala (Rhabdovirus)](virus/apiovirus_anomala.md)
-- [Arbovirus_chinensis (Orthomyxovirus)](virus/Arbovirus_chinensis.md)
+- [Apiovirus anomala](virus/apiovirus_anomala.md) (Rhabdovirus)
+- [Arbovirus_chinensis](virus/Arbovirus_chinensis.md) (Orthomyxovirus)
 - [Blumevirus macaceinfi](virus/Blumevirus_macaceinfi.md)
-- [Black Queen Cell Virus (Picornavirus)](virus/BQCV.md)
-- [Cripavirus inexspectatus (Dicistrovirus)](virus/Cripavirus_inexspectatus.md)
-- [Hemileia pugnator (Mitovirus) **<99%>**](virus/Hemileia_pugnator.md)
-- [Hemiptinidovirus metis (Nidovirus)](virus/H_metis.md)
-- [Hespivirus rivalense (Negevirus) **<99%>**](virus/hespivirus_rivalense.md)
-- [Locarnavirus Nudiformis (Marnavirus)](virus/Locarnavirus_nudiformis.md)
+- [Black Queen Cell Virus](virus/BQCV.md) (Picornavirus)
+- [Cripavirus inexspectatus](virus/Cripavirus_inexspectatus.md) (Dicistrovirus)
+- [Hemileia pugnator **<99%>**](virus/Hemileia_pugnator.md) (Mitovirus)
+- [Hemiptinidovirus metis](virus/H_metis.md) (Nidovirus)
+- [Hespivirus rivalense **<99%>**](virus/hespivirus_rivalense.md) (Negevirus)
+- [Locarnavirus Nudiformis](virus/Locarnavirus_nudiformis.md) (Marnavirus)
 - [Orthocurvulavirus phantasma](virus/Orthocurvulavirus_phantasma.md)
-- [Posasimilis intestivirus (Posavirus)](virus/p_intestivirus.md)
-- [Pupavirus apiscarab (Narnavirus) **<99%>**](virus/Pupavirus_apiscarab.md)
+- [Posasimilis intestivirus](virus/p_intestivirus.md) (Posavirus)
+- [Pupavirus apiscarab **<99%>**](virus/Pupavirus_apiscarab.md) (Narnavirus)
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
-- [Sedimentum occultus (Picornavirus)](virus/sedimentum_occultus.md)
-- [Thogotovirus_aidenensis (Orthomyxovirus)](virus/Thogotovirus_aidenensis.md)
+- [Sedimentum occultus](virus/sedimentum_occultus.md) (Picornavirus)
+- [Thogotovirus_aidenensis](virus/Thogotovirus_aidenensis.md) (Orthomyxovirus)
 - [Totivirus Arthropodamyoti](virus/Totivirus_Arthropodamyoti.md)
-- [Trojan Patchwork Virus (Virga-like Virus)](virus/trojan_patchwork_virus.md)
-- [Vermisvirus culicis (Negevirus)](virus/vermisvirus_culicis.md)
-- [Virusus intricatus trichomonadis (Totivirus)](virus/virusus_intricatus_trichomonadis.md)
-- [Insert Virus Name Here ...](template/virTemplate.md)
+- [Trojan Patchwork Virus](virus/trojan_patchwork_virus.md) (Virga-like Virus)
+- [Vermisvirus culicis](virus/vermisvirus_culicis.md) (Negevirus)
+- [Virusus intricatus trichomonadis](virus/virusus_intricatus_trichomonadis.md) (Totivirus)
 
 
 ## Project Organization
