@@ -1,4 +1,4 @@
-# {Q1A Paper Title}
+# {Puccinia triticum - The silent killer of the world's food supply}
 
 written by: [Ryan Fu](https://github.com/yourname%20*optional%20link*)
 
