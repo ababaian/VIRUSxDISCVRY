@@ -3,7 +3,7 @@
 
 ### Video Thumbnail
 
-![Video thumbnail](img/Puccinia_triticum/Puccinia_triticum_vid_thumbnail.png) 
+![Video thumbnail](../img/Puccinia_triticum/Puccinia_triticum_vid_thumbnail.png) 
 
 
 ### Video Description
