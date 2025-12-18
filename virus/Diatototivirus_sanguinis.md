@@ -6,7 +6,6 @@ written by: [Mohammad Ismu Daud]
 ### Diatototivirus sanguinis
 *Diatototivirus sanguinis. Diatototivirus = RdRP protein sequence similar to totiviruses infecting diatoms; sanguinis ("of blood") = the SRA runs where this virus was found came from blood sample (mostly).*
 
-[Optional: Tutorial 2 Generative AI Cover-art](img/<virusname>/cover.png)
 
 ## Abstract
 
@@ -50,12 +49,14 @@ The contig was then examined using NCBI ORFfinder, scanning all possible reading
 ![Figure 4. BLASTp top hits.](img/Diatototivirus_sanguinis/fig4.png)
 **Figure 4.** BLASTp top hits.
 
+```
 >Diatototivirus_sanguinis_partial_RdRP  
 GACAACATGCATGTGCACTGGATGGATAAGAAGACAGTATTGCAGACGGCGAAGATGGTGGGTACGTTACCGAGTGGTCA
 TAGGGCTACGACGTTCGTGAACACTATACTAAACGCTGCATATTGCCTGTACGCTAGCGAGAGCGGAATGGCCGGCTTAG
 ACGGTTATCACTGCGGAGACGACGTGATAGTCTTCGGCGACCAGACAGCAATGTCGAAATTTGTGACAGATATGACTAAG
 TCTGTCTTTAGAATAAACCCTGCAAAGCAGAGTGTAGGCAAATACAACGGAGAATTCCTGCGTGTAGCCTTCAACGGGCA
 GGGAGCGAGTGGATATGGGGCTCGTAGTATTAGTGCGACGGTAAGCGGCAACTGAACATCCAAACAC
+```
 
 Given the intriguing combination of its detection primarily in mammalian blood samples and its sequence similarity with diatom-associated toti-like viruses, we provisionally refer to this virus as ***Diatototivirus sanguinis***.
 
@@ -87,7 +88,7 @@ Schematic comparison of the partial genome recovered for *Diatototivirus sanguin
 **Figure 6.** Diatototivirus sanguinis partial RdRP structure prediction using AlphaFold3. Conserved palm motifs B and C and highlighted in green and red, respectively.
 
 Comparing Diatototivirus partial RdRP AlphaFold prediction structure with the structure databases using Foldseek, we discovered structural similarities with diatom colony-associated dsRNA virus 5 (Figure 7).
-![](img/Diatototivirus_sanguinis/foldseeka.png)
+![Diatototivirus sanguinis partial RdRP Foldseek match](img/Diatototivirus_sanguinis/foldseeka.png)
 **Figure 7.** Foldseek protein structure similarity search (van Kempen et al. 2024) of *Diatotivirus* partial RdRP (blue) resulted in the top hit, diatom colony-associated dsRNA virus 5 (yellow). Motifs B and c are shown on the right-hand side. While the general fold between the two are similar across most of the aligned region, a significant mismatch is observed in the alpha helix at the N-terminus of the alignment (left-hand side). This mismatch was also observed in other top Flodseek hits, and may be explained by the partial nature of the query sequence being aligned to the full-length RdRP sequences. This highlights the needs of further investigation to recover and assemble the complete genome of *Diatotivirus sanguinis*. In addition, the top hit only has a 51.2% sequence identity, showing the remarkable gap between sequence similarity and structural similarity. Most importantly, this analysis supports the close relationship between *Diatototivirus* and diatom colony associated viruses implicated by the phylogenetic analysis.
 
 ## Discussion
@@ -113,6 +114,7 @@ Despite being detected primarily in human and mouse blood–derived samples, *Di
 15. Thijssen M, Tacke F, Beller L, Deboutte W, Yinda KC, Nevens F, Laleman W, Van Ranst M, and Pourkarim MR. Clinical relevance of plasma virome dynamics in liver transplant recipients. EBioMedicine. 2020:60:103009. https://doi.org/10.1016/j.ebiom.2020.103009
 16. Wick RR, Schultz MB, Zobel J, and Holt KE. Bandage: interactive visualization of de novo genome assemblies. Bioinformatics. 2015:31(20):3350–3352. https://doi.org/10.1093/bioinformatics/btv383
 17. Zangger H, Hailu A, Desponds C, Lye L-F, Akopyants NS, Dobson DE, Ronet C, Ghalib H, Beverley SM, and Fasel N. Leishmania aethiopica Field Isolates Bearing an Endosymbiontic dsRNA Virus Induce Pro-inflammatory Cytokine Response. PLOS Neglected Tropical Diseases. 2014:8(4):e2836. https://doi.org/10.1371/journal.pntd.0002836
+
 # Viral Short Story
 
 ```
