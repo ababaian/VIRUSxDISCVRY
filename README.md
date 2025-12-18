@@ -80,9 +80,19 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
+#### Mitoviruses
+- [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md)
+
 #### Narnaviruses
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md)
-  
+- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md)
+
+#### Partitivirus
+- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md)
+
+#### Totivirus
+- [Totivirus celatus](virus/Totivirus_celatus.md)
+
 #### Other
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
