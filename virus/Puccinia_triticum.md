@@ -25,7 +25,7 @@ Observing the blastp hits, we can see we get maximum hits of \~70% identity. As 
 
 The most notable hit is the putative Rdrp with accession WBC51218.1, referring to a paper describing a novel ambigrammatic mycovirus, PsV5 that allegedly works hand in hand with wheat rust fungus to promote infection (Zhang et al). This hit, especially with a %identity of 70% provides evidence for our primary hypothesis. This paper proposes a novel narnavirus PsV5 that contains an ambigrammatic sequence, meaning it contains a reverse ORF that overlaps the forward ORF and spans almost the entire genome. The authors then go on to claim that overexpression of both the forward and reverse ORF sequences result in boosted infection, while RNA interference of these mRNA molecules causes a much lower infection rate. Given how similar these two viruses are and how they both exist in the same host and infect the same species of wheat, I will adjust my primary hypothesis now to the following. Not only does our novel virus promote wheat rust infection, it works cooperatively with PsV5 to promote infection. Our digital ecology so far has simply proven a correlation relationship. However, I want to investigate these proteins as well as the literature on wheat rust to determine if any causal relationship exists.
 
-### Virus Genome {Q3}
+### Virus Genome
 
 When analyzing our sequence’s ORF using ORFfinder, one interesting attribute I noticed was a long open reading frame spanning almost the entire genome (ORF9). Furthermore, I also notice a reverse ORF that also spans almost the entire genome, overlapping with ORF9 (ORF12). The rest of the ORFS in contrast, judging based on their short length, most likely do not encode for functional proteins (DeRisi J. L., 2019).
 
