@@ -80,6 +80,20 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
+#### Mitoviruses
+- [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md)
+
+#### Narnaviruses
+- [Narnavirus subdolus](virus/narnavirus_subdolus.md)
+- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md)
+
+#### Partitivirus
+- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md)
+
+#### Totivirus
+- [Totivirus celatus](virus/Totivirus_celatus.md)
+
+#### Other
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ## 2024 Obelisk Index
@@ -156,8 +170,10 @@ An index of the Virus Discovery Reports.
 │   └─── <virusname>.md      # Upload your completed virus discovery report
 │   │                        # into this folder
 │   └─── img/<virusname>/    # For each <virusname>, supporting data or image
-│                            # files are kept in their own directory named
-│                            # after the virus
+│   │                        # files are kept in their own directory named
+│   │                        # after the virus
+│   └─── vid/<virusname>/    # For each <virusname>, video descriptions
+│                            # for project YT channel
 |
 ├── data/                    # Example Data  ==================================
 │   │
