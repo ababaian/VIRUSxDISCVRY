@@ -4,7 +4,7 @@
 ### Video Thumbnail
 {Include a thumbnail for your video in your `img/<virusname>` folder.}
 
-[Video thumbnail](img/Puccinia_triticum/Puccinia_triticum_vid_thumbnail.png) 
+![Video thumbnail](img/Puccinia_triticum/Puccinia_triticum_vid_thumbnail.png) 
 
 
 ### Video Description
