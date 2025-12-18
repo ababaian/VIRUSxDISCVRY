@@ -1,5 +1,6 @@
 # Insessor Salmoscalpicī bugs the Salmon Louse: the latest head-scratcher in the increasingly animal toti-like clusterfunk.  
-written by: [Mark N. Metri](https://github.com/mnmetri4-sketch)
+
+Written by: [Mark N. Metri](https://github.com/mnmetri4-sketch)
 
 (https://youtu.be/9LtbfNcHAt8)
 
