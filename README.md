@@ -80,9 +80,12 @@ An index of the software tutorial.
 
 An index of the Virus Discovery Reports.
 
+`Mitoviriridae`
 - [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
 - [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus)
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
+
+`Narnaviridae`
 - [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus)
 - [Insessor salmoscalpicī](virus/Insessor_salmoscalpicī.md) (Narnavirus)
 - [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
@@ -92,12 +95,19 @@ An index of the Virus Discovery Reports.
 - [Puccinia triticum](virus/Puccinia_triticum.md) (Narnavirus)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
+
+`Partitiviridae`
+- [Durnavirus ambigiformis](virus/Durnavirus_ambigiformis.md) (Partitivirus)
 - [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
 - [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus)
 - [Partitivirus rumenrex](virus/Partitivirus_rumenrex.md) (Partitivirus)
+
+`Totiviridae`
 - [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus)
 - [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
+
+`Other`
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ## 2024 Obelisk Index
