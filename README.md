@@ -118,6 +118,7 @@ An index of the Virus Discovery Reports.
 `Totiviridae`
 - [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus)
 - [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
+- [Ovismusculus totivirae_desc](virus/vid/ovismusculus_totivirae_desc.md) (Totivirus)
 - [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus) X
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 
