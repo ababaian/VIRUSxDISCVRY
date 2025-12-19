@@ -8,7 +8,7 @@
 ### Video Description
 
 presented by: [Mark N. Metri](https://github.com/mnmetri4-sketch)
-project link: [project link](https://github.com/ababaian/VIRUSxDISCVRY/<Insessor_salmoscalpicī.md>)
+project link: [https://github.com/ababaian/VIRUSxDISCVRY/Insessor_salmoscalpicī.md]
 
 
 Insessor Salmoscalpicī bugs the Salmon Louse: the latest head-scratcher in the increasingly animal toti-like clusterfunk.
