@@ -75,11 +75,6 @@ The phylogenetic analysis resolved two well-supported clades: a fungal clade anc
 
 Figure 2. Maximum likelihood phylogeny of sOTU u145189. The evolutionary history was inferred using a maximum likelihood approach based on RdRp amino acid sequences. Viral sequences were aligned with MAFFT, and phylogenetic reconstruction was performed using FastTree via the NGPhylogeny.fr platform. The resulting tree was visualized and annotated in iTOL. The tree is rooted using the fungal Helminthosporium virus (grey). sOTU u145189 clusters as a robust sister taxon to Leishmania RNA virus 1 (cyan), placing it firmly within the protozoan-infecting clade of the family Totiviridae.
 
-
-
-
-
-
 ### Addressing the “Poly-A Paradox”
 Rationale & Hypothesis:
 An apparent inconsistency was identified in the viral analysis. Totiviridae are known to possess non-polyadenylated dsRNA genomes [Ghabrial, 1998], yet sOTU u145189 was recovered from an RNA-seq library annotated as cDNA-based and therefore likely enriched for polyadenylated transcripts. This observation is most consistent with non-canonical priming of the viral RNA during cDNA synthesis. Short internal A-rich regions within the viral RNA could plausibly allow incidental capture during oligo-dT–based library preparation. This mechanism, known as false priming, has been previously documented and provides a reasonable explanation for the presence of non-polyadenylated viral sequences in host RNA-seq data [Svoboda et al., 2022]. This hypothesis was evaluated by examining the viral contig for internal adenosine traces capable of mediating such capture.
