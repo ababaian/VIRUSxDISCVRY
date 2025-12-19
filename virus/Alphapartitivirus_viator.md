@@ -54,7 +54,7 @@ This hypothesis is substantiated by the detection of identical or near-identical
 
 ### Virus Genome
 
-![](./img/Alphapartitivirus_viator/virus_genome.png)
+![Alphapartitivirus viator genome](./img/Alphapartitivirus_viator/virus_genome.png)
 
 **Figure 1. Genomic organization, protein architecture, and sequencing coverage of *Alphapartitivirus viator* contig.**
 
@@ -68,7 +68,7 @@ This hypothesis is substantiated by the detection of identical or near-identical
 
 ### Tertiary Structure
 
-![](./img/Alphapartitivirus_viator/3d_structure.png)
+![lphapartitivirus viator 3D structure](./img/Alphapartitivirus_viator/3d_structure.png)
 
 **Figure 2. Predicted Tertiary Structure of the *Alphapartitivirus viator* RdRp Catalytic Domain (ORF2).**
 
@@ -80,7 +80,7 @@ This hypothesis is substantiated by the detection of identical or near-identical
 
 ### Host Prediction
 
-![](./img/Alphapartitivirus_viator/cai_plot.png)
+![Alphapartitivirus viator Codon Adaptation Index Plot](./img/Alphapartitivirus_viator/cai_plot.png)
 
 To distinguish between a true mammalian infection and dietary contamination, the Codon Adaptation Index (CAI) of the viral RdRp gene (ORF2) was calculated against four potential host genomes. (Top) CAI scores indicate the virus is best adapted to *Arabidopsis thaliana* (Plant, CAI = 0.850) and *Saccharomyces cerevisiae* (Fungi, CAI = 0.833). Statistical significance was assessed via e-CAI Monte Carlo simulation (n=1000). Asterisks (\*) denote significant adaptation (P \< 0.001) with positive Z-scores indicating active evolutionary selection. "ns" denotes no significant adaptation.
 
