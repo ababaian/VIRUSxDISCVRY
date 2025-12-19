@@ -26,9 +26,7 @@ The PDB outputs provide experimentally solved structural coordinate in .pdb and 
 
 On the structure summary page, you can see it's a Thosea asigna virus RdRP domain You can review core metadata, including classification (viral protein), source organism, experimental method (X-ray diffraction), resolution (3.00 Å), release date, authors, and expression system.
 
-![structure_summary.png](img/PDB/structure_summary.png) 
-
-*Fig.1 Structure summary page of a viral RdRP reference in PDB*
+![structure_summary.png](img/PDB/structure_summary.png) *Fig.1 Structure summary page of a viral RdRP reference in PDB*
 
 You can see the structure on the left of the screen.
 
@@ -100,11 +98,11 @@ The classification source database is ECOD, and 1.6 is the version of the ECOD r
 
 Click `Structure Summary` on the top of the page and scroll down to `Macromolecules`.
 
-![Sequence Clusters.png](img/PDB/Sequence%20Clusters.png) *Fig.6 Sequence clusters (Entity Groups)*
+![Sequence_Clusters.png](img/PDB/Sequence_Clusters.png) *Fig.6 Sequence clusters (Entity Groups)*
 
 Here, look for `Entity Groups` and click the `100% Identity` in the `Sequence Clusters`. This link will lead you to the group of `RNA-dependent RNA polymerase`. There are 9 members in total and you can check their properties one by one as instructed before.
 
-![RNA-dependent RNA polymerase.png](img/PDB/RNA-dependent%20RNA%20polymerase.png) *Fig.7 High-identity homolog cluster of RNA-dependent RNA polymerase*
+![RNA_dependent_RNA_polymerase.png](img/PDB/RNA_dependent_RNA_polymerase.png) *Fig.7 High-identity homolog cluster of RNA-dependent RNA polymerase*
 
 ### 7. Download the Structure
 
@@ -116,7 +114,7 @@ Click back to the `Structure Summary` page and click the `Download Files` botton
 
 You can also get the sequence (.FASTA), structure factors, validation and biological assembly files if needed.
 
-![Download Files.png](img/PDB/Download%20Files.png) *Fig.8 Download panel listing structure and validation file formats*
+![Download_Files.png](img/PDB/Download_Files.png) *Fig.8 Download panel listing structure and validation file formats*
 
 ### Conclusion
 

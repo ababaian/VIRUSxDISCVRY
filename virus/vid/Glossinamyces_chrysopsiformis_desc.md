@@ -2,17 +2,15 @@
 
 ### Video Thumbnail
 
-![Video thumbnail](../img/Glossinamyces%20chrysopsiformis/thumbnail.png)
+![Video thumbnail](../img/Glossinamyces_chrysopsiformis/thumbnail.png)
 
 ### Video Description
 
 presented by: [Rayna_Ma](https://github.com/Rayna-Ma)
 
-project link: [Glossinamyces chrysopsiformis](https://github.com/ababaian/VIRUSxDISCVRY/virus/Glossinamyces%20chrysopsiformis.md)
+project link: [Glossinamyces chrysopsiformis](https://github.com/ababaian/VIRUSxDISCVRY/virus/Glossinamyces_chrysopsiformis.md)
 
 Discovery of a novel dual-coding narna-like RNA virus from the tsetse fly holobiont
-
-{ ---- Text Fold ---- }
 
 Viruses are broadly classified into DNA and RNA viruses. RNA viruses are characterized by compact genomes and replication mediated by RNA-dependent RNA polymerase (RdRp).
 
