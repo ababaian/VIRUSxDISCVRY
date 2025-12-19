@@ -57,20 +57,21 @@ The strict localization of the viral signal to striated muscle (skeletal and car
 Intrinsic Features and Genome Architecture
 sOTU u145189 is defined by a 104 amino acid "palmprint" sequence which encompasses the core structural domain of the RdRp. This domain contains the three conserved catalytic motifs (A, B, and C), with Motif C at the C-terminus housing the GDD active site essential for catalysis. BLASTp analysis reveals top hits to Totiviridae (dsRNA viruses) with a best hit identity of ~61%, suggesting it represents a novel genus or species. The viral genome is likely linear, double-stranded RNA (dsRNA), typical of Totiviridae, with an expected bicistronic architecture consisting of two overlapping ORFs encoding a Gag (capsid) protein and a Pol (RdRp).
 
-![Figure 1: Genomic Architecture and Forensic Validation of sOTU u145189](../img/Sarcototivirus_pseudocauda/figure_1.png)
+![Figure 1: Genomic Architecture and Forensic Validation of sOTU u145189](img/Sarcototivirus_pseudocauda/figure_1.png)
 
 
 Figure 1: Genomic Architecture and Forensic Validation of sOTU u145189. (A) Hypothetical Genome: Schematic of the canonical Totiviridae architecture (dsRNA, ~6 kb), characterized by two overlapping open reading frames (Gag and Pol) expressed via a -1 ribosomal frameshift (not recovered in this microassembly). (B) Observed Microassembly: The viral genome was retrieved from the Serratus microassembly pipeline, yielding a high-coverage contig (NODE_2, 1,185 nt) from dataset SRR13240068 visualized here, and an extended scaffold (NODE_1, 1,524 nt) used for downstream phylogenetic reconstruction. Viral abundance was established via mean read coverage (10.9x). The contig contains a substantial Open Reading Frame (317 aa) initiating at nucleotide 230. This ORF encodes the core RNA-dependent RNA Polymerase (RdRp), containing the taxonomic 104 aa "Palmprint" domain (shaded region). The sequence is 3' incomplete. No additional viral segments (e.g., Gag) were recovered from the assembly. (C) Motif Validation: Multiple Sequence Alignment (MSA) of the palmprint region confirms the presence of the catalytic Motif C (GDD) active site.
 
-![Figure S1: AlphaFold 3D Structural Prediction of the Viral RdRp](../img/Sarcototivirus_pseudocauda/bonus_figure_S1.png)
+![Figure S1: AlphaFold 3D Structural Prediction of the Viral RdRp](img/Sarcototivirus_pseudocauda/bonus_figure_S1.png)
 
 Figure S1: AlphaFold 3D Structural Prediction of the Viral RdRp. The tertiary structure of the complete viral ORF (317 aa) was predicted using AlphaFold2 (via ColabFold). The canonical "Right Hand" polymerase architecture is resolved with high confidence (Rank 1 model). The conserved active site motifs are highlighted: Motif A (Blue) containing the proton-transfer wire; Motif B (Green) containing the flexible glycine loop; and Motif C (Red) containing the catalytic GDD triad essential for RNA synthesis.
 
-![Figure 2: Maximum likelihood phylogeny of sOTU u145189](../img/Sarcototivirus_pseudocauda/phylogenetic_tree.png)
 
 Phylogenetic Verification of Host Tropism
 To validate the host prediction beyond simple BLAST-based homology, I conducted a maximum likelihood phylogenetic analysis. The RdRp sequence of sOTU u145189 was aligned with the RdRp sequences of the type species from each of the five recognized Totiviridae genera: Giardia lamblia virus (Giardiavirus), Trichomonas vaginalis virus 1 (Trichomonasvirus), Leishmania RNA virus 1 (Leishmaniavirus), Saccharomyces cerevisiae virus L-A (Totivirus), and Helminthosporium victoriae virus 190S (Victorivirus).
 The phylogenetic analysis resolved two well-supported clades: a fungal clade anchored by Saccharomyces cerevisiae and a protozoan clade anchored by Giardia and Trichomonas. sOTU u145189 clustered robustly within the protozoan clade, forming a sister relationship to the Giardia/Trichomonas lineage. This evolutionary placement supports adaptation to a protozoan host and strengthens the inference that the viral signal detected in bovine muscle originates from the parasite Sarcocystis, rather than from the bovine host itself.
+
+![Figure 2: Maximum likelihood phylogeny of sOTU u145189](img/Sarcototivirus_pseudocauda/phylogenetic_tree.png)
 
 Figure 2. Maximum likelihood phylogeny of sOTU u145189. The evolutionary history was inferred using a maximum likelihood approach based on RdRp amino acid sequences. Viral sequences were aligned with MAFFT, and phylogenetic reconstruction was performed using FastTree via the NGPhylogeny.fr platform. The resulting tree was visualized and annotated in iTOL. The tree is rooted using the fungal Helminthosporium virus (grey). sOTU u145189 clusters as a robust sister taxon to Leishmania RNA virus 1 (cyan), placing it firmly within the protozoan-infecting clade of the family Totiviridae.
 
