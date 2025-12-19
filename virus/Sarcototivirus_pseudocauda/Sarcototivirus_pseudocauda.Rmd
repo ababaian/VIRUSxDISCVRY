@@ -1,581 +1,111 @@
----
-title: "Final Project - The Platinum Age of Virus Discovery"
-output:
-  pdf_document:
-    latex_engine: xelatex
-  html_document:
-    fig_caption: true
----
+# Tail of Two Hosts: Tracing a Cryptic Totiviridae-Associated Virus in Bovine Muscle Transcriptomes
+written by: [Khushi Kankaria](https://github.com/khushikankaria)
 
-## Preamble
-Please mark the following boxes with an X as appropriate:
-```
-- [X] Completed the Request for Evaluation by Artem
-- [] Answers assisted with generative AI (please indicate where)
-```
+[YouTube/Video Link to your presentation video](TBD)
 
-# FINAL PROJECT ================================================================
-# ==============================================================================
-```
-..==                                                                        ==..
-..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
-..==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           ==..
-..==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           ==..
-..==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            ==..
-..==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           ==..
-..==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           ==..
-..==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            ==..
-..==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              ==..
-..==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            ==..
-..==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            ==..
-..==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            ==..
-..==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            ==..
-..==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            ==..
-..==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             ==,.
-..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
-..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
-..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
-..==           ░               ░           ░            ░ ░                 ==..
-..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
+### Sarcototivirus pseudocauda
+*Genus: Sarcototivirus. Derived from “Sarco” (Greek sarx for flesh/muscle), referencing both the isolation source (striated bovine muscle) and the presumed protozoan host genus (Sarcocystis), plus "Totivirus" to place it within the Totiviridae family. Species: pseudocauda. Derived from "pseudo" (Greek for false) + "cauda" (Latin for tail). The name refers to the inferred mechanism by which the virus was detected (internal A-rich regions mimicking a poly-A tail).*
 
-At the dawn of the Molecular Genetics, Max Delbruck led a loose collection of
-geneticists known as the "Phage Group". They were amongst the first to pick up
-the reciever when the Molecular Revolution was calling. They had two unifying
-philosophies:
+## Abstract
 
-(1) Hard Physics-style Scientific Inquiry
-(2) They studied viruses, because that's the simplest model organism to do
-    cool science in.
-    
-Computational Biology is having that kind of moment today. And the way to 
-realize the Computational Revolution of biology is by choosing a strong model;
-Viruses and Virus-like Agents!
+Public nucleotide archives contain vast repositories of host-derived RNA sequencing data that remain largely unexplored for commensal or parasitic viral signatures. Standard eukaryotic mRNA sequencing protocols frequently utilize poly-A enrichment to capture coding transcripts, a process assumed to exclude non-polyadenylated lineages such as double-stranded RNA (dsRNA) viruses of the family Totiviridae. However, it remains unclear to what extent this exclusion is absolute, or if specific biochemical mechanisms allow "tailless" viral RNA to bypass selection and appear as authentic signals in host datasets. Here, I characterize the ecology and capture mechanism of sOTU u145189, a cryptic Totiviridae-like RNA-dependent RNA polymerase recovered from Bos grunniens (Yak) muscle transcriptomes. The viral signal was found to be predominant in striated muscle across 15 sequencing runs, while phylogenetic analysis places it with Eimeria-associated viruses (about 61% amino acid identity), contradicting a direct bovine infection model. Forensic sequence analysis shows that although the virus lacks a true poly-A tail, it contains several short adenosine-rich regions (AAAA) that could enable incidental capture during oligo-dT–based library preparation. I therefore propose that u145189 represents a "passenger" virus of the muscle-encysting apicomplexan Sarcocystis, unmasked during host library preparation. Consequently, this study demonstrates that technical artifacts in library preparation can be leveraged as forensic tools, transforming archived host transcriptomes into unanticipated resources for surveying cryptic microbiological ecosystems.
 
-Guidance from the Elders:
+## Results: Forensic Ecology & Genomic Reconstruction
 
-https://www.science.org/doi/10.1126/science.146.3642.347
-
-..==                                                                        ==..
-..==                                                                        ==..
-..==                                                                        ==..
-```
-
-## Learner Objectives
-```
-By the end of this assignment, you will have taken the plunge into a real
-research problem, there is risk and no certainty of "success", but as the old
-saying goes, "If you can't fatally kill your hypothesis, then it was never alive
-to begin with." Risk begets Reward.
-
-It is up to you to find and guide the direction of the project, these questions
-only give you a generic scaffold. As such, (and with the bonus marks) it will
-be possible to do a technically good job and you'll do fine on the assignment.
-
-A subset of you will rise to the occasion and knock it out of the park, that 
-will reflect the 99% grades. If you earn 99% on this final, consider it a formal
-job offer to join the RNAlab for the summer.
-
-If you do an exceptional on this project and uncover something worth publishing,
-I will encourage you to pursue it and go through with a publication.
-
-Remember, you're a scientist if you choose to be.
-```
-
-## Assignment Objectives
-```
-For this project you're going to compile all the components for a short
-"Genome Announcement" style scientific report, describing the RNA virome
-of a species which you have been randomized. You do not need to re-write the
-answers into a seperate paper, this assignment serves as the paper/methods 
-template. You will know by the end if it's worth formalizing. In addition you
-are to prepare a 6 minute video  presentation summarizing your work.
-
-The goal here is *Data Exploration*, you are not expected to have every analysis
-work and be super insightful, instead you will be graded on rationale, creativity
-technical execution, and presentation of your analysis. Outcome does not affect
-grade. 
-
-Most analyses will be difficult or impossible to interpret, the fun part of
-science  is we can't always know the difference. If you are able to
-justify (hypothesis) the reason you performed a given analysis, and it's
-inconclusive, you will recieve full marks for trying. You will be deducted (few)
-marks if you include an analysis and it's not justified, or if you misinterpret
-the analysis results. The _most common_ error is not justifying your conclusions
-with reported data, or over-claiming conclusions. Be precise, be specific, and 
-back up your statements with data! This is the feedback/learning mechanism of
-peer review, it will guide you in the future.
-
-Please include in the work when you judge you can make a *low*, *moderate* or
-*high*  confidence conclusion. Also state if your results are inconclusive.
-```
-
-
-## Logistics
-```
-Inclusive in this document should be all supporting code, scripts, and/or 
-software settings used to answer any questions in the assignment. If you use or
-generate a data-object, such as .fasta, .pdb, .sto, .csv, etc..., include this
-in your submission repository.
-
-For Written portions please use block text like this and you can include 
-references simply as square brackets [Babaian. 1989], with a references section
-at the end.
-```
-
-## Virus Assignment
-```
-You are randomly assigned a Virus. 
-
-## `data/virusAssignments.csv` 
-  Gives the assignment of your virus. Each virus has a unique identifier (sOTU)
-  as well as some summary statistics about where this virus was "found" in the
-  SRA. You're also given a link to the assembly file from the "index run" which
-  should contain your virus sequence.
-
-## `data/virusRunObservations.csv`
-  This file  contains a list of all SRA "runs" in which these  viruses were 
-  reliably detected. You can use the sOTU identifier to get an  estimate overview
-  for your virus. The final column in this file contains the  barcode sequence
-  detected in that particular run.
-
-```
-
-## Example "Virus Announcement" references
-(Emulate these! Read for inspiration.)
-
-- [Obelisks](https://www.sciencedirect.com/science/article/abs/pii/S0092867424010912)
-- [Odysseus](https://academic.oup.com/ve/article/10/1/veae040/7668577)
-- [Inocles](https://www.biorxiv.org/content/10.1101/2024.09.30.615745v1)
-- [Borg](https://www.nature.com/articles/s41586-022-05256-1)
-- [Zeta Elements](https://www.nature.com/articles/s41586-021-04332-2)
-- [Ambivirus elements](https://www.nature.com/articles/s41467-023-38301-2)
-- [Bornaviruses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8321990/)
-- [Pepino Mosiac Virus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952647/)
-- [Lancehead filovirus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8498845/)
-- [Perch filovirus](https://journals.asm.org/doi/10.1128/mra.00028-23)
-- [Locarnaviruses](https://link.springer.com/article/10.1007/s00705-023-05908-1)
-
-
-# ==============================================================================
-
-## Question 1 : Framing the story `(10 points)` --------------------------------
-**Q.** `(1 point)` Write a title for your paper which describes your key finding.
-
-**A.** Tail of Two Hosts: Tracing a Cryptic Totiviridae-Associated Virus in Bovine Muscle Transcriptomes
-
-**Q.** `(bonus point)` Include a pun in your title which relates to a theme or motif
-used throughout your paper.
-
-**A.** The title "Tail of Two Hosts" is a play on Dickens' A Tale of Two Cities, where: 
-- 'Tail': refers to the central technical paradox of the study: the recovery of a "tailless" dsRNA virus from a Poly-A "tailed" library
-- 'Two Hosts': refers to the biological conflict between the metadata host (Bos grunniens) and the true biological host (Sarcocystis), distinguishing the "vessel" from the "infection".
-
-**Q.** `(1 point)` Give your virus a latin binomial name, and explain the etiology
-of the name and how it relates to the story of your virus.
-
-**A.** I propose the name *Sarcototivirus pseudocauda*.
-Genus: *Sarcototivirus*
-1. Derived from “Sarco” (Greek sarx for flesh/muscle), referencing both the isolation source, i.e. striated bovine muscle and the presumed protozoan host genus, *Sarcocystis*.
-2. "Totivirus" places it within its correct taxonomic family (Totiviridae).
-Species: *pseudocauda*
-1. Derived from "pseudo" (Greek for false) + "cauda" (Latin for tail).
-2. The name refers to the inferred mechanism by which the virus was detected. Totiviridae genomes are non-polyadenylated dsRNA and are not expected to be recovered from poly-A–enriched RNA-seq libraries; however, the recovered contig contains short internal A-rich regions. This supports the hypothesis that the virus entered the sequencing library through non-canonical oligo-dT priming rather than true polyadenylation.
-
-
-**Q.** `(8 points)` For any given paper, 90% of the readership will only read your
-abstract. How many people go on to read the rest of your paper will depend
-on your ability to capture peoples interest in the abstract. (hint: write the
-abstract last)
-
-Read *How to Construct a Nature summary paragraph* and write a short abstract
-closely following this structure. Max 300 words.
-
-Link: https://www.nature.com/documents/nature-summary-paragraph.pdf
-
-**A.** Public nucleotide archives contain vast repositories of host-derived RNA sequencing data that remain largely unexplored for commensal or parasitic viral signatures. Standard eukaryotic mRNA sequencing protocols frequently utilize poly-A enrichment to capture coding transcripts, a process assumed to exclude non-polyadenylated lineages such as double-stranded RNA (dsRNA) viruses of the family Totiviridae. However, it remains unclear to what extent this exclusion is absolute, or if specific biochemical mechanisms allow "tailless" viral RNA to bypass selection and appear as authentic signals in host datasets. Here, I characterize the ecology and capture mechanism of sOTU u145189, a cryptic Totiviridae-like RNA-dependent RNA polymerase recovered from Bos grunniens (Yak) muscle transcriptomes. The viral signal was found to be predominant in striated muscle across 15 sequencing runs, while phylogenetic analysis places it with Eimeria-associated viruses (~61% amino acid identity), contradicting a direct bovine infection model. Forensic sequence analysis shows that although the virus lacks a true poly-A tail, it contains several short adenosine-rich regions (AAAA) that could enable incidental capture during oligo-dT–based library preparation. I therefore propose that u145189 represents a "passenger" virus of the muscle-encysting apicomplexan *Sarcocystis*, unmasked during host library preparation. Consequently, this study demonstrates that technical artifacts in library preparation can be leveraged as forensic tools, transforming archived host transcriptomes into unanticipated resources for surveying cryptic microbiological ecosystems. 
-
-## Question 2 : Digital Ecology  `(20 points)` ---------------------------------
-
-In brief, ecology is the relationship of an organism to biotic and abiotic
-factors. Consider the sample source for this virus and describe the specifics
-(e.g. run accessions, study authors, associated species, ...) and generics 
-(e.g. type of ecosystem, country/continent, common associated host class like
-Mammals).
-
-All viruses occur in more than one dataset (SRA run), compare and contrast
-the ecology of your index case, and the broader ecology of all virus-containing
-datasets. What commonalities, if any, emerge?
-
-Organize your answer in notes and ideas into at two or three topic sub-sections,
-with a heading for each. This will form the "body" of your story. For
-each sub-heading, develop a logical progression of notes or short sentences.
-
-This should be methodology oriented, explain the details of what and how you
-performed the analysis, linking logical ideas together. If you ran any program
-with a non-standard parameter, be sure to include that information.
-
-Guiding questions:
-- Is there an associated publication with your index case?
-- How many different "bioProjects" does your virus land in? Are there more
-  publications describing those?
-- Which dataset(s) is the virus found in?
-- How does this observation compare to the "expected" niche of related viruses?
-- What is the origin(s) of these dataset(s), technology and biology.
-- Can you observe a common factor which links these datasets together and
-  may explain the presence of the virus?
-- How can you measure and quantify your observations. More importantly, how do 
-  you translate this into a hypothesis?
-
-```
-# Example Answer
-**Identification of a T. gondii-associated viral sequence**
-
-Using SerratusSQL to screen for novel human neuroinflammatory RNA viruses, 
-we searched the BioSample database [Barrett et al. 2012] for SRA libraries
-annotated with metadata describing the sample as 
-  (1) human and 
-  (2) central nervous system.
-  
-SQL query:
-`SELECT * FROM tismap_summary 
-  WHERE biosample_tags LIKE ‘%neuron%’ 
-  AND scientific_name ‘Homo sapiens’ 
-  AND percent_identity 90 
-  ORDER BY coverage desc;`
-
-From the 7,675,502 sequencing runs, 483,173 (6.29 percent) runs were annotated
-as `central nervous system` samples, of which 82,454 (17.07 per cent) were
-annotated as human. 
-
-We further filtered to ‘neuron’ annotated datasets containing an unknown virus
-(<90 per cent RdRp amino acid identity, detected by palmscan, 
-[Babaian and Edgar 2022]). This yielded a ten matching libraries.
-
-By contig coverage, three of the highest-expression libraries (SRR1205923,
-SRR1204654, and SRR1205190) originated from one BioProject (PRJNA241125), which
-we manually inspected to identify a divergent RdRp fragment (palmprint:
-u150420_halalDiploma).
-
-We term this BioProject’s associated paper ‘the Ngô study’, wherein the authors
-infected three human cell types (neuronal stem cells, neuronal differentiated
-cells, and monocytes) in vitro, with nine different strains of the
-apicomplexan parasite T. gondii or a mock control [Ngô et al. 2017].
-
-We assembled all 117 available Ngô mRNAseq runs de novo and with palmscan
-identified a 3,202 nucleotide (nt) putative viral contig with a coding-complete
-989 amino acid RdRp (see below).
-
-A blastp search on the translated protein revealed highly divergent RdRp
-homologs; the highest identity match was an unclassified Riboviria RdRp
-(search date: 18 June 2023, accession: QIM73983.1, percent-identity: 54.13 per
-cent, query-coverage: 40 per cent, e-value: 9e-133).
-
->OZ005311.1 Apocryptovirus odysseus RUB 1 Segment 1. RNA-dependent RNA polymerase, complete CDS
-CTTTTTTTACCGGTAATCGGTAAGCGCGCCTCAGGGTCCGCTTTGGTGTAAAACCAGCGATACCGGATCG
-GTAGAATGTCTCTACCCGATATTGTTCCCGTGCATGACTGCAGAACAAGCGCGCAAGAAGTTCGCGATGG
-CACTATTAAAGTTGACCATCGTTGGTACCTAGATTTCCTAGATACCAATCCCGGATCCATTTTACATGGA
-TGGGACGAAATCCCGTCGTATGCAAGAAAGAGAAGAGTTATACGCTCTTTCCCTTTCGAGCTAAAGACGG
-ACGTGATAGATAAACTATCACGTGCAGATTCCGAATTCGTTAAACGAATCGTGAATCTGGTTCTGGCGTT
-TGAAGATAATTTACTTTTCTCAGACCCAGAACATTTCCCCAGAATATTTCGTTCTAGGGAATACAACCGA
-TTGTTCAAATGGGTTGTATCCAGTGAGGTATACTCTCCTGGTTCTCCTGTAGATGAATGGAAATCATTCA
-TCCAGGTCGTCCGATGGCATGCATTTCGCAGTCAGACGGAAAAGCCAGACGGGCCGCGGAATTTCCCCGG
-ATTCCGTCGTCAGAAGGGGTTGGATGAACTTCACCACTTCTGGGCTGTTCTGGTACCCTGGTTAATCCCG
-GTTTGGAGGGAAGGGTTAACCTCTAAACTCCAATGTACCAGATTAATGCATTTCCTAAGTTCTAGGAATA
-TGCCTGCGGCACCCAAGAAGAAGCGTAACGCTTCCTTGGAAGAACACTTCCGGGTTTTAACCTCGGAAGG
-GCCGGACCTGGCCAGTCGTAACGAGTGGCTCAGAGGAGCCGCCTTCCATTACGGAAGGCGACTGCGCTCA
-GAGAGCGGAGAGACCATATCAGGTGCTCATCTCTCAGTGACCAATTCTGCGTCCTTCCTATCCTCTGTTA
-AAGAGGGTGGTCGTGGCGTAGAAACGGCCAGCTTTTTCCGATCCTGGATCATGAAGAAACCAGAAACTAC
-CGAACAAAGGTTAACTTGGTTCGGAAAGCCGTACTGGCTGGAAAAAGGAACTCCGCAATGGGAGACTATG
-TGCCGTGAGGTTAAACCTCAATCGGGAGAACCTGGCGACTCTTCGTATTTAACGGAAGTCGACTTCACAC
-CGGGTGCATTTCGGTATGAAGATCCCATATATTGTTTAGATCAGTATACGGGATACCAGATCTTCCAGTG
-GTCTCTGGAAGAAGGGATTTCCCGCGGGTATATCCGGGGAAAACCCTATCGCGATCCTGATGGTTTATCC
-ATTACAGGAAAGGCCCCATTAATTAGGGCTTCCGCGATTGGCGAACCTGGGAATAAATCCCGGGTCGTCA
-CGGTTGGGGAGGGTTGGTTAACAATCTTCCTCCAGCCGTATGCCCACGCGCTTATAGGTATACTCAAGCG
-CGATTCGGATGCCAAAGCCGGACTCTCAAGAGCCTGGCAAGGATTCGAATACGTTAAACGTTGGGCAGGT
-AGGGGTAAACCTCCACCAGAGGAACAGAGGTTTATCCTCTCTTCCGATCTCAAAACCGCTACGGACTACT
-GCCCGCATGGTTACTCTCGATCCTTGTTAAAAGGATTCATAGATGGGTTAGGACTGGAAACAGACCTAAC
-CAATCTATGGGTTGATCTCCTCACCTGCGGTAGAACATATGTTTCACCGTTCGGTAAAAAGATCACCACC
-CGAGGTATACTCATGGGTGACCCGGGAGCGAAGCTCGTGCTATCATTGTTTAACAAGGTAGCCGAGATGG
-AGGCTCAAGTACGATTTAATATCGGTACTCACCTCCGAATGTCTGGGAAGTTCCTTCTCAGACATCTAGA
-GACTGACGGCCTTCACGGTCCTCAGTCTCGATTATTTGCCTTTGCAGGAGATGACCATGTGGCTCTAGGC
-CCAGTCAACTACCTTCGGCAAATCACAGCTTCACACATCCGGAACGGAATGTGTGTGTCGACTACCACGA
-ATTATATTTCGTGTGTAGCAGCTGTGTACTGCGAGGAGATGGTTTTCATCCGCTCGACAGATGTGTGGAA
-GTATTGGGGAAGTAACATTCCCCTATACAAATCTCCGTATCAGGAGAATCCACATGTAGACGCTCTTAAA
-TTGCGACTACTTTCCCTGTGTCGTAAAGAACACGAAGGGAAAAACGATGCCAACCCTGCAATCGGTATGT
-CTTCCTCGTTACGGGGAATGATACACTGGTTTGCAGAAGGGTGGGAAACCACCCGTGGCATCGTCAGCAA
-GAGATTCCGGCAAAAAATGCGGGGGTTAATCCCTGAAAATCTCTTCCTTGCGGCACTCCCCAAGGAACTT
-GGTGGAATAGAGTGCCCAGTCTTTGACGTTCCTGATACGGAGCTTCAAAGACACTTCCTCGAATTGCCAG
-AGCTACACAAACGTGTAATAGCCCTGGTCCTGAGGAAGGATGAGAAAACAAACCCGTCGTTCCGACGGAT
-GTTATCTCAGATACCTTCGATGAGCGCTCTACGCGGGGTTGACCCAGACTCAATCGAAGAATCCGTTCGG
-GAGGTTTTATCCTCCGAACTGTGTCAGTCTTTACGACTGTCAGAAATCCGGGTTAAACTCGGATTTTCTG
-AAGTTGCCTGGGAGCAGTTACGCTTCGCAGACAAACTCGCATTAATAAACCAACGTACAGAGTATATCTC
-AGTTGGTTCAGCCGTACAGGCTGTAATGCGTCCATACATCTTCAGGGATATTTTATTCCCGGAGATGTCA
-GCTAAGCATGGCATTTGTCCGTTCCGGACAAAAGCCTATGCGAACCTGCACTGGAAACGACGGTTCGAAC
-GTTTCTATAGTGCGGTTGAGGGATTCCTGAGTAAATCTGAGGAAGCTCGAGAACAGATTAATTCTGTCTC
-AGAGTCCGAGATGGATTCTCTCCATGAACGGATTTTATCCATCATGGAAGACCCGTCCCGTCCCGATATC
-CACCGCGAGGTAGTTTTCCTTCCTCGCAAAGTGGTTTTTACAGAGACTTTATGTACTCTGCAATTACCCG
-GGATCTATTAAAGACCCTTTACATGATCATTTACTGATCATCCGCTTTACGCGGCGGGTATATCTCTCGT
-GAGGATGGATTAAATCCTGCGCGCACCTTACGACCAGGCGTACCCGGTACGGGGGTTGCTATACGCTCCT
-CCGACATCTGATTAACAGATGTTTGCTGTTTTAAACAGCAAAAAAAAAAAAA
-
->CAK8177718.1 RNA-dependent RNA polymerase [Narnavirus sp.]
-MSLPDIVPVHDCRTSAQEVRDGTIKVDHRWYLDFLDTNPGSILHGWDEIPSYARKRRVIRSFPFELKTDV
-IDKLSRADSEFVKRIVNLVLAFEDNLLFSDPEHFPRIFRSREYNRLFKWVVSSEVYSPGSPVDEWKSFIQ
-VVRWHAFRSQTEKPDGPRNFPGFRRQKGLDELHHFWAVLVPWLIPVWREGLTSKLQCTRLMHFLSSRNMP
-AAPKKKRNASLEEHFRVLTSEGPDLASRNEWLRGAAFHYGRRLRSESGETISGAHLSVTNSASFLSSVKE
-GGRGVETASFFRSWIMKKPETTEQRLTWFGKPYWLEKGTPQWETMCREVKPQSGEPGDSSYLTEVDFTPG
-AFRYEDPIYCLDQYTGYQIFQWSLEEGISRGYIRGKPYRDPDGLSITGKAPLIRASAIGEPGNKSRVVTV
-GEGWLTIFLQPYAHALIGILKRDSDAKAGLSRAWQGFEYVKRWAGRGKPPPEEQRFILSSDLKTATDYCP
-HGYSRSLLKGFIDGLGLETDLTNLWVDLLTCGRTYVSPFGKKITTRGILMGDPGAKLVLSLFNKVAEMEA
-QVRFNIGTHLRMSGKFLLRHLETDGLHGPQSRLFAFAGDDHVALGPVNYLRQITASHIRNGMCVSTTTNY
-ISCVAAVYCEEMVFIRSTDVWKYWGSNIPLYKSPYQENPHVDALKLRLLSLCRKEHEGKNDANPAIGMSS
-SLRGMIHWFAEGWETTRGIVSKRFRQKMRGLIPENLFLAALPKELGGIECPVFDVPDTELQRHFLELPEL
-HKRVIALVLRKDEKTNPSFRRMLSQIPSMSALRGVDPDSIEESVREVLSSELCQSLRLSEIRVKLGFSEV
-AWEQLRFADKLALINQRTEYISVGSAVQAVMRPYIFRDILFPEMSAKHGICPFRTKAYANLHWKRRFERF
-YSAVEGFLSKSEEAREQINSVSESEMDSLHERILSIMEDPSRPDIHREVVFLPRKVVFTETLCTLQLPGI
-Y
-```
-**A.** 
-### A. Introduction and Identification of the Index Dataset 
+### Patient Zero: The Index Case Anomaly
 Ecological analysis defines a virus by its relationship to its host (biotic) and environment (abiotic). To establish the baseline ecology for sOTU u145189, I looked at its “Index Case”, the dataset where it first appeared. The virus was identified in SRA run SRR13240068, which is part of BioProject PRJNA683720, a raw sequencing dataset from Southwest Minzu University (2020) generated within the study “Maiwa farming in plateau and plain.” SRR13240068 was used as the index case because it represents the highest-coverage detection of the canonical palmprint sequence for sOTU u145189 and provides a complete, well-annotated metadata context.
 
-- Biotic context: According to the NCBI BioSample metadata, the host organism is the Maiwa breed of domestic yak (*Bos grunniens*); specifically, the sample is annotated as muscle tissue collected from an adult male
-- Abiotic context: Although the broader study includes bovine animals from both Guanghan (plain) and Hongyuan (plateau), the index dataset analyzed here corresponds specifically to the Hongyuan high-altitude plateau group.. 
-- Technical context: NCBI library annotations (RNA-seq strategy, transcriptomic source, cDNA selection) are consistent with host-focused sequencing design rather than a targeted microbial or viral profiling. 
+- Biotic context: According to the NCBI BioSample metadata, the host organism is the Maiwa breed of domestic yak (Bos grunniens); specifically, the sample is annotated as muscle tissue collected from an adult male.
 
-### B. Expansion to the Broader Viral Ecology  
+- Abiotic context: Although the broader study includes bovine animals from both Guanghan (plain) and Hongyuan (plateau), the index dataset analyzed here corresponds specifically to the Hongyuan high-altitude plateau group.
 
-To place the index case in a broader ecological context, I examined the virusRunObservations.csv dataset to identify all sequencing runs containing sOTU u145189. This dataset aggregates Serratus RdRp detections across public SRA libraries and serves as the main source for ecological analysis in this project.
+- Technical context: NCBI library annotations (RNA-seq strategy, transcriptomic source, cDNA selection) are consistent with host-focused sequencing design rather than a targeted microbial or viral profiling.
 
-All rows corresponding to u145189 were extracted, and unique SRA runs, BioProjects, and associated host metadata were counted and summarized.
+### Expansion to the Broader Viral Ecology
+To place the index case in a broader ecological context, I examined the virusRunObservations.csv dataset to identify all sequencing runs containing sOTU u145189. This dataset aggregates Serratus RdRp detections across public SRA libraries and serves as the main source for ecological analysis in this project. All rows corresponding to u145189 were extracted, and unique SRA runs, BioProjects, and associated host metadata were counted and summarized. This screening identified 17 observations across 15 unique SRA runs distributed across 6 independent BioProjects.
 
-This screening identified 17 observations across 15 unique SRA runs distributed across 6 independent BioProjects. 
+- Host Specificity: The virus is strongly associated with the subfamily Bovinae, appearing multiple times in Bos grunniens (Yak) and Bos taurus (Cattle). A single detection is annotated as human-derived.
 
-- Host Specificity: The virus is strongly associated with the subfamily Bovinae, appearing multiple times in *Bos grunniens* (Yak) and *Bos taurus* (Cattle). A single detection is annotated as human-derived.
 - Geographical Independence: The detections span independent studies from China (Yak) and North America (Cattle). Critically, while the Cow Heart detections (PRJNA644042) originate from the same institution as the Index Case (Southwest Minzu University), the Cow Muscle detections (PRJNA480220) originate from the University of Alberta (Canada). This replication across completely distinct laboratories and continents strongly argues against a facility-specific contaminant.
-- Tissue context: In *Bos grunniens*, detections are confined to muscle tissue, whereas in *Bos taurus*, the viral signal is detected in muscle and heart tissue, consistent with the Yak index case. Lastly, one single detection occurs in the Homo sapiens fecal dataset.
 
-### C. Comparison to Related Viruses and Ecological Interpretation  
+- Tissue context: In Bos grunniens, detections are confined to muscle tissue, whereas in Bos taurus, the viral signal is detected in muscle and heart tissue, consistent with the Yak index case. Lastly, one single detection occurs in the Homo sapiens fecal dataset.
+
+### Comparison to Related Viruses and Ecological Interpretation
 To assess whether this ecological pattern aligns with expectations from related viruses, I performed BLASTp analysis on the translated palmprint sequence (104 amino acids) corresponding to u145189. BLASTp analysis returns RNA-dependent RNA polymerases as the top matches. Because the query sequence is short (~104 amino acids) and aligns only to a small internal region of much larger RdRp proteins, this confirms that u145189 represents a conserved RdRp fragment (a Serratus palmprint) rather than a full-length polymerase.
 
 - Result: The top matches were RNA-dependent RNA polymerases from Totiviridae-like viruses, including Eimeria-associated RNA viruses, with approximately 61% amino acid identity and an E-value of 9e-37.
+
 - The paradox: Viruses in this group are most commonly associated with fungi or protozoa, rather than vertebrate hosts. This contrasts with the repeated detection of u145189 in datasets derived from ruminant animals, including samples annotated as muscle tissue.
 
-Comparative tissue analysis: To better understand this paradox, I examined the run-level metadata for the bovine datasets to determine the precise tissue tropism. An informative distinction emerged: 
-- The Index (Yak): Detected exclusively in muscle tissue (SRR13240068), establishing the baseline tropism. 
+Comparative tissue analysis: To better understand this paradox, I examined the run-level metadata for the bovine datasets to determine the precise tissue tropism. An informative distinction emerged:
+
+- The Index (Yak): Detected exclusively in muscle tissue (SRR13240068), establishing the baseline tropism.
+
 - The Broader Context (Cattle): While the parent BioProject (PRJNA480220) describes a broad "multi-tissue" study (including Rumen, Liver, and Lung), run-level verification confirms that sOTU u145189 is detected exclusively in Muscle and Heart libraries (e.g., SRR7498176, SRR12170553). The virus is notably absent from the Rumen and Liver datasets within the same cohort.
 
-Hypothesis: Hyperparasitism of a Muscle-Dwelling Protozoan
+### Hypothesis: Hyperparasitism of a Muscle-Dwelling Protozoan
 
-The strict localization of the viral signal to striated muscle (skeletal and cardiac) strongly supports a parasite-associated tropism rather than a direct viral infection of the bovine host.
-Totiviridae viruses are typically found in fungi and protozoa rather than animal tissues [Goodman et al., 2010]. The recurrent detection of this viral signal in yak muscle transcriptomes therefore suggests an indirect ecological association, most likely involving a protozoan host residing within muscle tissue. 
+The strict localization of the viral signal to striated muscle (skeletal and cardiac) strongly supports a parasite-associated tropism rather than a direct viral infection of the bovine host. Totiviridae viruses are typically found in fungi and protozoa rather than animal tissues. The recurrent detection of this viral signal in yak muscle transcriptomes therefore suggests an indirect ecological association, most likely involving a protozoan host residing within muscle tissue.
 
-Biological plausibility: Domestic yaks (Bos grunniens) on the Tibetan Plateau exhibit a high prevalence (~95%) of Sarcocystis Infection [Tang et al., 2023]. Sarcocystis is an apicomplexan protozoan that is phylogenetically close to Eimeria [Blazejewski et al., 2015]. Given that the RdRp palmprint sequence of sOTU u145189 most closely matches Eimeria-associated viruses, this relationship offers a plausible biological context for the detection of the virus in cardiac and skeletal musculature.
+- Biological plausibility: Domestic yaks (Bos grunniens) on the Tibetan Plateau exhibit a high prevalence (~95%) of Sarcocystis Infection. Sarcocystis is an apicomplexan protozoan that is phylogenetically close to Eimeria. Given that the RdRp palmprint sequence of sOTU u145189 most closely matches Eimeria-associated viruses, this relationship offers a plausible biological context for the detection of the virus in cardiac and skeletal musculature.
 
-Proposed Mechanism: I hypothesize that sOTU u145189 infects Sarcocystis parasites encysted within the host muscle. When muscle samples are processed for RNA sequencing, these parasite cysts are broken open, releasing viral RNA. As a result, the viral sequences are captured alongside host RNA and appear to originate from yak muscle, even though the virus itself is associated with a non-vertebrate parasite. 
+- Proposed Mechanism: I hypothesize that sOTU u145189 infects Sarcocystis parasites encysted within the host muscle. When muscle samples are processed for RNA sequencing, these parasite cysts are broken open, releasing viral RNA. As a result, the viral sequences are captured alongside host RNA and appear to originate from yak muscle, even though the virus itself is associated with a non-vertebrate parasite.
 
-The Trophic Link (Human Detection): Finally, while sOTU u145189 is predominantly detected in Bos grunniens (yak), there was a single detection in a human fecal virome dataset (PRJNA804384). Humans are the definitive host for S. hominis, acquired via consumption of infected bovine muscle [Fayer et al., 2015]. Although our viral sOTU was linked to a Yak metadata annotation, its detection in a human metagenome would imply that S. hominis (the human-infecting species) may also utilize Yaks as an intermediate host, given the host genus similarity (Bos). Thus, my interpretation is that the presence of the virus in human feces is therefore consistent with the digestive transit of a cyst-derived virus ("trophic transmission") rather than an active human infection. 
+- The Trophic Link (Human Detection): Finally, while sOTU u145189 is predominantly detected in Bos grunniens (yak), there was a single detection in a human fecal virome dataset (PRJNA804384). Humans are the definitive host for S. hominis, acquired via consumption of infected bovine muscle. Although our viral sOTU was linked to a Yak metadata annotation, its detection in a human metagenome would imply that S. hominis (the human-infecting species) may also utilize Yaks as an intermediate host, given the host genus similarity (Bos). Thus, my interpretation is that the presence of the virus in human feces is therefore consistent with the digestive transit of a cyst-derived virus ("trophic transmission") rather than an active human infection.
 
-## Question 3 : Interrogate the Virus `(20 points)` ----------------------------
+### Virus Genome
+Intrinsic Features and Genome Architecture
+sOTU u145189 is defined by a 104 amino acid "palmprint" sequence which encompasses the core structural domain of the RdRp. This domain contains the three conserved catalytic motifs (A, B, and C), with Motif C at the C-terminus housing the GDD active site essential for catalysis. BLASTp analysis reveals top hits to Totiviridae (dsRNA viruses) with a best hit identity of ~61%, suggesting it represents a novel genus or species. The viral genome is likely linear, double-stranded RNA (dsRNA), typical of Totiviridae, with an expected bicistronic architecture consisting of two overlapping ORFs encoding a Gag (capsid) protein and a Pol (RdRp).
 
-**Q.** `(10 points)` Research and identify what are at least 10 *features* and 
-10 *observations* regarding your virus.
-
-Ideally this section should capture 50+ one line observations, almost like a
-"scratch pad" to document your thinking. If you rule something out, keep it and
-mark the line with [X]. This is "bank" of accurate statements from which you will
-interpret, and build your analysis upon
-
-List or write short sentences describing those features here. Examples are:
-```
-# Example Answer
-- [X] Narnaviruses have a DNA genome
-- Narnaviruses have an RNA genome
-- Narnaviruses have a single-stranded genome
-- The typical genome length is between 2,200 - 3,200 nucleotides long
-- Narnaviruses typically encode for a single protein, RdRp
-- Narnavirus RdRp are typically 800-1000 amino acids long
-- [X] Narnaviruses infect fungi, like yeast
-- Narnaviruses infect apicomplexans, like toxoplasma
-- ...
-```
-**A.** 
-### 1: Intrinsic Features (Sequence, Taxonomy & Information)
-- sOTU u145189 is defined by a 104 amino acid "palmprint" sequence (fragment of the RdRp).
-- The extracted 104-amino acid palmprint encompasses the core structural domain of the RdRp, containing the three conserved catalytic motifs (A, B, and C). The analysis confirms the presence of Motif C at the C-terminus (residues 97–104), which houses the GDD active site essential for catalysis.
-- [Feature] This region represents the highest information-density segment of the viral genome, necessary for a valid homology search based on the concepts taught in L3. 
-  - Motif C contains the GDD catalytic core, which is the most invariant feature of RdRPs.[Ingrida Olendraitė et al., 2023]
-- BLASTp analysis reveals top hits to Totiviridae (dsRNA viruses).
-- Best hit identity is ~61% (distantly related, likely a novel genus or species).
-- The E-value is 9e-37, indicating the signal is thermodynamically distinct from random noise (Lecture 1).
-- [Feature] The sequence contains the conserved GDD (GDD/SDD-family) catalytic motif characteristic of viral RNA-dependent RNA polymerases.
-- [Feature] The viral genome is likely linear, double-stranded RNA (dsRNA), typical of Totiviridae.
-- According to ViralZone, the Totiviridae lineage is listed under dsRNA viruses, which are defined as having double-stranded RNA genomes.
-- [Feature] Expected genome architecture is simple and bicistronic, consisting of two overlapping ORFs encoding a Gag (capsid) protein and a Pol (RNA-dependent RNA polymerase) expressed via ribosomal frameshifting.
-- [Feature] Likely non-enveloped capsid (based on typical Totivirus morphology from ViralZone) 
-- [X] Ruled Out: BLAST analysis showed no homology to reverse transcriptase proteins characteristic of Retroviridae, ruling out a retroviral origin.
-- [X] Ruled Out: The sequence shows no homology to bacteriophage proteins in BLAST results, ruling out a phage origin.
-- [X] Ruled Out: Sequence is not a Narnavirus, as it retains capsid-like associations in BLAST results (unlike the "naked" polymerases of Narnaviridae).
-- Taxonomic Anchor: Closest phylogenetic neighbours are Eimeria-associated viruses.
-- Taxonomically speaking: Eimeria belongs to the phylum Apicomplexa and is phylogenetically related to Sarcocystis and Toxoplasma.
-- [Hypothesis] The protein is encoded by a continuous open reading frame (ORF) and contains the conserved GDD catalytic motif (…HVGDDVLC…), supporting that it is translation-competent and not a pseudogene decay product.
-
-### 2: The Index Case Observations (SRR13240068)
-- Source: Identified in SRA run SRR13240068 (Southwest Minzu University, 2020).
-- Host: Bos grunniens (Maiwa Yak), Adult Male.
-- Tissue: Muscle (Sample metadata lists the tissue of origin as muscle, which in this vertebrate context is interpreted as skeletal muscle.)
-- Library Strategy: RNA-Seq (Transcriptomic).
-- Selection: cDNA selection
-  - [Inference] The library is annotated as cDNA, but the metadata does not specify the exact RNA selection method. Given that the sample derives from eukaryotic muscle tissue, it is reasonable to infer that a standard poly-A–based mRNA enrichment protocol was likely used.
-- [Critical Technical Note] Totiviridae genomes typically lack Poly-A tails.
-  - [My reasoning] Under a standard poly-A–selected host RNA-seq protocol, detection of this virus would be unexpected. The observed viral signal may reflect non-canonical capture via internal A-rich regions, or alternatively indicate that the library preparation used rRNA depletion rather than strict poly-A selection.
-- [Uncertainty] Because the library preparation protocol is not explicitly documented, it is not possible to determine which RNA capture mechanism was responsible. However, the consistently high coverage of the viral sequence indicates that it was not effectively removed during library preparation.
-- Ecosystem: High-altitude plateau (Hongyuan).
-- Depth: Detection of the virus in a host-focused RNA-seq dataset indicates that it is present at a measurable level within the tissue sample.
-- Read Identity: The reads map to the viral contig with high identity, ruling out a distant cross-species hybridization artifact.
-
-### 3: Broader Ecological Observations (All Detections)
-- Total Observations: 17 distinct hits in the Serratus database.
-- BioProject Diversity: Found in 6 independent BioProjects.
-- SRA Run Diversity: Found in 15 unique sequencing runs.
-- Global Distribution: Detected in yak muscle transcriptomes from Hongyuan, Tibetan Plateau, China
-- Global Distribution: Detected in independent cattle transcriptome datasets from the United States
-- Temporal Stability: Detections span multiple years, arguing against a single reagent batch contamination. 
-- Host Consistency: 16 of the 17 detections are in subfamily Bovinae (Yak and Cow).
-- Tissue Tropism (Yak): Exclusively found in Muscle in available Yak data.
-- Tissue Tropism (Cow): Found in Heart and Muscle
-- [Anatomical Inference]: Although most virus-positive runs are broadly annotated as “muscle,” one dataset (SRR21537976) specifies the Longissimus dorsi, a well-defined skeletal muscle. This provides anatomical resolution that grounds the broader muscle annotations and reinforces the restriction of the viral signal to striated tissues (skeletal and cardiac). 
-- [X] Ruled Out: Not detected in available bovine lung or brain datasets (suggests tissue specificity).
-- Outlier: 1 detection in Homo sapiens (PRJNA804384).
-- Human Sample Type: Fecal (Stool).
-- [Conflict] [Conflict] sOTU u145189 (a putative dsRNA Totivirus-like sequence) was detected in a DNA sequencing library (PRJNA804384).
-- [Interpretation] The Human detection derives from an MDA-amplified DNA library (SRR17932311). Since Totiviridae are dsRNA, this signal implies the sequence exists as a DNA "fossil" (EVE) or a reverse-transcription artifact, definitively ruling out an active RNA viral infection. 
-- [X] Ruled Out: The human detection is not a liver or blood infection (as it is restricted to the gut lumen/feces); can rule out an active infection 
-
-### 4: Biological Context & “Trojan Horse” Reasoning
-- Host Biology: Sarcocystis cysts are intramuscular (matches Yak/Cow detection sites).
-- Host Biology: Host biology: Given that Sarcocystis forms cysts in muscle, the muscle-restricted signal in cattle is expected. In humans, those cysts are digested and release bradyzoites in the gut, so a parasite-associated viral signal showing up in feces fits the known life cycle rather than indicating human infection.
-- [X] Ruled Out: The virus is not a plant virus, making "dietary plant consumption" an unlikely explanation compared to protozoa.
-- [Correlation] High prevalence of Sarcocystis in Yaks (~95%) aligns with recurrent detection of virus in Yak datasets [Tang et al., 2023] 
-- [Ecological parallel] the system parallels the “Trojan Horse” mechanism described by [Gupta et al. 2024], in which Apocryptovirus odysseus (Narnaviridae) persists hyperparasitically within Toxoplasma gondii, a concept also discussed in Lecture 2 by Dr. Babaian. Although sOTU u145189 belongs to Totiviridae rather than Narnaviridae, it appears to occupy a similar ecological role as a viral passenger residing within an apicomplexan cyst and facilitating trophic transmission between hosts.
-- Phylogeny Check: No Totiviridae are currently known to infect mammals directly [Liv Sandlund et al., 2021]. 
-
-### 5: Interpretative Angle
-
-- Digital Biomarker - Given its Totiviridae taxonomy and tissue-restricted detections, the virus is inferred to be obligate to a protozoan host. Viral detection therefore implies parasite presence, even when the parasite itself is not sequenced.
-- Because sOTU u145189 consistently tracks Sarcocystis-associated tissues, its detection in host RNA-seq data may serve as an unintended indicator of parasitic burden in the bovine animals.
-- Possible Utility: There is no need to generate new data. Thousands of bovine RNA-seq datasets are publicly available in the SRA, many of which have already been computationally screened for viral RdRp signatures by Serratus. Hence, re-analyzing these historical datasets for the viral signature can provide an easier and low-cost way to infer Sarcocystis prevalence across populations.
-
-### 6: Summary of Uncertainty
-
-- Uncertainty: At present, Sarcocystis is inferred rather than observed; a more guided  confirmation would come from identifying protozoan 18S rRNA [Taynar Lima Bezerra et al., 2023] in the same datasets.
-- Conclusion: The combined phylogenetic, ecological, and tissue-specific evidence is more consistent with a protozoan-passenger model than with a vertebrate-infecting virus.
+![Figure 1: Genomic Architecture and Forensic Validation of sOTU u145189](../img/Sarcototivirus_pseudocauda/figure_1.png)
 
 
-**Q.** `(10 points)`  Create a figure(s) visualizing your virus genome (see 
-papers for examples/inspiration). The figure should capture the *key genomic*
-*features* of the virus which includes (but is not limited to):
-- Open reading frames, and note if they are not CDS complete
-- Annotation of every ORF
-- A scale legend in nucleotides and amino acids for ORFs
+Figure 1: Genomic Architecture and Forensic Validation of sOTU u145189. (A) Hypothetical Genome: Schematic of the canonical Totiviridae architecture (dsRNA, ~6 kb), characterized by two overlapping open reading frames (Gag and Pol) expressed via a -1 ribosomal frameshift (not recovered in this microassembly). (B) Observed Microassembly: The viral genome was retrieved from the Serratus microassembly pipeline, yielding a high-coverage contig (NODE_2, 1,185 nt) from dataset SRR13240068 visualized here, and an extended scaffold (NODE_1, 1,524 nt) used for downstream phylogenetic reconstruction. Viral abundance was established via mean read coverage (10.9x). The contig contains a substantial Open Reading Frame (317 aa) initiating at nucleotide 230. This ORF encodes the core RNA-dependent RNA Polymerase (RdRp), containing the taxonomic 104 aa "Palmprint" domain (shaded region). The sequence is 3' incomplete. No additional viral segments (e.g., Gag) were recovered from the assembly. (C) Motif Validation: Multiple Sequence Alignment (MSA) of the palmprint region confirms the presence of the catalytic Motif C (GDD) active site.
 
-In addition consider virus-family specific features, such as
-- RNA secondary structures
-- Conserved sequence motifs
-- Frameshifting sites
-- Evidence of poly-A or splicing
-- Additional known (or unknown) protein domains
+![Figure S1: AlphaFold 3D Structural Prediction of the Viral RdRp](../img/Sarcototivirus_pseudocauda/bonus_figure_S1.png)
 
-In addition consider additional measurements, such as
-- TPM / RPKM for the virus within your dataset
-- Additional viral segments/viral contigs
-- Coverage profile of reads mapped to your contig
-- Single Nucleotide Variants present in the mapping data
-
-The Figure Legend must contain sufficient methods description such that your
-analysis is reproducible. Include supplementary data files if need be.
-
-- `(6 points)` Figure (technical)
-- `(2 points)` Figure (aesthetic)
-- `(2 points)` Figure legend
-
-**A.**
-```{r fig1, echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/Sarcototivirus_pseudocauda/figure_1.png")
-```
-
-Figure 1: Genomic Architecture and Forensic Validation of sOTU u145189.
-(A) Hypothetical Genome: Schematic of the canonical Totiviridae architecture (dsRNA, ~6 kb), characterized by two overlapping open reading frames (Gag and Pol) expressed via a -1 ribosomal frameshift (not recovered in this microassembly). (B) Observed Microassembly: The viral genome was retrieved from the Serratus microassembly pipeline, yielding a high-coverage contig (NODE_2, 1,185 nt) from dataset SRR13240068 visualized here, and an extended scaffold (NODE_1, 1,524 nt) used for downstream phylogenetic reconstruction. Viral abundance was established via mean read coverage (10.9x). The contig contains a substantial Open Reading Frame (317 aa) initiating at nucleotide 230. This ORF encodes the core RNA-dependent RNA Polymerase (RdRp), containing the taxonomic 104 aa "Palmprint" domain (shaded region). The sequence is 3' incomplete. No additional viral segments (e.g., Gag) were recovered from the assembly. (C) Motif Validation: Multiple Sequence Alignment (MSA) of the palmprint region confirms the presence of the catalytic Motif C (GDD) active site, 
-
-**Q.** - `(bonus 2 points)`
-  - Run the RdRp and/or open reading frame through AlphaFold
-  - Add a figure of the RdRp with motifs A (blue), B (green), and C (red) visualized.
-    See: `Odysseyus Narnavirus` example paper. Try PyMol.
-
-**A.**
-```{r figS1, echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/Sarcototivirus_pseudocauda/bonus_figure_S1.png")
-```
 Figure S1: AlphaFold 3D Structural Prediction of the Viral RdRp. The tertiary structure of the complete viral ORF (317 aa) was predicted using AlphaFold2 (via ColabFold). The canonical "Right Hand" polymerase architecture is resolved with high confidence (Rank 1 model). The conserved active site motifs are highlighted: Motif A (Blue) containing the proton-transfer wire; Motif B (Green) containing the flexible glycine loop; and Motif C (Red) containing the catalytic GDD triad essential for RNA synthesis.
 
-**A.**
+![Figure 2: Maximum likelihood phylogeny of sOTU u145189](../img/Sarcototivirus_pseudocauda/phylogenetic_tree.png)
+
 Phylogenetic Verification of Host Tropism
-To validate the host prediction beyond simple BLAST-based homology, I conducted a maximum likelihood phylogenetic analysis. The RdRp sequence of sOTU u145189 was aligned with the RdRp sequences of the type species from each of the five recognized Totiviridae genera, capturing the established phylogenetic diversity of the family.
-- Protozoan: *Giardia lamblia virus* (Giardiavirus), *Trichomonas vaginalis virus 1* (Trichomonasvirus), and Leishmania RNA virus 1 *(Leishmaniavirus)*. 
-- Fungal: *Saccharomyces cerevisiae virus L-A* (Totivirus) and *Helminthosporium victoriae virus 190S* (Victorivirus).
+To validate the host prediction beyond simple BLAST-based homology, I conducted a maximum likelihood phylogenetic analysis. The RdRp sequence of sOTU u145189 was aligned with the RdRp sequences of the type species from each of the five recognized Totiviridae genera: Giardia lamblia virus (Giardiavirus), Trichomonas vaginalis virus 1 (Trichomonasvirus), Leishmania RNA virus 1 (Leishmaniavirus), Saccharomyces cerevisiae virus L-A (Totivirus), and Helminthosporium victoriae virus 190S (Victorivirus).
+The phylogenetic analysis resolved two well-supported clades: a fungal clade anchored by Saccharomyces cerevisiae and a protozoan clade anchored by Giardia and Trichomonas. sOTU u145189 clustered robustly within the protozoan clade, forming a sister relationship to the Giardia/Trichomonas lineage. This evolutionary placement supports adaptation to a protozoan host and strengthens the inference that the viral signal detected in bovine muscle originates from the parasite Sarcocystis, rather than from the bovine host itself.
 
-- Result: The phylogenetic analysis resolved two well-supported clades: a fungal clade anchored by Saccharomyces cerevisiae and a protozoan clade anchored by Giardia and Trichomonas. sOTU u145189 clustered robustly within the protozoan clade, forming a sister relationship to the Giardia/Trichomonas lineage. This evolutionary placement supports adaptation to a protozoan host and strengthens the inference that the viral signal detected in bovine muscle originates from the parasite Sarcocystis, rather than from the bovine host itself.
+Figure 2. Maximum likelihood phylogeny of sOTU u145189. The evolutionary history was inferred using a maximum likelihood approach based on RdRp amino acid sequences. Viral sequences were aligned with MAFFT, and phylogenetic reconstruction was performed using FastTree via the NGPhylogeny.fr platform. The resulting tree was visualized and annotated in iTOL. The tree is rooted using the fungal Helminthosporium virus (grey). sOTU u145189 clusters as a robust sister taxon to Leishmania RNA virus 1 (cyan), placing it firmly within the protozoan-infecting clade of the family Totiviridae.
 
-```{r figS1, echo=FALSE, out.width="100%"}
-knitr::include_graphics("img/Sarcototivirus_pseudocauda/figure_2.png")
-```
 
-Figure 2. Maximum likelihood phylogeny of sOTU u145189.
-The evolutionary history was inferred using a maximum likelihood approach based on RdRp amino acid sequences. Viral sequences were aligned with MAFFT, and phylogenetic reconstruction was performed using FastTree via the NGPhylogeny.fr platform. The resulting tree was visualized and annotated in iTOL. The tree is rooted using the fungal Helminthosporium virus (grey). sOTU u145189 clusters as a robust sister taxon to Leishmania RNA virus 1 (cyan), placing it firmly within the protozoan-infecting clade of the family Totiviridae.
 
-## Question 4 : `(5 bonus points max)` -----------------------------------------
 
-**Q.** `(bonus 5 points)` 
-  Do something creative or cool with the viral genome. The endevour should be
-  creative `3 points` and yield an insight that could not otherwise be obtained
-  `2 points`.
 
-**A.** 
+
 ### Addressing the “Poly-A Paradox”
-- Rationale & Hypothesis: 
-An apparent inconsistency was identified in Question 3. Totiviridae are known to possess non-polyadenylated dsRNA genomes [Ghabrial, 1998], yet sOTU u145189 was recovered from an RNA-seq library annotated as cDNA-based and therefore likely enriched for polyadenylated transcripts. This observation is most consistent with non-canonical priming of the viral RNA during cDNA synthesis. Short internal A-rich regions within the viral RNA could plausibly allow incidental capture during oligo-dT–based library preparation. This mechanism, known as false priming, has been previously documented and provides a reasonable explanation for the presence of non-polyadenylated viral sequences in host RNA-seq data [Svoboda et al., 2022]. This hypothesis was evaluated by examining the viral contig for internal adenosine traces capable of mediating such capture.
+Rationale & Hypothesis:
+An apparent inconsistency was identified in the viral analysis. Totiviridae are known to possess non-polyadenylated dsRNA genomes [Ghabrial, 1998], yet sOTU u145189 was recovered from an RNA-seq library annotated as cDNA-based and therefore likely enriched for polyadenylated transcripts. This observation is most consistent with non-canonical priming of the viral RNA during cDNA synthesis. Short internal A-rich regions within the viral RNA could plausibly allow incidental capture during oligo-dT–based library preparation. This mechanism, known as false priming, has been previously documented and provides a reasonable explanation for the presence of non-polyadenylated viral sequences in host RNA-seq data [Svoboda et al., 2022]. This hypothesis was evaluated by examining the viral contig for internal adenosine traces capable of mediating such capture.
 
-- Method 1: Excluding endogenous viral elements (EVEs)
-To test whether the detected sequence could represent an endogenous viral element rather than an active viral genome, I queried the viral contig against the Bos grunniens reference genome (TaxID: 30521) using BLASTn. No significant alignments to host chromosomes were observed. This result argues against our sOTU u145189 being a host-integrated genomic fossil and supports its interpretation as an exogenous viral fragment.
+Method 1: Excluding endogenous viral elements (EVEs): To test whether the detected sequence could represent an endogenous viral element rather than an active viral genome, I queried the viral contig against the Bos grunniens reference genome (TaxID: 30521) using BLASTn. No significant alignments to host chromosomes were observed. This result argues against our sOTU u145189 being a host-integrated genomic fossil and supports its interpretation as an exogenous viral fragment.
 
-- Method 2: Analysis of "False Priming" Sites
-To investigate how a non-polyadenylated viral RNA could be recovered from a poly-A–enriched library, I scanned the 1,185 nt contig for adenosine homopolymers (A-traces) that could plausibly anneal to oligo-dT capture probes.
+Method 2: Analysis of "False Priming" Sites: To investigate how a non-polyadenylated viral RNA could be recovered from a poly-A–enriched library, I scanned the 1,185 nt contig for adenosine homopolymers (A-traces) that could plausibly anneal to oligo-dT capture probes.
+- Observation: Four discrete A-rich regions containing runs of four consecutive adenines (AAAA) were identified at approximately nt positions 614, 695, 921 and 1004. No canonical long A-sections (>6 nt) were found.
 
-Observation: Four discrete A-rich regions containing runs of four consecutive adenines (AAAA) were identified at approximately nt positions 614, 695, 921 and 1004. No canonical long A-sections (>6 nt) were found.
+- Interpretation: The absence of long A-tracts argues against capture via a single, canonical poly-A–like region. A plausible alternative is that multiple short A-rich motifs contributed to weak, transient oligo-dT interactions, allowing occasional retention of viral RNA during the library preparation. This implies that the library preparation conditions allowed for thermodynamically unstable interactions, where the Oligo-dT primers bound to weak internal 'AAAA' sites despite the lack of a true Poly-A tail.
 
-Interpretation: The absence of long A-tracts argues against capture via a single, canonical poly-A–like region. A plausible alternative is that multiple short A-rich motifs contributed to weak, transient oligo-dT interactions, allowing occasional retention of viral RNA during the library preparation. This implies that the library preparation conditions allowed for thermodynamically unstable interactions, where the Oligo-dT primers bound to weak internal 'AAAA' sites despite the lack of a true Poly-A tail. 
+Conclusion: This analysis attempts to resolve the ecological paradox. It demonstrates that the observations are most consistent with a technical capture effect arising from library preparation, rather than true biological polyadenylation of the viral RNA. This suggests that dsRNA viruses can still be recovered from poly-A–selected datasets, likely as a consequence of rare, depth-dependent capture rather than true polyadenylation.
 
-Conclusion: This analysis attempts to resolve the ecological paradox identified in Q3. It demonstrates that the observations are most consistent with a technical capture effect arising from library preparation, rather than true biological polyadenylation of the viral RNA. This suggests that dsRNA viruses can still be recovered from poly-A–selected datasets, likely as a consequence of rare, depth-dependent capture rather than true polyadenylation.
+### Scientific Tweet-torial
+Tweet 1: A forensic paradox: sOTU u145189 appears repeatedly in bovine (Bos grunniens and Bos taurus) muscle RNA-seq. The problem? 
+1. It’s a Totiviridae RdRp (typically fungal/protozoan, not mammalian).
+2. It’s a dsRNA virus (non-polyadenylated) recovered likely from Poly-A enriched libraries. Metadata largely says "Bovine." Biology says "Impossible." [Image: Figure 1 Microassembly]
 
-## Question 5 : Discussion `(5 points)` ----------------------------------------
+Tweet 2: The Twist - The Biological Insight: The viral signal is primarily restricted to striated muscle (cardiac/skeletal), the exact tissue where *Sarcocystis* parasites encyst. The "Trojan Horse" Hypothesis: We aren't seeing a bovine virus. We are sequencing a viral passenger inside a protozoan cyst, hidden within the host tissue.
 
-Highlight for your reader what you have learned from this virus, or what novel
-biological insights does characterizing this genome offers to the reader. What
-facts did you find the most fascinating about your kind of virus, and did your 
-virus share these traits? Even more interesting is if it _doesn't_ have a trait
-known to that virus. It's always fun to push against the textbook definitions.
-(3 sentence and 50 - 150 word limit)
+Tweet 3: The Solution (A Technical Mechanism?) Resolving the capture: How does a "tailless" dsRNA virus bypass Poly-A selection? Forensics reveal multiple internal 'AAAA' motifs (e.g., pos 614) capable of low-affinity priming. The lesson: Stochastic capture errors in library prep can inadvertently create digital biomarkers for cryptic parasitic burden.
 
-**A.**
-Characterizing sOTU u145189 exposes the gap between metadata and biology. While the datasets consistently label these samples as bovine muscle and heart, the sequence data argues otherwise: the RdRp palmprint is structurally consistent with fungal and protozoan dsRNA viruses, not mammalian ones. We shouldn't confuse the collection site with the biological host. This discrepancy supports a specific, testable hypothesis, in that this is a 'passenger' virus infecting a cryptic parasite (likely, for e.g., *Sarcocystis*) embedded within the tissue, rather than a direct infection of the yak itself. The recovery of a non-polyadenylated dsRNA signal from libraries likely intended for mRNA sequencing suggests that these datasets can still contain non-host viral sequences. This suggests that archived RNA-seq data hold untapped utility as digital biomarkers, allowing researchers to infer parasitic burden from viral proxies even when the parasite itself is not explicitly annotated.
+## Discussion
 
+Characterizing sOTU u145189 exposes the gap between metadata and biology. While the datasets consistently label these samples as bovine muscle and heart, the sequence data argues otherwise: the RdRp palmprint is structurally consistent with fungal and protozoan dsRNA viruses, not mammalian ones. We shouldn't confuse the collection site with the biological host. This discrepancy supports a specific, testable hypothesis, in that this is a 'passenger' virus infecting a cryptic parasite (likely, for e.g., Sarcocystis) embedded within the tissue, rather than a direct infection of the yak itself. The recovery of a non-polyadenylated dsRNA signal from libraries likely intended for mRNA sequencing suggests that these datasets can still contain non-host viral sequences. This suggests that archived RNA-seq data hold untapped utility as digital biomarkers, allowing researchers to infer parasitic burden from viral proxies even when the parasite itself is not explicitly annotated.
 
-## Question 6 : References `(10 points)` ---------------------------------------
-
-Add at least **10 relevant references** throughout your report. Be sure to 
-reference both software papers, biology papers, and the paper from which the
-data was generated (if available).
-**A.**
+## References
 Blazejewski, T., Nursimulu, N., Pszenny, V., Dangoudoubiyam, S., Namasivayam, S., Chiasson, M. A., Chessman, K., Tonkin, M., Swapna, L. S., Hung, S. S., Bridgers, J., Ricklefs, S. M., Boulanger, M. J., Dubey, J. P., Porcella, S. F., Kissinger, J. C., Howe, D. K., Grigg, M. E., & Parkinson, J. (2015). Systems-Based Analysis of the Sarcocystis neurona Genome Identifies Pathways That Contribute to a Heteroxenous Life Cycle. MBio, 6(1), e02445-14. https://doi.org/10.1128/mBio.02445-14
 
 Fayer, R., Esposito, D. H., & Dubey, J. P. (2015). Human Infections with Sarcocystis Species. Clinical Microbiology Reviews, 28(2), 295–311. https://doi.org/10.1128/CMR.00113-14
@@ -598,103 +128,13 @@ Taynar Lima Bezerra, Rodrigo Martins Soares, & Pita, F. (2023). Sarcocystis Spec
 
 Viscardi, M. J., & Arribere, J. A. (2022). Poly(a) selection introduces bias and undue noise in direct RNA-sequencing. BMC Genomics, 23(1). https://doi.org/10.1186/s12864-022-08762-8
 
-## Question 7 : `(5 bonus points max)` -----------------------------------------
 
+# Viral Short Story
 ```
-Twitter-like platforms are powerful means to communicate key messages of a 
-scientific work. Compose a Tweet-torial of 1-3 tweets (280 character limit + 
-option for image) to highlight the story of your scientific report.
-
-Example: https://x.com/RayanChikhi/status/1963157152958210378
+The False-Flag Protocol
+The rain didn't fall in the dataverse; it just static-washed across the monitors. I was working the graveyard shift in the Archives, scrubbing old biological sectors for anomalies. That’s when I noticed a glitch in a file tagged as Bos grunniens (Yak) muscle transcriptomes.
+The metadata claimed it was primarily livestock, but the signal density was wrong. My deck flagged a rogue code sequence: sOTU u145189, a cryptic Totiviridae-like RNA-dependent RNA polymerase. I lit a virtual cigarette as that didn't add up. Totiviridae are old code, scripts that run on fungi and protozoa, not high-altitude mammals.
+I checked the security logs. The library was built using standard poly-A enrichment, a velvet rope designed to filter out the noise and only let coding transcripts through. This intruder was double-stranded RNA: it didn't have the credentials to get in. It should have been invisible.
+I ran a forensic decrypt to see how it cracked the lock. It didn't break the door down; it picked it. The virus was carrying short internal adenosine-rich regions (AAAA), false flags that tricked the oligo-dT probes into thinking it belonged.
+It wasn't a glitch, and it wasn't an infection of the beast. It was a hitchhiker. The virus was a passenger hiding inside a muscle-encysting apicomplexan Sarcocystis, unmasked only because the sequencer got fooled by a counterfeit ID. I archived the file. In this city, even the parasites have parasites.
 ```
-
-**A.** 
-Tweet 1: A forensic paradox: sOTU u145189 appears repeatedly in bovine (*Bos grunniens* and *Bos taurus*) muscle RNA-seq. The problem? 
-1. It’s a Totiviridae RdRp (typically fungal/protozoan, not mammalian).
-2. It’s a dsRNA virus (non-polyadenylated) recovered likely from Poly-A enriched libraries. Metadata largely says "Bovine." Biology says "Impossible." [Image: Figure 1 Microassembly]
-
-Tweet 2: The Twist - The Biological Insight: The viral signal is primarily restricted to striated muscle (cardiac/skeletal), the exact tissue where *Sarcocystis* parasites encyst. The "Trojan Horse" Hypothesis: We aren't seeing a bovine virus. We are sequencing a viral passenger inside a protozoan cyst, hidden within the host tissue.
-
-Tweet 3: The Solution (A Technical Mechanism?) Resolving the capture: How does a "tailless" dsRNA virus bypass Poly-A selection? Forensics reveal multiple internal 'AAAA' motifs (e.g., pos 614) capable of low-affinity priming. The lesson: Stochastic capture errors in library prep can inadvertently create digital biomarkers for cryptic parasitic burden.
-
-## Question 8 : `(30 points)` --------------------------------------------------
-
-The rate of scientific progress is accelerating. We are saturated in research
-results, making it difficult to resolve your work from everyone else. In this 
-landscape, your science communication must evolve to stand out.
-
-**Q.** - `(30 points + 5 Bonus for creative use of the medium)`
-Create a video (upto 8 minutes) to tell the story of your virus in the most 
-compelling way possible.
-
--- OR --
-
-**Q.** - `(30 points)`
-Congratulations, your scientific abstract has been selected for a short 'Oral 
-Presentation' for the `3rd RNA VIRUSxDISCVRY Symposium`! Please prepare a
-**8 minute scientific talk** for the symposium. For your convenience we have
-provided a _suggested_ outline for the presentations.
-
-You probably will not have the time to present _all_ of your findings, you
-can and should prioritize the most compelling 
-
-- `(1 points)`: Title Slide
-  Don't under-estimate the importance of a good first impression.
-  Include a professional title slide which includes
-  - Your name (prominently)
-  - The date
-  - Venue you are presenting
-  - A research title. Make it engaging, or your main scientific conclusion
-  - A visually compelling image related to your work
-
-- `(4 points)` : Background (~2 slides)
-  The primary purpose of scientific talks is to educate. You have been learning
-  and exploring the subject matter, and along the way you have uncovered a new
-  perspective on your subject. What background information did you find
-  the most fascinating? Share that! Others will be fascinated too.
-  
-  (1) Introduce the host/environment in which your virus was found in,
-  and describe the societal relevance of this system. Why was it being
-  studied? What are the big questions in the field?
-  
-  (2) Introduce the kind of virus which you will be describing, what are the
-  expected properties of these viruses, and which species of this type are the
-  most prominent / well known?
-  
-- `(3 point)` : Hypothesis / Research Question
-  Using the information in the background, what do you expect to find? If you
-  write a hypothesis it must be falsifiable (measurable).
-  
-  A great hypothesis is something which is a clear logical extension of the
-  background information.
-  
-- `(5 points)`: Methods (~2 slides)
-  Describe what you did to address the Research Question in the appropriate
-  amount of detail. For a talk you do not have to provide every detail of your
-  method, but you must provide the logical formulation of what you did. 
-  Parameters / method details can be written on the slide as part of the visuals
-  while your oral discussion focuses on the concepts and rationale for this
-  approach.
-
-- `(5 points)`: Results (~2 slides)
-  
-  (1) See: Question 2 -- Digital Ecology
-  
-  (2) See: Question 3/4 -- Interrogating your Virus
-
-- `(5 points)` : Discussion (1 slide)
-  See: Question 5
-
-- `(2 points)` : Conclusion (1 slide)
-  What are the 3-4 most important conclusions which you can drive home. Bring
-  home the key take-aways here.
-
-- `(5 points)` : Effective use of slide visuals (clarity, colors, emphasis),
-   logical organization of ideas, and clarity of the narrative. 
-
-**How to prepare a scientific talk**
-- [NSF Guide for Scientific Talks](https://www.cgd.ucar.edu/research/scientific-talk)
-- [How to tell a compelling story in scientific presentations](https://www.nature.com/articles/d41586-021-03603-2)
-- [Effective slide design](https://pedsresearch.org/uploads/blog/doc/Designing_Effective_Scientific_Presentations_from_SfN.pdf)
-
-References: 
