@@ -12,7 +12,7 @@ From Greek mykes (fungus) and philos (loving).
 Although it appears in plants and animal-derived samples, the sequence and context suggest a fungal origin.
 ```
 
-![](Images/AI_image.png)
+![](img/Itinerovirus_mycophilus/AI_image.png)
 
 ## Abstract
 
@@ -53,7 +53,7 @@ sequencing technique, annotated host or sample type, and geographical locale are
 Cell shading indicates the type of sample in which virus reads were identified: grey for fungi, 
 green for plant, and light red for animal, including human and human gut samples.
 
-![](Images/Summary_Table.png)
+![](img/Itinerovirus_mycophilus/Summary_Table.png)
 
 The seven sample categories that I. mycophilus is detected in are Agaricus bisporus and Neurospora crassa, Oryza sativa, 
 Mus musculus and Homo sapiens, food metagenome, and human gut metagenomic communities. This means that 
@@ -76,9 +76,9 @@ Cross lines denotes low abundance runs. Reads were downloaded from the NCBI Sequ
 using the SRA Toolkit [8], screened with BLAST+ tblastn [9], aligned with Bowtie2 [10], and processed using 
 SAMtools [11].
 
-![](Images/RPKM_summary_table.png)
+![](img/Itinerovirus_mycophilus/RPKM_summary_table.png)
 
-![](Images/RPKM.png){width=650 height=500}
+![](img/Itinerovirus_mycophilus/RPKM.png){width=650 height=500}
 
 **Figure 1.**Mitovirus abundance per sequencing run grouped by sample category. Bars are colored by 
 sample category: blue for fungal libraries, green for plant libraries, and red for animal associated libraries, 
@@ -152,7 +152,7 @@ rather than only a short conserved motif. Very low E-values (10⁻³²–10⁻³
 statistically robust, while amino-acid identities of roughly 55–61% suggest a clear but divergent 
 relationship to known mitovirus polymerases.
 
-![](Images/node_blastq_top_hits.png)
+![](img/Itinerovirus_mycophilus/node_blastq_top_hits.png)
 **Figure 2.**  Node sequence BLASTq top hits [13].
 
 In the phylogenetic tree [14] obtained from the BLASTP search, I. mycophilus clusters within a well-supported clade 
@@ -160,7 +160,7 @@ of mitoviruses together with Tianjin Mitov tick virus 1 and several Rhizoctonia 
 mitoviruses, providing strong evidence that I. mycophilus is a novel member of the family Mitoviridae, 
 supporting its classification as a mitovirus (Figure 3).
 
-![](Images/Phylogentic_Tree_From_RDRP.png)
+![](img/Itinerovirus_mycophilus/Phylogentic_Tree_From_RDRP.png)
 
 **Figure 3.** NCBI Phylogentic Tree of I. mycophilus node sequence [14].
 
@@ -170,7 +170,7 @@ ORFfinder was used to predict open reading frames (ORFs) on this contig [15]. Th
 a single long ORF (ORF0). However, the qualifiers indicated a partial stop, meaning that the 
 extracted node sequence does not capture the complete ORF (Figure 4).
 
-![](Images/ORFinder1.png)
+![](img/Itinerovirus_mycophilus/ORFinder1.png)
 **Figure 4.** ORF finding using ORFinder on contig 0 [15].
 
 By downloading the FASTA file using the SRA Toolkit from the same accession run SRR9916760 on 
@@ -180,10 +180,10 @@ contig 0, identified by direct text search. Inputting contig 1 into ORFfinder wi
 a single ORF is identified that is 2283 nt (760 aa) long (Figure 5). This open reading frame is 
 predicted, by InterProScan [16], to encode a protein with a mitovirus-like RdRp functional domain (Figure 6).
 
-![](Images/ORFinder2.png)
+![](img/Itinerovirus_mycophilus/ORFinder2.png)
 **Figure 5.** ORF finding using ORFinder on contig 1 [15].
 
-![](Images/InterProScan.png)
+![](img/Itinerovirus_mycophilus/InterProScan.png)
 **Figure 6.** Predicted protein domain of contig 1 by InterProScan [16].
 
 Contig 1, which contains a single open reading frame of the expected length for a 
@@ -192,7 +192,7 @@ of I. mycophilus in this study. We then mapped raw reads from SRA run SRR9916760
 a depth-of-coverage profile, and used the RdRp domain predicted by InterProScan to annotate its 
 position along the genome (Figure 7).
 
-![](Images/coverage_genes.png)
+![](img/Itinerovirus_mycophilus/coverage_genes.png)
 **Figure 7.** Read coverage and putative genomic organization of contig 1 of the novel I. mycophilus 
 mitovirus. Top: depth of mapped RNA-seq reads across the viral contig, showing continuous 
 coverage along the ∼4.2 kb genome. Bottom: gene map indicating a 5′ untranslated region (5′UTR), 
@@ -209,9 +209,9 @@ hits) was generated with MUSCLE [17] and visualized in Jalview using the Clustal
 (Figure 8). The alignment clearly shows the six canonical RdRp motifs (I–VI) within the mitovirus RdRp 
 domain, including the highly conserved GDD tripeptide in motif IV that is characteristic of Mitoviridae.
 
-![](Images/Top_6_alignment_with_unknown 1.png)
+![](img/Itinerovirus_mycophilus/Top_6_alignment_with_unknown 1.png)
 
-![](Images/Top_6_alignment_with_unknown 2.png)
+![](img/Itinerovirus_mycophilus/Top_6_alignment_with_unknown 2.png)
 **Figure 8.** Multiple sequence alignment of the RdRp region of the novel I. mycophilus mitovirus 
 (unknown, red star) and six reference mitoviruses (top BLASTp hits), generated with MUSCLE 
 and visualized in Jalview using the Clustal color scheme [17]. The upper panel shows motifs I and II, 
@@ -229,14 +229,14 @@ flexible tail, suggesting an intrinsically disordered or mobile region rather th
 structured domain. These predictions are consistent with a mitovirus ORF that composed of 
 RdRp well-ordered catalytic core and a non-catalytic, flexible extension.
 
-![](Images/AlphaFold.png)
+![](img/Itinerovirus_mycophilus/AlphaFold.png)
 **Figure 9.** AlphaFold-predicted structure of ORF1 from the novel mitovirus [18].
 
 Based on all the analysis and characterization above, features of mitovirus and observations made are summarized in Table 3.
 
 **Table 3.** Features and observations summary of I. mycophilus mitovirus
 
-![](Images/Feature_and_observation_summary.png)
+![](img/Itinerovirus_mycophilus/Feature_and_observation_summary.png)
 
 ## Discussion
 By mining SRA datasets with abundance thresholds, Itinerovirus mycophilus appears at high levels in Agaricus bisporus and in rice leaves, even when fungi are not detected, indicating infections in fungi and possible replication in plants. Mitoviruses were traditionally thought to be strictly fungal, but recent publications show they can circulate across kingdoms [19,20], which is consistent with what we observe for I. mycophilus. In metagenomic and metatranscriptomic datasets, this virus often appears in complex food-associated communities where the surrounding taxonomic profile suggests it is hitchhiking on fungal and plant material rather than truly infecting animal or human cells. Future studies should use controlled infection experiments and mitochondrial-enriched, strand-specific RNA-seq in both plants and animal models to confirm which hosts support active replication. Overall, this combination of a textbook mitovirus genome with a surprisingly broad digital ecology suggests that mitochondrial RNA viruses can move along food webs, blurring boundaries between fungal, plant-, and animal-associated niches.
