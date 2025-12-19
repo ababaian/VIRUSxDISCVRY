@@ -68,7 +68,7 @@ This hypothesis is substantiated by the detection of identical or near-identical
 
 ### Tertiary Structure
 
-![lphapartitivirus viator 3D structure](./img/Alphapartitivirus_viator/3d_structure.png)
+![Alphapartitivirus viator 3D structure](./img/Alphapartitivirus_viator/3d_structure.png)
 
 **Figure 2. Predicted Tertiary Structure of the *Alphapartitivirus viator* RdRp Catalytic Domain (ORF2).**
 
