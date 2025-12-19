@@ -24,9 +24,11 @@
 ..==                                                                        ==..
 ```
 
-## Tutorial Index
+## Tools & Tutorial Index
+<details>
+<summary> It's dangerous to go alone! Take these. [click to expand] </summary>
 
-An index of the software tutorial.
+Index of the software tutorials, web tools and analysis.
 
 ### NT Sequence Analysis
 - [Infernal](tools/Infernal.md) # Search RNA Structures
@@ -73,8 +75,15 @@ An index of the software tutorial.
 - [ViralZone](https://viralzone.expasy.org/)
 - [Insert Tool Tutorial Here ...](template/toolTemplate.md)
 
-## Cool Virus Projects
+### Cool Virus Projects
 - [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br)
+
+</details>
+
+## Virus Project Index
+
+<details>
+<summary> Stand on the Shoulders of Giants [click to expand] </summary>
 
 ## 2025 Virus Index
 
@@ -154,6 +163,8 @@ An index of the Virus Discovery Reports.
 - [Trojan Patchwork Virus](virus/trojan_patchwork_virus.md) (Virga-like Virus)
 - [Vermisvirus culicis](virus/vermisvirus_culicis.md) (Negevirus)
 - [Virusus intricatus trichomonadis](virus/virusus_intricatus_trichomonadis.md) (Totivirus)
+
+</details>
 
 
 ## Project Organization
