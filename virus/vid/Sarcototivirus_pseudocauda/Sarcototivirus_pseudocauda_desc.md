@@ -19,3 +19,5 @@ project link: https://github.com/ababaian/VIRUSxDISCVRY/blob/main/virus/Sarcotot
 
 
 One-line Captivating Description: A forensic investigation unmasks a "Trojan Horse" virus hiding in archival yak transcriptomes, revealing a hidden parasitic ecosystem.
+
+This project investigates sOTU u145189, a viral sequence initially annotated as originating from bovine muscle tissue, and demonstrates through phylogenetic and structural analysis that it instead represents a virus associated with a cryptic protozoan host. By combining RdRp motif analysis, AlphaFold structural predictions, and ecological context from yak transcriptome datasets, this work illustrates how archival sequencing data can hide complex parasitic interactions. The findings highlight the importance of forensic ecology approaches for correctly interpreting viral metadata and better understanding hidden host–virus relationships.
