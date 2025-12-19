@@ -1,24 +1,21 @@
-# {Video Presentation Title / Report Title}
-{ --- Delete braced comments prior to submission --- }
-{ Include a copy of this file in VIRUSxDSCVRY repo
-as `/virus/vid/<virus_name>_desc.md`}
+# Video Presentation Title / Report Title
+Metadata says Bovine Muscle BUT viral sequence reveals a cryptic protozoan passenger
 
 
 ### Video Thumbnail
-{Include a thumbnail for your video in your `img/<virusname>` folder.}
 
-[Video thumbnail](img/<virusname>/thumbnail.png) 
-
-
-### Video Description
-{Suggestion for image description (max 5000 characters)}
-
-presented by: [yourname](https://github.com/yourname *optional link*)
-project link: [project link](https://github.com/ababaian/VIRUSxDISCVRY/<YourProject.md>)
+![Video thumbnail](../img/Sarcototivirus_pseudocauda/thumbnail.png)
 
 
-{1 line captivating description}
 
-{ ---- Text Fold ---- }
+### Image Description
 
-{Q1C, Nature Summary Paragraph, may need to be shortened to mind charcter limit!}
+The thumbnail features a split layout summarizing the project's central paradox. On the left, text reads: "Metadata says, 'Bovine Muscle,' BUT viral sequence reveals a cryptic protozoan passenger," followed by the project title "Unmasking sOTU u145189 via Forensic Ecology." On the right, two images illustrate the investigation: the top image displays the AlphaFold 3D protein structure of the viral polymerase (RdRp) with catalytic motifs highlighted in red, blue, and green; the bottom image depicts the ecological setting, showing Maiwa Yaks grazing on the green pastures of the Tibetan Plateau.
+
+
+
+Presented by: Khushi Kankaria
+project link: https://github.com/ababaian/VIRUSxDISCVRY/blob/main/virus/Sarcototivirus_pseudocauda/Sarcototivirus_pseudocauda.Rmd
+
+
+One-line Captivating Description: A forensic investigation unmasks a "Trojan Horse" virus hiding in archival yak transcriptomes, revealing a hidden parasitic ecosystem.
