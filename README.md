@@ -107,6 +107,7 @@ An index of the Virus Discovery Reports.
 - [Puccinia triticum](virus/Puccinia_triticum.md) (Narnavirus)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
+- [Glossinamyces chrysopsiformis](virus/Glossinamyces_chrysopsiformis.md) (Narnavirus)
 
 `Partitiviridae`
 - [Durnavirus ambigiformis](virus/Durnavirus_ambigiformis.md) (Partitivirus)
