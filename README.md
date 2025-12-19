@@ -26,7 +26,7 @@
 
 ## Tools & Tutorial Index
 <details>
-<summary> It's dangerous to go alone! Take these. [click to expand] </summary>
+<summary> ~=== It's dangerous to go alone! Take these. ===~ [click to expand] </summary>
 
 Index of the software tutorials, web tools and analysis.
 
@@ -83,9 +83,12 @@ Index of the software tutorials, web tools and analysis.
 ## Virus Project Index
 
 <details>
-<summary> Stand on the Shoulders of Giants [click to expand] </summary>
+<summary> ~=== Stand on the Shoulders of Giants ===~  [click to expand] </summary>
 
-## 2025 Virus Index
+`Legend`
+- **<99%>** Exceptional Project
+
+### 2025 Virus Index
 
 An index of the Virus Discovery Reports.
 
@@ -119,7 +122,7 @@ An index of the Virus Discovery Reports.
 `Other`
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
-## 2024 Obelisk Index
+### 2024 Obelisk Index
 
 An index of the Obelisk Discovery Reports.
 
@@ -140,7 +143,7 @@ An index of the Obelisk Discovery Reports.
 - [Obelisk 371](virus/Obelisk371.md)
 - [Scrofobelisk intestinali](virus/Scrofobelisk_intestinalis.md)
 
-## 2023 Virus Index
+### 2023 Virus Index
 
 An index of the Virus Discovery Reports.
 
