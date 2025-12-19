@@ -88,6 +88,7 @@ An index of the Virus Discovery Reports.
 - [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
 - [Narnavirus porcinus](virus/Narnavirus_porcinus.md) (Narnavirus)
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
+- [Pax mycesfermentum](virus/Pax_mycesfermentum.md) (Narnavirus)
 - [Puccinia triticum.md](virus/Puccinia_triticum.md) (Narnavirus)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
