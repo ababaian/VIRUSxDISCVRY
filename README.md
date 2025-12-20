@@ -81,9 +81,7 @@ Index of the software tutorials, web tools and analysis.
 </details>
 
 ## Virus Project Index
-
-<details>
-<summary> ~=== Stand on the Shoulders of Giants ===~  [click to expand] </summary>
+~=== Stand on the Shoulders of Giants ===~
 
 `Legend`
 - **<99%>** Exceptional Project
@@ -93,9 +91,11 @@ Index of the software tutorials, web tools and analysis.
 An index of the Virus Discovery Reports.
 
 `Mitoviriridae`
+- [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus)
 - [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
 - [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus)
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
+
 
 `Narnaviridae`
 - [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus)
