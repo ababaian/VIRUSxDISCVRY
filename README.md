@@ -80,10 +80,7 @@ Index of the software tutorials, web tools and analysis.
 
 </details>
 
-## Virus Project Index
-
-<details>
-<summary> ~=== Stand on the Shoulders of Giants ===~  [click to expand] </summary>
+## Virus Project Index -- Stand on the Shoulders of Giants
 
 `Legend`
 - **<99%>** Exceptional Project
@@ -93,9 +90,11 @@ Index of the software tutorials, web tools and analysis.
 An index of the Virus Discovery Reports.
 
 `Mitoviriridae`
+- [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus)
 - [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
 - [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus)
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
+
 
 `Narnaviridae`
 - [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus)
@@ -118,7 +117,8 @@ An index of the Virus Discovery Reports.
 `Totiviridae`
 - [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus)
 - [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
-- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus) X
+- [Ovismusculus totivirae_desc](virus/vid/ovismusculus_totivirae_desc.md) (Totivirus)
+- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 
 `Other`
