@@ -22,17 +22,29 @@ Together, these findings describe a mitovirus associated with powdery mildew and
 
 ## Results
 
-**Detecting the virus**
+### Detecting the virus
 
-The Agricolae-Amicus mitovirus (abbreviated as AgAm), was first discovered using the Serratus discovery tool. Serratus detected the presence of a virus with the same signature (palmid: u235770) in three reads: - SRR4048995 - SRR4048999 - SRR6516156 The amino acid sequence of this palmid was HSLDLKAATDRMPINFQQRVLSLIVGGELASV*KSILVDYPFRSDSTSVKYEVGQPMGAYSS*PAMALTHHVIVRIAARRLGINNFKNYCILGDDIVI for both SRR4048995 and SRR4048999 and ELASV*KSILVDYPFRSDSTSVKYEVGQPMGAYSS*PAMALTHHVIVRIAARRLGINNFKNYCILGDDIVI for SRR6516156. This could either be a mistake of loss of data (and have it's supposed to be the same), or that the tool extracted slightly different length sequences and considered them the same due to the second palmid being an exact subset of the first one.
+The Agricolae-Amicus mitovirus (abbreviated as AgAm), was first discovered using the Serratus discovery tool. Serratus detected the presence of a virus with the same signature (palmid: u235770) in three reads: - SRR4048995 - SRR4048999 - SRR6516156 The amino acid sequence of this palmid was
 
-SRR4048995 and SRR4048999 are transcriptomic runs from a dataset for a study of golovinomyces cichoracearum, which is a subspecies of powdery mildew, a fungus that infects plants with a powder-like residue on the leaves [Wu et al. 2018]. This was sequenced at University of Maryland with Illumina HiSeq 1500 in 2018. Interestingly out of 10 SRR runs for this species in this experiment, only the two runs of mycelia samples contained the virus, while the eight samples for haustoria did not detect traces of the virus.
+```         
+HSLDLKAATDRMPINFQQRVLSLIVGGELASV*KSILVDYPFRSDSTSVKYEVGQPMGAYSS*PAMALTHHVIVRIAARRLGINNFKNYCILGDDIVI
+```
+
+for both SRR4048995 and SRR4048999 and
+
+```         
+ELASV*KSILVDYPFRSDSTSVKYEVGQPMGAYSS*PAMALTHHVIVRIAARRLGINNFKNYCILGDDIVI
+```
+
+for SRR6516156. This could either be a mistake of loss of data (and have it's supposed to be the same), or that the tool extracted slightly different length sequences and considered them the same due to the second palmid being an exact subset of the first one.
+
+SRR4048995 and SRR4048999 are transcriptomic runs from a dataset for a study of Golovinomyces cichoracearum, which is a subspecies of powdery mildew, a fungus that infects plants with a powder-like residue on the leaves [Wu et al. 2018]. This was sequenced at University of Maryland with Illumina HiSeq 1500 in 2018. Interestingly out of 10 SRR runs for this species in this experiment, only the two runs of mycelia samples contained the virus, while the eight samples for haustoria did not detect traces of the virus.
 
 SRR6516156 is a transcriptomic run of a Nicotiana undulata sample (tobacco plant) from a dataset exploring phylogenetic relationships in Nicotiana speciecs. This species is found in Australia and the sequencing was done at the Kunming Institue of Zoology in 2019. The most plausible explanation is that this plant sample was infected by a fungal infection that carried the signature of the virus into the sequencing sample.
 
 Hypothesis: Based on the datasets that the host was found, it is likely that the virus is a mycovirus that infects the golovinomyces cichoracearum, which the fungus then in turn infects plants such as the tobacco plant.
 
-**Identifying the type of virus**
+### Identifying the type of virus
 
 Once the virus was detected the questions arise of what it is and what it does.
 
@@ -50,25 +62,33 @@ By choosing the longest contigs that related to our palmprint we could essential
 
 This left us with 'hit contigs' for full rdrps.
 
-SRR4048999 had its longest open reading frame start outside of the contig, while SRR404995 had an ORF of length 713 amino acids which contained rdrp properties: MNATKENFDIILRTIEWVGSTYFSDLPLALRRENAARFFKQYSRCHSRGKAFTAALFKSQRLALTRYIAG SPIPIAGIRQDSNLLPRIITRGLRESIVNGNHLSIRYALTLLGMGRMIMGGKPVDLSPISEEWKGRDPIS DYELRHFWKRLGKPTLQGESGSFHWTLKSGPNGPALFYSLVDLEVIIHKPALKQALAYWFDPESREIFQD WLDNFYERIPSLIKVLKLKYPKKLKLRKLSIKQDRESKMRVFAILDWWSQSALKGLHHNLYKLLSKLPSD CTFDQGKHLHQMASLKTNSKFYSFDLSNATDRFPLILQKRLLTMLVGSEAAAHWETIMVSEGFSYQGKTY FYKTGQPMGAHSSWPLFALTHHAVVHAAALRCNIPKFDDYCILGDDVVIYHDEVASQYRRLMSDLGVEIS PSKTHESPHTFEFAKRWFHHGQEISPYPLAGLLEVTKSWPLLVEFLGHQVPMKGYRSLQDFGDPVFSELL QLMPSEGKRQSDAFLKRMKIVSAFPNWWLDDIRDPDKDLSSHLERLYRAADLEPPKGDPRLWLDWFTKQS YSKIRSLVSEQGAVSTRNAMKWRNALYDIEGDSEADQTSTLSSEWIRIVPPLYVIRSMALKSQVKLDLSG FSLEPIVFWSSWRNLEMMFLPRLNGIFPARKRDGMSKAQSYLALEILKKYGPATPDTFNEDAGFDEYSDH LRSQWPMTFGLPF
+SRR4048999 had its longest open reading frame start outside of the contig, while SRR404995 had an ORF of length 713 amino acids which contained rdrp properties:
+
+```         
+MNATKENFDIILRTIEWVGSTYFSDLPLALRRENAARFFKQYSRCHSRGKAFTAALFKSQRLALTRYIAGSPIPIAGIRQDSNLLPRIITRGLRESIVNGNHLSIRYALTLLGMGRMIMGGKPVDLSPISEEWKGRDPISDYELRHFWKRLGKPTLQGESGSFHWTLKSGPNGPALFYSLVDLEVIIHKPALKQALAYWFDPESREIFQDWLDNFYERIPSLIKVLKLKYPKKLKLRKLSIKQDRESKMRVFAILDWWSQSALKGLHHNLYKLLSKLPSDCTFDQGKHLHQMASLKTNSKFYSFDLSNATDRFPLILQKRLLTMLVGSEAAAHWETIMVSEGFSYQGKTYFYKTGQPMGAHSSWPLFALTHHAVVHAAALRCNIPKFDDYCILGDDVVIYHDEVASQYRRLMSDLGVEISPSKTHESPHTFEFAKRWFHHGQEISPYPLAGLLEVTKSWPLLVEFLGHQVPMKGYRSLQDFGDPVFSELLQLMPSEGKRQSDAFLKRMKIVSAFPNWWLDDIRDPDKDLSSHLERLYRAADLEPPKGDPRLWLDWFTKQSYSKIRSLVSEQGAVSTRNAMKWRNALYDIEGDSEADQTSTLSSEWIRIVPPLYVIRSMALKSQVKLDLSGFSLEPIVFWSSWRNLEMMFLPRLNGIFPARKRDGMSKAQSYLALEILKKYGPATPDTFNEDAGFDEYSDHLRSQWPMTFGLPF
+```
 
 The highest tblastn pair for this was Plasmopara viticola lesion associated mitovirus 21 (e value 0, identity 57.88%)
 
-While SRR6516156 had an ORF of length 768 with this sequence: MYQKVLRICGRFIMFYKNRFFQNLFASVQRIPSISWRSMFEHARQLKGLLLRVPTVASLVMTREIALAAV HFVRSVLKLARKSGLLFTALYLKHCAVALQRFYAGSFKATDSQSVSVSLTRSGIPRIIPSVLRPHIRRRD DHGDMLVRIYLSWFSLAKLVELAPKIRKATFTSITTPSQDIGRILEVLDEIKVSFKVLQPLYLPNLSHHP LFKGILWEPTWKSTPLSFHYISRYFELTDMERKFLPFENIFFNLKAELAGFMWNICKIHSIPDGYFSPAM LWHQAVLYPLDVSGTRRILMEDLDRFEAGAGPQLASTMQIYSHVPLMTGRIAQQIEGGGKRRLFAICNYV KQQLLRPVHNWAMSVLKTLKSDGTFNQELPLQRLKIKQYEELYSFDLKSATDRWPLSVIYTVQMMIWGDT FASSVVNSSLGLNTFRVGKPLTKKEYEVAFLAGQPLGYLGSWSLFALSHHYLVWLAAFRVDPGRKEPFWD YALLGDDILIANSQVAQEYSKLLERLGVTISINKSIISRNGSLEFAKRFWTKKMQIDLSPISLRSLLGIK SLIGVAQIGAKYGLKMSALQRLAGAGYRVRARLMTTQSKRWERLKALFGKPHSSHRLPLEWWIGRGCPLN PYLKGRMVDYLRRELKPKEIQLFPEGLVLDGEREILERTVLIRWMKQWLSWVSWYHTVAWSPDVTLDQLM DAPVCATSWKRTQRDQNLVKFGLSFKLYDMGGSFDWSSVRVIESQPIPFSRWIYGGFTGCDFIMAPLD
+While SRR6516156 had an ORF of length 768 with this sequence:
+
+```         
+MYQKVLRICGRFIMFYKNRFFQNLFASVQRIPSISWRSMFEHARQLKGLLLRVPTVASLVMTREIALAAVHFVRSVLKLARKSGLLFTALYLKHCAVALQRFYAGSFKATDSQSVSVSLTRSGIPRIIPSVLRPHIRRRDDHGDMLVRIYLSWFSLAKLVELAPKIRKATFTSITTPSQDIGRILEVLDEIKVSFKVLQPLYLPNLSHHPLFKGILWEPTWKSTPLSFHYISRYFELTDMERKFLPFENIFFNLKAELAGFMWNICKIHSIPDGYFSPAMLWHQAVLYPLDVSGTRRILMEDLDRFEAGAGPQLASTMQIYSHVPLMTGRIAQQIEGGGKRRLFAICNYVKQQLLRPVHNWAMSVLKTLKSDGTFNQELPLQRLKIKQYEELYSFDLKSATDRWPLSVIYTVQMMIWGDTFASSVVNSSLGLNTFRVGKPLTKKEYEVAFLAGQPLGYLGSWSLFALSHHYLVWLAAFRVDPGRKEPFWDYALLGDDILIANSQVAQEYSKLLERLGVTISINKSIISRNGSLEFAKRFWTKKMQIDLSPISLRSLLGIKSLIGVAQIGAKYGLKMSALQRLAGAGYRVRARLMTTQSKRWERLKALFGKPHSSHRLPLEWWIGRGCPLNPYLKGRMVDYLRRELKPKEIQLFPEGLVLDGEREILERTVLIRWMKQWLSWVSWYHTVAWSPDVTLDQLMDAPVCATSWKRTQRDQNLVKFGLSFKLYDMGGSFDWSSVRVIESQPIPFSRWIYGGFTGCDFIMAPLD
+```
 
 When run in tblastn its closest match was Petunia exserta mitovirus 1 (e value 0, identity 73%) which compliments the mitovirus theory.
 
-These different rdrps have some strong overlapping motifs, but differences in terms of their overall sequence. This suggests that the palmprint of the viruses are of similar phylogeny but not identical strains. Another thing to consider is that these were the cleanest rdrp sequences but might not directly the same virus. This part confused me a bit because the same virus should in theory be in both samples if they have equivalent palmids.This methodolgy could have been flawed because perhaps the best hit for a full rdrp sample was different from the actual sequence that belonged to this palmprint. Regardless there is very strong evidence that the rdrp sequences indeed belong to a mitovirus, of very close relations.
+These different rdrps have some strong overlapping motifs, but differences in terms of their overall sequence. This suggests that the palmprint of the viruses are of similar phylogeny but not identical strains. Another thing to consider is that these were the cleanest rdrp sequences but might not directly the same virus. Differences among recovered RdRp sequences may reflect partial assemblies, closely related strains, or limitations of palmprint-based recovery. Regardless there is very strong evidence that the rdrp sequences indeed belong to a mitovirus, of very close relations.
 
 Hypothesis: Based on the above, it is very likely the virus is a mitovirus and thus sharing many characteristics of that family. Its open reading frame encodes for an rdrp.
 
-**Interaction with the host**
+### Interaction with the host
 
 Under the assumption that the virus is a mitovirus, and based on where it is found, we know that it is likely to infect the mitochondria of a specific type of powdery mildew. The detection in the tobacco plant is very likely to be a contamination of the plant by a fungus, as mitoviruses do not infect plants directly.
 
-This creates an intersting dynamic with the plants as mitoviruses can often times (though importantly not always) cause hypovirulence, or the reduction in effectiveness of the fungus due to infection of the virus. There are many factors that determine if this is true or not, but the generally proposed mechanism is that since the mitovirus compete for energy and interact negatively with the mitochondria of the fungus, the energy production of the fungus is lowered and the fungus grows less and spreads with less effectiveness. Interestingly the study that proved this shows that this can be transmitted from strain to strain, which allows for a transmissible reducer of fungal infection [Xu et al. 2015]. With this knowledge of the interaction between virus and fungus and the interaction of the fungus to plants, we can predict that strains with the virus will do less damage to plants, and thus being a benefit to the agriculutre industry.
+This creates an interesting dynamic with the plants as mitoviruses can often times (though importantly not always) cause hypovirulence, or the reduction in effectiveness of the fungus due to infection of the virus. There are many factors that determine if this is true or not, but the generally proposed mechanism is that since the mitovirus compete for energy and interact negatively with the mitochondria of the fungus, the energy production of the fungus is lowered and the fungus grows less and spreads with less effectiveness. Interestingly the study that proved this shows that this can be transmitted from strain to strain, which allows for a transmissible reducer of fungal infection [Xu et al. 2015]. With this knowledge of the interaction between virus and fungus and the interaction of the fungus to plants, we can predict that strains with the virus will do less damage to plants, and thus being a benefit to the agriculutre industry.
 
-Another thing to notice is that lack of precense in the haustoria sample and presence in the mycelia sample. Haustoria are a more critical part of the fungus, relating to the pathogenic nature of the fungus [Elsevier]. This could mean that either the mitovirus does not affect it due to difference in biology, or more excitingly that the virus reduces viability of the haustoria and thus there is no detection of the sequencing data. This is speculative and would need wet lab testing verification.
+Another thing to notice is that lack of presence in the haustoria sample and presence in the mycelia sample. Haustoria are a more critical part of the fungus, relating to the pathogenic nature of the fungus [Elsevier]. This could mean that either the mitovirus does not affect it due to difference in biology, or more excitingly that the virus reduces viability of the haustoria and thus there is no detection of the sequencing data. This is speculative and would need wet lab testing verification.
 
 Hypothesis: Based on the above, it is moderately likely that the virus reduces the viability of the the powdery mildew it infects, which by extension reduces the damage done to plants by the fungus.
 
