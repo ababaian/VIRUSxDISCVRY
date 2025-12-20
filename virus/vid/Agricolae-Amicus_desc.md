@@ -2,7 +2,7 @@
 
 ### Video Thumbnail
 
-![](images/Thumbnail.png)
+![Video Thumbnail](images/Thumbnail.png)
 
 ### Video Description
 
