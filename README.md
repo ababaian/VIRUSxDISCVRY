@@ -80,8 +80,7 @@ Index of the software tutorials, web tools and analysis.
 
 </details>
 
-## Virus Project Index
-~=== Stand on the Shoulders of Giants ===~
+## Virus Project Index -- Stand on the Shoulders of Giants
 
 `Legend`
 - **<99%>** Exceptional Project
@@ -119,7 +118,7 @@ An index of the Virus Discovery Reports.
 - [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus)
 - [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
 - [Ovismusculus totivirae_desc](virus/vid/ovismusculus_totivirae_desc.md) (Totivirus)
-- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus) X
+- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 
 `Other`
