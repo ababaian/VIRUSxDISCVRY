@@ -93,8 +93,8 @@ An index of the Virus Discovery Reports.
 
 `Mitoviriridae`
 - [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus) [\<VID\>](https://youtu.be/40lObAgDc7w)
-- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) **\<99%\>** (Mitovirus) [\<VID\>](https://youtu.be/2AHGkMFz-zo)
-- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) **\<99%\>** (Mitovirus) [\<VID\>](https://youtu.be/UbBBHDuis4E)
+- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus) [\<VID\>](https://youtu.be/2AHGkMFz-zo) **\<99%\>**
+- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus) [\<VID\>](https://youtu.be/UbBBHDuis4E) **\<99%\>**
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 
 `Narnaviridae`
