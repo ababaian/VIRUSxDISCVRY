@@ -1,27 +1,27 @@
-```
-..==                                                                        ==..
-..==                                                                        ==..
-..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
-..==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           ==..
-..==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           ==..
-..==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            ==..
-..==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           ==..
-..==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           ==..
-..==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            ==..
-..==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              ==..
-..==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            ==..
-..==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            ==..
-..==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            ==..
-..==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            ==..
-..==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            ==..
-..==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             ==,.
-..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
-..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
-..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
-..==           ░               ░           ░            ░ ░                 ==..
-..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
-..==                                                                        ==..
-..==                                                                        ==..
+```diff
+- ==                                                                        == -
+- ==                                                                        == -
+! ==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           == ,
+! ==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           == !
+! ==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           == !
+! ==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            == !
+! ==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           == ,
+! ==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           == -
+- ==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            == -
+- ==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              == -
+! ==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            == ,
+! ==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            == !
+! ==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            == !
+! ==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            == !
+! ==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            == !
+! ==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             == -
+! ==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             == .
+- ==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              == -
+- ==             ░          ░  ░ ░          ░     ░     ░ ░  ░              == -
+- ==           ░               ░           ░            ░ ░                 == .
+@@==             ░ The Platinum Age of Virus░Discovery  ░                   ==@@
+- ==                                                                        == -
+- ==                                                                        == -
 ```
 
 ## Tools & Tutorial Index
@@ -83,16 +83,16 @@ Index of the software tutorials, web tools and analysis.
 ## Virus Project Index -- Stand on the Shoulders of Giants
 
 `Legend`
-- **<99%>** Exceptional Project
-
+- **<99%>**
+  
 ### 2025 Virus Index
 
 An index of the Virus Discovery Reports.
 
 `Mitoviriridae`
 - [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus)
-- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus)
-- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus)
+- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) **\<99%\>** (Mitovirus)
+- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) **\<99%\>** (Mitovirus)
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 
 
@@ -138,8 +138,8 @@ An index of the Obelisk Discovery Reports.
 - [Mammalia ventremi](virus/Mammalia_ventremi.md)
 - [Obeliscus aquidurentis](virus/Obeliscus_Aquidurentis.md)
 - [Obeliscus faecalis](virus/Obeliscus_faecalis.md)
-- [Obeliscus porcinus **<99%>**](/virus/obeliscus_porcinus.md)
-- [Obeliscus replicandii **<99%>**](/virus/obeliscus_replicandii.md)
+- [Obeliscus porcinus](/virus/obeliscus_porcinus.md) **\<99%\>**
+- [Obeliscus replicandii](/virus/obeliscus_replicandii.md) **\<99%\>**
 - [Obeliskvirus respiratorius](virus/Obeliskvirus_respiratorius.md)
 - [Obeliscus suslichen](virus/obeliscus_suslichen.md)
 - [Obelisk 371](virus/Obelisk371.md)
@@ -154,13 +154,13 @@ An index of the Virus Discovery Reports.
 - [Blumevirus macaceinfi](virus/Blumevirus_macaceinfi.md)
 - [Black Queen Cell Virus](virus/BQCV.md) (Picornavirus)
 - [Cripavirus inexspectatus](virus/Cripavirus_inexspectatus.md) (Dicistrovirus)
-- [Hemileia pugnator **<99%>**](virus/Hemileia_pugnator.md) (Mitovirus)
+- [Hemileia pugnator](virus/Hemileia_pugnator.md) **\<99%\>** (Mitovirus)
 - [Hemiptinidovirus metis](virus/H_metis.md) (Nidovirus)
-- [Hespivirus rivalense **<99%>**](virus/hespivirus_rivalense.md) (Negevirus)
+- [Hespivirus rivalense](virus/hespivirus_rivalense.md) **\<99%\>** (Negevirus)
 - [Locarnavirus Nudiformis](virus/Locarnavirus_nudiformis.md) (Marnavirus)
 - [Orthocurvulavirus phantasma](virus/Orthocurvulavirus_phantasma.md)
 - [Posasimilis intestivirus](virus/p_intestivirus.md) (Posavirus)
-- [Pupavirus apiscarab **<99%>**](virus/Pupavirus_apiscarab.md) (Narnavirus)
+- [Pupavirus apiscarab](virus/Pupavirus_apiscarab.md) **\<99%\>** (Narnavirus)
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
 - [Sedimentum occultus](virus/sedimentum_occultus.md) (Picornavirus)
 - [Thogotovirus_aidenensis](virus/Thogotovirus_aidenensis.md) (Orthomyxovirus)
