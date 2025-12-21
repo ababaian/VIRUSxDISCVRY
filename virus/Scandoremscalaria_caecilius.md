@@ -102,10 +102,12 @@ Then, we ran IQTREE [Nguyen 2014] tree inference (default parameters:
 coefficient of 0.99, stopping rule of 100, preturbation strength of 0.5)
 on the MUSCLE alignment file.
 
-![IQTREE phylogenetic tree of S. caecilius in relation to top Blast
+![](./img/Scandoremscalaria_caecilius/IQTREE.png)
+
+Figure 1. IQTREE phylogenetic tree of S. caecilius in relation to top Blast
 hits. The node tips are coloured by the blast E-value rank (1 = lowest,
 91 = highest). S. caecilius is coloured blue while the others are
-red.](./img/Scandoremscalaria_caecilius/IQTREE.png)
+red.
 
 We're only plotting a subtree that contains S. caecilius and 48 other
 sequences because a 101 leaf tree would be even harder to read. The
@@ -145,21 +147,25 @@ and t-tests for the difference in means between normalized reads of taxa
 in SRRs that do and don't have S. caecilius reads. All p-values were FDR
 corrected.
 
-![Taxonomic tree of the eukaryotic organisms in all of the BioProjects
+![](./img/Scandoremscalaria_caecilius/euk_spear.png)
+
+Figure 2. Taxonomic tree of the eukaryotic organisms in all of the BioProjects
 that contain S. caecilius. Edges are coloured by the child node's
 normalized read count Spearman's correlation to the normalized S.
 caecilius palm ID node coverage. The green starts are represent the FDR
 corrected significance of the correlation (\*\*\* =\> p adjusted \<
 0.001, \*\* =\> p adjusted \< 0.01, \* =\> p adjusted \<
-0.05)](./img/Scandoremscalaria_caecilius/euk_spear.png)
+0.05)
 
-![Taxonomic tree of the eukaryotic organisms in all of the BioProjects
+![](./img/Scandoremscalaria_caecilius/euk_t.png)
+
+Figure 3. Taxonomic tree of the eukaryotic organisms in all of the BioProjects
 that contain S. caecilius. Edges are coloured by the difference in means
 in the child node's normalized read count in SRRs that do and don't
 contain S. caecilius palm ID node coverage. The green starts are
 represent the FDR corrected significance of the correlation (\*\*\* =\>
 p adjusted \< 0.001, \*\* =\> p adjusted \< 0.01, \* =\> p adjusted \<
-0.05)](./img/Scandoremscalaria_caecilius/euk_t.png)
+0.05)
 
 When we look at the intersection of all the taxa that are significant
 under the Spearman's and t-test approach, we get cows (a likely vector)
@@ -213,21 +219,24 @@ antigenic signature, it may be possible to make more effective vaccines.
 
 ### Virus Genome
 
-![A) Composite plot of genome read coverage from SRR12324618, the one
+![](./img/Scandoremscalaria_caecilius/viral_genome_ss.png)
+
+Figure 4. A) Composite plot of genome read coverage from SRR12324618, the one
 RdRp ORF in S. caecilius (gggenes), and the nucleotide identity for each
 position (top ot bottom). The genome is not very GC rich (38.5% GC). B)
 Predicted folding of the RNA genome of S. caecilius from RNAfold (Gruber
 2008). The colouring follows the base-pairing probabilities for the
 structure that has the minimum free energy. This structure may be
 inaccurate due to its large
-size.](./img/Scandoremscalaria_caecilius/viral_genome_ss.png)
-
+size.
 
 ### AlphaFold RdRp structure in ChimeraX
 
-![Stereo view of S. caecilius's RdRp AlphaFold (Jumper 2021) structure
+![](./img/Scandoremscalaria_caecilius/CX_S_caecilius_RdRp.png)
+
+Figure 5. Stereo view of S. caecilius's RdRp AlphaFold (Jumper 2021) structure
 in ChimeraX (Pettersen
-2020).](./img/Scandoremscalaria_caecilius/CX_S_caecilius_RdRp.png)
+2020).
 
 ### Variant effect predictor
 
@@ -244,26 +253,31 @@ structural predictions from AlphaFold [Jumper 2021].
 Can we measure the concordance of DeMaSk's scores with the some measure
 of residue importance as produced from AlphaFold?
 
-![DeMaSk predicted variant map of S. caecilius RdRp. Higher score means
+![](./img/Scandoremscalaria_caecilius/vep_map.png)
+
+Figure 6. DeMaSk predicted variant map of S. caecilius RdRp. Higher score means
 that DeMaSk predicts that this amino acid substution increases fitness,
 where as low scores should correlate to decreased fitness. The black
 tiles are at the wild type amino acid identity. The blue, green, and
 magenta boxes are around the A, B, and C motif positions
-respectively.](./img/Scandoremscalaria_caecilius/vep_map.png)
+respectively.
 
-![AlphaFold predicted probability of contact for each amino acid
+![](./img/Scandoremscalaria_caecilius/afold_cprob.png)
+
+Figure 7. AlphaFold predicted probability of contact for each amino acid
 position in the S. caecilius RdRp. Higher probability means that
 AlphaFold predicts that this amino acid pair will touch each other. The
-blue, green, and magenta boxes are around the A, B, and C motif
-positions
-respectively.](./img/Scandoremscalaria_caecilius/afold_cprob.png)
+blue, green, and magenta boxes are around the A, B, and C motif positions
+respectively.
 
-![Spearman's correlation between the average predicted variant effect
+![](./img/Scandoremscalaria_caecilius/cprob_vep_cor.png)
+
+Figure 8. Spearman's correlation between the average predicted variant effect
 score for each residue and the average of the top 1 to 40 AlphaFold
 predicted probability of contact values for each amino acid position in
 the S. caecilius RdRp. The purple points mean that the correlation
 coefficient is significant at FDR adjusted p-value =
-0.05.](./img/Scandoremscalaria_caecilius/cprob_vep_cor.png)
+0.05.
 
 There is a negative association between DeMaSk predicted entropy
 (salmon), variant rate (blue), and variant effect fitness score (green)
