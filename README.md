@@ -22,7 +22,15 @@
 @@==             ░ The Platinum Age of Virus░Discovery  ░                   ==@@
 - ==                                                                        == -
 - ==                                                                        == -
+
+Each living species can be infected by distinct constellations of viruses.
+Here, we collectively interrogate how viruses and virus-like agents distribute
+across life on Earth, through the re-analysis of 40+ million biological samples
+which have undergone high-throughput DNA/RNA sequencing.
+
 ```
+
+
 
 ## Tools & Tutorial Index
 <details>
