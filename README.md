@@ -87,7 +87,8 @@ Index of the software tutorials, web tools and analysis.
 ## Virus Project Index -- Stand on the Shoulders of Giants
 
 `Legend`
-- **<99%>**
+- **<99%>** Exceptional Project
+- \<VID\> Video Link
   
 ### 2025 Virus Index
 
