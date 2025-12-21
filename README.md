@@ -92,38 +92,37 @@ Index of the software tutorials, web tools and analysis.
 An index of the Virus Discovery Reports.
 
 `Mitoviriridae`
-- [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus)
-- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) **\<99%\>** (Mitovirus)
-- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) **\<99%\>** (Mitovirus)
+- [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus) [\<VID\>](https://youtu.be/40lObAgDc7w)
+- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) **\<99%\>** (Mitovirus) [\<VID\>](https://youtu.be/2AHGkMFz-zo)
+- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) **\<99%\>** (Mitovirus) [\<VID\>](https://youtu.be/UbBBHDuis4E)
 - [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 
-
 `Narnaviridae`
-- [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus)
-- [Insessor salmoscalpicī](virus/Insessor_salmoscalpicī.md) (Narnavirus)
+- [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus) [\<VID\>](https://youtu.be/zGp2OOHSX5w)
+- [Insessor salmoscalpicī](virus/Insessor_salmoscalpicī.md) (Narnavirus) [\<VID\>](https://youtu.be/6Ogfy8_G-Vw)
 - [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
 - [Narnavirus porcinus](virus/Narnavirus_porcinus.md) (Narnavirus)
-- [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus)
-- [Pax mycesfermentum](virus/Pax_mycesfermentum.md) (Narnavirus)
-- [Puccinia triticum](virus/Puccinia_triticum.md) (Narnavirus)
+- [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus) [\<VID\>](https://youtu.be/kAIeKq_lv5k) 
+- [Pax mycesfermentum](virus/Pax_mycesfermentum.md) (Narnavirus) [\<VID\>](https://youtu.be/rYk89qWL5so)
+- [Puccinia triticum](virus/Puccinia_triticum.md) (Narnavirus) [\<VID\>](https://youtu.be/chYF_C7Hqso)
 - [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
-- [Glossinamyces chrysopsiformis](virus/Glossinamyces_chrysopsiformis.md) (Narnavirus)
+- [Glossinamyces chrysopsiformis](virus/Glossinamyces_chrysopsiformis.md) (Narnavirus) [\<VID\>](https://youtu.be/tyss5vXdITM)
 
 `Partitiviridae`
-- [Durnavirus ambigiformis](virus/Durnavirus_ambigiformis.md) (Partitivirus)
-- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus)
-- [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus)
-- [Partitivirus rumenrex](virus/Partitivirus_rumenrex.md) (Partitivirus)
+- [Alphapartitivirus viator](virus/Alphapartitivirus_viator.md) (Partitivirus) [\<VID\>](https://youtu.be/D8jR8ekolt4)
+- [Durnavirus ambigiformis](virus/Durnavirus_ambigiformis.md) (Partitivirus) [\<VID\>](https://youtu.be/vvGugKy71EY)
+- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus) [\<VID\>](https://youtu.be/1iSsTocgZT0)
+- [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus) [\<VID\>](https://youtu.be/z_Ki8huDvfk)
+- [Partitivirus sutilisdentis](https://youtu.be/ptLMrSF_VKQ) (Partitiviruse) [\<VID\>](https://youtu.be/ptLMrSF_VKQ)
+- [Partitivirus rumenrex](virus/Partitivirus_rumenrex.md) (Partitivirus) [\<VID\>](https://youtu.be/9Tw_3U91f0c)
 
 `Totiviridae`
-- [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus)
-- [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus)
-- [Ovismusculus totivirae_desc](virus/vid/ovismusculus_totivirae_desc.md) (Totivirus)
-- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus)
+- [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus) [\<VID\>](https://youtu.be/AwQc2qW8LtU)
+- [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus) [\<VID\>](https://youtu.be/v6AviFyUblU)
+- [Ovismusculus totivirae_desc](virus/vid/ovismusculus_totivirae_desc.md) (Totivirus) [\<VID\>](https://youtu.be/TpZpKuXnva0)
+- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus) [\<VID\>](https://youtu.be/tYWdCqd4Cl8)
 - [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
-
-`Other`
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
 ### 2024 Obelisk Index
