@@ -155,13 +155,13 @@ An index of the Virus Discovery Reports.
 - [Blumevirus macaceinfi](virus/Blumevirus_macaceinfi.md)
 - [Black Queen Cell Virus](virus/BQCV.md) (Picornavirus)
 - [Cripavirus inexspectatus](virus/Cripavirus_inexspectatus.md) (Dicistrovirus)
-- [Hemileia pugnator](virus/Hemileia_pugnator.md) **\<99%\>** (Mitovirus)
+- [Hemileia pugnator](virus/Hemileia_pugnator.md) (Mitovirus) **\<99%\>**
 - [Hemiptinidovirus metis](virus/H_metis.md) (Nidovirus)
-- [Hespivirus rivalense](virus/hespivirus_rivalense.md) **\<99%\>** (Negevirus)
+- [Hespivirus rivalense](virus/hespivirus_rivalense.md) (Negevirus) **\<99%\>**
 - [Locarnavirus Nudiformis](virus/Locarnavirus_nudiformis.md) (Marnavirus)
 - [Orthocurvulavirus phantasma](virus/Orthocurvulavirus_phantasma.md)
 - [Posasimilis intestivirus](virus/p_intestivirus.md) (Posavirus)
-- [Pupavirus apiscarab](virus/Pupavirus_apiscarab.md) **\<99%\>** (Narnavirus)
+- [Pupavirus apiscarab](virus/Pupavirus_apiscarab.md) (Narnavirus) **\<99%\>**
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
 - [Sedimentum occultus](virus/sedimentum_occultus.md) (Picornavirus)
 - [Thogotovirus_aidenensis](virus/Thogotovirus_aidenensis.md) (Orthomyxovirus)
