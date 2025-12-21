@@ -58,8 +58,9 @@ Index of the software tutorials, web tools and analysis.
 - [MetaGraph](tools/metagraph.md) # Nucleotide kmer search (bigger)
 - [Logan-Search](https://logan-search.org/) # Nucleotide kmer search (Biggest)
 
-### Virus Specific Tools
-- [BLAST - tBLASTn for Virology](tools/ViralTBLASTN.md) # Find your viral contig in SRA 
+### Virus Specific Tutorials
+- [BLAST - tBLASTn for Virology](tools/ViralTBLASTN.md) # Find your viral contig in SRA
+- [Serratus Secret Wiki](https://github.com/ababaian/serratus/wiki/Find_novel_viruses) # Discover new viruses on the Serratus platform
 - [palmID](tools/palmID.md) # RdRp palmprint search tool
 
 ### Phylogenetics
@@ -73,10 +74,11 @@ Index of the software tutorials, web tools and analysis.
 - [NCBI Taxonomy](tools/ncbi_tax.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [ViralZone](https://viralzone.expasy.org/)
-- [Insert Tool Tutorial Here ...](template/toolTemplate.md)
+- [Add your Tool Tutorial Here ...](template/toolTemplate.md)
 
-### Cool Virus Projects
+### Cool Virus Misc.
 - [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br)
+- [Add Bioinformatics Syntax Highlighting](https://biosyntax.org/)
 
 </details>
 
@@ -168,6 +170,7 @@ An index of the Virus Discovery Reports.
 - [Trojan Patchwork Virus](virus/trojan_patchwork_virus.md) (Virga-like Virus)
 - [Vermisvirus culicis](virus/vermisvirus_culicis.md) (Negevirus)
 - [Virusus intricatus trichomonadis](virus/virusus_intricatus_trichomonadis.md) (Totivirus)
+- [Add your Virus Report here ...](template/virTemplate.md)
 
 </details>
 
@@ -223,3 +226,5 @@ An index of the Virus Discovery Reports.
 │
 ⦿
 ```
+
+[:)](https://github.com/bioSyntax/bioSyntax/blob/master/dev/scripts/drawHelix.sh)
