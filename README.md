@@ -67,7 +67,9 @@ Index of the software tutorials, web tools and analysis.
 - [iqtree](tools/iqtree.md) # Generate phylogenetic tree from MSA
 
 ### Visualizations
-- [MyDomains](tools/MyDomains.md) # Draws linear protein domain figure 
+- [MyDomains](tools/MyDomains.md) # Draws linear protein domain figure
+- [ChimeraX \<VID\>](https://youtu.be/xUZwE0LqLiE) # Protein structure visualization with R interface
+- [PyMol](https://www.pymol.org/) # Protein structure visualization
 
 ### Databases
 - [ICTV](https://ictv.global/)
@@ -105,7 +107,7 @@ An index of the Virus Discovery Reports.
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus) [\<VID\>](https://youtu.be/kAIeKq_lv5k) 
 - [Pax mycesfermentum](virus/Pax_mycesfermentum.md) (Narnavirus) [\<VID\>](https://youtu.be/rYk89qWL5so)
 - [Puccinia triticum](virus/Puccinia_triticum.md) (Narnavirus) [\<VID\>](https://youtu.be/chYF_C7Hqso)
-- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus)
+- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus) [\<VID\>](https://youtu.be/xUZwE0LqLiE)
 - [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
 - [Glossinamyces chrysopsiformis](virus/Glossinamyces_chrysopsiformis.md) (Narnavirus) [\<VID\>](https://youtu.be/tyss5vXdITM)
 
