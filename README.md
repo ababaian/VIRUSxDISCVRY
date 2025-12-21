@@ -1,32 +1,42 @@
-```
-..==                                                                        ==..
-..==                                                                        ==..
-..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
-..==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           ==..
-..==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           ==..
-..==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            ==..
-..==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           ==..
-..==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           ==..
-..==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            ==..
-..==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              ==..
-..==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            ==..
-..==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            ==..
-..==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            ==..
-..==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            ==..
-..==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            ==..
-..==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             ==,.
-..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
-..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
-..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
-..==           ░               ░           ░            ░ ░                 ==..
-..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
-..==                                                                        ==..
-..==                                                                        ==..
+```diff
+- ==                                                                        == -
+- ==                                                                        == -
+- ==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           == ,
+- ==          ▓██░   █▒▓██▒▓██   ██▒ ██  ▓██▒▒██    ▒   ▒▒ █ █ ▒░           == !
+- ==           ▓██  █▒░▒██▒▓██  ▄█ ▒▓██  ▒██░░ ▓██▄ ░░  ░░  █   ░           == !
+- ==            ▒██ █░░░██░▒██▀▀█▄  ▓▓█  ░██░  ▒   ██▒  ░  █ █ ▒            == !
+- ==             ▒▀█░  ░██░░██▓ ▒██▒▒▒█████▓ ▒██████▒▒  ▒██▒ ▒██▒           == ,
+- ==             ░ ▐░  ░▓  ░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░  ▒▒  ░ ░▓░           == -
+- ==             ░ ░░   ▒ ░  ░▒ ░ ▒░░░▒░ ░ ░ ░ ░▒  ░ ░  ░   ░▒ ░            == -
+- ==               ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░ ░░ ░    ░              == -
+- ==          ▓█████▄   ██████  ▄████▄ ██▒ ░ █▓ ██▀███ ▓██  ░██▓            == ,
+- ==          ▒██▀ ██▌▒██    ▒ ▒██▀ ▀█ ██░   █▒▓██ ▒ ██▒▒██  ██▒            == !
+- ==          ░██   █▌░ ▓██▄   ▒▓█    ▄ ██  █▒░▓██ ░▄█ ▒ ▒██ ██░            == !
+- ==          ░▓█▄   ▌  ▒   ██▒▒▓▓▄ ▄██▒▒██ █░░▒██▀▀█▄   ░ ▐██▓░            == !
+- ==          ░▒████▓ ▒██████▒▒▒ ▓███▀ ░ ▒▀█░  ░██▓ ▒██▒ ░ ██▒▓░            == !
+- ==           ▒▒▓  ▒ ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ░ ▐░  ░ ▒▓ ░▒▓░  ██▒▒▒             == -
+- ==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             == .
+- ==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              == -
+- ==             ░          ░  ░ ░          ░     ░     ░ ░  ░              == -
+- ==           ░               ░           ░            ░ ░                 == .
+@@==             ░ The Platinum Age of Virus░Discovery  ░                   ==@@
+- ==                                                                        == -
+- ==                                                                        == -
+
+Each living species can be infected by distinct constellations of viruses.
+Here, we collectively interrogate how viruses and virus-like agents distribute
+across life on Earth, through the re-analysis of 40+ million biological samples
+which have undergone high-throughput DNA/RNA sequencing.
+
 ```
 
-## Tutorial Index
 
-An index of the software tutorial.
+
+## Tools & Tutorial Index
+<details>
+<summary> ~=== It's dangerous to go alone! Take these. ===~ [click to expand] </summary>
+
+Index of the software tutorials, web tools and analysis.
 
 ### NT Sequence Analysis
 - [Infernal](tools/Infernal.md) # Search RNA Structures
@@ -56,40 +66,77 @@ An index of the software tutorial.
 - [MetaGraph](tools/metagraph.md) # Nucleotide kmer search (bigger)
 - [Logan-Search](https://logan-search.org/) # Nucleotide kmer search (Biggest)
 
-### Virus Specific Tools
-- [BLAST - tBLASTn for Virology](tools/ViralTBLASTN.md) # Find your viral contig in SRA 
+### Virus Specific Tutorials
+- [BLAST - tBLASTn for Virology](tools/ViralTBLASTN.md) # Find your viral contig in SRA
+- [Serratus Secret Wiki](https://github.com/ababaian/serratus/wiki/Find_novel_viruses) # Discover new viruses on the Serratus platform
 - [palmID](tools/palmID.md) # RdRp palmprint search tool
 
 ### Phylogenetics
 - [iqtree](tools/iqtree.md) # Generate phylogenetic tree from MSA
 
 ### Visualizations
-- [MyDomains](tools/MyDomains.md) # Draws linear protein domain figure 
+- [MyDomains](tools/MyDomains.md) # Draws linear protein domain figure
+- [ChimeraX \<VID\>](https://youtu.be/xUZwE0LqLiE) # Protein structure visualization with R interface
+- [PyMol](https://www.pymol.org/) # Protein structure visualization
 
 ### Databases
 - [ICTV](https://ictv.global/)
 - [NCBI Taxonomy](tools/ncbi_tax.md)
 - [Serratus.IO Explorer](tools/serratusexplorer.md)
 - [ViralZone](https://viralzone.expasy.org/)
-- [Insert Tool Tutorial Here ...](template/toolTemplate.md)
+- [Add your Tool Tutorial Here ...](template/toolTemplate.md)
 
-## Cool Virus Projects
-- [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br))
+### Cool Virus Misc.
+- [3D Print your Virus](https://www.printables.com/model/1045132-tutorial-print-a-molecular-surface-like-a-virus-br)
+- [Add Bioinformatics Syntax Highlighting](https://biosyntax.org/)
 
-## 2025 Virus Index
+</details>
+
+## Virus Project Index -- Stand on the Shoulders of Giants
+
+`Legend`
+- **<99%>** Exceptional Project
+- \<VID\> Video Link
+  
+### 2025 Virus Index
 
 An index of the Virus Discovery Reports.
 
-#### Narnaviruses
-- [Narnavirus subdolus](virus/narnavirus_subdolus.md)
+`Mitoviriridae`
+- [Agricolae Amicus](virus/Agricolae-Amicus.md) (Mitovirus) [\<VID\>](https://youtu.be/40lObAgDc7w)
+- [Antagonascensor sororminor & sorormajor](virus/Antagonascensor_sororminor_and_sorormajor.md) (Mitovirus) [\<VID\>](https://youtu.be/2AHGkMFz-zo) **\<99%\>**
+- [Fungicola clarireediae](virus/Fungicola_clarireediae.md) (Mitovirus) [\<VID\>](https://youtu.be/UbBBHDuis4E) **\<99%\>**
+- [Golovinomyces furtivus](virus/Golovinomyces_furtivus.md) (Mitovirus)
 
-#### Partitivirus
-- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md)
-  
-#### Other
+`Narnaviridae`
+- [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus) [\<VID\>](https://youtu.be/zGp2OOHSX5w)
+- [Insessor salmoscalpicī](virus/Insessor_salmoscalpicī.md) (Narnavirus) [\<VID\>](https://youtu.be/6Ogfy8_G-Vw)
+- [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
+- [Narnavirus porcinus](virus/Narnavirus_porcinus.md) (Narnavirus)
+- [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus) [\<VID\>](https://youtu.be/kAIeKq_lv5k) 
+- [Pax mycesfermentum](virus/Pax_mycesfermentum.md) (Narnavirus) [\<VID\>](https://youtu.be/rYk89qWL5so)
+- [Puccinia triticum](virus/Puccinia_triticum.md) (Narnavirus) [\<VID\>](https://youtu.be/chYF_C7Hqso)
+- [Scandoremscalaria caecilius](virus/Scandoremscalaria_caecilius.md) (Narnavirus) [\<VID\>](https://youtu.be/xUZwE0LqLiE)
+- [Novus bilinguis](virus/Novus_bilinguis.md) (Narnavirus)
+- [Glossinamyces chrysopsiformis](virus/Glossinamyces_chrysopsiformis.md) (Narnavirus) [\<VID\>](https://youtu.be/tyss5vXdITM)
+
+`Partitiviridae`
+- [Alphapartitivirus viator](virus/Alphapartitivirus_viator.md) (Partitivirus) [\<VID\>](https://youtu.be/D8jR8ekolt4)
+- [Durnavirus ambigiformis](virus/Durnavirus_ambigiformis.md) (Partitivirus) [\<VID\>](https://youtu.be/vvGugKy71EY)
+- [Fraterculapartitivirus comitans](virus/Fraterculapartitivirus_comitans.md) (Partitivirus) [\<VID\>](https://youtu.be/1iSsTocgZT0)
+- [Mysticeovirus mutabilis.md](virus/Mysticeovirus_mutabilis.md) (Partitivirus) [\<VID\>](https://youtu.be/z_Ki8huDvfk)
+- [Partitivirus sutilisdentis](https://youtu.be/ptLMrSF_VKQ) (Partitiviruse) [\<VID\>](https://youtu.be/ptLMrSF_VKQ)
+- [Partitivirus rumenrex](virus/Partitivirus_rumenrex.md) (Partitivirus) [\<VID\>](https://youtu.be/9Tw_3U91f0c)
+
+`Totiviridae`
+- [Contaminivirus ubique](virus/Contaminivirus_ubique.md) (Totivirus) [\<VID\>](https://youtu.be/AwQc2qW8LtU)
+- [Diatototivirus sanguinis](virus/Diatototivirus_sanguinis.md) (Totivirus) [\<VID\>](https://youtu.be/v6AviFyUblU)
+- [Ovismusculus totivirae_desc](virus/vid/ovismusculus_totivirae_desc.md) (Totivirus) [\<VID\>](https://youtu.be/TpZpKuXnva0)
+- [Sarcototivirus pseudocauda](virus/Sarcototivirus_pseudocauda.Rmd) (Totivirus) [\<VID\>](https://youtu.be/tYWdCqd4Cl8)
+- [Totivirus celatus](virus/Totivirus_celatus.md) (Totivirus)
 - [Sobemovirus hospes](virus/Sobemovirus_hospes.md)
 
-## 2024 Obelisk Index
+### 2024 Obelisk Index
 
 An index of the Obelisk Discovery Reports.
 
@@ -103,37 +150,39 @@ An index of the Obelisk Discovery Reports.
 - [Mammalia ventremi](virus/Mammalia_ventremi.md)
 - [Obeliscus aquidurentis](virus/Obeliscus_Aquidurentis.md)
 - [Obeliscus faecalis](virus/Obeliscus_faecalis.md)
-- [Obeliscus porcinus **<99%>**](/virus/obeliscus_porcinus.md)
-- [Obeliscus replicandii **<99%>**](/virus/obeliscus_replicandii.md)
+- [Obeliscus porcinus](/virus/obeliscus_porcinus.md) **\<99%\>**
+- [Obeliscus replicandii](/virus/obeliscus_replicandii.md) **\<99%\>**
 - [Obeliskvirus respiratorius](virus/Obeliskvirus_respiratorius.md)
 - [Obeliscus suslichen](virus/obeliscus_suslichen.md)
 - [Obelisk 371](virus/Obelisk371.md)
 - [Scrofobelisk intestinali](virus/Scrofobelisk_intestinalis.md)
 
-## 2023 Virus Index
+### 2023 Virus Index
 
 An index of the Virus Discovery Reports.
 
-- [Apiovirus anomala (Rhabdovirus)](virus/apiovirus_anomala.md)
-- [Arbovirus_chinensis (Orthomyxovirus)](virus/Arbovirus_chinensis.md)
+- [Apiovirus anomala](virus/apiovirus_anomala.md) (Rhabdovirus)
+- [Arbovirus_chinensis](virus/Arbovirus_chinensis.md) (Orthomyxovirus)
 - [Blumevirus macaceinfi](virus/Blumevirus_macaceinfi.md)
-- [Black Queen Cell Virus (Picornavirus)](virus/BQCV.md)
-- [Cripavirus inexspectatus (Dicistrovirus)](virus/Cripavirus_inexspectatus.md)
-- [Hemileia pugnator (Mitovirus) **<99%>**](virus/Hemileia_pugnator.md)
-- [Hemiptinidovirus metis (Nidovirus)](virus/H_metis.md)
-- [Hespivirus rivalense (Negevirus) **<99%>**](virus/hespivirus_rivalense.md)
-- [Locarnavirus Nudiformis (Marnavirus)](virus/Locarnavirus_nudiformis.md)
+- [Black Queen Cell Virus](virus/BQCV.md) (Picornavirus)
+- [Cripavirus inexspectatus](virus/Cripavirus_inexspectatus.md) (Dicistrovirus)
+- [Hemileia pugnator](virus/Hemileia_pugnator.md) (Mitovirus) **\<99%\>**
+- [Hemiptinidovirus metis](virus/H_metis.md) (Nidovirus)
+- [Hespivirus rivalense](virus/hespivirus_rivalense.md) (Negevirus) **\<99%\>**
+- [Locarnavirus Nudiformis](virus/Locarnavirus_nudiformis.md) (Marnavirus)
 - [Orthocurvulavirus phantasma](virus/Orthocurvulavirus_phantasma.md)
-- [Posasimilis intestivirus (Posavirus)](virus/p_intestivirus.md)
-- [Pupavirus apiscarab (Narnavirus) **<99%>**](virus/Pupavirus_apiscarab.md)
+- [Posasimilis intestivirus](virus/p_intestivirus.md) (Posavirus)
+- [Pupavirus apiscarab](virus/Pupavirus_apiscarab.md) (Narnavirus) **\<99%\>**
 - [Red Mite Associated Hypovirus 1](virus/RedMiteAssociatedHypovirus1.md)
-- [Sedimentum occultus (Picornavirus)](virus/sedimentum_occultus.md)
-- [Thogotovirus_aidenensis (Orthomyxovirus)](virus/Thogotovirus_aidenensis.md)
+- [Sedimentum occultus](virus/sedimentum_occultus.md) (Picornavirus)
+- [Thogotovirus_aidenensis](virus/Thogotovirus_aidenensis.md) (Orthomyxovirus)
 - [Totivirus Arthropodamyoti](virus/Totivirus_Arthropodamyoti.md)
-- [Trojan Patchwork Virus (Virga-like Virus)](virus/trojan_patchwork_virus.md)
-- [Vermisvirus culicis (Negevirus)](virus/vermisvirus_culicis.md)
-- [Virusus intricatus trichomonadis (Totivirus)](virus/virusus_intricatus_trichomonadis.md)
-- [Insert Virus Name Here ...](template/virTemplate.md)
+- [Trojan Patchwork Virus](virus/trojan_patchwork_virus.md) (Virga-like Virus)
+- [Vermisvirus culicis](virus/vermisvirus_culicis.md) (Negevirus)
+- [Virusus intricatus trichomonadis](virus/virusus_intricatus_trichomonadis.md) (Totivirus)
+- [Add your Virus Report here ...](template/virTemplate.md)
+
+</details>
 
 
 ## Project Organization
@@ -187,3 +236,5 @@ An index of the Virus Discovery Reports.
 │
 ⦿
 ```
+
+[:)](https://github.com/bioSyntax/bioSyntax/blob/master/dev/scripts/drawHelix.sh)
