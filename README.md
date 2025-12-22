@@ -111,6 +111,7 @@ An index of the Virus Discovery Reports.
 `Narnaviridae`
 - [Dulcivirus diffusus](virus/Dulcivirus_diffusus.md) (Narnavirus) [\<VID\>](https://youtu.be/zGp2OOHSX5w)
 - [Insessor salmoscalpicī](virus/Insessor_salmoscalpicī.md) (Narnavirus) [\<VID\>](https://youtu.be/6Ogfy8_G-Vw)
+- [Narlivirus entericus](virus/Narlivirus_entericus.md) (Narnavirus)
 - [Narnavirus nederspoliare](virus/Narnavirus_nederspoliare.md) (Narnavirus)
 - [Narnavirus porcinus](virus/Narnavirus_porcinus.md) (Narnavirus)
 - [Narnavirus subdolus](virus/narnavirus_subdolus.md) (Narnavirus) [\<VID\>](https://youtu.be/kAIeKq_lv5k) 
