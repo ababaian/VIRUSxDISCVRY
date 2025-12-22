@@ -201,7 +201,7 @@ clarireediae were extracted using a script provided by Claude (model sonnet 4.5,
 visualized in Jalview to annotate conserved and consensus motifs (Figure 1). 
 Using these annotations, a corresponding genome map was generated in SnapGene (Dotmatics, 2025) (Figure 2).  
 
-![Figure 1](img/Motif_annot.png)
+![Figure 1](img/Fungicola_Clarireediae/Motif_annot.png)
 ```
 Figure 1.
 Shown here are the consensus regions identified from the alignment of Fungicola 
