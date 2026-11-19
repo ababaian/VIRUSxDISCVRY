@@ -371,7 +371,7 @@ List or write short sentences describing those features here. Examples are:
 
 **Q.** `(10 points)`  Create a figure(s) visualizing your element "genome" (see 
 papers for examples/inspiration). The figure should capture the *key genomic*
-*features* of your obelisk which includes (but is not limited to):
+*features* of your element which includes (but is not limited to):
 - Open reading frames, and note if they are not CDS complete
 - Annotation of every ORF
 - A scale legend in nucleotides and amino acids for ORFs
