@@ -1,19 +1,13 @@
 ---
-title: "Final Project - The Platinum Age of Virus Discovery"
+title: "Final Project - The Hunt for Omega"
 output:
   html_document:
     fig_caption: true
 ---
 
-## Preamble
-Please mark the following boxes with an X as appropriate:
-```
-- [ ] Completed the Request for Evaluation by Artem
-- [ ] Answers assisted with generative AI (please indicate where)
-```
-
-# FINAL PROJECT ================================================================
-# ==============================================================================
+#################===============================================================
+# FINAL PROJECT #===============================================================
+#################===============================================================
 ```
 ..==                                                                        ==..
 ..==           ██▒   █▓ ██▓ ██▀███   █    ██   ██████   ▓██   ██▒           ==..
@@ -33,8 +27,8 @@ Please mark the following boxes with an X as appropriate:
 ..==           ░ ▒  ▒ ░ ░▒  ░ ░  ░  ▒    ░ ░░    ░▒ ░ ▒░▓██ ░▒░             ==..
 ..==           ░ ░  ░ ░  ░  ░  ░       ░   ░░    ░░   ░ ▒ ▒ ░░              ==..
 ..==             ░          ░  ░ ░          ░     ░     ░ ░  ░              ==..
-..==           ░               ░           ░            ░ ░                 ==..
-..==             ░ The Platinum Age of Virus░Discovery  ░                   ==..
+..==           ░               ░            ░            ░ ░                ==..
+..==             ░           THE HUNT FOR OM░GA          ░                  ==..
 
 At the dawn of the Molecular Genetics, Max Delbruck led a loose collection of
 geneticists known as the "Phage Group". They were amongst the first to pick up
@@ -70,72 +64,85 @@ only give you a generic scaffold. As such, (and with the bonus marks) it will
 be possible to do a technically good job and you'll do fine on the assignment.
 
 A subset of you will rise to the occasion and knock it out of the park, that 
-will reflect the 99% grades. If you earn 99% on this final, consider it a formal
-job offer to join the RNAlab for the summer.
+will reflect the 99% grades. If you earn 99% on this final, consider this a
+formal job offer to join the RNAlab for the summer.
 
-If you do an exceptional on this project and uncover something worth publishing,
-I will encourage you to pursue it and go through with a publication.
-
-Remember, you're a scientist if you choose to be.
+We're going to be publishing our own work on viroid-like elements in the coming
+months. If you do an exceptional on this project and uncover something worth
+publishing, we may ask you to share your results and join us as a co-author.
 ```
 
 ## Assignment Objectives
 ```
+
+You are a scientist.
+
 For this project you're going to compile all the components for a short
-"Genome Announcement" style scientific report, describing the RNA virome
-of a species which you have been randomized. You do not need to re-write the
-answers into a seperate paper, this assignment serves as the paper/methods 
-template. You will know by the end if it's worth formalizing. In addition you
-are to prepare a 6 minute video  presentation summarizing your work.
+"Genome Announcement" style scientific paper, describing and naming a VLE
+species which you have been randomized. This assignment serves as the paper
+template.
 
 The goal here is *Data Exploration*, you are not expected to have every analysis
 work and be super insightful, instead you will be graded on rationale, creativity
-technical execution, and presentation of your analysis. Outcome does not affect
-grade. 
+technical execution, and presentation of your analysis.
+
+Scientific outcomes do not affect your grade.
 
 Most analyses will be difficult or impossible to interpret, the fun part of
-science  is we can't always know the difference. If you are able to
-justify (hypothesis) the reason you performed a given analysis, and it's
-inconclusive, you will recieve full marks for trying. You will be deducted (few)
-marks if you include an analysis and it's not justified, or if you misinterpret
-the analysis results. The _most common_ error is not justifying your conclusions
-with reported data, or over-claiming conclusions. Be precise, be specific, and 
-back up your statements with data! This is the feedback/learning mechanism of
-peer review, it will guide you in the future.
+science  is we can't know the difference. If you are able to justify (hypothesis)
+the reason you performed a given analysis, and it's inconclusive, you will 
+recieve full marks for trying. You will be deducted (few) marks if you include 
+an analysis and it's not justified, or if you misinterpret the analysis results.
+The _most common_ error is not justifying your conclusions with reported data,
+or over-claiming conclusions. Be precise, be specific, and  back up your statements
+with data! This is the feedback/learning mechanism of peer review, it will guide you
+in the future.
 
 Please include in the work when you judge you can make a *low*, *moderate* or
 *high*  confidence conclusion. Also state if your results are inconclusive.
 ```
-
 
 ## Logistics
 ```
 Inclusive in this document should be all supporting code, scripts, and/or 
 software settings used to answer any questions in the assignment. If you use or
 generate a data-object, such as .fasta, .pdb, .sto, .csv, etc..., include this
-in your submission repository.
+in your submission repository `data/` folder.
+
+If you use any AI systems, please include all date-stamped prompts in the
+`prompts.log` file.
 
 For Written portions please use block text like this and you can include 
 references simply as square brackets [Babaian. 1989], with a references section
 at the end.
 ```
 
-## Virus Assignment
+## Sequence cluster assignments and data
 ```
-You are randomly assigned a Virus. 
+Before you begin, read the Paper: Viroid-like colonists of human microbiomes!
 
-## `data/virusAssignments.csv` 
-  Gives the assignment of your virus. Each virus has a unique identifier (sOTU)
-  as well as some summary statistics about where this virus was "found" in the
+You are randomly assigned a sequence cluster of potential VLE.
+Nobody knows what this cluster is, your mission is to characterize it.
+
+## `px/data/26seq_assignments.csv` 
+  Gives the assignment of your element. Each element has a unique identifier
+  as well as some summary statistics about where this element was "found" in the
   SRA. You're also given a link to the assembly file from the "index run" which
-  should contain your virus sequence.
+  contains your sequence and everything else that is in that dataset.
 
-## `data/virusRunObservations.csv`
-  This file  contains a list of all SRA "runs" in which these  viruses were 
-  reliably detected. You can use the sOTU identifier to get an  estimate overview
-  for your virus. The final column in this file contains the  barcode sequence
-  detected in that particular run.
+## `px/data/26seq_clusters.csv`
+  This file contains all complete-circular elements, their sequences, and their
+  "clustering" (uclust algorithm) into groups of related entities. Clustering
+  was performed at 80% nucleotide identity between each member and the "centroid"
+  representative sequence. You are assigned the "centroid" sequence, and all
+  members of that cluster.
 
+## `px/data/26seq_sraRunInfo.csv`
+  This file  contains a list of all SRA "runs" in which the elements were 
+  reliably detected. You can use the "run" identifier from your obelisk tables
+  to retrieve additional meta-data for your datasets. This meta-data is NOT
+  comprehensive. You will get much richer data from BioSamples and the publication
+  associated with the BioProjects.
 ```
 
 ## Example "Virus Announcement" references
@@ -153,11 +160,11 @@ You are randomly assigned a Virus.
 - [Perch filovirus](https://journals.asm.org/doi/10.1128/mra.00028-23)
 - [Locarnaviruses](https://link.springer.com/article/10.1007/s00705-023-05908-1)
 
-
 # ==============================================================================
 
 ## Question 1 : Framing the story `(10 points)` --------------------------------
-**Q.** `(1 point)` Write a title for your paper which describes your key finding.
+(do second last)
+**Q.** `(1 point)` Write a title for your paper which describes your one key finding.
 
 **A.** TODO
 
@@ -166,28 +173,35 @@ used throughout your paper.
 
 **A.** TODO
 
-**Q.** `(1 point)` Give your virus a latin binomial name, and explain the etiology
-of the name and how it relates to the story of your virus.
+**Q.** `(1 point)` Give your element a latin binominal name.
+
+The genus name must be a constellation name, and the species name should 
+thematically relate to your element and the genus name.
+
+Genus names cannot be duplicated with other students, select an unregistred
+name from the ["Name Registration" sheet](https://docs.google.com/spreadsheets/d/1eLPPxqW-kVVBMKjVmkU10gJVS4Alay8iz319XcNEL5M)
+
+When you've selected a name, change "Registered" field to "TRUE" and complete
+the form.
 
 **A.** TODO
 
-**Q.** `(8 points)` For any given paper, 90% of the readership will only read your
-abstract. How many people go on to read the rest of your paper will depend
+**Q.** `(8 points)` For any given paper, 90% of the readership will only read
+your abstract. How many people go on to read the rest of your paper will depend
 on your ability to capture peoples interest in the abstract. (hint: write the
 abstract last)
 
-Read *How to Construct a Nature summary paragraph* and write a short abstract
-closely following this structure. Max 300 words.
+Read *How to Construct a Nature summary paragraph* and follow the advised
+structure for the abstract closely.
 
 Link: https://www.nature.com/documents/nature-summary-paragraph.pdf
 
 **A.** TODO
 
-
-## Question 2 : Digital Ecology  `(20 points)` ---------------------------------
+## Question 2 : Digital Ecology  `(20 points)` --------------------------------
 
 In brief, ecology is the relationship of an organism to biotic and abiotic
-factors. Consider the sample source for this virus and describe the specifics
+factors. Consider the sample source for this element and describe the specifics
 (e.g. run accessions, study authors, associated species, ...) and generics 
 (e.g. type of ecosystem, country/continent, common associated host class like
 Mammals).
@@ -215,6 +229,7 @@ Guiding questions:
   may explain the presence of the virus?
 - How can you measure and quantify your observations. More importantly, how do 
   you translate this into a hypothesis?
+- What is exciting or unique about the biology of these samples?
 
 ```
 # Example Answer
@@ -259,6 +274,7 @@ A blastp search on the translated protein revealed highly divergent RdRp
 homologs; the highest identity match was an unclassified Riboviria RdRp
 (search date: 18 June 2023, accession: QIM73983.1, percent-identity: 54.13 per
 cent, query-coverage: 40 per cent, e-value: 9e-133).
+
 
 >OZ005311.1 Apocryptovirus odysseus RUB 1 Segment 1. RNA-dependent RNA polymerase, complete CDS
 CTTTTTTTACCGGTAATCGGTAAGCGCGCCTCAGGGTCCGCTTTGGTGTAAAACCAGCGATACCGGATCG
@@ -326,15 +342,18 @@ YSAVEGFLSKSEEAREQINSVSESEMDSLHERILSIMEDPSRPDIHREVVFLPRKVVFTETLCTLQLPGI
 Y
 ```
 
-## Question 3 : Interrogate the Virus `(20 points)` ----------------------------
+**A.** TODO (250 words max, figures unrestricted, data unrestricted)
+
+## Question 3 : Interrogate the Element `(20 points)` --------------------------
 
 **Q.** `(10 points)` Research and identify what are at least 10 *features* and 
-10 *observations* regarding your virus.
+10 *observations* regarding the sequence you are assigned.
 
 Ideally this section should capture 50+ one line observations, almost like a
 "scratch pad" to document your thinking. If you rule something out, keep it and
-mark the line with [X]. This is "bank" of accurate statements from which you will
-interpret, and build your analysis upon
+mark the line with [X]
+
+For some features, can you compare/contextualize this to the set of all obelisks?
 
 List or write short sentences describing those features here. Examples are:
 ```
@@ -342,18 +361,17 @@ List or write short sentences describing those features here. Examples are:
 - [X] Narnaviruses have a DNA genome
 - Narnaviruses have an RNA genome
 - Narnaviruses have a single-stranded genome
-- The typical genome length is between 2,200 - 3,200 nucleotides long
+- The typical Narnavirus genome length is between 2,200 - 3,200 nucleotides long
 - Narnaviruses typically encode for a single protein, RdRp
 - Narnavirus RdRp are typically 800-1000 amino acids long
-- [X] Narnaviruses infect fungi, like yeast
-- Narnaviruses infect apicomplexans, like toxoplasma
 - ...
 ```
+
 **A.** TODO
 
-**Q.** `(10 points)`  Create a figure(s) visualizing your virus genome (see 
+**Q.** `(10 points)`  Create a figure(s) visualizing your element "genome" (see 
 papers for examples/inspiration). The figure should capture the *key genomic*
-*features* of the virus which includes (but is not limited to):
+*features* of your obelisk which includes (but is not limited to):
 - Open reading frames, and note if they are not CDS complete
 - Annotation of every ORF
 - A scale legend in nucleotides and amino acids for ORFs
@@ -371,43 +389,54 @@ In addition consider additional measurements, such as
 - Coverage profile of reads mapped to your contig
 - Single Nucleotide Variants present in the mapping data
 
-The Figure Legend must contain sufficient methods description such that your
-analysis is reproducible. Include supplementary data files if need be.
+- `(4 points)` Figure (technical)
+- `(3 points)` Figure (aesthetic)
+- `(3 points)` Figure legend
 
-- `(6 points)` Figure (technical)
-- `(2 points)` Figure (aesthetic)
-- `(2 points)` Figure legend
+
+# Example Answer: See "A Parasite Odyssey" Figure 1 and Figure 6 
+
 
 **A.** TODO
 
 **Q.** - `(bonus 2 points)`
-  - Run the RdRp and/or open reading frame through AlphaFold
-  - Add a figure of the RdRp with motifs A (blue), B (green), and C (red) visualized.
-    See: `Odysseyus Narnavirus` example paper. Try PyMol.
+  - Run any open reading frames or RNA through [AlphaFold3](https://alphafoldserver.com/)
+  - Add a figure of any protein(s) or RNA highlighting conserved structural domains
 
 **A.** TODO
 
-## Question 4 : `(5 bonus points max)` -----------------------------------------
+## Question 4 : `(20 bonus points)` ----------------------------------------
 
-**Q.** `(bonus 5 points)` 
-  Do something creative or cool with the viral genome. The endevour should be
-  creative `3 points` and yield an insight that could not otherwise be obtained
-  `2 points`.
+**Q.** `(bonus upto 20 points)` 
+  Do something cool.
 
 **A.** TODO
 
-## Question 5 : Discussion `(5 points)` ----------------------------------------
+**Q.** `(bonus 5 points)`
+  Generate a multiple sequence alignment of your sequence, either nt or amino
+  acid in relation to all other Logan Circle sequences.
+  
+  Generate a phylogenetic tree (e.g. IQTree) of the multiple sequence alignment
+  above, visualize it (e.g. Dendroscope) and include a figure with legend.
+  Describe what you see.
 
-Highlight for your reader what you have learned from this virus, or what novel
+# Example Answer: See "A Parasite Odyssey" Figure 4
+
+**A.** TODO
+
+## Question 5 : Discussion `(10 points)` --------------------------------------
+
+Highlight for your reader what you have learned from this element, or what novel
 biological insights does characterizing this genome offers to the reader. What
-facts did you find the most fascinating about your kind of virus, and did your 
-virus share these traits? Even more interesting is if it _doesn't_ have a trait
-known to that virus. It's always fun to push against the textbook definitions.
-(3 sentence and 50 - 150 word limit)
+facts did you find the most fascinating about your element, and did your 
+element share traits found with previously characterized versions of it?
+Even more interesting is if it _doesn't_ have a trait known to that element.
+It's always fun to push against the textbook definitions.
 
-**A.** TODO
 
-## Question 6 : References `(10 points)` ---------------------------------------
+**A.** TODO (3 sentence and 50 - 150 word limit. Figure allowed.)
+
+## Question 6 : References `(5 points)` ---------------------------------------
 
 Add at least **10 relevant references** throughout your report. Be sure to 
 reference both software papers, biology papers, and the paper from which the
@@ -421,10 +450,10 @@ scientific work. Compose a Tweet-torial of 1-3 tweets (280 character limit +
 option for image) to highlight the story of your scientific report.
 
 Example: https://x.com/RayanChikhi/status/1963157152958210378
+Example: https://x.com/CalebLareau/status/2119893095672140067
 ```
 
 **A.** TODO
-
 
 ## Question 8 : `(30 points)` --------------------------------------------------
 
@@ -432,16 +461,18 @@ The rate of scientific progress is accelerating. We are saturated in research
 results, making it difficult to resolve your work from everyone else. In this 
 landscape, your science communication must evolve to stand out.
 
-**Q.** - `(30 points + 5 Bonus for creative use of the medium)`
-Create a video (upto 8 minutes) to tell the story of your virus in the most 
+AI components are allowed with citation, but the video must be human-presented.
+
+**Q.** - `(30 points + 10 Bonus for creative use of the medium)`
+Create a video (upto 5 minutes) to tell the story of your virus in the most 
 compelling way possible.
 
 -- OR --
 
 **Q.** - `(30 points)`
 Congratulations, your scientific abstract has been selected for a short 'Oral 
-Presentation' for the `3rd RNA VIRUSxDISCVRY Symposium`! Please prepare a
-**8 minute scientific talk** for the symposium. For your convenience we have
+Presentation' for the `4th RNA VIRUSxDISCVRY Symposium`! Please prepare a
+**5 minute scientific talk** for the symposium. For your convenience we have
 provided a _suggested_ outline for the presentations.
 
 You probably will not have the time to present _all_ of your findings, you
@@ -489,13 +520,13 @@ can and should prioritize the most compelling
   
   (1) See: Question 2 -- Digital Ecology
   
-  (2) See: Question 3/4 -- Interrogating your Virus
+  (2) See: Question 3/4 -- Interrogating your Element
 
 - `(5 points)` : Discussion (1 slide)
   See: Question 5
 
 - `(2 points)` : Conclusion (1 slide)
-  What are the 3-4 most important conclusions which you can drive home. Bring
+  What are the 2-3 most important conclusions which you can drive home. Bring
   home the key take-aways here.
 
 - `(5 points)` : Effective use of slide visuals (clarity, colors, emphasis),
